@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T16:07:37.426140+00:00",
-  "status": "Cloud daily auto-reroll is ready; new companies are selected after deployment during the next trading session.",
+  "updated_at": "2026-09-26T20:30:57.709741+00:00",
+  "status": "Market closed; cloud bot will check again on its next scheduled run.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,

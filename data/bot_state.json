@@ -77,6 +77,7 @@
     "QCOM",
     "AAPL"
   ],
+  "last_reroll_market_date": null,
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
@@ -86,5 +87,5 @@
   "news_signals": {},
   "entry_news_signals": {},
   "selection_scores": {},
-  "data_version": 4
+  "data_version": 5
 }
