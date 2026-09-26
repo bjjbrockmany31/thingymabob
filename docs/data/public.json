@@ -1,0 +1,620 @@
+{
+  "updated_at": "2026-09-25T16:07:37.426140+00:00",
+  "status": "Cloud daily auto-reroll is ready; new companies are selected after deployment during the next trading session.",
+  "error": "",
+  "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
+  "starting_cash": 20.0,
+  "goal_points": 100.0,
+  "auto_reroll": true,
+  "last_reroll_market_date": null,
+  "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
+  "banked_points": -6.731036,
+  "display_points": -6.731036,
+  "completed_balance": 18.559055,
+  "display_balance": 18.559055,
+  "completed_rounds": 22,
+  "current_strategy": null,
+  "strategy_scores": {
+    "trend": 0.14234,
+    "dip": -1.69953,
+    "steady": -0.14517,
+    "breakout": -0.18547
+  },
+  "news_learning_score": -0.14353,
+  "live": null,
+  "daily": [
+    {
+      "market_date": "2026-08-05",
+      "point_change": -1.030384,
+      "banked_points": -1.030384,
+      "cash_before": 20.0,
+      "cash_after": 19.793923,
+      "cash_change": -0.2060770000000005,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "MSFT"
+      ],
+      "news_summaries": [
+        "MSFT Neutral: Wall Street Is Bullish on Chevron Stock. Here’s Our Price Target"
+      ]
+    },
+    {
+      "market_date": "2026-08-06",
+      "point_change": -0.002589,
+      "banked_points": -1.032972,
+      "cash_before": 19.793923,
+      "cash_after": 19.793411,
+      "cash_change": -0.000512000000000512,
+      "rounds": 1,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "MA",
+        "TGT",
+        "JPM"
+      ],
+      "news_summaries": [
+        "MA Positive: Global Payments Q2 Earnings Beat Estimates on Genius Platform Momentum | TGT Neutral: Target Hospitality Appoints Two Independent Directors, Adding Strategic Expertise to Support Growth Initiatives | JPM Neutral: JPMorgan cuts Insulet to neutral on slowing U.S. growth, trims target by 45%"
+      ]
+    },
+    {
+      "market_date": "2026-08-07",
+      "point_change": 1.1988349999999999,
+      "banked_points": 0.165863,
+      "cash_before": 19.793411,
+      "cash_after": 20.030417,
+      "cash_change": 0.23700600000000094,
+      "rounds": 2,
+      "strategies": [
+        "steady",
+        "trend"
+      ],
+      "companies": [
+        "MSFT",
+        "BAC",
+        "GM",
+        "ABNB"
+      ],
+      "news_summaries": [
+        "MSFT Neutral: Microsoft is starting to show its payoff on major AI plays | BAC Neutral: Uber price target lowered by Bank of America despite higher earnings outlook | GM Positive: LEA Q2 Earnings Beat Estimates on E-Systems Margin Expansion",
+        "ABNB Positive: Airbnb Stock Rallies On Earnings Beat. AI Paying Off, Says CEO."
+      ]
+    },
+    {
+      "market_date": "2026-08-10",
+      "point_change": 2.410993,
+      "banked_points": 2.576856,
+      "cash_before": 20.030417,
+      "cash_after": 20.514396,
+      "cash_change": 0.4839790000000015,
+      "rounds": 2,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "XOM",
+        "GM",
+        "BAC",
+        "PFE"
+      ],
+      "news_summaries": [
+        "XOM Positive: SM Energy Q2 Earnings Beat Estimates on Strong Production Growth | GM Positive: Honda's Q1 Earnings Beat Estimates, Revenues Increase Y/Y | BAC Neutral: Palantir Surges 10%, UiPath Rises 7%, C3.ai Gains 5% as Agentic AI Stocks Rally Together",
+        "PFE Neutral: S&P 500 Companies' Quarterly Earnings Growth Eases Amid Healthcare Drop, Oppenheimer Says"
+      ]
+    },
+    {
+      "market_date": "2026-08-11",
+      "point_change": 0.271925,
+      "banked_points": 2.84878,
+      "cash_before": 20.514396,
+      "cash_after": 20.570187,
+      "cash_change": 0.05579099999999926,
+      "rounds": 2,
+      "strategies": [
+        "steady",
+        "dip"
+      ],
+      "companies": [
+        "TGT",
+        "TMO",
+        "MA",
+        "CRM",
+        "UNH",
+        "GOOGL",
+        "ABBV"
+      ],
+      "news_summaries": [
+        "TGT Neutral: GRND Stock Has Soared 250% Since Its 2022 IPO Crash, Leaving Starbucks, Target and Ethereum Behind | TMO Neutral: Market Chatter: Thermo Fisher Targets More than 15% Growth in India Customer Base | MA Neutral: How Mastercard is boosting stablecoin infrastructure",
+        "UNH Neutral: This Buffett Oil Stock Is Quietly Outperforming Chevron Under Greg Abel. Is It Worth Buying Now? | GOOGL: no recent headline | ABBV Positive: Eli Lilly Beat Big and Raised Guidance. Wall Street Sees More Room to Run"
+      ]
+    },
+    {
+      "market_date": "2026-08-12",
+      "point_change": -2.286257,
+      "banked_points": 0.562523,
+      "cash_before": 20.570187,
+      "cash_after": 20.0999,
+      "cash_change": -0.470286999999999,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "MSFT",
+        "UBER",
+        "PFE",
+        "CVX"
+      ],
+      "news_summaries": [
+        "MSFT Neutral: S&P Global Expands Collaboration with Microsoft, Brings Breadth of Essential Intelligence to Microsoft 365 Copilot | UBER Neutral: Uber's Growth Engine Expands Across Mobility, Delivery and Robotaxis | PFE Neutral: BridgeBio Q2 Earnings Miss, Revenues Beat as Attruby Sales Surge"
+      ]
+    },
+    {
+      "market_date": "2026-08-13",
+      "point_change": -0.534938,
+      "banked_points": 0.027585,
+      "cash_before": 20.0999,
+      "cash_after": 19.992378,
+      "cash_change": -0.107522000000003,
+      "rounds": 1,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "BAC",
+        "COP",
+        "XOM",
+        "JPM"
+      ],
+      "news_summaries": [
+        "BAC Neutral: Bank of America Stock Rises on $250 Billion AI Push | COP Neutral: 5 LNG Megaprojects Poised to Power the Next Gas Boom | XOM Neutral: Exxon’s (XOM) Profit Missed. So Why Is The Dividend Getting Stronger?"
+      ]
+    },
+    {
+      "market_date": "2026-08-18",
+      "point_change": -0.6095,
+      "banked_points": -0.581915,
+      "cash_before": 19.992378,
+      "cash_after": 19.870524,
+      "cash_change": -0.12185399999999902,
+      "rounds": 2,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "PFE",
+        "AVGO",
+        "GE",
+        "XOM",
+        "MRK",
+        "JNJ"
+      ],
+      "news_summaries": [
+        "PFE Neutral: Spero Therapeutics Inc (SPRO) (Q2 2026) Earnings Call Highlights: FDA Approval of Utebzi and ... | AVGO Neutral: Lumentum and Broadcom: Both Have Seen The Light in AI But How Should Investors Play Them? | GE Neutral: BETA Technologies Inc (BETA) (Q2 2026) Earnings Call Highlights: Revenue Surges 146% as ...",
+        "XOM Neutral: Exxon Stock Surges 2.3% as Oil Breaks Above $91 | MRK Neutral: Moderna Stock Surges 60%, Merck Rises 6%. At Last, a Successful Cancer Vaccine. | JNJ Neutral: 5 Dividend Growth ETFs to Buy"
+      ]
+    },
+    {
+      "market_date": "2026-08-19",
+      "point_change": 3.179916,
+      "banked_points": 2.598001,
+      "cash_before": 19.870524,
+      "cash_after": 20.50239,
+      "cash_change": 0.6318659999999987,
+      "rounds": 1,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "TGT",
+        "ABNB",
+        "NFLX"
+      ],
+      "news_summaries": [
+        "TGT Positive: Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat | ABNB Neutral: Get Paid 11% To Cap Your BKNG Stock At 15% Higher | NFLX Neutral: Double Digit Revenue and Margin Expansion Drive Netflix’s (NFLX) Upside"
+      ]
+    },
+    {
+      "market_date": "2026-08-21",
+      "point_change": 0.938336,
+      "banked_points": 3.536337,
+      "cash_before": 20.50239,
+      "cash_after": 20.694772,
+      "cash_change": 0.19238200000000205,
+      "rounds": 2,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "CRM",
+        "KO",
+        "XOM",
+        "MRK",
+        "PEP",
+        "COST"
+      ],
+      "news_summaries": [
+        "CRM Neutral: UiPath Stock Rises 44% in 6 Months: Should You Buy, Hold or Sell? | KO Neutral: Can Monster Energy's 22% Segment Growth Keep Driving MNST? | XOM Neutral: ExxonMobil's Return Comes From Somewhere The Index Does Not Go",
+        "MRK Neutral: Merck (MRK) Takes An AI Vaccine Stake And Expands Its Discovery Playbook | PEP Neutral: Why Olipop's founder hasn't sold out to Pepsi or Coca-Cola | COST Neutral: The Ultimate Growth Stock to Buy With $10,000 Right Now"
+      ]
+    },
+    {
+      "market_date": "2026-08-24",
+      "point_change": 0.067627,
+      "banked_points": 3.603963,
+      "cash_before": 20.694772,
+      "cash_after": 20.708767,
+      "cash_change": 0.013995000000001312,
+      "rounds": 1,
+      "strategies": [
+        "steady"
+      ],
+      "companies": [
+        "TMO",
+        "COP",
+        "ABNB"
+      ],
+      "news_summaries": [
+        "TMO Neutral: Johnson & Johnson vs. Thermo Fisher: Which Healthcare Growth Story Is More Durable? | COP Neutral: Raymond James Adjusts Price Target on ConocoPhillips to $168 From $142 | ABNB Neutral: Evercore ISI Adjusts Price Target on Airbnb to $200 From $190"
+      ]
+    },
+    {
+      "market_date": "2026-08-26",
+      "point_change": -2.877147,
+      "banked_points": 0.726816,
+      "cash_before": 20.708767,
+      "cash_after": 20.112945,
+      "cash_change": -0.5958220000000019,
+      "rounds": 2,
+      "strategies": [
+        "steady",
+        "trend"
+      ],
+      "companies": [
+        "TGT",
+        "CRM",
+        "ORCL",
+        "TMO",
+        "ABNB"
+      ],
+      "news_summaries": [
+        "TGT Positive: BJ's Q2 Earnings Beat on Traffic & Membership Momentum, Outlook Raised | CRM Neutral: S&P 500 Annual Earnings, Revenue Growth Slows From Last Week, Oppenheimer Says",
+        "ORCL Neutral: Apple's rare Bay Area layoffs hit Vision Pro and Siri teams amid AI shakeup | TMO Neutral: 3 Unpopular Stocks We Find Risky | ABNB Neutral: Airbnb Insider Sold Shares Worth $67,324,147, According to a Recent SEC Filing"
+      ]
+    },
+    {
+      "market_date": "2026-08-27",
+      "point_change": 1.175856,
+      "banked_points": 1.902672,
+      "cash_before": 20.112945,
+      "cash_after": 20.349444,
+      "cash_change": 0.23649899999999846,
+      "rounds": 2,
+      "strategies": [
+        "dip"
+      ],
+      "companies": [
+        "BA",
+        "INTC",
+        "LLY",
+        "XOM",
+        "BAC"
+      ],
+      "news_summaries": [
+        "BA Neutral: BAE Systems awarded $149.8 million contract for USS Boxer modernization | INTC Neutral: Kasm Technologies Expands Intel Partnership to Deliver Private AI Through Kasm AI Workspaces on Intel Xeon 6 with AMX",
+        "LLY Neutral: Novo Nordisk Stock Is Downgraded to Sell, and GLP-1s Aren’t the Reason | XOM Positive: PBR Q2 Earnings Beat on Record Output, but Can the Gains Persist? | BAC Neutral: Should You Buy BAC Stock as AI-Led Branch Expansion Boosts Efficiency?"
+      ]
+    },
+    {
+      "market_date": "2026-09-16",
+      "point_change": -10.240265,
+      "banked_points": -8.337593,
+      "cash_before": 20.349444,
+      "cash_after": 18.265607,
+      "cash_change": -2.083836999999999,
+      "rounds": 1,
+      "strategies": [
+        "dip"
+      ],
+      "companies": [
+        "HD",
+        "AMAT",
+        "AVGO"
+      ],
+      "news_summaries": [
+        "HD Neutral: Home Depot Expands AI Assistant's Capabilities to Include Localized Store Knowledge | AMAT Strong positive: SNPS Q3 Earnings Beat Estimates on EDA and Ansys Strength | AVGO Neutral: Broadcom Rides AI Semiconductor Growth: Can it Beat NVDA & AMD?"
+      ]
+    },
+    {
+      "market_date": "2026-09-17",
+      "point_change": 1.606557,
+      "banked_points": -6.731036,
+      "cash_before": 18.265607,
+      "cash_after": 18.559055,
+      "cash_change": 0.2934480000000015,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "META",
+        "QCOM",
+        "AAPL"
+      ],
+      "news_summaries": [
+        "META Neutral: Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock. | QCOM Neutral: Advantech Expands WEDA-Powered Edge AI Ecosystem with Intel, Qualcomm, and AMD | AAPL Neutral: Apple, Google, Samsung Devices Under US Probe for Alleged Audio Patent Violations"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "market_date": "2026-08-05",
+      "timestamp": "2026-08-06T09:09:31-05:00",
+      "strategy": "breakout",
+      "cash_before": "20.000000",
+      "cash_after": "19.793923",
+      "point_change": "-1.030384",
+      "banked_points": "-1.030384",
+      "companies": "MSFT",
+      "allocation": "{\"MSFT\": 1.0}",
+      "news_summary": "MSFT Neutral: Wall Street Is Bullish on Chevron Stock. Here’s Our Price Target"
+    },
+    {
+      "market_date": "2026-08-06",
+      "timestamp": "2026-08-06T15:00:34-05:00",
+      "strategy": "steady",
+      "cash_before": "19.793923",
+      "cash_after": "19.793411",
+      "point_change": "-0.002589",
+      "banked_points": "-1.032972",
+      "companies": "MA, TGT, JPM",
+      "allocation": "{\"JPM\": 0.28882799803706233, \"MA\": 0.3879870841713022, \"TGT\": 0.32318491779163544}",
+      "news_summary": "MA Positive: Global Payments Q2 Earnings Beat Estimates on Genius Platform Momentum | TGT Neutral: Target Hospitality Appoints Two Independent Directors, Adding Strategic Expertise to Support Growth Initiatives | JPM Neutral: JPMorgan cuts Insulet to neutral on slowing U.S. growth, trims target by 45%"
+    },
+    {
+      "market_date": "2026-08-07",
+      "timestamp": "2026-08-07T09:13:45-05:00",
+      "strategy": "steady",
+      "cash_before": "19.793411",
+      "cash_after": "19.771699",
+      "point_change": "-0.109693",
+      "banked_points": "-1.142665",
+      "companies": "MSFT, BAC, GM",
+      "allocation": "{\"BAC\": 0.33094579920695905, \"GM\": 0.2972561476369094, \"MSFT\": 0.3717980531561315}",
+      "news_summary": "MSFT Neutral: Microsoft is starting to show its payoff on major AI plays | BAC Neutral: Uber price target lowered by Bank of America despite higher earnings outlook | GM Positive: LEA Q2 Earnings Beat Estimates on E-Systems Margin Expansion"
+    },
+    {
+      "market_date": "2026-08-07",
+      "timestamp": "2026-08-07T17:25:34-05:00",
+      "strategy": "trend",
+      "cash_before": "19.771699",
+      "cash_after": "20.030417",
+      "point_change": "1.308528",
+      "banked_points": "0.165863",
+      "companies": "ABNB",
+      "allocation": "{\"ABNB\": 1.0}",
+      "news_summary": "ABNB Positive: Airbnb Stock Rallies On Earnings Beat. AI Paying Off, Says CEO."
+    },
+    {
+      "market_date": "2026-08-10",
+      "timestamp": "2026-08-10T13:16:20-05:00",
+      "strategy": "steady",
+      "cash_before": "20.030417",
+      "cash_after": "20.465101",
+      "point_change": "2.170118",
+      "banked_points": "2.335982",
+      "companies": "XOM, GM, BAC",
+      "allocation": "{\"BAC\": 0.3261795170227105, \"GM\": 0.32856068944025824, \"XOM\": 0.34525979353703135}",
+      "news_summary": "XOM Positive: SM Energy Q2 Earnings Beat Estimates on Strong Production Growth | GM Positive: Honda's Q1 Earnings Beat Estimates, Revenues Increase Y/Y | BAC Neutral: Palantir Surges 10%, UiPath Rises 7%, C3.ai Gains 5% as Agentic AI Stocks Rally Together"
+    },
+    {
+      "market_date": "2026-08-10",
+      "timestamp": "2026-08-11T07:24:55-05:00",
+      "strategy": "steady",
+      "cash_before": "20.465101",
+      "cash_after": "20.514396",
+      "point_change": "0.240875",
+      "banked_points": "2.576856",
+      "companies": "PFE",
+      "allocation": "{\"PFE\": 1.0}",
+      "news_summary": "PFE Neutral: S&P 500 Companies' Quarterly Earnings Growth Eases Amid Healthcare Drop, Oppenheimer Says"
+    },
+    {
+      "market_date": "2026-08-11",
+      "timestamp": "2026-08-11T15:00:18-05:00",
+      "strategy": "steady",
+      "cash_before": "20.514396",
+      "cash_after": "20.567283",
+      "point_change": "0.257802",
+      "banked_points": "2.834658",
+      "companies": "TGT, TMO, MA, CRM",
+      "allocation": "{\"CRM\": 0.18000084593498183, \"MA\": 0.18806726657345163, \"TGT\": 0.35266450439068964, \"TMO\": 0.2792673831008769}",
+      "news_summary": "TGT Neutral: GRND Stock Has Soared 250% Since Its 2022 IPO Crash, Leaving Starbucks, Target and Ethereum Behind | TMO Neutral: Market Chatter: Thermo Fisher Targets More than 15% Growth in India Customer Base | MA Neutral: How Mastercard is boosting stablecoin infrastructure"
+    },
+    {
+      "market_date": "2026-08-11",
+      "timestamp": "2026-08-12T07:11:59-05:00",
+      "strategy": "dip",
+      "cash_before": "20.567283",
+      "cash_after": "20.570187",
+      "point_change": "0.014123",
+      "banked_points": "2.848780",
+      "companies": "UNH, GOOGL, ABBV",
+      "allocation": "{\"ABBV\": 0.25458523745442674, \"GOOGL\": 0.2803643737627962, \"UNH\": 0.46505038878277716}",
+      "news_summary": "UNH Neutral: This Buffett Oil Stock Is Quietly Outperforming Chevron Under Greg Abel. Is It Worth Buying Now? | GOOGL: no recent headline | ABBV Positive: Eli Lilly Beat Big and Raised Guidance. Wall Street Sees More Room to Run"
+    },
+    {
+      "market_date": "2026-08-12",
+      "timestamp": "2026-08-12T15:00:06-05:00",
+      "strategy": "trend",
+      "cash_before": "20.570187",
+      "cash_after": "20.099900",
+      "point_change": "-2.286257",
+      "banked_points": "0.562523",
+      "companies": "MSFT, UBER, PFE, CVX",
+      "allocation": "{\"CVX\": 0.15120182783733369, \"MSFT\": 0.3369717376056211, \"PFE\": 0.19986392792823066, \"UBER\": 0.31196250662881453}",
+      "news_summary": "MSFT Neutral: S&P Global Expands Collaboration with Microsoft, Brings Breadth of Essential Intelligence to Microsoft 365 Copilot | UBER Neutral: Uber's Growth Engine Expands Across Mobility, Delivery and Robotaxis | PFE Neutral: BridgeBio Q2 Earnings Miss, Revenues Beat as Attruby Sales Surge"
+    },
+    {
+      "market_date": "2026-08-13",
+      "timestamp": "2026-08-13T08:30:26-05:00",
+      "strategy": "steady",
+      "cash_before": "20.099900",
+      "cash_after": "19.992378",
+      "point_change": "-0.534938",
+      "banked_points": "0.027585",
+      "companies": "BAC, COP, XOM, JPM",
+      "allocation": "{\"BAC\": 0.2875727452449569, \"COP\": 0.2525093892835803, \"JPM\": 0.22929628990361678, \"XOM\": 0.23062157556784602}",
+      "news_summary": "BAC Neutral: Bank of America Stock Rises on $250 Billion AI Push | COP Neutral: 5 LNG Megaprojects Poised to Power the Next Gas Boom | XOM Neutral: Exxon’s (XOM) Profit Missed. So Why Is The Dividend Getting Stronger?"
+    },
+    {
+      "market_date": "2026-08-18",
+      "timestamp": "2026-08-19T07:30:02-05:00",
+      "strategy": "steady",
+      "cash_before": "19.992378",
+      "cash_after": "19.870524",
+      "point_change": "-0.609500",
+      "banked_points": "-0.581915",
+      "companies": "PFE, AVGO, GE",
+      "allocation": "{\"AVGO\": 0.29853487687173585, \"GE\": 0.27931464245171067, \"PFE\": 0.4221504806765534}",
+      "news_summary": "PFE Neutral: Spero Therapeutics Inc (SPRO) (Q2 2026) Earnings Call Highlights: FDA Approval of Utebzi and ... | AVGO Neutral: Lumentum and Broadcom: Both Have Seen The Light in AI But How Should Investors Play Them? | GE Neutral: BETA Technologies Inc (BETA) (Q2 2026) Earnings Call Highlights: Revenue Surges 146% as ..."
+    },
+    {
+      "market_date": "2026-08-18",
+      "timestamp": "2026-08-19T07:30:17-05:00",
+      "strategy": "steady",
+      "cash_before": "19.870524",
+      "cash_after": "19.870524",
+      "point_change": "0.000000",
+      "banked_points": "-0.581915",
+      "companies": "XOM, MRK, JNJ",
+      "allocation": "{\"JNJ\": 0.30821462046387166, \"MRK\": 0.3419312201394376, \"XOM\": 0.34985415939669073}",
+      "news_summary": "XOM Neutral: Exxon Stock Surges 2.3% as Oil Breaks Above $91 | MRK Neutral: Moderna Stock Surges 60%, Merck Rises 6%. At Last, a Successful Cancer Vaccine. | JNJ Neutral: 5 Dividend Growth ETFs to Buy"
+    },
+    {
+      "market_date": "2026-08-19",
+      "timestamp": "2026-08-19T15:00:00-05:00",
+      "strategy": "steady",
+      "cash_before": "19.870524",
+      "cash_after": "20.502390",
+      "point_change": "3.179916",
+      "banked_points": "2.598001",
+      "companies": "TGT, ABNB, NFLX",
+      "allocation": "{\"ABNB\": 0.31608440354914463, \"NFLX\": 0.2930665612947539, \"TGT\": 0.39084903515610153}",
+      "news_summary": "TGT Positive: Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat | ABNB Neutral: Get Paid 11% To Cap Your BKNG Stock At 15% Higher | NFLX Neutral: Double Digit Revenue and Margin Expansion Drive Netflix’s (NFLX) Upside"
+    },
+    {
+      "market_date": "2026-08-21",
+      "timestamp": "2026-08-24T05:39:27-05:00",
+      "strategy": "steady",
+      "cash_before": "20.502390",
+      "cash_after": "20.694772",
+      "point_change": "0.938336",
+      "banked_points": "3.536337",
+      "companies": "CRM, KO, XOM",
+      "allocation": "{\"CRM\": 0.4149476174963684, \"KO\": 0.3128453038626965, \"XOM\": 0.2722070786409351}",
+      "news_summary": "CRM Neutral: UiPath Stock Rises 44% in 6 Months: Should You Buy, Hold or Sell? | KO Neutral: Can Monster Energy's 22% Segment Growth Keep Driving MNST? | XOM Neutral: ExxonMobil's Return Comes From Somewhere The Index Does Not Go"
+    },
+    {
+      "market_date": "2026-08-21",
+      "timestamp": "2026-08-24T05:39:34-05:00",
+      "strategy": "steady",
+      "cash_before": "20.694772",
+      "cash_after": "20.694772",
+      "point_change": "0.000000",
+      "banked_points": "3.536337",
+      "companies": "MRK, PEP, COST",
+      "allocation": "{\"COST\": 0.21194709269314527, \"MRK\": 0.5157065470725734, \"PEP\": 0.2723463602342814}",
+      "news_summary": "MRK Neutral: Merck (MRK) Takes An AI Vaccine Stake And Expands Its Discovery Playbook | PEP Neutral: Why Olipop's founder hasn't sold out to Pepsi or Coca-Cola | COST Neutral: The Ultimate Growth Stock to Buy With $10,000 Right Now"
+    },
+    {
+      "market_date": "2026-08-24",
+      "timestamp": "2026-08-24T15:00:54-05:00",
+      "strategy": "steady",
+      "cash_before": "20.694772",
+      "cash_after": "20.708767",
+      "point_change": "0.067627",
+      "banked_points": "3.603963",
+      "companies": "TMO, COP, ABNB",
+      "allocation": "{\"ABNB\": 0.2882664719704617, \"COP\": 0.3046718390768441, \"TMO\": 0.4070616889526943}",
+      "news_summary": "TMO Neutral: Johnson & Johnson vs. Thermo Fisher: Which Healthcare Growth Story Is More Durable? | COP Neutral: Raymond James Adjusts Price Target on ConocoPhillips to $168 From $142 | ABNB Neutral: Evercore ISI Adjusts Price Target on Airbnb to $200 From $190"
+    },
+    {
+      "market_date": "2026-08-26",
+      "timestamp": "2026-08-27T06:29:27-05:00",
+      "strategy": "steady",
+      "cash_before": "20.708767",
+      "cash_after": "20.112945",
+      "point_change": "-2.877147",
+      "banked_points": "0.726816",
+      "companies": "TGT, CRM",
+      "allocation": "{\"CRM\": 0.32515951419061984, \"TGT\": 0.6748404858093803}",
+      "news_summary": "TGT Positive: BJ's Q2 Earnings Beat on Traffic & Membership Momentum, Outlook Raised | CRM Neutral: S&P 500 Annual Earnings, Revenue Growth Slows From Last Week, Oppenheimer Says"
+    },
+    {
+      "market_date": "2026-08-26",
+      "timestamp": "2026-08-27T06:47:38-05:00",
+      "strategy": "trend",
+      "cash_before": "20.112945",
+      "cash_after": "20.112945",
+      "point_change": "0.000000",
+      "banked_points": "0.726816",
+      "companies": "ORCL, TMO, ABNB",
+      "allocation": "{\"ABNB\": 0.2738394477002456, \"ORCL\": 0.44603750756408717, \"TMO\": 0.2801230447356673}",
+      "news_summary": "ORCL Neutral: Apple's rare Bay Area layoffs hit Vision Pro and Siri teams amid AI shakeup | TMO Neutral: 3 Unpopular Stocks We Find Risky | ABNB Neutral: Airbnb Insider Sold Shares Worth $67,324,147, According to a Recent SEC Filing"
+    },
+    {
+      "market_date": "2026-08-27",
+      "timestamp": "2026-08-27T15:00:39-05:00",
+      "strategy": "dip",
+      "cash_before": "20.112945",
+      "cash_after": "20.349444",
+      "point_change": "1.175856",
+      "banked_points": "1.902672",
+      "companies": "BA, INTC",
+      "allocation": "{\"BA\": 0.588901777170659, \"INTC\": 0.4110982228293411}",
+      "news_summary": "BA Neutral: BAE Systems awarded $149.8 million contract for USS Boxer modernization | INTC Neutral: Kasm Technologies Expands Intel Partnership to Deliver Private AI Through Kasm AI Workspaces on Intel Xeon 6 with AMX"
+    },
+    {
+      "market_date": "2026-08-27",
+      "timestamp": "2026-08-27T15:02:36-05:00",
+      "strategy": "dip",
+      "cash_before": "20.349444",
+      "cash_after": "20.349444",
+      "point_change": "0.000000",
+      "banked_points": "1.902672",
+      "companies": "LLY, XOM, BAC",
+      "allocation": "{\"BAC\": 0.33238260268416353, \"LLY\": 0.3343549910443957, \"XOM\": 0.3332624062714407}",
+      "news_summary": "LLY Neutral: Novo Nordisk Stock Is Downgraded to Sell, and GLP-1s Aren’t the Reason | XOM Positive: PBR Q2 Earnings Beat on Record Output, but Can the Gains Persist? | BAC Neutral: Should You Buy BAC Stock as AI-Led Branch Expansion Boosts Efficiency?"
+    },
+    {
+      "market_date": "2026-09-16",
+      "timestamp": "2026-09-17T06:48:09-05:00",
+      "strategy": "dip",
+      "cash_before": "20.349444",
+      "cash_after": "18.265607",
+      "point_change": "-10.240265",
+      "banked_points": "-8.337593",
+      "companies": "HD, AMAT, AVGO",
+      "allocation": "{\"AMAT\": 0.3564129134538107, \"AVGO\": 0.2624042761871455, \"HD\": 0.38118281035904383}",
+      "news_summary": "HD Neutral: Home Depot Expands AI Assistant's Capabilities to Include Localized Store Knowledge | AMAT Strong positive: SNPS Q3 Earnings Beat Estimates on EDA and Ansys Strength | AVGO Neutral: Broadcom Rides AI Semiconductor Growth: Can it Beat NVDA & AMD?"
+    },
+    {
+      "market_date": "2026-09-17",
+      "timestamp": "2026-09-17T15:00:56-05:00",
+      "strategy": "trend",
+      "cash_before": "18.265607",
+      "cash_after": "18.559055",
+      "point_change": "1.606557",
+      "banked_points": "-6.731036",
+      "companies": "META, QCOM, AAPL",
+      "allocation": "{\"AAPL\": 0.22525006974023856, \"META\": 0.43138729997756187, \"QCOM\": 0.34336263028219965}",
+      "news_summary": "META Neutral: Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock. | QCOM Neutral: Advantech Expands WEDA-Powered Edge AI Ecosystem with Intel, Qualcomm, and AMD | AAPL Neutral: Apple, Google, Samsung Devices Under US Probe for Alleged Audio Patent Violations"
+    }
+  ],
+  "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
+}

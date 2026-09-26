@@ -1,0 +1,61 @@
+name: Paper trader cloud updates and dashboard
+on:
+  schedule:
+    # Rechecks every 15 minutes on weekdays, automatically picking fresh companies
+    # on the first successful check after 9:35 a.m. ET and never twice per trading date.
+    # UTC window covers both EDT and EST; holidays are rejected by quote-date validation.
+    # GitHub schedules are best effort and may occasionally be late or missed.
+    - cron: '7,22,37,52 13-22 * * 1-5'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'run_cloud.py'
+      - 'bot_core.py'
+      - 'docs/index.html'
+      - 'docs/style.css'
+      - 'docs/app.js'
+      - '.github/workflows/cloud-bot.yml'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: paper-bot-and-pages
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run paper bot without using user's computer
+        run: python run_cloud.py
+      - name: Save fake trading state and generated dashboard data
+        run: |
+          git config user.name 'paper-trader-cloud-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update simulated market snapshot [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload latest dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publish site
+        id: deploy
+        uses: actions/deploy-pages@v4

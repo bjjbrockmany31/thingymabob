@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07101d">
+<title>Adaptive Paper Trader · Cloud</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="shell">
+<header class="topbar"><div><span class="brandmark">◈</span><strong>Adaptive Paper Trader</strong><span class="tag">CLOUD · FAKE MONEY</span></div><span id="connection" class="connection">Loading saved data…</span></header>
+<section class="hero"><div><p class="eyebrow">THE $20 → 100 POINT CHALLENGE</p><h1>Watch the bot learn. <span>Not your money.</span></h1><p>Real-company market data. Completely fictional investments. View your game anywhere without leaving your computer on.</p></div><span class="hero-icon" aria-hidden="true">↗</span></section>
+<section class="metrics" aria-label="Portfolio overview">
+  <article class="metric"><span>Total points</span><strong id="totalPoints">—</strong><small id="pointDelta">—</small></article>
+  <article class="metric"><span>Fake portfolio value</span><strong id="balance">—</strong><small id="cashDelta">—</small></article>
+  <article class="metric"><span>Completed rounds</span><strong id="rounds">—</strong><small>Automatically tracked</small></article>
+  <article class="metric"><span>Next goal</span><strong>100 pts</strong><small id="remaining">—</small></article>
+</section>
+<section class="progressBox" aria-label="Progress to the 100-point goal"><div class="between"><strong>Road to 100</strong><span id="pct">0% complete</span></div><div class="track"><div id="progress" class="fill"></div></div><p id="marketStatus" role="status">Checking saved market data…</p><p id="rerollStatus" class="rerollStatus">Auto-reroll: every trading day · Waiting for latest cloud status.</p><small>Market quotes can be delayed. The cloud bot checks on a schedule; this page refreshes saved results, not stock exchanges directly.</small></section>
+<section class="columns"><article class="panel"><div class="between"><h2>Current fake investments</h2><span id="strategy" class="miniTag">Waiting</span></div><div id="holdings" class="holdings"><p>Waiting for the first market session.</p></div></article><article class="panel"><div class="between"><h2>Today's result</h2><span class="miniTag">LIVE ESTIMATE</span></div><strong class="dayValue" id="todayMoney">$0.00</strong><div class="todaySub"><span id="todayPoints">0.00 pts</span><span id="todayDate">—</span></div><p id="quoteTime" class="muted">No quote yet.</p></article></section>
+<section class="panel chartpanel"><div class="between"><div><h2>Points over time</h2><p class="muted">Hover over a dot (or tap one) for points, money gained/lost and ending balance.</p></div><span id="chartCount" class="miniTag">—</span></div><div id="chartArea" class="chartArea"><p>Loading historical rounds…</p></div><div id="chartTooltip" class="chartTooltip" aria-live="polite">Select a point to inspect a day.</div></section>
+<section class="panel"><div class="between"><h2>Daily history</h2><span class="miniTag">ONE ROW PER DAY</span></div><div class="tableScroll"><table><thead><tr><th>Date</th><th>Points today</th><th>Fake $ today</th><th>Ending balance</th><th>Companies</th></tr></thead><tbody id="historyRows"><tr><td colspan="5">Loading…</td></tr></tbody></table></div></section>
+<section class="panel"><div class="between"><h2>What it learned</h2><span class="miniTag">EXPERIMENT · NOT FINANCIAL ADVICE</span></div><div id="strategyScores" class="scores"></div><p class="muted">Strategies adapt after completed rounds. News headlines are only weak, imperfect signals, not verified predictions.</p></section>
+<footer><p id="importNote"></p><p>This is a game, not a brokerage. Data is public if you publish this website using a public GitHub repository. The desktop app and cloud copy are not automatically synchronized.</p></footer>
+</main>
+<script src="app.js" defer></script>
+</body></html>
