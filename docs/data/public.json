@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-29T00:20:16.872866+00:00",
-  "status": "Market closed; cloud bot will check again on its next scheduled run.",
+  "updated_at": "2026-09-29T18:34:39.625037+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": null,
+  "last_reroll_market_date": "2026-09-29",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -6.731036,
   "display_points": -6.731036,
   "completed_balance": 18.559055,
   "display_balance": 18.559055,
   "completed_rounds": 22,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": 0.14234,
     "dip": -1.69953,
@@ -21,7 +21,59 @@
     "breakout": -0.18547
   },
   "news_learning_score": -0.14353,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.559055,
+    "market_date": "2026-09-29",
+    "quote_time": "2026-09-29T18:34:39.618925+00:00",
+    "holdings": [
+      {
+        "ticker": "AMAT",
+        "weight": 0.395025,
+        "entry": 506.28,
+        "last_price": 506.28,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/ai/articles/klacs-backlog-surges-ai-demand-140200246.html"
+      },
+      {
+        "ticker": "TXN",
+        "weight": 0.286703,
+        "entry": 281.51,
+        "last_price": 281.51,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-looks-100504657.html"
+      },
+      {
+        "ticker": "PFE",
+        "weight": 0.170109,
+        "entry": 28.578,
+        "last_price": 28.578,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/novo-vs-pfizer-large-drugmaker-131400444.html"
+      },
+      {
+        "ticker": "LLY",
+        "weight": 0.148163,
+        "entry": 1185.669,
+        "last_price": 1185.669,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Prediction: Eli Lilly’s Next Growth Wave Could Surprise Investors",
+        "publisher": "24/7 Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/prediction-eli-lilly-next-growth-180018035.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
