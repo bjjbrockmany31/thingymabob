@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T18:34:39.625037+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-09-29T22:33:52.394232+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,72 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-09-29",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.731036,
-  "display_points": -6.731036,
-  "completed_balance": 18.559055,
-  "display_balance": 18.559055,
-  "completed_rounds": 22,
-  "current_strategy": "trend",
+  "banked_points": -6.19408,
+  "display_points": -6.19408,
+  "completed_balance": 18.658709,
+  "display_balance": 18.658709,
+  "completed_rounds": 23,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": 0.14234,
+    "trend": 0.21337,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.18547
   },
   "news_learning_score": -0.14353,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.559055,
-    "market_date": "2026-09-29",
-    "quote_time": "2026-09-29T18:34:39.618925+00:00",
-    "holdings": [
-      {
-        "ticker": "AMAT",
-        "weight": 0.395025,
-        "entry": 506.28,
-        "last_price": 506.28,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/technology/ai/articles/klacs-backlog-surges-ai-demand-140200246.html"
-      },
-      {
-        "ticker": "TXN",
-        "weight": 0.286703,
-        "entry": 281.51,
-        "last_price": 281.51,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-looks-100504657.html"
-      },
-      {
-        "ticker": "PFE",
-        "weight": 0.170109,
-        "entry": 28.578,
-        "last_price": 28.578,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/healthcare/articles/novo-vs-pfizer-large-drugmaker-131400444.html"
-      },
-      {
-        "ticker": "LLY",
-        "weight": 0.148163,
-        "entry": 1185.669,
-        "last_price": 1185.669,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Prediction: Eli Lilly’s Next Growth Wave Could Surprise Investors",
-        "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/healthcare/articles/prediction-eli-lilly-next-growth-180018035.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -400,6 +348,27 @@
       "news_summaries": [
         "META Neutral: Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock. | QCOM Neutral: Advantech Expands WEDA-Powered Edge AI Ecosystem with Intel, Qualcomm, and AMD | AAPL Neutral: Apple, Google, Samsung Devices Under US Probe for Alleged Audio Patent Violations"
       ]
+    },
+    {
+      "market_date": "2026-09-29",
+      "point_change": 0.536957,
+      "banked_points": -6.19408,
+      "cash_before": 18.559055,
+      "cash_after": 18.658709,
+      "cash_change": 0.09965400000000102,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "AMAT",
+        "TXN",
+        "PFE",
+        "LLY"
+      ],
+      "news_summaries": [
+        "AMAT Neutral: KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML? | TXN Neutral: Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook | PFE Neutral: Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?"
+      ]
     }
   ],
   "rounds": [
@@ -666,6 +635,18 @@
       "companies": "META, QCOM, AAPL",
       "allocation": "{\"AAPL\": 0.22525006974023856, \"META\": 0.43138729997756187, \"QCOM\": 0.34336263028219965}",
       "news_summary": "META Neutral: Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock. | QCOM Neutral: Advantech Expands WEDA-Powered Edge AI Ecosystem with Intel, Qualcomm, and AMD | AAPL Neutral: Apple, Google, Samsung Devices Under US Probe for Alleged Audio Patent Violations"
+    },
+    {
+      "market_date": "2026-09-29",
+      "timestamp": "2026-09-29T22:33:52+00:00",
+      "strategy": "trend",
+      "cash_before": "18.559055",
+      "cash_after": "18.658709",
+      "point_change": "0.536957",
+      "banked_points": "-6.194080",
+      "companies": "AMAT, TXN, PFE, LLY",
+      "allocation": "{\"AMAT\": 0.3950250252053046, \"LLY\": 0.14816335310821668, \"PFE\": 0.17010893162565663, \"TXN\": 0.2867026900608221}",
+      "news_summary": "AMAT Neutral: KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML? | TXN Neutral: Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook | PFE Neutral: Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
