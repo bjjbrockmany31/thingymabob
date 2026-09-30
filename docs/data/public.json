@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30T18:23:23.166202+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-09-30T22:32:28.945206+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-09-30",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.19408,
-  "display_points": -6.19408,
-  "completed_balance": 18.658709,
-  "display_balance": 18.658709,
-  "completed_rounds": 23,
-  "current_strategy": "trend",
+  "banked_points": -6.825633,
+  "display_points": -6.825633,
+  "completed_balance": 18.540869,
+  "display_balance": 18.540869,
+  "completed_rounds": 24,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": 0.21337,
+    "trend": 0.06128,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.18547
   },
   "news_learning_score": -0.14353,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.658709,
-    "market_date": "2026-09-30",
-    "quote_time": "2026-09-30T18:23:23.157719+00:00",
-    "holdings": [
-      {
-        "ticker": "TMO",
-        "weight": 0.409844,
-        "entry": 682.8,
-        "last_price": 682.8,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption",
-        "publisher": "GlobeNewswire",
-        "link": "https://finance.yahoo.com/healthcare/articles/recombinant-proteins-market-global-strategic-133000065.html"
-      },
-      {
-        "ticker": "AMD",
-        "weight": 0.324881,
-        "entry": 608.015,
-        "last_price": 608.015,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well.",
-        "publisher": "Investor's Business Daily",
-        "link": "https://finance.yahoo.com/m/d577f3fd-98fa-3537-a959-f420143a9942/nvidia%2C-amd-collaborator.html"
-      },
-      {
-        "ticker": "GOOGL",
-        "weight": 0.265276,
-        "entry": 348.9,
-        "last_price": 348.9,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -410,6 +369,26 @@
       "news_summaries": [
         "AMAT Neutral: KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML? | TXN Neutral: Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook | PFE Neutral: Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?"
       ]
+    },
+    {
+      "market_date": "2026-09-30",
+      "point_change": -0.631554,
+      "banked_points": -6.825633,
+      "cash_before": 18.658709,
+      "cash_after": 18.540869,
+      "cash_change": -0.11784000000000106,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "TMO",
+        "AMD",
+        "GOOGL"
+      ],
+      "news_summaries": [
+        "TMO Neutral: Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption | AMD Neutral: Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well. | GOOGL Neutral: Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?"
+      ]
     }
   ],
   "rounds": [
@@ -688,6 +667,18 @@
       "companies": "AMAT, TXN, PFE, LLY",
       "allocation": "{\"AMAT\": 0.3950250252053046, \"LLY\": 0.14816335310821668, \"PFE\": 0.17010893162565663, \"TXN\": 0.2867026900608221}",
       "news_summary": "AMAT Neutral: KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML? | TXN Neutral: Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook | PFE Neutral: Novo vs. Pfizer: Which Large Drugmaker Offers Better Growth Prospects?"
+    },
+    {
+      "market_date": "2026-09-30",
+      "timestamp": "2026-09-30T22:32:28+00:00",
+      "strategy": "trend",
+      "cash_before": "18.658709",
+      "cash_after": "18.540869",
+      "point_change": "-0.631554",
+      "banked_points": "-6.825633",
+      "companies": "TMO, AMD, GOOGL",
+      "allocation": "{\"AMD\": 0.3248805592833064, \"GOOGL\": 0.26527580556479363, \"TMO\": 0.40984363515190003}",
+      "news_summary": "TMO Neutral: Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption | AMD Neutral: Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well. | GOOGL Neutral: Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
