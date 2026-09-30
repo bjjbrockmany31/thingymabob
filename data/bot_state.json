@@ -66,11 +66,19 @@
     "steady": -0.14517191182927397,
     "breakout": -0.18546905296070504
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "TMO": 0.40984363515190003,
+    "AMD": 0.3248805592833064,
+    "GOOGL": 0.26527580556479363
+  },
+  "entry_prices": {
+    "GOOGL": 348.9,
+    "AMD": 608.015,
+    "TMO": 682.8
+  },
+  "round_market_date": "2026-09-30",
+  "round_started_at": "2026-09-30T18:23:23.157202+00:00",
   "rounds_completed": 23,
   "last_round_tickers": [
     "AMAT",
@@ -78,15 +86,1115 @@
     "PFE",
     "LLY"
   ],
-  "last_reroll_market_date": "2026-09-29",
+  "last_reroll_market_date": "2026-09-30",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.14353397386133138,
-  "news_last_checked_at": "2026-09-29T18:34:39.618916+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-09-30T18:23:23.157711+00:00",
+  "news_signals": {
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": -0.100495033416502,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Aterio Flags Delay Risk at Oracle's Wisconsin Data Center",
+      "publisher": "GuruFocus.com",
+      "published_at": "Sep 30, 10:53 AM",
+      "link": "https://finance.yahoo.com/technology/articles/aterio-flags-delay-risk-oracles-145319339.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Stocks Fall Although Agentic AI Targets Financial-Crime Backlogs",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 11:28 AM",
+          "published_timestamp": 1790782082,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-stocks-fall-although-agentic-152802844.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle's Massive AI Data Center Push Just Hit a Power Bottleneck",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 11:16 AM",
+          "published_timestamp": 1790781400,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracles-massive-ai-data-center-151640039.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Aterio Flags Delay Risk at Oracle's Wisconsin Data Center",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 10:53 AM",
+          "published_timestamp": 1790779999,
+          "link": "https://finance.yahoo.com/technology/articles/aterio-flags-delay-risk-oracles-145319339.html",
+          "score": -0.1577621670251537
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Shares Fall 1.8% After Report Flags Potential Wisconsin AI Data Centre Delays",
+          "publisher": "InvestorsHub",
+          "published_at": "Sep 30, 9:43 AM",
+          "published_timestamp": 1790775827,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-shares-fall-1-8-134347762.html",
+          "score": -0.1577621670251537
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle shares slip on unconfirmed report of delays at Wisconsin AI mega-campus",
+          "publisher": "Investing.com",
+          "published_at": "Sep 30, 9:19 AM",
+          "published_timestamp": 1790774391,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-shares-slip-unconfirmed-report-131951449.html",
+          "score": -0.1577621670251537
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.07744883931647066,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well.",
+      "publisher": "Investor's Business Daily",
+      "published_at": "Sep 30, 1:53 PM",
+      "link": "https://finance.yahoo.com/m/d577f3fd-98fa-3537-a959-f420143a9942/nvidia%2C-amd-collaborator.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "HPE Shares Jump on $1.2 Billion AMD AI Deal",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 2:08 PM",
+          "published_timestamp": 1790791688,
+          "link": "https://finance.yahoo.com/technology/ai/articles/hpe-shares-jump-1-2-180808900.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD Stock Slides as New AI Agent Launch Fails to Lift Shares",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:56 PM",
+          "published_timestamp": 1790791017,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-slides-ai-agent-175657103.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "AMD",
+          "title": "Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Sep 30, 1:53 PM",
+          "published_timestamp": 1790790789,
+          "link": "https://finance.yahoo.com/m/d577f3fd-98fa-3537-a959-f420143a9942/nvidia%2C-amd-collaborator.html",
+          "score": 0.20173975176639067
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD Just Got a $1,000 Price Target as AI Demand Accelerates",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:52 PM",
+          "published_timestamp": 1790790730,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-just-got-1-000-175210428.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 12:29 PM",
+          "published_timestamp": 1790785753,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-rises-3-chip-contender-162913840.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "AMD",
+          "title": "Jim Cramer delivers unmistakable verdict on AMD\u2019s future after 281% run",
+          "publisher": "TheStreet",
+          "published_at": "Sep 30, 12:17 PM",
+          "published_timestamp": 1790785020,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-delivers-unmistakable-verdict-161700285.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": 0.031031551631038257,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Are Home Depot's Digital Investments Driving Better Sales and Growth?",
+      "publisher": "Zacks",
+      "published_at": "Sep 29, 10:25 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/home-depots-digital-investments-driving-142500876.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "The $66 Billion Consolation Prize For HD Shareholders",
+          "publisher": "Trefis",
+          "published_at": "Sep 30, 10:36 AM",
+          "published_timestamp": 1790778997,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/66-billion-consolation-prize-hd-143637410.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot (HD) vs. Lowe\u2019s (LOW): Which Is the Better Stock to Buy?",
+          "publisher": "Insider Monkey",
+          "published_at": "Sep 30, 12:54 AM",
+          "published_timestamp": 1790744097,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-vs-lowe-045457828.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Which Value Stock Is the More Obvious Buy Now: Home Depot Under $310 a Share or Lowe's Under $200 a Share?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 29, 2:43 PM",
+          "published_timestamp": 1790707380,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/value-stock-more-obvious-buy-184300441.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Are Home Depot's Digital Investments Driving Better Sales and Growth?",
+          "publisher": "Zacks",
+          "published_at": "Sep 29, 10:25 AM",
+          "published_timestamp": 1790691900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depots-digital-investments-driving-142500876.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot vs. Lowe\u2019s: 1 Stock Wins",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 29, 9:30 AM",
+          "published_timestamp": 1790688603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-vs-lowe-1-133003684.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Walmart Opens New Neighborhood Market in Crestview, Florida",
+      "publisher": "Business Wire",
+      "published_at": "Sep 30, 1:01 PM",
+      "link": "https://finance.yahoo.com/small-business/articles/walmart-opens-neighborhood-market-crestview-170100098.html",
+      "items": [
+        {
+          "ticker": "WMT",
+          "title": "Walmart Opens New Neighborhood Market in Crestview, Florida",
+          "publisher": "Business Wire",
+          "published_at": "Sep 30, 1:01 PM",
+          "published_timestamp": 1790787660,
+          "link": "https://finance.yahoo.com/small-business/articles/walmart-opens-neighborhood-market-crestview-170100098.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Stocks Slip as Digital Labels Reject Personalized Pricing",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 12:55 PM",
+          "published_timestamp": 1790787349,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-stocks-slip-digital-labels-165549505.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Grants $15 Million to Feeding America\u00ae to Help Strengthen Food Access for Families Across the Country",
+          "publisher": "Business Wire",
+          "published_at": "Sep 30, 10:11 AM",
+          "published_timestamp": 1790777460,
+          "link": "https://finance.yahoo.com/small-business/articles/walmart-grants-15-million-feeding-141100142.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart vs. Dollar General: Which Retail Stock Stands Out Now?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 9:20 AM",
+          "published_timestamp": 1790774400,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-vs-dollar-general-retail-132000568.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "score": 0.026037545972613613,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Target Stock Just Got a Stunning Upgrade From HSBC",
+      "publisher": "GuruFocus.com",
+      "published_at": "Sep 30, 1:52 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/target-stock-just-got-stunning-175237812.html",
+      "items": [
+        {
+          "ticker": "TGT",
+          "title": "Target Stock Just Got a Stunning Upgrade From HSBC",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:52 PM",
+          "published_timestamp": 1790790757,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-stock-just-got-stunning-175237812.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "TGT",
+          "title": "Analyst Praises Target's Turnaround As Retailer Keeps Cutting Prices. The Stock Is In A Buy Area.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Sep 30, 12:55 PM",
+          "published_timestamp": 1790787332,
+          "link": "https://finance.yahoo.com/m/0c67a2e9-c91e-3c6f-b500-f68c7703e2c5/analyst-praises-target%27s.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Buy Target Stock, Analyst Says. The Turnaround Is Taking Hold.",
+          "publisher": "Barrons.com",
+          "published_at": "Sep 30, 12:00 PM",
+          "published_timestamp": 1790784000,
+          "link": "https://finance.yahoo.com/m/1e35c2e2-f884-35a9-b61a-b09961da0a15/buy-target-stock%2C-analyst.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target's Dividend Has Survived 8 Recessions. Here's What $10,000 Earns in Dividend Income Yearly.",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 11:15 AM",
+          "published_timestamp": 1790781300,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/targets-dividend-survived-8-recessions-151500434.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target cuts prices on nearly 2,000 items ahead of holidays",
+          "publisher": "Quartz",
+          "published_at": "Sep 30, 10:10 AM",
+          "published_timestamp": 1790777432,
+          "link": "https://finance.yahoo.com/economy/policy/articles/target-cuts-prices-nearly-2-141032418.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target upgraded, Moderna downgraded: Wall Street's top analyst calls",
+          "publisher": "The Fly",
+          "published_at": "Sep 30, 9:40 AM",
+          "published_timestamp": 1790775637,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-upgraded-moderna-downgraded-wall-134037091.html",
+          "score": -0.02272336043767369
+        }
+      ]
+    },
+    "CRM": {
+      "ticker": "CRM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Salesforce up 3.2% after announcing Listen Labs acquisition",
+      "publisher": "Proactive",
+      "published_at": "Sep 30, 12:12 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-3-2-announcing-listen-161200328.html",
+      "items": [
+        {
+          "ticker": "CRM",
+          "title": "Salesforce up 3.2% after announcing Listen Labs acquisition",
+          "publisher": "Proactive",
+          "published_at": "Sep 30, 12:12 PM",
+          "published_timestamp": 1790784720,
+          "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-3-2-announcing-listen-161200328.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CRM",
+          "title": "UiPath and Snowflake Jump 5% on UiPath\u2019s BDO and Snowflake Updates; Salesforce Moves Up 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 11:51 AM",
+          "published_timestamp": 1790783507,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uipath-snowflake-jump-5-uipath-155147300.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CRM",
+          "title": "Salesforce (CRM) Shares Declined Despite a Durable Enterprise Software Franchise",
+          "publisher": "Insider Monkey",
+          "published_at": "Sep 30, 6:55 AM",
+          "published_timestamp": 1790765715,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-shares-declined-despite-105515348.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CRM",
+          "title": "Salesforce (CRM) Deepens AI Workflow Governance Across Its Platform",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 30, 6:09 AM",
+          "published_timestamp": 1790762950,
+          "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-crm-deepens-ai-workflow-100910442.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CRM",
+          "title": "Salesforce Stock Fell 8% in a Year. Here\u2019s Where the Street\u2019s Target Sits Now.",
+          "publisher": "TIKR",
+          "published_at": "Sep 30, 4:06 AM",
+          "published_timestamp": 1790755570,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-stock-fell-8-where-080610117.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PEP": {
+      "ticker": "PEP",
+      "score": 0.07149591315336938,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "PepsiCo Walks a Tightrope: Dividend Growth Meets Operating Cash Flow Squeeze",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Sep 30, 7:15 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-walks-tightrope-dividend-growth-111542263.html",
+      "items": [
+        {
+          "ticker": "PEP",
+          "title": "How PepsiCo uses chefs to think differently about innovation",
+          "publisher": "Food Dive",
+          "published_at": "Sep 30, 11:00 AM",
+          "published_timestamp": 1790780400,
+          "link": "https://finance.yahoo.com/small-business/articles/pepsico-uses-chefs-think-differently-150000880.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "PEP",
+          "title": "Total Return Investors Better Open Their Eyes About Pepsi",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 10:15 AM",
+          "published_timestamp": 1790777731,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/total-return-investors-better-open-141531938.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "Can Innovation Help PepsiCo Outpace Industry Headwinds?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 10:01 AM",
+          "published_timestamp": 1790776860,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/innovation-help-pepsico-outpace-industry-140100943.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "PEP",
+          "title": "PepsiCo Walks a Tightrope: Dividend Growth Meets Operating Cash Flow Squeeze",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 7:15 AM",
+          "published_timestamp": 1790766942,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-walks-tightrope-dividend-growth-111542263.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "PEP",
+          "title": "Barclays Adjusts Price Target on PepsiCo to $133 From $142, Maintains Equalweight Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 7:06 AM",
+          "published_timestamp": 1790766412,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-pepsico-110652600.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "score": 0.03570004849181549,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+      "publisher": "Zacks",
+      "published_at": "Sep 30, 1:10 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+      "items": [
+        {
+          "ticker": "AAPL",
+          "title": "New Apple CEO Makes Surprising Move After Tim Cook Exit",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 2:04 PM",
+          "published_timestamp": 1790791483,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-ceo-makes-surprising-move-180443018.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple, Alphabet, Nvidia Lead Powerful Tech Rally as Rate Fears Fade",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:58 PM",
+          "published_timestamp": 1790791083,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-nvidia-lead-powerful-175803008.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Why Apple Stock Is Climbing Today",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:54 PM",
+          "published_timestamp": 1790790853,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-apple-stock-climbing-today-175413500.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 1:10 PM",
+          "published_timestamp": 1790788200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Cramer Says Buy Apple Before New Phone Comes Out. Because Apple\u2019s Duo Model Is, \u201cKind Of Astounding\u201d",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 12:46 PM",
+          "published_timestamp": 1790786819,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cramer-says-buy-apple-phone-164659819.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.05392971762779988,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Sep 30, 2:15 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 2:15 PM",
+          "published_timestamp": 1790792143,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Stocks Edge Lower as Bank Joins Open Agent-Safety Project",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 12:58 PM",
+          "published_timestamp": 1790787508,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stocks-edge-lower-bank-165828219.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "Ford, JPMorgan Chase and Michigan establish $3B manufacturing initiative",
+          "publisher": "Manufacturing Dive",
+          "published_at": "Sep 30, 12:26 PM",
+          "published_timestamp": 1790785560,
+          "link": "https://finance.yahoo.com/economy/policy/articles/ford-jpmorgan-chase-michigan-establish-162600885.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Chase names next HR chief",
+          "publisher": "Banking Dive",
+          "published_at": "Sep 30, 11:15 AM",
+          "published_timestamp": 1790781345,
+          "link": "https://finance.yahoo.com/small-business/articles/jpmorgan-chase-names-next-hr-151545277.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 10:44 AM",
+          "published_timestamp": 1790779440,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-trades-below-50-day-144400351.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.1104335169176076,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+      "publisher": "Zacks",
+      "published_at": "Sep 30, 1:10 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+      "items": [
+        {
+          "ticker": "GOOGL",
+          "title": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 1:10 PM",
+          "published_timestamp": 1790788200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Disney CEO Makes Another Major Move to Cut Jobs",
+      "publisher": "GuruFocus.com",
+      "published_at": "Sep 30, 10:27 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/disney-ceo-makes-another-major-142704563.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Disney CEO Makes Another Major Move to Cut Jobs",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 10:27 AM",
+          "published_timestamp": 1790778424,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-ceo-makes-another-major-142704563.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Is It Worth Investing in Disney (DIS) Based on Wall Street's Bullish Views?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 8:30 AM",
+          "published_timestamp": 1790771402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-disney-dis-based-123002416.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney Stock Holds Steady After Laying Off 300 Tech and HR Employees",
+          "publisher": "TIKR",
+          "published_at": "Sep 30, 8:18 AM",
+          "published_timestamp": 1790770706,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-stock-holds-steady-laying-121826091.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "score": 0.06477686649269628,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Sep 30, 2:12 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-surges-5-traders-181202063.html",
+      "items": [
+        {
+          "ticker": "ADBE",
+          "title": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 2:12 PM",
+          "published_timestamp": 1790791922,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-surges-5-traders-181202063.html",
+          "score": 0.26616073850966504
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Why Is Everyone Ignoring Adobe Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "published_at": "Sep 30, 11:09 AM",
+          "published_timestamp": 1790780951,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-adobe-stocks-150911862.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Adobe Has a Problem. It Also Has a Massive Opportunity",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 8:30 AM",
+          "published_timestamp": 1790771437,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-problem-massive-opportunity-123037878.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "If You'd Put $1,000 Into Adobe Stock 20 Years Ago, Here's What You'd Have Today",
+          "publisher": "Kiplinger",
+          "published_at": "Sep 30, 8:24 AM",
+          "published_timestamp": 1790771049,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/youd-put-1-000-adobe-122409952.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Adobe (ADBE) Ties Up New AI Fan Deal Reaching 200 Million Followers",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 30, 4:10 AM",
+          "published_timestamp": 1790755836,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-ties-ai-fan-081036391.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "What Is Merck Stock's Biggest Opportunity?",
+      "publisher": "Trefis",
+      "published_at": "Sep 30, 10:43 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/merck-stocks-biggest-opportunity-144333056.html",
+      "items": [
+        {
+          "ticker": "MRK",
+          "title": "What Is Merck Stock's Biggest Opportunity?",
+          "publisher": "Trefis",
+          "published_at": "Sep 30, 10:43 AM",
+          "published_timestamp": 1790779413,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/merck-stocks-biggest-opportunity-144333056.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JNJ": {
+      "ticker": "JNJ",
+      "score": 0.04744741702907507,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Drug Repurposing Market - Global Strategic Business Report: Forecasts Growth to $37.3Billion by 2030, Profiling AbbVie, AstraZeneca, Pfizer, Novartis & Johnson & Johnson",
+      "publisher": "GlobeNewswire",
+      "published_at": "Sep 30, 9:40 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/drug-repurposing-market-global-strategic-134000806.html",
+      "items": [
+        {
+          "ticker": "JNJ",
+          "title": "Microsoft vs. Johnson & Johnson: Which Dividend Will Pay You More in 10 Years?",
+          "publisher": "TIKR",
+          "published_at": "Sep 30, 11:30 AM",
+          "published_timestamp": 1790782200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-johnson-johnson-dividend-153000431.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JNJ",
+          "title": "Why Johnson & Johnson (JNJ) is a Great Dividend Stock Right Now",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 10:45 AM",
+          "published_timestamp": 1790779503,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-johnson-johnson-jnj-great-144503996.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JNJ",
+          "title": "Drug Repurposing Market - Global Strategic Business Report: Forecasts Growth to $37.3Billion by 2030, Profiling AbbVie, AstraZeneca, Pfizer, Novartis & Johnson & Johnson",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 9:40 AM",
+          "published_timestamp": 1790775600,
+          "link": "https://finance.yahoo.com/healthcare/articles/drug-repurposing-market-global-strategic-134000806.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "JNJ",
+          "title": "Johnson & Johnson (JNJ) Shares In Focus After New Adolescent gMG Data",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 29, 9:10 PM",
+          "published_timestamp": 1790730608,
+          "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-shares-focus-011008420.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TMO": {
+      "ticker": "TMO",
+      "score": -0.03531717944628361,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption",
+      "publisher": "GlobeNewswire",
+      "published_at": "Sep 30, 9:30 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/recombinant-proteins-market-global-strategic-133000065.html",
+      "items": [
+        {
+          "ticker": "TMO",
+          "title": "Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 9:30 AM",
+          "published_timestamp": 1790775000,
+          "link": "https://finance.yahoo.com/healthcare/articles/recombinant-proteins-market-global-strategic-133000065.html",
+          "score": -0.0906594777770402
+        },
+        {
+          "ticker": "TMO",
+          "title": "Fetal Bovine Serum Market Outlook 2026-2035 - Featuring Profiles of Leading Companies Thermo Fisher Scientific, Merck KGaA, and Cytiva",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 4:46 AM",
+          "published_timestamp": 1790757960,
+          "link": "https://finance.yahoo.com/healthcare/articles/fetal-bovine-serum-market-outlook-084600991.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TMO",
+          "title": "Thermo Fisher Scientific (TMO) Stock Seems Reasonable Following Its 47% Run",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 29, 2:11 AM",
+          "published_timestamp": 1790662293,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-scientific-tmo-stock-061133851.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.009851455245381837,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Robinhood Stock Falls Despite Bullish Wall Street Reaction To HOOD Summit \u2013 Morgan Stanley Eyes \u2018Two Key Products\u2019",
+      "publisher": "Stocktwits",
+      "published_at": "Sep 30, 11:07 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-stock-falls-despite-bullish-150724603.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Stocks Fall as AI IPO Prices Below Range",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:50 PM",
+          "published_timestamp": 1790790637,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-stocks-fall-ai-175037781.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Robinhood Stock Falls Despite Bullish Wall Street Reaction To HOOD Summit \u2013 Morgan Stanley Eyes \u2018Two Key Products\u2019",
+          "publisher": "Stocktwits",
+          "published_at": "Sep 30, 11:07 AM",
+          "published_timestamp": 1790780844,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-stock-falls-despite-bullish-150724603.html",
+          "score": -0.11314973979462131
+        },
+        {
+          "ticker": "MS",
+          "title": "Transmit Security Receives Morgan Stanley 2026 Innovation Award",
+          "publisher": "Business Wire",
+          "published_at": "Sep 30, 9:00 AM",
+          "published_timestamp": 1790773200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/transmit-security-receives-morgan-stanley-130000021.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley (MS) Loses 8.7% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 8:35 AM",
+          "published_timestamp": 1790771702,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-ms-loses-8-123502151.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Quantexa Receives Morgan Stanley 2026 Innovation Award",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 6:00 AM",
+          "published_timestamp": 1790762400,
+          "link": "https://finance.yahoo.com/technology/ai/articles/quantexa-receives-morgan-stanley-2026-100000378.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "MS",
+          "title": "Citigroup Adjusts Price Target on Morgan Stanley to $210 From $235, Keeps Neutral Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 5:16 AM",
+          "published_timestamp": 1790759807,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-morgan-091647565.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Market Chatter: Morgan Stanley Clients Holding on Despite Accidental Deal Pipeline Leak",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 4:27 AM",
+          "published_timestamp": 1790756872,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-morgan-stanley-clients-082752215.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": 0.06656693516677711,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Sep 30, 2:15 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 2:15 PM",
+          "published_timestamp": 1790792143,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America to Convene 500+ Innovators and Capital Providers at 15th Annual Technology Innovation Summit",
+          "publisher": "PR Newswire",
+          "published_at": "Sep 30, 10:00 AM",
+          "published_timestamp": 1790776800,
+          "link": "https://finance.yahoo.com/technology/articles/bank-america-convene-500-innovators-140000773.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "BAC",
+          "title": "/C O R R E C T I O N -- Bank of America Corporation/",
+          "publisher": "PR Newswire",
+          "published_at": "Sep 30, 9:17 AM",
+          "published_timestamp": 1790774220,
+          "link": "https://finance.yahoo.com/small-business/articles/bank-america-study-finds-gen-120000276.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America to Report Third Quarter 2026 Financial Results and Host Investor Conference Call on October 14",
+          "publisher": "PR Newswire",
+          "published_at": "Sep 30, 9:00 AM",
+          "published_timestamp": 1790773200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-report-third-quarter-130000815.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "TMO": {
+      "ticker": "TMO",
+      "score": -0.03531717944628361,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption",
+      "publisher": "GlobeNewswire",
+      "published_at": "Sep 30, 9:30 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/recombinant-proteins-market-global-strategic-133000065.html",
+      "items": [
+        {
+          "ticker": "TMO",
+          "title": "Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 9:30 AM",
+          "published_timestamp": 1790775000,
+          "link": "https://finance.yahoo.com/healthcare/articles/recombinant-proteins-market-global-strategic-133000065.html",
+          "score": -0.0906594777770402
+        },
+        {
+          "ticker": "TMO",
+          "title": "Fetal Bovine Serum Market Outlook 2026-2035 - Featuring Profiles of Leading Companies Thermo Fisher Scientific, Merck KGaA, and Cytiva",
+          "publisher": "GlobeNewswire",
+          "published_at": "Sep 30, 4:46 AM",
+          "published_timestamp": 1790757960,
+          "link": "https://finance.yahoo.com/healthcare/articles/fetal-bovine-serum-market-outlook-084600991.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TMO",
+          "title": "Thermo Fisher Scientific (TMO) Stock Seems Reasonable Following Its 47% Run",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 29, 2:11 AM",
+          "published_timestamp": 1790662293,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-scientific-tmo-stock-061133851.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.07744883931647066,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well.",
+      "publisher": "Investor's Business Daily",
+      "published_at": "Sep 30, 1:53 PM",
+      "link": "https://finance.yahoo.com/m/d577f3fd-98fa-3537-a959-f420143a9942/nvidia%2C-amd-collaborator.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "HPE Shares Jump on $1.2 Billion AMD AI Deal",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 2:08 PM",
+          "published_timestamp": 1790791688,
+          "link": "https://finance.yahoo.com/technology/ai/articles/hpe-shares-jump-1-2-180808900.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD Stock Slides as New AI Agent Launch Fails to Lift Shares",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:56 PM",
+          "published_timestamp": 1790791017,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-slides-ai-agent-175657103.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "AMD",
+          "title": "Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Sep 30, 1:53 PM",
+          "published_timestamp": 1790790789,
+          "link": "https://finance.yahoo.com/m/d577f3fd-98fa-3537-a959-f420143a9942/nvidia%2C-amd-collaborator.html",
+          "score": 0.20173975176639067
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD Just Got a $1,000 Price Target as AI Demand Accelerates",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:52 PM",
+          "published_timestamp": 1790790730,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-just-got-1-000-175210428.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 12:29 PM",
+          "published_timestamp": 1790785753,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-rises-3-chip-contender-162913840.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "AMD",
+          "title": "Jim Cramer delivers unmistakable verdict on AMD\u2019s future after 281% run",
+          "publisher": "TheStreet",
+          "published_at": "Sep 30, 12:17 PM",
+          "published_timestamp": 1790785020,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-delivers-unmistakable-verdict-161700285.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.1104335169176076,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+      "publisher": "Zacks",
+      "published_at": "Sep 30, 1:10 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+      "items": [
+        {
+          "ticker": "GOOGL",
+          "title": "Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 1:10 PM",
+          "published_timestamp": 1790788200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-rides-google-services-growth-171000713.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "AMD": {
+      "price_score": 1.3872741706462854,
+      "news_score": 0.07744883931647066,
+      "combined_score": 1.4403583572785201
+    },
+    "ORCL": {
+      "price_score": -0.9467743996481559,
+      "news_score": -0.100495033416502,
+      "combined_score": -1.0156546715357133
+    },
+    "WMT": {
+      "price_score": -0.5979237280392167,
+      "news_score": 0.0,
+      "combined_score": -0.5979237280392167
+    },
+    "TGT": {
+      "price_score": 0.2591044178713058,
+      "news_score": 0.026037545972613613,
+      "combined_score": 0.27695080475139516
+    },
+    "HD": {
+      "price_score": -0.8866495544894464,
+      "news_score": 0.031031551631038257,
+      "combined_score": -0.8653802276304764
+    },
+    "PEP": {
+      "price_score": -0.35160435177363203,
+      "news_score": 0.07149591315336938,
+      "combined_score": -0.30260035854699147
+    },
+    "CRM": {
+      "price_score": -0.7760376384113886,
+      "news_score": 0.0,
+      "combined_score": -0.7760376384113886
+    },
+    "JPM": {
+      "price_score": -0.15421682742751922,
+      "news_score": 0.05392971762779988,
+      "combined_score": -0.11725287521282124
+    },
+    "AAPL": {
+      "price_score": 0.5762705727036159,
+      "news_score": 0.03570004849181549,
+      "combined_score": 0.6007397326502949
+    },
+    "MRK": {
+      "price_score": 0.29728819363338693,
+      "news_score": 0.0,
+      "combined_score": 0.29728819363338693
+    },
+    "GOOGL": {
+      "price_score": 1.1923817395280427,
+      "news_score": 0.1104335169176076,
+      "combined_score": 1.2680739445274483
+    },
+    "DIS": {
+      "price_score": 0.7879212678348657,
+      "news_score": 0.0,
+      "combined_score": 0.7879212678348657
+    },
+    "JNJ": {
+      "price_score": 0.31621050678612694,
+      "news_score": 0.04744741702907507,
+      "combined_score": 0.34873142721589573
+    },
+    "TMO": {
+      "price_score": 1.6620354837972722,
+      "news_score": -0.03531717944628361,
+      "combined_score": 1.6378287460127339
+    },
+    "ADBE": {
+      "price_score": -0.6616014473943348,
+      "news_score": 0.06477686649269628,
+      "combined_score": -0.6172027540027043
+    },
+    "COP": {
+      "price_score": -0.3159331155736101,
+      "news_score": 0.0,
+      "combined_score": -0.3159331155736101
+    },
+    "BAC": {
+      "price_score": -0.7441782902663912,
+      "news_score": 0.06656693516677711,
+      "combined_score": -0.698552666420824
+    },
+    "MS": {
+      "price_score": -1.0435669997772063,
+      "news_score": 0.009851455245381837,
+      "combined_score": -1.036814716677029
+    }
+  },
   "data_version": 5
 }
