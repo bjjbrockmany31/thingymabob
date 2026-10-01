@@ -66,26 +66,1076 @@
     "steady": -0.14517191182927397,
     "breakout": -0.18546905296070504
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "TXN": 0.6918683631145052,
+    "MSFT": 0.30813163688549483
+  },
+  "entry_prices": {
+    "MSFT": 516.32,
+    "TXN": 283.22
+  },
+  "round_market_date": "2026-10-01",
+  "round_started_at": "2026-10-01T18:48:06.658668+00:00",
   "rounds_completed": 24,
   "last_round_tickers": [
     "TMO",
     "AMD",
     "GOOGL"
   ],
-  "last_reroll_market_date": "2026-09-30",
+  "last_reroll_market_date": "2026-10-01",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.14353397386133138,
-  "news_last_checked_at": "2026-09-30T18:23:23.157711+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-01T18:48:06.659328+00:00",
+  "news_signals": {
+    "BA": {
+      "ticker": "BA",
+      "score": 0.0641861817585986,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Boeing\u2019s Engineers Hold Leverage in Contract Showdown",
+      "publisher": "The Wall Street Journal",
+      "published_at": "Oct 1, 12:00 PM",
+      "link": "https://finance.yahoo.com/m/9265ebb7-eae3-375f-a998-46e5c78dfc6a/boeing%E2%80%99s-engineers-hold.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "Market Chatter: FAA May Convene Panel Friday for Boeing's Software Glitch",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 1, 2:28 PM",
+          "published_timestamp": 1790879304,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-faa-may-convene-182824809.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Offered 17,000 Workers a 32% Raise. A Retired Engineer\u2019s Union Strike Check Can Count as $0 Toward Social Security\u2019s Earnings Test",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 12:00 PM",
+          "published_timestamp": 1790870428,
+          "link": "https://finance.yahoo.com/economy/policy/articles/boeing-offered-17-000-workers-160028181.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing\u2019s Engineers Hold Leverage in Contract Showdown",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 1, 12:00 PM",
+          "published_timestamp": 1790870400,
+          "link": "https://finance.yahoo.com/m/9265ebb7-eae3-375f-a998-46e5c78dfc6a/boeing%E2%80%99s-engineers-hold.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Secures 4-Helicopter Grey Wolf Order As MH-139A Enters Full-Rate Production",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 1, 11:54 AM",
+          "published_timestamp": 1790870083,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-secures-4-helicopter-grey-155443466.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Lands $20B Navy Deal for Next-Gen Fighter Jet: ETFs to Watch",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 10:44 AM",
+          "published_timestamp": 1790865840,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-lands-20b-navy-deal-144400436.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Just Beat Northrop for a $20 Billion Navy Fighter Contract",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 10:14 AM",
+          "published_timestamp": 1790864049,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-just-beat-northrop-20-141409109.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Is NVIDIA Stock Increasing Your Market Risk?",
+      "publisher": "Trefis",
+      "published_at": "Oct 1, 2:05 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-increasing-market-risk-180559650.html",
+      "items": [
+        {
+          "ticker": "NVDA",
+          "title": "Is NVIDIA Stock Increasing Your Market Risk?",
+          "publisher": "Trefis",
+          "published_at": "Oct 1, 2:05 PM",
+          "published_timestamp": 1790877959,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-increasing-market-risk-180559650.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NVDA",
+          "title": "Nvidia Stocks Rise as $500 Billion Plan Tests GPU Collateral",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 1, 1:49 PM",
+          "published_timestamp": 1790876948,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-rise-500-billion-174908141.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "score": 0.09243458495704786,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Sep 30, 2:12 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-surges-5-traders-181202063.html",
+      "items": [
+        {
+          "ticker": "ADBE",
+          "title": "Is Adobe Stock A Real Bargain?",
+          "publisher": "Trefis",
+          "published_at": "Oct 1, 1:32 PM",
+          "published_timestamp": 1790875964,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-stock-real-bargain-173244863.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "ServiceNow Climbs 4% as Software Names Lead a Rebound; Intuit Jumps 4%, Adobe Rises 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 9:33 AM",
+          "published_timestamp": 1790861587,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-climbs-4-software-names-133307646.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Sep 30, 2:12 PM",
+          "published_timestamp": 1790791922,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-surges-5-traders-181202063.html",
+          "score": 0.26616073850966504
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Why Is Everyone Ignoring Adobe Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "published_at": "Sep 30, 11:09 AM",
+          "published_timestamp": 1790780951,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-adobe-stocks-150911862.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.14082803161204863,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership",
+      "publisher": "PR Newswire",
+      "published_at": "Oct 1, 10:00 AM",
+      "link": "https://finance.yahoo.com/technology/articles/zephyr-project-expands-semiconductor-industry-140000183.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments to webcast Q3 2026 earnings conference call",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 1, 10:55 AM",
+          "published_timestamp": 1790866500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-webcast-q3-2026-145500680.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 1, 10:00 AM",
+          "published_timestamp": 1790863200,
+          "link": "https://finance.yahoo.com/technology/articles/zephyr-project-expands-semiconductor-industry-140000183.html",
+          "score": 0.3078619874177537
+        },
+        {
+          "ticker": "TXN",
+          "title": "MCHP Expands Ethernet Portfolio: Can it Challenge TXN & ADI?",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 9:20 AM",
+          "published_timestamp": 1790860800,
+          "link": "https://finance.yahoo.com/technology/articles/mchp-expands-ethernet-portfolio-challenge-132000926.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "TXN",
+          "title": "What to Expect From Texas Instruments\u2019 Q3 2026 Earnings Report",
+          "publisher": "Barchart",
+          "published_at": "Sep 30, 9:47 AM",
+          "published_timestamp": 1790776035,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-texas-instruments-q3-2026-134715094.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.10340581130810776,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Caterpillar's $1B Compact Equipment Investment: A Growth Driver?",
+      "publisher": "Zacks",
+      "published_at": "Oct 1, 9:24 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillars-1b-compact-equipment-investment-132400726.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar announces $1 billion Sanford manufacturing investment",
+          "publisher": "The Sanford Herald, N.C.",
+          "published_at": "Oct 1, 2:23 PM",
+          "published_timestamp": 1790878980,
+          "link": "https://finance.yahoo.com/economy/policy/articles/caterpillar-announces-1-billion-sanford-182300864.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar's $1B Compact Equipment Investment: A Growth Driver?",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 9:24 AM",
+          "published_timestamp": 1790861040,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillars-1b-compact-equipment-investment-132400726.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar plans $1 billion expansion in North Carolina",
+          "publisher": "Journal Star",
+          "published_at": "Oct 1, 4:05 AM",
+          "published_timestamp": 1790841943,
+          "link": "https://finance.yahoo.com/technology/articles/caterpillar-plans-1-billion-expansion-080543037.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CAT",
+          "title": "Bank of America backs Caterpillar as AI labs scramble for power",
+          "publisher": "TheStreet",
+          "published_at": "Sep 30, 3:47 PM",
+          "published_timestamp": 1790797620,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-backs-caterpillar-ai-194700088.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Is Caterpillar Stock Increasing Your Market Risk?",
+          "publisher": "Trefis",
+          "published_at": "Sep 30, 2:14 PM",
+          "published_timestamp": 1790792078,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-increasing-market-risk-181438369.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Stocks Fall 1.2% as $1 Billion Factory Expands Compact Equipment",
+          "publisher": "GuruFocus.com",
+          "published_at": "Sep 30, 1:49 PM",
+          "published_timestamp": 1790790588,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stocks-fall-1-2-174948212.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar plans $1 billion North Carolina manufacturing plant",
+          "publisher": "Quartz",
+          "published_at": "Sep 30, 1:29 PM",
+          "published_timestamp": 1790789380,
+          "link": "https://finance.yahoo.com/economy/policy/articles/caterpillar-plans-1-billion-north-172940870.html",
+          "score": 0.0906594777770402
+        }
+      ]
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "ConocoPhillips Weighs Sale of Norway Business and Teesside Asset",
+      "publisher": "Oilprice.com",
+      "published_at": "Oct 1, 12:38 PM",
+      "link": "https://finance.yahoo.com/energy/articles/conocophillips-weighs-sale-norway-business-163800953.html",
+      "items": [
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips Weighs Sale of Norway Business and Teesside Asset",
+          "publisher": "Oilprice.com",
+          "published_at": "Oct 1, 12:38 PM",
+          "published_timestamp": 1790872680,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-weighs-sale-norway-business-163800953.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips Receives Offer for Norway Assets, UK Oil Terminal",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 1, 6:30 AM",
+          "published_timestamp": 1790850653,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-receives-offer-norway-assets-103053596.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Uber Wants 50,000 Rivians. Here's Why Robotaxis, Not EVs, Might Be Rivian's Biggest Opportunity.",
+      "publisher": "Motley Fool",
+      "published_at": "Sep 30, 9:25 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-wants-50-000-rivians-012500417.html",
+      "items": [
+        {
+          "ticker": "UBER",
+          "title": "Uber Wants 50,000 Rivians. Here's Why Robotaxis, Not EVs, Might Be Rivian's Biggest Opportunity.",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 9:25 PM",
+          "published_timestamp": 1790817900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-wants-50-000-rivians-012500417.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Prediction: If You Invest $10,000 in Uber Today, It Will Be Worth This Much by 2030",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 4:25 PM",
+          "published_timestamp": 1790799900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-invest-10-000-uber-202500598.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "GE Aerospace (GE) is Attracting Investor Attention: Here is What You Should Know",
+      "publisher": "Zacks",
+      "published_at": "Oct 1, 8:00 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-attracting-investor-120006829.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace (GE) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 8:00 AM",
+          "published_timestamp": 1790856006,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-attracting-investor-120006829.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "What to Expect From GE Aerospace's Q3 2026 Earnings Report",
+          "publisher": "Barchart",
+          "published_at": "Sep 30, 2:30 PM",
+          "published_timestamp": 1790793051,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-ge-aerospaces-q3-2026-183051789.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace vs. Lockheed Martin: Which Industrials Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 1:18 PM",
+          "published_timestamp": 1790788681,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-vs-lockheed-martin-171801989.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Boeing vs. GE Aerospace: Which Aerospace Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 12:18 PM",
+          "published_timestamp": 1790785081,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-vs-ge-aerospace-aerospace-161801477.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "AST SpaceMobile vs. GE Aerospace: Which Industrials Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 11:40 AM",
+          "published_timestamp": 1790782801,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-vs-ge-aerospace-154001403.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Firefly Aerospace vs. GE Aerospace: Which Industrials Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 11:10 AM",
+          "published_timestamp": 1790781033,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-vs-ge-aerospace-151033081.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "score": 0.019520992342346877,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Tesla Stock Rises. European Registrations Jump in September",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 1, 12:49 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-rises-european-registrations-164959987.html",
+      "items": [
+        {
+          "ticker": "TSLA",
+          "title": "Not Cars. Not Energy Storage. Tesla's Robotics and Robotaxi Ambitions Are the Real Reason the Stock Is Priced Like a Tech Company.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 1, 1:42 PM",
+          "published_timestamp": 1790876520,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/not-cars-not-energy-storage-174200179.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "4 Experts Weigh In on How Tesla's Next Chapter Could Make or Break the Stock",
+          "publisher": "MoneyLion",
+          "published_at": "Oct 1, 1:00 PM",
+          "published_timestamp": 1790874024,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/4-experts-weigh-teslas-next-170024268.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Stock Rises. European Registrations Jump in September",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 1, 12:49 PM",
+          "published_timestamp": 1790873399,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-rises-european-registrations-164959987.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Bears Retreat as Musk's AI Strategy Gains Traction",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 1, 12:19 PM",
+          "published_timestamp": 1790871597,
+          "link": "https://finance.yahoo.com/technology/ai/articles/tesla-bears-retreat-musks-ai-161957304.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "BYD Proves Lead Over Tesla Won\u2019t Stop",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 11:52 AM",
+          "published_timestamp": 1790869922,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/byd-proves-lead-over-tesla-155202673.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "C": {
+      "ticker": "C",
+      "score": -0.10303301582642979,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Moderna Climbs 3% Despite Citigroup\u2019s Downgrade to Sell; BioNTech Inches Higher, Pfizer Treads Water",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 1, 11:00 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/moderna-climbs-3-despite-citigroup-150011294.html",
+      "items": [
+        {
+          "ticker": "C",
+          "title": "Bank Stocks Slide as Money-Center Names Lead Financials Lower: Citigroup Falls 4%, Bank of America Drops 3%, JPMorgan Chase Slips",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 11:51 AM",
+          "published_timestamp": 1790869867,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-stocks-slide-money-center-155107514.html",
+          "score": -0.11314973979462131
+        },
+        {
+          "ticker": "C",
+          "title": "Participation notification by Citigroup Inc.",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 1, 11:45 AM",
+          "published_timestamp": 1790869500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/participation-notification-citigroup-inc-154500394.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "C",
+          "title": "Moderna Climbs 3% Despite Citigroup\u2019s Downgrade to Sell; BioNTech Inches Higher, Pfizer Treads Water",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 11:00 AM",
+          "published_timestamp": 1790866811,
+          "link": "https://finance.yahoo.com/healthcare/articles/moderna-climbs-3-despite-citigroup-150011294.html",
+          "score": -0.17984081852510791
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "score": 0.05289522385310714,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 1, 1:51 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-slips-gemini-4-argon-175148352.html",
+      "items": [
+        {
+          "ticker": "MSFT",
+          "title": "MSFT\u2019s LinkedIn Chief Ryan Roslansky To Exit As AI Leadership Shake-Up Continues",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 1, 2:15 PM",
+          "published_timestamp": 1790878543,
+          "link": "https://finance.yahoo.com/technology/ai/articles/msft-linkedin-chief-ryan-roslansky-181543135.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 1:51 PM",
+          "published_timestamp": 1790877108,
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-slips-gemini-4-argon-175148352.html",
+          "score": 0.22343882281432276
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Alphabet vs. Amazon vs. Microsoft: Which \"Magnificent Seven\" Stock Is the Better Buy Right Now?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 1, 1:37 PM",
+          "published_timestamp": 1790876220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-vs-amazon-vs-microsoft-173700318.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "MSFT Stock Lands On Wells Fargo\u2019s Q4 \u2018Tactical Ideas List\u2019 \u2013 Analyst Sees A 41% Upside Potential",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 1, 1:13 PM",
+          "published_timestamp": 1790874786,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-lands-wells-fargo-171306741.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Microsoft Stock Gets Flashy New Price Target From Wells Fargo",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 1, 1:04 PM",
+          "published_timestamp": 1790874270,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-gets-flashy-price-170430954.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "score": 0.02065554898747021,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "ServiceNow Climbs 4% as Software Names Lead a Rebound; Intuit Jumps 4%, Adobe Rises 3%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 1, 9:33 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-climbs-4-software-names-133307646.html",
+      "items": [
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Climbs 4% as Software Names Lead a Rebound; Intuit Jumps 4%, Adobe Rises 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 9:33 AM",
+          "published_timestamp": 1790861587,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-climbs-4-software-names-133307646.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "NOW",
+          "title": "Introducing Flow by ServiceNow: a new AI service desk that deploys instantly",
+          "publisher": "Business Wire",
+          "published_at": "Oct 1, 9:00 AM",
+          "published_timestamp": 1790859600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/introducing-flow-servicenow-ai-desk-130000043.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Deutsche Bank picks Meta, ServiceNow for next AI trade leg",
+          "publisher": "Quartz",
+          "published_at": "Oct 1, 8:59 AM",
+          "published_timestamp": 1790859556,
+          "link": "https://finance.yahoo.com/technology/ai/articles/deutsche-bank-picks-meta-servicenow-125916376.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Shares Rise 2.5% as Company Co-Hosts Enterprise AI Summit",
+          "publisher": "InvestorsHub",
+          "published_at": "Oct 1, 8:32 AM",
+          "published_timestamp": 1790857920,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-shares-rise-2-5-123200428.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow vs. Palantir Technologies: Which Tech Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Sep 30, 7:55 PM",
+          "published_timestamp": 1790812505,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-vs-palantir-technologies-tech-235505267.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "score": -0.05822962565409775,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Foghorn Stock Craters as Lilly Scraps Cancer Deal, Forcing 40% Layoffs",
+      "publisher": "Barrons.com",
+      "published_at": "Oct 1, 1:38 PM",
+      "link": "https://finance.yahoo.com/m/7a0e4c68-c6c7-333a-bd5b-662daf9d7d28/foghorn-stock-craters-as.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Foghorn Stock Craters as Lilly Scraps Cancer Deal, Forcing 40% Layoffs",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 1, 1:38 PM",
+          "published_timestamp": 1790876280,
+          "link": "https://finance.yahoo.com/m/7a0e4c68-c6c7-333a-bd5b-662daf9d7d28/foghorn-stock-craters-as.html",
+          "score": -0.20173975176639067
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly's Obesity Data Support Broader Portfolio Beyond Tirzepatide, UBS Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 1, 12:29 PM",
+          "published_timestamp": 1790872162,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-apos-obesity-data-162922214.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Foghorn Therapeutics Pivots Pipeline after Ending Eli Lilly Deal",
+          "publisher": "Benzinga",
+          "published_at": "Oct 1, 12:17 PM",
+          "published_timestamp": 1790871462,
+          "link": "https://finance.yahoo.com/healthcare/articles/foghorn-therapeutics-pivots-pipeline-ending-161742614.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "What Is The Options Market Telling Us About Eli Lilly Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 1, 11:41 AM",
+          "published_timestamp": 1790869272,
+          "link": "https://finance.yahoo.com/markets/options/articles/options-market-telling-us-eli-154112912.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Target adds a viral sick-day essential parents rely on",
+      "publisher": "TheStreet",
+      "published_at": "Oct 1, 12:03 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/target-adds-product-help-parents-040300680.html",
+      "items": [
+        {
+          "ticker": "TGT",
+          "title": "Target adds a viral sick-day essential parents rely on",
+          "publisher": "TheStreet",
+          "published_at": "Oct 1, 12:03 AM",
+          "published_timestamp": 1790827380,
+          "link": "https://finance.yahoo.com/healthcare/articles/target-adds-product-help-parents-040300680.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "SBUX": {
+      "ticker": "SBUX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Starbucks Faces Shareholder Pressure to Restore Labor Relations Oversight Committee",
+      "publisher": "TIKR",
+      "published_at": "Oct 1, 10:13 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-faces-shareholder-pressure-restore-141332506.html",
+      "items": [
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Faces Shareholder Pressure to Restore Labor Relations Oversight Committee",
+          "publisher": "TIKR",
+          "published_at": "Oct 1, 10:13 AM",
+          "published_timestamp": 1790864012,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-faces-shareholder-pressure-restore-141332506.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks' Southeast Asia Stores Shift Ownership",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 7:34 AM",
+          "published_timestamp": 1790768062,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-apos-southeast-asia-stores-113422837.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks (SBUX) Plans Store Closures, Is The Pullback A Valuation Opportunity?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Sep 30, 7:13 AM",
+          "published_timestamp": 1790766813,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-plans-store-closures-111333133.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Rothschild & Co Redburn Adjusts Price Target on Starbucks to $82 From $81, Maintains Sell Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 5:13 AM",
+          "published_timestamp": 1790759626,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rothschild-co-redburn-adjusts-price-091346449.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COST": {
+      "ticker": "COST",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Costco members should buy these items now before prices rise",
+      "publisher": "TheStreet",
+      "published_at": "Oct 1, 11:17 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-members-buy-items-now-151700211.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Costco members should buy these items now before prices rise",
+          "publisher": "TheStreet",
+          "published_at": "Oct 1, 11:17 AM",
+          "published_timestamp": 1790867820,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-members-buy-items-now-151700211.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Even If Costco Doesn't Pay a $10 or $15 Special Dividend in 2027, I'd Still Buy the Stock",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 1, 9:43 AM",
+          "published_timestamp": 1790862180,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/even-costco-doesnt-pay-10-134300809.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco's Ancillary Businesses Expand Share-of-Wallet Opportunity",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 9:29 AM",
+          "published_timestamp": 1790861340,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costcos-ancillary-businesses-expand-share-132900919.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Wholesale Insider Sold Shares Worth $733,328, According to a Recent SEC Filing",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 5:56 PM",
+          "published_timestamp": 1790805367,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-insider-sold-shares-215607224.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Wholesale Insider Sold Shares Worth $2,015,046, According to a Recent SEC Filing",
+          "publisher": "MT Newswires",
+          "published_at": "Sep 30, 5:52 PM",
+          "published_timestamp": 1790805149,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-insider-sold-shares-215229707.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Procter & Gamble Company (The) (PG) Is a Trending Stock: Facts to Know Before Betting on It",
+      "publisher": "Zacks",
+      "published_at": "Sep 30, 8:00 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-company-pg-trending-120004651.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Company (The) (PG) Is a Trending Stock: Facts to Know Before Betting on It",
+          "publisher": "Zacks",
+          "published_at": "Sep 30, 8:00 AM",
+          "published_timestamp": 1790769604,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-company-pg-trending-120004651.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": 0.04426142119283992,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Disney needs a 'growth vehicle': Ousted CEO Bob Chapek's advice for successor Josh D'Amaro",
+      "publisher": "Yahoo Finance",
+      "published_at": "Oct 1, 10:17 AM",
+      "link": "https://finance.yahoo.com/markets/article/disney-needs-a-growth-vehicle-ousted-ceo-bob-chapeks-advice-for-successor-josh-damaro-141719635.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Market Chatter: Disney Creative Chief Interested in Purchasing 'Bluey'",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 1, 2:25 PM",
+          "published_timestamp": 1790879129,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-disney-creative-chief-182529853.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Former Disney CEO Bob Chapek on talking to Bob Iger: 'I wouldn't forecast that'",
+          "publisher": "Yahoo Finance",
+          "published_at": "Oct 1, 12:00 PM",
+          "published_timestamp": 1790870400,
+          "link": "https://finance.yahoo.com/markets/article/former-disney-ceo-bob-chapek-on-talking-to-bob-iger-i-wouldnt-forecast-that-160000315.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "3 Dates for Disney Investors to Circle in October",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 1, 10:21 AM",
+          "published_timestamp": 1790864460,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-dates-disney-investors-circle-142100008.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney needs a 'growth vehicle': Ousted CEO Bob Chapek's advice for successor Josh D'Amaro",
+          "publisher": "Yahoo Finance",
+          "published_at": "Oct 1, 10:17 AM",
+          "published_timestamp": 1790864239,
+          "link": "https://finance.yahoo.com/markets/article/disney-needs-a-growth-vehicle-ousted-ceo-bob-chapeks-advice-for-successor-josh-damaro-141719635.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.14082803161204863,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership",
+      "publisher": "PR Newswire",
+      "published_at": "Oct 1, 10:00 AM",
+      "link": "https://finance.yahoo.com/technology/articles/zephyr-project-expands-semiconductor-industry-140000183.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments to webcast Q3 2026 earnings conference call",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 1, 10:55 AM",
+          "published_timestamp": 1790866500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-webcast-q3-2026-145500680.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 1, 10:00 AM",
+          "published_timestamp": 1790863200,
+          "link": "https://finance.yahoo.com/technology/articles/zephyr-project-expands-semiconductor-industry-140000183.html",
+          "score": 0.3078619874177537
+        },
+        {
+          "ticker": "TXN",
+          "title": "MCHP Expands Ethernet Portfolio: Can it Challenge TXN & ADI?",
+          "publisher": "Zacks",
+          "published_at": "Oct 1, 9:20 AM",
+          "published_timestamp": 1790860800,
+          "link": "https://finance.yahoo.com/technology/articles/mchp-expands-ethernet-portfolio-challenge-132000926.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "TXN",
+          "title": "What to Expect From Texas Instruments\u2019 Q3 2026 Earnings Report",
+          "publisher": "Barchart",
+          "published_at": "Sep 30, 9:47 AM",
+          "published_timestamp": 1790776035,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-texas-instruments-q3-2026-134715094.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "score": 0.05289522385310714,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 1, 1:51 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-slips-gemini-4-argon-175148352.html",
+      "items": [
+        {
+          "ticker": "MSFT",
+          "title": "MSFT\u2019s LinkedIn Chief Ryan Roslansky To Exit As AI Leadership Shake-Up Continues",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 1, 2:15 PM",
+          "published_timestamp": 1790878543,
+          "link": "https://finance.yahoo.com/technology/ai/articles/msft-linkedin-chief-ryan-roslansky-181543135.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 1, 1:51 PM",
+          "published_timestamp": 1790877108,
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-slips-gemini-4-argon-175148352.html",
+          "score": 0.22343882281432276
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Alphabet vs. Amazon vs. Microsoft: Which \"Magnificent Seven\" Stock Is the Better Buy Right Now?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 1, 1:37 PM",
+          "published_timestamp": 1790876220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-vs-amazon-vs-microsoft-173700318.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "MSFT Stock Lands On Wells Fargo\u2019s Q4 \u2018Tactical Ideas List\u2019 \u2013 Analyst Sees A 41% Upside Potential",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 1, 1:13 PM",
+          "published_timestamp": 1790874786,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-lands-wells-fargo-171306741.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Microsoft Stock Gets Flashy New Price Target From Wells Fargo",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 1, 1:04 PM",
+          "published_timestamp": 1790874270,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-gets-flashy-price-170430954.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "UBER": {
+      "price_score": -0.8361892007810923,
+      "news_score": 0.0,
+      "combined_score": -0.8361892007810923
+    },
+    "BA": {
+      "price_score": -1.431300617509594,
+      "news_score": 0.0641861817585986,
+      "combined_score": -1.3873067851713037
+    },
+    "TXN": {
+      "price_score": 1.945062831674307,
+      "news_score": 0.14082803161204863,
+      "combined_score": 2.0415877322295874
+    },
+    "COP": {
+      "price_score": -0.5891821743391416,
+      "news_score": 0.0,
+      "combined_score": -0.5891821743391416
+    },
+    "ADBE": {
+      "price_score": -0.7718544044052618,
+      "news_score": 0.09243458495704786,
+      "combined_score": -0.7084988421729744
+    },
+    "NVDA": {
+      "price_score": 1.2085774917589092,
+      "news_score": 0.0,
+      "combined_score": 1.2085774917589092
+    },
+    "CAT": {
+      "price_score": 0.9687896825759071,
+      "news_score": 0.10340581130810776,
+      "combined_score": 1.0396650298991545
+    },
+    "TSLA": {
+      "price_score": -0.6621725497685949,
+      "news_score": 0.019520992342346877,
+      "combined_score": -0.6487926720339109
+    },
+    "C": {
+      "price_score": -0.7777630578742527,
+      "news_score": -0.10303301582642979,
+      "combined_score": -0.8483828875538568
+    },
+    "GE": {
+      "price_score": -0.49769308070678847,
+      "news_score": 0.0,
+      "combined_score": -0.49769308070678847
+    },
+    "NOW": {
+      "price_score": 0.23845245922142738,
+      "news_score": 0.02065554898747021,
+      "combined_score": 0.2526099730992235
+    },
+    "MSFT": {
+      "price_score": 1.3177944994369353,
+      "news_score": 0.05289522385310714,
+      "combined_score": 1.3540493995717011
+    },
+    "TGT": {
+      "price_score": 0.2254353594738635,
+      "news_score": 0.0,
+      "combined_score": 0.2254353594738635
+    },
+    "LLY": {
+      "price_score": -0.13275982208289402,
+      "news_score": -0.05822962565409775,
+      "combined_score": -0.17267097301850165
+    },
+    "SBUX": {
+      "price_score": -0.3756624143758157,
+      "news_score": 0.0,
+      "combined_score": -0.3756624143758157
+    },
+    "COST": {
+      "price_score": 0.655307038501989,
+      "news_score": 0.0,
+      "combined_score": 0.655307038501989
+    },
+    "PG": {
+      "price_score": 0.17714733085960885,
+      "news_score": 0.0,
+      "combined_score": 0.17714733085960885
+    },
+    "DIS": {
+      "price_score": -0.6619893716595123,
+      "news_score": 0.04426142119283992,
+      "combined_score": -0.6316521637175337
+    }
+  },
   "data_version": 5
 }

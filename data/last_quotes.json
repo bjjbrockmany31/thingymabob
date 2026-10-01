@@ -1,0 +1,13 @@
+{
+  "round_market_date": "2026-10-01",
+  "market_date": "2026-10-01",
+  "fetched_at": "2026-10-01T18:48:06.659339+00:00",
+  "prices": {
+    "MSFT": 516.32,
+    "TXN": 283.22
+  },
+  "market_timestamps": {
+    "MSFT": 1790880484,
+    "TXN": 1790880466
+  }
+}
