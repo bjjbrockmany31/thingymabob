@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T18:48:06.670400+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-01T22:55:53.713101+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,50 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-01",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.825633,
-  "display_points": -6.825633,
-  "completed_balance": 18.540869,
-  "display_balance": 18.540869,
-  "completed_rounds": 24,
-  "current_strategy": "trend",
+  "banked_points": -7.502289,
+  "display_points": -7.502289,
+  "completed_balance": 18.415411,
+  "display_balance": 18.415411,
+  "completed_rounds": 25,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": 0.06128,
+    "trend": -0.07155,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.18547
   },
-  "news_learning_score": -0.14353,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.540869,
-    "market_date": "2026-10-01",
-    "quote_time": "2026-10-01T18:48:06.659339+00:00",
-    "holdings": [
-      {
-        "ticker": "TXN",
-        "weight": 0.691868,
-        "entry": 283.22,
-        "last_price": 283.22,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership",
-        "publisher": "PR Newswire",
-        "link": "https://finance.yahoo.com/technology/articles/zephyr-project-expands-semiconductor-industry-140000183.html"
-      },
-      {
-        "ticker": "MSFT",
-        "weight": 0.308132,
-        "entry": 516.32,
-        "last_price": 516.32,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
-        "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-slips-gemini-4-argon-175148352.html"
-      }
-    ]
-  },
+  "news_learning_score": -0.13355,
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -419,6 +389,25 @@
       "news_summaries": [
         "TMO Neutral: Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption | AMD Neutral: Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well. | GOOGL Neutral: Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?"
       ]
+    },
+    {
+      "market_date": "2026-10-01",
+      "point_change": -0.676655,
+      "banked_points": -7.502289,
+      "cash_before": 18.540869,
+      "cash_after": 18.415411,
+      "cash_change": -0.12545800000000185,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "TXN",
+        "MSFT"
+      ],
+      "news_summaries": [
+        "TXN Positive: Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership | MSFT Neutral: Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips"
+      ]
     }
   ],
   "rounds": [
@@ -709,6 +698,18 @@
       "companies": "TMO, AMD, GOOGL",
       "allocation": "{\"AMD\": 0.3248805592833064, \"GOOGL\": 0.26527580556479363, \"TMO\": 0.40984363515190003}",
       "news_summary": "TMO Neutral: Recombinant Proteins Market - Global Strategic Business Report: Sales Hit to $5.8 Billion by 2030 - Benchmark Thermo Fisher Scientific, Merck KGaA, Amgen, Bio-Techne and GenScript Biotech Amid Tariff Disruption | AMD Neutral: Nvidia, AMD Collaborator Teases Breakout To Record High. These Clues Bode Well. | GOOGL Neutral: Alphabet Rides on Google Services Growth: Can It Beat META & AAPL?"
+    },
+    {
+      "market_date": "2026-10-01",
+      "timestamp": "2026-10-01T22:55:53+00:00",
+      "strategy": "trend",
+      "cash_before": "18.540869",
+      "cash_after": "18.415411",
+      "point_change": "-0.676655",
+      "banked_points": "-7.502289",
+      "companies": "TXN, MSFT",
+      "allocation": "{\"MSFT\": 0.30813163688549483, \"TXN\": 0.6918683631145052}",
+      "news_summary": "TXN Positive: Zephyr Project Expands Semiconductor Industry Support as Texas Instruments and Infineon Technologies Upgrade to Platinum Membership | MSFT Neutral: Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
