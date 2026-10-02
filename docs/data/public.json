@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-01T22:55:53.713101+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-02T18:20:34.842392+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-01",
+  "last_reroll_market_date": "2026-10-02",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.502289,
   "display_points": -7.502289,
   "completed_balance": 18.415411,
   "display_balance": 18.415411,
   "completed_rounds": 25,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.07155,
     "dip": -1.69953,
@@ -21,7 +21,48 @@
     "breakout": -0.18547
   },
   "news_learning_score": -0.13355,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.415411,
+    "market_date": "2026-10-02",
+    "quote_time": "2026-10-02T18:20:34.835950+00:00",
+    "holdings": [
+      {
+        "ticker": "NVDA",
+        "weight": 0.506886,
+        "entry": 234.795,
+        "last_price": 234.795,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Nvidia stock hits record high, market cap nears $6 trillion",
+        "publisher": "Quartz",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-hits-record-high-175422059.html"
+      },
+      {
+        "ticker": "INTC",
+        "weight": 0.313342,
+        "entry": 119.945,
+        "last_price": 119.945,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Is Intel Stock Too Dependent On One Big Bet?",
+        "publisher": "Trefis",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-too-dependent-one-150959189.html"
+      },
+      {
+        "ticker": "CVX",
+        "weight": 0.179773,
+        "entry": 207.03,
+        "last_price": 207.03,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Can Chevron's Growing LNG Network Power Its Next Growth Phase?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/energy/articles/chevrons-growing-lng-network-power-140000982.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
