@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T01:14:50.587759+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-06T01:44:25.635604+00:00",
+  "status": "Market closed; cloud bot will check again on its next scheduled run.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
