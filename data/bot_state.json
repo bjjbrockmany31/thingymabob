@@ -66,26 +66,1003 @@
     "steady": -0.14517191182927397,
     "breakout": -0.18546905296070504
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "CSCO": 0.6856021931872364,
+    "CAT": 0.3143978068127637
+  },
+  "entry_prices": {
+    "CSCO": 117.264,
+    "CAT": 865.455
+  },
+  "round_market_date": "2026-10-06",
+  "round_started_at": "2026-10-06T18:52:41.384472+00:00",
   "rounds_completed": 26,
   "last_round_tickers": [
     "NVDA",
     "INTC",
     "CVX"
   ],
-  "last_reroll_market_date": "2026-10-02",
+  "last_reroll_market_date": "2026-10-06",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.11635840207383902,
-  "news_last_checked_at": "2026-10-02T18:20:34.835942+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-06T18:52:41.385137+00:00",
+  "news_signals": {
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
+      "publisher": "Trefis",
+      "published_at": "Oct 6, 10:42 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
+          "publisher": "Trefis",
+          "published_at": "Oct 6, 10:42 AM",
+          "published_timestamp": 1791297748,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar\u2019s Q3 Earnings Setup Looks 'Constructive,' Says Analyst \u2013 A Look At What The Street Expects",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 5, 2:04 PM",
+          "published_timestamp": 1791223489,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-q3-earnings-setup-looks-180449689.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Stocks Rise as Morgan Stanley Bets on Industrial Rebound",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 5, 1:43 PM",
+          "published_timestamp": 1791222197,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stocks-rise-morgan-stanley-174317594.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Merck Stock Down 7% in a Month: Is the Dip a Buying Opportunity?",
+      "publisher": "Zacks",
+      "published_at": "Oct 6, 10:32 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/merck-stock-down-7-month-143200770.html",
+      "items": [
+        {
+          "ticker": "MRK",
+          "title": "Merck Stock Down 7% in a Month: Is the Dip a Buying Opportunity?",
+          "publisher": "Zacks",
+          "published_at": "Oct 6, 10:32 AM",
+          "published_timestamp": 1791297120,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/merck-stock-down-7-month-143200770.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Better Dividend for Retirees: AbbVie vs. Merck",
+          "publisher": "TIKR",
+          "published_at": "Oct 5, 3:03 PM",
+          "published_timestamp": 1791227027,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-retirees-abbvie-vs-190347158.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": -0.09535096086363308,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Nike downgraded, Home Depot initiated: Wall Street's top analyst calls",
+      "publisher": "The Fly",
+      "published_at": "Oct 6, 9:50 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-downgraded-home-depot-initiated-135003499.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "Nike downgraded, Home Depot initiated: Wall Street's top analyst calls",
+          "publisher": "The Fly",
+          "published_at": "Oct 6, 9:50 AM",
+          "published_timestamp": 1791294603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-downgraded-home-depot-initiated-135003499.html",
+          "score": -0.17984081852510791
+        },
+        {
+          "ticker": "HD",
+          "title": "Is Home Depot Still a Defensive Play in a Weak Housing Cycle?",
+          "publisher": "Zacks",
+          "published_at": "Oct 5, 10:17 AM",
+          "published_timestamp": 1791209820,
+          "link": "https://finance.yahoo.com/real-estate/articles/home-depot-still-defensive-play-141700122.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CSCO": {
+      "ticker": "CSCO",
+      "score": 0.019520992342346877,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 6, 12:56 PM",
+      "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html",
+      "items": [
+        {
+          "ticker": "CSCO",
+          "title": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 12:56 PM",
+          "published_timestamp": 1791305794,
+          "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Hybrid Information Technology (IT) Management Market Global Report 2026 | Capitalize on $114.84 Billion AIOps and Cloud Demand with Dell, Cisco, Oracle, ServiceNow and Datadog",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 6, 12:51 PM",
+          "published_timestamp": 1791305460,
+          "link": "https://finance.yahoo.com/technology/articles/hybrid-information-technology-management-market-165100725.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Cisco: How Sustainability Data Is Informing Customer Decisions",
+          "publisher": "ACCESS Newswire",
+          "published_at": "Oct 6, 10:35 AM",
+          "published_timestamp": 1791297300,
+          "link": "https://finance.yahoo.com/technology/articles/cisco-sustainability-data-informing-customer-143500698.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Quantum XChange Joins the Cisco Networking App Marketplace as a Cisco Technology Partner",
+          "publisher": "Business Wire",
+          "published_at": "Oct 6, 7:15 AM",
+          "published_timestamp": 1791285300,
+          "link": "https://finance.yahoo.com/technology/ai/articles/quantum-xchange-joins-cisco-networking-111500610.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Cisco System\u2019s $4.30 Billion Collaboration Unit Adds WhatsApp to Webex",
+          "publisher": "TIKR",
+          "published_at": "Oct 6, 1:56 AM",
+          "published_timestamp": 1791266203,
+          "link": "https://finance.yahoo.com/technology/articles/cisco-system-4-30-billion-055643265.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Broadcom Stocks Rise 4.1% as Power Bottleneck Leaves Forecasts Intact",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 6, 2:12 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-rise-4-1-181232546.html",
+      "items": [
+        {
+          "ticker": "AVGO",
+          "title": "Broadcom Stocks Rise 4.1% as Power Bottleneck Leaves Forecasts Intact",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 6, 2:12 PM",
+          "published_timestamp": 1791310352,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-rise-4-1-181232546.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Cathie Wood Just Bought $13 Million of Broadcom Stock",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 6, 2:10 PM",
+          "published_timestamp": 1791310221,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-13-181021556.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Why Broadcom Stock Popped Tuesday Morning",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 6, 1:55 PM",
+          "published_timestamp": 1791309326,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-stock-popped-tuesday-175526137.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Here\u2019s Why I\u2019m Buying Broadcom Even As Concerns About Circular Financing With Anthropic Mount",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 12:45 PM",
+          "published_timestamp": 1791305104,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-m-buying-broadcom-even-164504728.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "IBM, Red Hat Say Lightwell Remediated Over 400 Unknown Open Source Vulnerabilities in Java Libraries",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 6, 9:37 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ibm-red-hat-lightwell-remediated-133733547.html",
+      "items": [
+        {
+          "ticker": "IBM",
+          "title": "IBM, Red Hat Say Lightwell Remediated Over 400 Unknown Open Source Vulnerabilities in Java Libraries",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 9:37 AM",
+          "published_timestamp": 1791293853,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ibm-red-hat-lightwell-remediated-133733547.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "IBM and Red Hat Remediate More Than 400 Previously Unknown Open Source Vulnerabilities",
+          "publisher": "Business Wire",
+          "published_at": "Oct 6, 9:00 AM",
+          "published_timestamp": 1791291600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ibm-red-hat-remediate-more-130000030.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Google\u2019s $4.3 Billion Bet on Nuclear Comes Just Days After Amazon\u2019s",
+      "publisher": "TIKR",
+      "published_at": "Oct 6, 2:14 PM",
+      "link": "https://finance.yahoo.com/energy/articles/google-4-3-billion-bet-181457529.html",
+      "items": [
+        {
+          "ticker": "AMZN",
+          "title": "Google\u2019s $4.3 Billion Bet on Nuclear Comes Just Days After Amazon\u2019s",
+          "publisher": "TIKR",
+          "published_at": "Oct 6, 2:14 PM",
+          "published_timestamp": 1791310497,
+          "link": "https://finance.yahoo.com/energy/articles/google-4-3-billion-bet-181457529.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Pfizer Keeps Its Dividend Steady With a Yield Above 6%",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 6, 2:27 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pfizer-keeps-dividend-steady-yield-182736801.html",
+      "items": [
+        {
+          "ticker": "PFE",
+          "title": "Pfizer Keeps Its Dividend Steady With a Yield Above 6%",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 6, 2:27 PM",
+          "published_timestamp": 1791311256,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pfizer-keeps-dividend-steady-yield-182736801.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Scotiabank Adjusts Pfizer Price Target to $33 From $30, Sector Outperform Rating Kept",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 12:31 PM",
+          "published_timestamp": 1791304275,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-adjusts-pfizer-price-target-163115942.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "PFE vs. JNJ: Which Stock Is the Better Value Option?",
+          "publisher": "Zacks",
+          "published_at": "Oct 6, 10:40 AM",
+          "published_timestamp": 1791297606,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pfe-vs-jnj-stock-better-144006693.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Pfizer Declares Fourth-Quarter 2026 Dividend",
+          "publisher": "Business Wire",
+          "published_at": "Oct 6, 10:00 AM",
+          "published_timestamp": 1791295200,
+          "link": "https://finance.yahoo.com/healthcare/articles/pfizer-declares-fourth-quarter-2026-140000650.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Novavax Pulls Back From Plague-Scare Spike as Officials Call Risk Low; Moderna Nudges Higher, Pfizer Inches Higher",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 9:56 AM",
+          "published_timestamp": 1791294963,
+          "link": "https://finance.yahoo.com/healthcare/articles/novavax-pulls-back-plague-scare-135603428.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "score": 0.0449012369603826,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "ServiceNow Sees Stable Demand, Security Could Boost Growth, UBS Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 6, 11:38 AM",
+      "link": "https://finance.yahoo.com/technology/articles/servicenow-sees-stable-demand-security-153831634.html",
+      "items": [
+        {
+          "ticker": "NOW",
+          "title": "Hybrid Information Technology (IT) Management Market Global Report 2026 | Capitalize on $114.84 Billion AIOps and Cloud Demand with Dell, Cisco, Oracle, ServiceNow and Datadog",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 6, 12:51 PM",
+          "published_timestamp": 1791305460,
+          "link": "https://finance.yahoo.com/technology/articles/hybrid-information-technology-management-market-165100725.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Sees Stable Demand, Security Could Boost Growth, UBS Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 11:38 AM",
+          "published_timestamp": 1791301111,
+          "link": "https://finance.yahoo.com/technology/articles/servicenow-sees-stable-demand-security-153831634.html",
+          "score": 0.14888503362331798
+        },
+        {
+          "ticker": "NOW",
+          "title": "Beyond Disruption Fears: How ServiceNow (NOW) is Harnessing AI",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 6, 9:55 AM",
+          "published_timestamp": 1791294909,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-disruption-fears-servicenow-now-135509398.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Crashed 25% In One Year: Generative AI Will Catalyze 80% Gains According to One Wall Street Guru",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 8:45 AM",
+          "published_timestamp": 1791290753,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-crashed-25-one-generative-124553782.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "UBS Adjusts Price Target on ServiceNow to $150 From $110, Keeps Neutral Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 8:39 AM",
+          "published_timestamp": 1791290393,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-servicenow-123953925.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Stifel Adjusts Price Target on ServiceNow to $160 From $120, Maintains Buy Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 6:52 AM",
+          "published_timestamp": 1791283947,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-adjusts-price-target-servicenow-105227827.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow launches AI Workflow Factory to turn workflow improvement into a continuous, agentic AI-powered loop",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 6, 2:25 AM",
+          "published_timestamp": 1791267900,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-launches-ai-workflow-factory-062500274.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "GM": {
+      "ticker": "GM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "What GM\u2019s top selling and bottom selling Q3 vehicles tell us",
+      "publisher": "Detroit Free Press",
+      "published_at": "Oct 6, 12:02 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gm-top-selling-bottom-selling-160201328.html",
+      "items": [
+        {
+          "ticker": "GM",
+          "title": "What GM\u2019s top selling and bottom selling Q3 vehicles tell us",
+          "publisher": "Detroit Free Press",
+          "published_at": "Oct 6, 12:02 PM",
+          "published_timestamp": 1791302521,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gm-top-selling-bottom-selling-160201328.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors Confirms Plans To Bring Hybrid Vehicles Back To Its US Lineup",
+          "publisher": "TIKR",
+          "published_at": "Oct 6, 9:29 AM",
+          "published_timestamp": 1791293388,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-confirms-plans-bring-132948320.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors' Q3 US Sales Decline 6% Y/Y on Weak EV Demand",
+          "publisher": "Zacks",
+          "published_at": "Oct 6, 7:22 AM",
+          "published_timestamp": 1791285720,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-q3-us-sales-112200666.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "Goldman Sachs Adjusts Price Target on General Motors to $112 From $103, Keeps Buy Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 6:10 AM",
+          "published_timestamp": 1791281443,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-101043626.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Booking's OpenTable Renews Agreement to Extend Visa Dining Collection",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 6, 10:23 AM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/booking-apos-opentable-renews-agreement-142359627.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Booking's OpenTable Renews Agreement to Extend Visa Dining Collection",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 10:23 AM",
+          "published_timestamp": 1791296639,
+          "link": "https://finance.yahoo.com/media-advertising/articles/booking-apos-opentable-renews-agreement-142359627.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "OpenTable and Visa Extend Their Agreement in the U.S., Mexico and Canada",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 6, 9:00 AM",
+          "published_timestamp": 1791291600,
+          "link": "https://finance.yahoo.com/media-advertising/articles/opentable-visa-extend-agreement-u-130000214.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Autonomous Research Adjusts Price Target on Visa to $441 From $443, Keeps Outperform Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 8:21 AM",
+          "published_timestamp": 1791289282,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/autonomous-research-adjusts-price-target-122122321.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Nearly half of Asia Pacific consumers open to stablecoins, Visa finds",
+          "publisher": "Electronic Payments",
+          "published_at": "Oct 6, 3:23 AM",
+          "published_timestamp": 1791271399,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/nearly-half-asia-pacific-consumers-072319280.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa Stocks Rise 1.1.5% as Open USD Turns Stablecoins Into Infrastructure",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 5, 1:45 PM",
+          "published_timestamp": 1791222335,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stocks-rise-1-1-174535600.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "UnitedHealth Q3 Coming Up: Two Questions Investors Can't Ignore",
+      "publisher": "Zacks",
+      "published_at": "Oct 6, 12:27 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-q3-coming-two-questions-162700553.html",
+      "items": [
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Q3 Coming Up: Two Questions Investors Can't Ignore",
+          "publisher": "Zacks",
+          "published_at": "Oct 6, 12:27 PM",
+          "published_timestamp": 1791304020,
+          "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-q3-coming-two-questions-162700553.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Is UnitedHealth (UNH) a Good or Bad Investment at Today\u2019s Price?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 6, 2:47 AM",
+          "published_timestamp": 1791269247,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-unh-good-bad-investment-064727103.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "ConocoPhillips Reviews Norway Business & UK Teesside Asset Divestment",
+      "publisher": "Zacks",
+      "published_at": "Oct 6, 9:50 AM",
+      "link": "https://finance.yahoo.com/energy/articles/conocophillips-reviews-norway-business-uk-135000815.html",
+      "items": [
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips Reviews Norway Business & UK Teesside Asset Divestment",
+          "publisher": "Zacks",
+          "published_at": "Oct 6, 9:50 AM",
+          "published_timestamp": 1791294600,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-reviews-norway-business-uk-135000815.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "JPMorgan Adjusts Price Target on ConocoPhillips to $139 From $134, Keeps Neutral Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 6:52 AM",
+          "published_timestamp": 1791283975,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-conocophillips-105255398.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips' Chairman Says Oil's Price Floor Is Rising to $70 a Barrel. Here's What That Means for Oil Stocks.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 5, 11:50 AM",
+          "published_timestamp": 1791215402,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-chairman-says-oils-price-155002520.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips Signs Long-Term LNG Supply Deal With Venture Global",
+          "publisher": "Zacks",
+          "published_at": "Oct 5, 10:17 AM",
+          "published_timestamp": 1791209820,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-signs-long-term-lng-141700362.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "ConocoPhillips chair Ryan Lance on oil price floor outlook",
+          "publisher": "Quartz",
+          "published_at": "Oct 5, 9:32 AM",
+          "published_timestamp": 1791207147,
+          "link": "https://finance.yahoo.com/energy/articles/conocophillips-chair-ryan-lance-oil-133227849.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Procter & Gamble Has Raised Its Dividend for 70 Years. These 4 Stocks Share Its Reliability",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 6, 12:15 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-raised-dividend-70-161538608.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Has Raised Its Dividend for 70 Years. These 4 Stocks Share Its Reliability",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 12:15 PM",
+          "published_timestamp": 1791303338,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-raised-dividend-70-161538608.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Borg Warner, Boyd Gaming, JetBlue, Lattice Semiconductor, Lockheed Martin, Nike, Northrop Grumman, Procter & Gamble, SPX Technologies, and More",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 7:54 AM",
+          "published_timestamp": 1791287654,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tuesday-top-wall-street-analyst-115414945.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Earnings Preview: What to Expect",
+          "publisher": "Barchart",
+          "published_at": "Oct 6, 7:45 AM",
+          "published_timestamp": 1791287123,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-earnings-preview-expect-114523235.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Johnson & Johnson or Procter & Gamble: If I Could Only Own 1 Dividend King for 20 Years, This Is It",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 7:30 AM",
+          "published_timestamp": 1791286244,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-procter-gamble-could-113044489.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.03730349724578604,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Can GE's Commercial Engines & Services Unit Sustain Its Growth Momentum?",
+      "publisher": "Zacks",
+      "published_at": "Oct 5, 10:01 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ges-commercial-engines-services-unit-140100060.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "Certivo Appoints Former GE Vice Chairman and CFO Jeff Bornstein to Board of Directors",
+          "publisher": "Business Wire",
+          "published_at": "Oct 6, 9:00 AM",
+          "published_timestamp": 1791291600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/certivo-appoints-former-ge-vice-130000772.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "BNP Paribas Adjusts GE Aerospace Price Target to $305 From $350, Maintains Underperform Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 8:22 AM",
+          "published_timestamp": 1791289321,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-ge-aerospace-122201165.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace (GE) Stock Sinks As Market Gains: Here's Why",
+          "publisher": "Zacks",
+          "published_at": "Oct 5, 4:45 PM",
+          "published_timestamp": 1791233105,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-stock-sinks-204505744.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Can GE's Commercial Engines & Services Unit Sustain Its Growth Momentum?",
+          "publisher": "Zacks",
+          "published_at": "Oct 5, 10:01 AM",
+          "published_timestamp": 1791208860,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ges-commercial-engines-services-unit-140100060.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "MA": {
+      "ticker": "MA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Autonomous Research Adjusts Price Target on Mastercard to $686 From $687, Keeps Outperform Rating",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 6, 8:21 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/autonomous-research-adjusts-price-target-122111103.html",
+      "items": [
+        {
+          "ticker": "MA",
+          "title": "Autonomous Research Adjusts Price Target on Mastercard to $686 From $687, Keeps Outperform Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 8:21 AM",
+          "published_timestamp": 1791289271,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/autonomous-research-adjusts-price-target-122111103.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Stocks Rise 1.8% as Open USD Lands Inside BVNK",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 5, 1:44 PM",
+          "published_timestamp": 1791222281,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stocks-rise-1-8-174441897.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "EVTC vs. MA: Which Stock Is the Better Value Option?",
+          "publisher": "Zacks",
+          "published_at": "Oct 5, 10:40 AM",
+          "published_timestamp": 1791211207,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/evtc-vs-ma-stock-better-144007993.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": -0.04632855189237071,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "As U.S. Cybercrime Losses Top $20 Billion, Bank of America Expands Fraud Education for Small Business Owners",
+      "publisher": "PR Newswire",
+      "published_at": "Oct 6, 9:00 AM",
+      "link": "https://finance.yahoo.com/small-business/articles/u-cybercrime-losses-top-20-130000433.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "Wells Fargo vs Bank of America: Which Big Bank Dividend Is the Better Buy",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 1:45 PM",
+          "published_timestamp": 1791308708,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-vs-bank-america-174508660.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "As U.S. Cybercrime Losses Top $20 Billion, Bank of America Expands Fraud Education for Small Business Owners",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 6, 9:00 AM",
+          "published_timestamp": 1791291600,
+          "link": "https://finance.yahoo.com/small-business/articles/u-cybercrime-losses-top-20-130000433.html",
+          "score": -0.17984081852510791
+        },
+        {
+          "ticker": "BAC",
+          "title": "Autonomous Research Adjusts PT on Bank of America to $57 From $61, Keeps Neutral Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 6, 6:54 AM",
+          "published_timestamp": 1791284079,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/autonomous-research-adjusts-pt-bank-105439996.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America sees Eaton heading for a big surprise",
+          "publisher": "TheStreet",
+          "published_at": "Oct 5, 11:07 PM",
+          "published_timestamp": 1791256020,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-eaton-heading-030700654.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America Stocks Rise although Jefferies Cuts Its Target",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 5, 3:11 PM",
+          "published_timestamp": 1791227504,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-stocks-rise-although-191144751.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "CSCO": {
+      "ticker": "CSCO",
+      "score": 0.019520992342346877,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 6, 12:56 PM",
+      "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html",
+      "items": [
+        {
+          "ticker": "CSCO",
+          "title": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 6, 12:56 PM",
+          "published_timestamp": 1791305794,
+          "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Hybrid Information Technology (IT) Management Market Global Report 2026 | Capitalize on $114.84 Billion AIOps and Cloud Demand with Dell, Cisco, Oracle, ServiceNow and Datadog",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 6, 12:51 PM",
+          "published_timestamp": 1791305460,
+          "link": "https://finance.yahoo.com/technology/articles/hybrid-information-technology-management-market-165100725.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Cisco: How Sustainability Data Is Informing Customer Decisions",
+          "publisher": "ACCESS Newswire",
+          "published_at": "Oct 6, 10:35 AM",
+          "published_timestamp": 1791297300,
+          "link": "https://finance.yahoo.com/technology/articles/cisco-sustainability-data-informing-customer-143500698.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Quantum XChange Joins the Cisco Networking App Marketplace as a Cisco Technology Partner",
+          "publisher": "Business Wire",
+          "published_at": "Oct 6, 7:15 AM",
+          "published_timestamp": 1791285300,
+          "link": "https://finance.yahoo.com/technology/ai/articles/quantum-xchange-joins-cisco-networking-111500610.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Cisco System\u2019s $4.30 Billion Collaboration Unit Adds WhatsApp to Webex",
+          "publisher": "TIKR",
+          "published_at": "Oct 6, 1:56 AM",
+          "published_timestamp": 1791266203,
+          "link": "https://finance.yahoo.com/technology/articles/cisco-system-4-30-billion-055643265.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
+      "publisher": "Trefis",
+      "published_at": "Oct 6, 10:42 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
+          "publisher": "Trefis",
+          "published_at": "Oct 6, 10:42 AM",
+          "published_timestamp": 1791297748,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar\u2019s Q3 Earnings Setup Looks 'Constructive,' Says Analyst \u2013 A Look At What The Street Expects",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 5, 2:04 PM",
+          "published_timestamp": 1791223489,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-q3-earnings-setup-looks-180449689.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Stocks Rise as Morgan Stanley Bets on Industrial Rebound",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 5, 1:43 PM",
+          "published_timestamp": 1791222197,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stocks-rise-morgan-stanley-174317594.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "CSCO": {
+      "price_score": 1.8054487421758512,
+      "news_score": 0.019520992342346877,
+      "combined_score": 1.8190673422684782
+    },
+    "GM": {
+      "price_score": -0.5396887884208057,
+      "news_score": 0.0,
+      "combined_score": -0.5396887884208057
+    },
+    "AVGO": {
+      "price_score": 0.9269910185652747,
+      "news_score": 0.0,
+      "combined_score": 0.9269910185652747
+    },
+    "HD": {
+      "price_score": -0.9989299738280057,
+      "news_score": -0.09535096086363308,
+      "combined_score": -1.0654504960266966
+    },
+    "MRK": {
+      "price_score": -0.9587598303360747,
+      "news_score": 0.0,
+      "combined_score": -0.9587598303360747
+    },
+    "CAT": {
+      "price_score": 1.1563746330229594,
+      "news_score": 0.0,
+      "combined_score": 1.1563746330229594
+    },
+    "IBM": {
+      "price_score": -0.47989400724844977,
+      "news_score": 0.0,
+      "combined_score": -0.47989400724844977
+    },
+    "PFE": {
+      "price_score": -0.37883744452217477,
+      "news_score": 0.0,
+      "combined_score": -0.37883744452217477
+    },
+    "AMZN": {
+      "price_score": 0.5076292815142673,
+      "news_score": 0.0,
+      "combined_score": 0.5076292815142673
+    },
+    "V": {
+      "price_score": 0.3413928461546444,
+      "news_score": 0.0,
+      "combined_score": 0.3413928461546444
+    },
+    "NOW": {
+      "price_score": 0.6003434309566769,
+      "news_score": 0.0449012369603826,
+      "combined_score": 0.6316682723942318
+    },
+    "GOOGL": {
+      "price_score": 0.5664550755426946,
+      "news_score": 0.0,
+      "combined_score": 0.5664550755426946
+    },
+    "PG": {
+      "price_score": 0.4424600894525035,
+      "news_score": 0.0,
+      "combined_score": 0.4424600894525035
+    },
+    "UNH": {
+      "price_score": -0.39614807912569483,
+      "news_score": 0.0,
+      "combined_score": -0.39614807912569483
+    },
+    "COP": {
+      "price_score": 0.010039730810816286,
+      "news_score": 0.0,
+      "combined_score": 0.010039730810816286
+    },
+    "MA": {
+      "price_score": 0.13712377571885428,
+      "news_score": 0.0,
+      "combined_score": 0.13712377571885428
+    },
+    "GE": {
+      "price_score": -1.2271543635787145,
+      "news_score": 0.03730349724578604,
+      "combined_score": -1.2011299995434535
+    },
+    "BAC": {
+      "price_score": -1.5148461368546222,
+      "news_score": -0.04632855189237071,
+      "combined_score": -1.5471667284530342
+    }
+  },
   "data_version": 5
 }

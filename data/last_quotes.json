@@ -1,0 +1,13 @@
+{
+  "round_market_date": "2026-10-06",
+  "market_date": "2026-10-06",
+  "fetched_at": "2026-10-06T18:52:41.385146+00:00",
+  "prices": {
+    "CSCO": 117.264,
+    "CAT": 865.455
+  },
+  "market_timestamps": {
+    "CSCO": 1791312760,
+    "CAT": 1791312757
+  }
+}

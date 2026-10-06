@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-06T01:44:25.635604+00:00",
-  "status": "Market closed; cloud bot will check again on its next scheduled run.",
+  "updated_at": "2026-10-06T18:52:41.396359+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-02",
+  "last_reroll_market_date": "2026-10-06",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.874896,
   "display_points": -7.874896,
   "completed_balance": 18.346794,
   "display_balance": 18.346794,
   "completed_rounds": 26,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.12574,
     "dip": -1.69953,
@@ -21,7 +21,37 @@
     "breakout": -0.18547
   },
   "news_learning_score": -0.11636,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.346794,
+    "market_date": "2026-10-06",
+    "quote_time": "2026-10-06T18:52:41.385146+00:00",
+    "holdings": [
+      {
+        "ticker": "CSCO",
+        "weight": 0.685602,
+        "entry": 117.264,
+        "last_price": 117.264,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
+        "publisher": "24/7 Wall St.",
+        "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html"
+      },
+      {
+        "ticker": "CAT",
+        "weight": 0.314398,
+        "entry": 865.455,
+        "last_price": 865.455,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
+        "publisher": "Trefis",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
