@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T18:52:41.396359+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-06T22:57:48.602110+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,50 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-06",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.874896,
-  "display_points": -7.874896,
-  "completed_balance": 18.346794,
-  "display_balance": 18.346794,
-  "completed_rounds": 26,
-  "current_strategy": "trend",
+  "banked_points": -7.552862,
+  "display_points": -7.552862,
+  "completed_balance": 18.405877,
+  "display_balance": 18.405877,
+  "completed_rounds": 27,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": -0.12574,
+    "trend": -0.04514,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.18547
   },
   "news_learning_score": -0.11636,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.346794,
-    "market_date": "2026-10-06",
-    "quote_time": "2026-10-06T18:52:41.385146+00:00",
-    "holdings": [
-      {
-        "ticker": "CSCO",
-        "weight": 0.685602,
-        "entry": 117.264,
-        "last_price": 117.264,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
-        "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html"
-      },
-      {
-        "ticker": "CAT",
-        "weight": 0.314398,
-        "entry": 865.455,
-        "last_price": 865.455,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Are You Overpaying For Caterpillar Stock Versus Its Rivals?",
-        "publisher": "Trefis",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-caterpillar-stock-versus-rivals-144228209.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -458,6 +428,25 @@
       "news_summaries": [
         "NVDA Neutral: Nvidia stock hits record high, market cap nears $6 trillion | INTC Neutral: Is Intel Stock Too Dependent On One Big Bet? | CVX Neutral: Can Chevron's Growing LNG Network Power Its Next Growth Phase?"
       ]
+    },
+    {
+      "market_date": "2026-10-06",
+      "point_change": 0.322034,
+      "banked_points": -7.552862,
+      "cash_before": 18.346794,
+      "cash_after": 18.405877,
+      "cash_change": 0.05908300000000111,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "CSCO",
+        "CAT"
+      ],
+      "news_summaries": [
+        "CSCO Neutral: Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3% | CAT Neutral: Are You Overpaying For Caterpillar Stock Versus Its Rivals?"
+      ]
     }
   ],
   "rounds": [
@@ -772,6 +761,18 @@
       "companies": "NVDA, INTC, CVX",
       "allocation": "{\"CVX\": 0.17977261657440322, \"INTC\": 0.3133415702731978, \"NVDA\": 0.506885813152399}",
       "news_summary": "NVDA Neutral: Nvidia stock hits record high, market cap nears $6 trillion | INTC Neutral: Is Intel Stock Too Dependent On One Big Bet? | CVX Neutral: Can Chevron's Growing LNG Network Power Its Next Growth Phase?"
+    },
+    {
+      "market_date": "2026-10-06",
+      "timestamp": "2026-10-06T22:57:48+00:00",
+      "strategy": "trend",
+      "cash_before": "18.346794",
+      "cash_after": "18.405877",
+      "point_change": "0.322034",
+      "banked_points": "-7.552862",
+      "companies": "CSCO, CAT",
+      "allocation": "{\"CAT\": 0.3143978068127637, \"CSCO\": 0.6856021931872364}",
+      "news_summary": "CSCO Neutral: Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3% | CAT Neutral: Are You Overpaying For Caterpillar Stock Versus Its Rivals?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
