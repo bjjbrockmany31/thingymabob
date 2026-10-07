@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-06T22:57:48.602110+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-07T19:18:08.557248+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-06",
+  "last_reroll_market_date": "2026-10-07",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.552862,
   "display_points": -7.552862,
   "completed_balance": 18.405877,
   "display_balance": 18.405877,
   "completed_rounds": 27,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.04514,
     "dip": -1.69953,
@@ -21,7 +21,48 @@
     "breakout": -0.18547
   },
   "news_learning_score": -0.11636,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.405877,
+    "market_date": "2026-10-07",
+    "quote_time": "2026-10-07T19:18:08.545316+00:00",
+    "holdings": [
+      {
+        "ticker": "TXN",
+        "weight": 0.425584,
+        "entry": 286.56,
+        "last_price": 286.56,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "TXN Surges 67% Over the Past Year: Is the Stock Still Worth Buying?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/txn-surges-67-over-past-132900671.html"
+      },
+      {
+        "ticker": "AMZN",
+        "weight": 0.317103,
+        "entry": 259.535,
+        "last_price": 259.535,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Will Pinterest’s Amazon-Trained New CFO Reshape Its Profit Playbook And Valuation Story (PINS)?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/pinterest-amazon-trained-cfo-reshape-171037317.html"
+      },
+      {
+        "ticker": "LLY",
+        "weight": 0.257313,
+        "entry": 1189.51,
+        "last_price": 1189.51,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Nektar Therapeutics (NKTR): $115 Million Lawsuit Victory Over Eli Lilly Clears Multi-Year Overhang",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/healthcare/articles/nektar-therapeutics-nktr-115-million-153342225.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
