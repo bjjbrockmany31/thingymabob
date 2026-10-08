@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-07T23:37:07.070969+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-08T19:14:26.831937+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-07",
+  "last_reroll_market_date": "2026-10-08",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.163505,
   "display_points": -7.163505,
   "completed_balance": 18.477541,
   "display_balance": 18.477541,
   "completed_rounds": 28,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.04514,
     "dip": -1.69953,
@@ -21,7 +21,48 @@
     "breakout": -0.082
   },
   "news_learning_score": -0.11636,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.477541,
+    "market_date": "2026-10-08",
+    "quote_time": "2026-10-08T19:14:26.822134+00:00",
+    "holdings": [
+      {
+        "ticker": "ABBV",
+        "weight": 0.394562,
+        "entry": 272.03,
+        "last_price": 272.03,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive?",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-becoming-growth-211326895.html"
+      },
+      {
+        "ticker": "WMT",
+        "weight": 0.30805,
+        "entry": 110.975,
+        "last_price": 110.975,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Walmart Opens Fulfillment Center in California",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/small-business/articles/walmart-opens-fulfillment-center-california-185204903.html"
+      },
+      {
+        "ticker": "CSCO",
+        "weight": 0.297387,
+        "entry": 115.195,
+        "last_price": 115.195,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bce-tsx-bce-cheap-following-061137516.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
