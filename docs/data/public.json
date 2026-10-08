@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T19:14:26.831937+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-08T23:46:46.548321+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-08",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.163505,
-  "display_points": -7.163505,
-  "completed_balance": 18.477541,
-  "display_balance": 18.477541,
-  "completed_rounds": 28,
-  "current_strategy": "trend",
+  "banked_points": -7.300875,
+  "display_points": -7.300875,
+  "completed_balance": 18.452159,
+  "display_balance": 18.452159,
+  "completed_rounds": 29,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": -0.04514,
+    "trend": -0.06174,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.082
   },
   "news_learning_score": -0.11636,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.477541,
-    "market_date": "2026-10-08",
-    "quote_time": "2026-10-08T19:14:26.822134+00:00",
-    "holdings": [
-      {
-        "ticker": "ABBV",
-        "weight": 0.394562,
-        "entry": 272.03,
-        "last_price": 272.03,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive?",
-        "publisher": "Insider Monkey",
-        "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-becoming-growth-211326895.html"
-      },
-      {
-        "ticker": "WMT",
-        "weight": 0.30805,
-        "entry": 110.975,
-        "last_price": 110.975,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Walmart Opens Fulfillment Center in California",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/small-business/articles/walmart-opens-fulfillment-center-california-185204903.html"
-      },
-      {
-        "ticker": "CSCO",
-        "weight": 0.297387,
-        "entry": 115.195,
-        "last_price": 115.195,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bce-tsx-bce-cheap-following-061137516.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -508,6 +467,26 @@
       "news_summaries": [
         "TXN Neutral: TXN Surges 67% Over the Past Year: Is the Stock Still Worth Buying? | AMZN Neutral: Will Pinterest’s Amazon-Trained New CFO Reshape Its Profit Playbook And Valuation Story (PINS)? | LLY Neutral: Nektar Therapeutics (NKTR): $115 Million Lawsuit Victory Over Eli Lilly Clears Multi-Year Overhang"
       ]
+    },
+    {
+      "market_date": "2026-10-08",
+      "point_change": -0.13737,
+      "banked_points": -7.300875,
+      "cash_before": 18.477541,
+      "cash_after": 18.452159,
+      "cash_change": -0.025381999999996907,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "ABBV",
+        "WMT",
+        "CSCO"
+      ],
+      "news_summaries": [
+        "ABBV Neutral: Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive? | WMT Neutral: Walmart Opens Fulfillment Center in California | CSCO Neutral: Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?"
+      ]
     }
   ],
   "rounds": [
@@ -846,6 +825,18 @@
       "companies": "TXN, AMZN, LLY",
       "allocation": "{\"AMZN\": 0.3171026857119902, \"LLY\": 0.2573132625898419, \"TXN\": 0.4255840516981678}",
       "news_summary": "TXN Neutral: TXN Surges 67% Over the Past Year: Is the Stock Still Worth Buying? | AMZN Neutral: Will Pinterest’s Amazon-Trained New CFO Reshape Its Profit Playbook And Valuation Story (PINS)? | LLY Neutral: Nektar Therapeutics (NKTR): $115 Million Lawsuit Victory Over Eli Lilly Clears Multi-Year Overhang"
+    },
+    {
+      "market_date": "2026-10-08",
+      "timestamp": "2026-10-08T23:46:46+00:00",
+      "strategy": "trend",
+      "cash_before": "18.477541",
+      "cash_after": "18.452159",
+      "point_change": "-0.137370",
+      "banked_points": "-7.300875",
+      "companies": "ABBV, WMT, CSCO",
+      "allocation": "{\"ABBV\": 0.39456224805237866, \"CSCO\": 0.29738731338294205, \"WMT\": 0.30805043856467934}",
+      "news_summary": "ABBV Neutral: Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive? | WMT Neutral: Walmart Opens Fulfillment Center in California | CSCO Neutral: Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
