@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-08T23:46:46.548321+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-09T18:45:05.850515+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-08",
+  "last_reroll_market_date": "2026-10-09",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.300875,
   "display_points": -7.300875,
   "completed_balance": 18.452159,
   "display_balance": 18.452159,
   "completed_rounds": 29,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.06174,
     "dip": -1.69953,
@@ -21,7 +21,48 @@
     "breakout": -0.082
   },
   "news_learning_score": -0.11636,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.452159,
+    "market_date": "2026-10-09",
+    "quote_time": "2026-10-09T18:45:05.841663+00:00",
+    "holdings": [
+      {
+        "ticker": "V",
+        "weight": 0.404079,
+        "entry": 385.25,
+        "last_price": 385.25,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Baird Adjusts Price Target on Visa to $430 From $420",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html"
+      },
+      {
+        "ticker": "PG",
+        "weight": 0.306749,
+        "entry": 151.13,
+        "last_price": 151.13,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html"
+      },
+      {
+        "ticker": "AMD",
+        "weight": 0.289172,
+        "entry": 611.72,
+        "last_price": 611.72,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",

@@ -66,26 +66,1106 @@
     "steady": -0.14517191182927397,
     "breakout": -0.08200047295484972
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "V": 0.40407922943580266,
+    "PG": 0.30674920423813834,
+    "AMD": 0.2891715663260591
+  },
+  "entry_prices": {
+    "PG": 151.13,
+    "V": 385.25,
+    "AMD": 611.72
+  },
+  "round_market_date": "2026-10-09",
+  "round_started_at": "2026-10-09T18:45:05.841154+00:00",
   "rounds_completed": 29,
   "last_round_tickers": [
     "ABBV",
     "WMT",
     "CSCO"
   ],
-  "last_reroll_market_date": "2026-10-08",
+  "last_reroll_market_date": "2026-10-09",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.11635840207383902,
-  "news_last_checked_at": "2026-10-08T19:14:26.822125+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-09T18:45:05.841653+00:00",
+  "news_signals": {
+    "COST": {
+      "ticker": "COST",
+      "score": 0.05029175563127811,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Costco's September Comps Strengthen, but Shares Already Price in Growth, RBC Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 11:00 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-apos-september-comps-strengthen-150051746.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Costco helps members solve a key problem, but at a cost",
+          "publisher": "TheStreet",
+          "published_at": "Oct 9, 12:48 PM",
+          "published_timestamp": 1791564500,
+          "link": "https://finance.yahoo.com/healthcare/articles/costco-helps-members-solve-key-164820144.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Gordon Haskett Adjusts Price Target on Costco Wholesale to $1,200 From $1,100",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 12:43 PM",
+          "published_timestamp": 1791564183,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gordon-haskett-adjusts-price-target-164303207.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco September 2026 monthly sales results",
+          "publisher": "Quartz",
+          "published_at": "Oct 9, 12:20 PM",
+          "published_timestamp": 1791562806,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-september-2026-monthly-sales-162006783.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco's September Comps Strengthen, but Shares Already Price in Growth, RBC Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 11:00 AM",
+          "published_timestamp": 1791558051,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-apos-september-comps-strengthen-150051746.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Wholesale (COST) Posts 13% September Sales Growth As Margin Questions Linger",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 10:13 AM",
+          "published_timestamp": 1791555215,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-cost-posts-13-141335232.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "COST",
+          "title": "Great News for Costco Investors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 9:41 AM",
+          "published_timestamp": 1791553260,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/great-news-costco-investors-134100508.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Wholesale Corporation (COST) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 9, 8:00 AM",
+          "published_timestamp": 1791547205,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-corporation-cost-attracting-120005541.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.06386578946075243,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Will Texas Instruments' U.S. 300mm Expansion and AI Chip Demand Shift TXN's Investment Narrative?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 9, 2:14 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/texas-instruments-u-300mm-expansion-181416210.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Will Texas Instruments' U.S. 300mm Expansion and AI Chip Demand Shift TXN's Investment Narrative?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 2:14 PM",
+          "published_timestamp": 1791569656,
+          "link": "https://finance.yahoo.com/technology/ai/articles/texas-instruments-u-300mm-expansion-181416210.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "TXN",
+          "title": "Was There Any Sign Texas Instruments Stock Would Run?",
+          "publisher": "Trefis",
+          "published_at": "Oct 9, 8:33 AM",
+          "published_timestamp": 1791549229,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sign-texas-instruments-stock-run-123349628.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Wolfspeed Soars 14% on $1.5B Conditional Department of War Loan Commitment; On Semiconductor and Texas Instruments Slip",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 8, 9:14 AM",
+          "published_timestamp": 1791465285,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wolfspeed-soars-14-1-5b-131445016.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Qualcomm CFO talks AI, data centers, and next big bet on robots",
+      "publisher": "TheStreet",
+      "published_at": "Oct 9, 1:33 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-cfo-talks-ai-data-173300668.html",
+      "items": [
+        {
+          "ticker": "QCOM",
+          "title": "Qualcomm CFO talks AI, data centers, and next big bet on robots",
+          "publisher": "TheStreet",
+          "published_at": "Oct 9, 1:33 PM",
+          "published_timestamp": 1791567180,
+          "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-cfo-talks-ai-data-173300668.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Apple Drops 3% on Reported iPhone 18 Pro Component Order Cuts; Skyworks Slips, Qualcomm Treads Water",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 9, 9:31 AM",
+          "published_timestamp": 1791552692,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-drops-3-reported-iphone-133132878.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMAT": {
+      "ticker": "AMAT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Applied Materials (AMAT) Stock Looks Fully Priced With AI Hopes Included",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 9, 1:21 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-looks-172101209.html",
+      "items": [
+        {
+          "ticker": "AMAT",
+          "title": "Applied Materials (AMAT) Stock Looks Fully Priced With AI Hopes Included",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 1:21 PM",
+          "published_timestamp": 1791566461,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-looks-172101209.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "Brokers Suggest Investing in Applied Materials (AMAT): Read This Before Placing a Bet",
+          "publisher": "Zacks",
+          "published_at": "Oct 9, 8:30 AM",
+          "published_timestamp": 1791549004,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/brokers-suggest-investing-applied-materials-123004058.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "Wells Fargo Adjusts Price Target on Applied Materials to $610 From $740",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 5:54 AM",
+          "published_timestamp": 1791539650,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-adjusts-price-target-095410223.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABNB": {
+      "ticker": "ABNB",
+      "score": 0.03374018954581576,
+      "label": "Neutral",
+      "headline_count": 8,
+      "top_headline": "Should Upgraded Earnings Estimates Ahead of 2026 Results Require Action From Airbnb (ABNB) Investors?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 9, 7:13 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/upgraded-earnings-estimates-ahead-2026-111321110.html",
+      "items": [
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb (ABNB) Stock Could Be 44% Below Fair Value After AI Update",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 11:13 AM",
+          "published_timestamp": 1791558802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-stock-could-44-151322404.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Should Upgraded Earnings Estimates Ahead of 2026 Results Require Action From Airbnb (ABNB) Investors?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 7:13 AM",
+          "published_timestamp": 1791544401,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/upgraded-earnings-estimates-ahead-2026-111321110.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Is Airbnb\u2019s (ABNB) Growth Worth Paying More Than Twice as Much as Its Peers?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 8, 6:43 PM",
+          "published_timestamp": 1791499410,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-growth-worth-paying-224507269.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb, Inc. (ABNB) Ascends While Market Falls: Some Facts to Note",
+          "publisher": "Zacks",
+          "published_at": "Oct 8, 4:50 PM",
+          "published_timestamp": 1791492602,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-ascends-while-205002048.html",
+          "score": -0.11314973979462131
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Should You Buy Airbnb Stock For Its Cash?",
+          "publisher": "Trefis",
+          "published_at": "Oct 8, 4:25 PM",
+          "published_timestamp": 1791491106,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-airbnb-stock-cash-202506144.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Why Airbnb\u2019s (ABNB) Exclusivity Insulates It From AI Disintegration",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 8, 9:36 AM",
+          "published_timestamp": 1791466608,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-airbnb-abnb-exclusivity-insulates-133648076.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb, Inc. (ABNB) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 8, 8:00 AM",
+          "published_timestamp": 1791460806,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-attracting-investor-120006935.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Evercore ISI Adjusts Price Target on Airbnb to $200 From $155",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 8, 7:55 AM",
+          "published_timestamp": 1791460557,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-price-target-115557293.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MCD": {
+      "ticker": "MCD",
+      "score": -0.03420404224442988,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Does AI Pricing Lawsuit And Costly Remodel Push Change The Bull Case For McDonald's (MCD)?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 8, 8:20 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-ai-pricing-lawsuit-costly-002025122.html",
+      "items": [
+        {
+          "ticker": "MCD",
+          "title": "Where Could McDonald's Next Growth Come From?",
+          "publisher": "Trefis",
+          "published_at": "Oct 9, 1:39 PM",
+          "published_timestamp": 1791567557,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/where-could-mcdonalds-next-growth-173917546.html",
+          "score": 0.08727737447415773
+        },
+        {
+          "ticker": "MCD",
+          "title": "Micron Is Now Worth More Than Coca-Cola, PepsiCo, McDonald\u2019s, Disney, Starbucks, Nike and Chipotle Combined",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 9, 8:50 AM",
+          "published_timestamp": 1791550237,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-now-worth-more-coca-125037951.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MCD",
+          "title": "Does AI Pricing Lawsuit And Costly Remodel Push Change The Bull Case For McDonald's (MCD)?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 8, 8:20 PM",
+          "published_timestamp": 1791505225,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/does-ai-pricing-lawsuit-costly-002025122.html",
+          "score": -0.24491866240370913
+        },
+        {
+          "ticker": "MCD",
+          "title": "Why the Market Dipped But McDonald's (MCD) Gained Today",
+          "publisher": "Zacks",
+          "published_at": "Oct 8, 4:50 PM",
+          "published_timestamp": 1791492603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-mcdonalds-mcd-205003777.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Update: Market Chatter: Southwest Airlines Leans Toward Boeing 787 for Potential Long-Haul Service",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 1:52 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-southwest-airlines-leans-175201683.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "Update: Market Chatter: Southwest Airlines Leans Toward Boeing 787 for Potential Long-Haul Service",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 1:52 PM",
+          "published_timestamp": 1791568321,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-southwest-airlines-leans-175201683.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "TD Cowen Says De-Rating In Aerospace Stocks Has Been \u2018Disorderly,\u2019 Cuts Targets On Boeing, Lockheed Martin Among Others",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 9, 1:49 PM",
+          "published_timestamp": 1791568167,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-says-rating-aerospace-174927298.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing and 10 More Buys for the \u2018Modern-Day Industrial Revolution\u2019",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 9, 12:08 PM",
+          "published_timestamp": 1791562080,
+          "link": "https://finance.yahoo.com/m/1c8dc937-0558-30b9-ad19-9cffffad7485/boeing-and-10-more-buys-for.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing\u2019s (BA) Strategic Push to Balance Rising Demand with Operational Bottlenecks",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 9, 11:41 AM",
+          "published_timestamp": 1791560472,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-strategic-push-balance-150412511.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Market Chatter: Southwest Airlines Leans Toward Boeing 787 for Potential Long-Haul Service",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 10:01 AM",
+          "published_timestamp": 1791554507,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-southwest-airlines-leans-140147043.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Baird Adjusts Price Target on Visa to $430 From $420",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 11:33 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Baird Adjusts Price Target on Visa to $430 From $420",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 11:33 AM",
+          "published_timestamp": 1791560036,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Gate and Visa roll out crypto payment card across 40 markets",
+          "publisher": "Electronic Payments",
+          "published_at": "Oct 9, 7:20 AM",
+          "published_timestamp": 1791544812,
+          "link": "https://finance.yahoo.com/news/gate-visa-roll-crypto-payment-112012696.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa (V) Stock May Be 13% Undervalued On Stablecoin Settlement Push",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 8, 6:12 PM",
+          "published_timestamp": 1791497567,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-stock-may-13-221247250.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa to Announce Fiscal Fourth Quarter and Full-Year 2026 Financial Results on October 27, 2026",
+          "publisher": "Business Wire",
+          "published_at": "Oct 8, 4:05 PM",
+          "published_timestamp": 1791489900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-announce-fiscal-fourth-quarter-200500263.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "PEP": {
+      "ticker": "PEP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "PepsiCo's North America Segment Remains Work in Progress, Deutsche Bank Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 1:10 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-apos-north-america-segment-171015681.html",
+      "items": [
+        {
+          "ticker": "PEP",
+          "title": "PepsiCo's North America Segment Remains Work in Progress, Deutsche Bank Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 1:10 PM",
+          "published_timestamp": 1791565815,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-apos-north-america-segment-171015681.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "HSBC Adjusts PepsiCo Price Target to $148 From $155",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 11:33 AM",
+          "published_timestamp": 1791560038,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-pepsico-price-target-153358327.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "PepsiCo Just Reported Earnings. Here's What Investors Need to Know.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 10:46 AM",
+          "published_timestamp": 1791557184,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-just-reported-earnings-heres-144624494.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "Is PepsiCo (PEP) A Bargain Following Its $746m Buyback?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 10:14 AM",
+          "published_timestamp": 1791555258,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-bargain-following-746m-141418544.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "PepsiCo Delivered Slightly Better Than Feared Q3 Results Amid Low Bar, RBC Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 10:07 AM",
+          "published_timestamp": 1791554847,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-delivered-slightly-better-feared-140727916.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Uber Technologies (UBER) Climbed, What Is Behind The Latest Attention?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 9, 8:11 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-climbed-behind-121154447.html",
+      "items": [
+        {
+          "ticker": "UBER",
+          "title": "Uber Technologies (UBER) Climbed, What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 8:11 AM",
+          "published_timestamp": 1791547914,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-climbed-behind-121154447.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Kitchenware retailer Sur La Table joins Uber Eats for US deliveries",
+          "publisher": "Retail Insight Network",
+          "published_at": "Oct 9, 6:14 AM",
+          "published_timestamp": 1791540851,
+          "link": "https://finance.yahoo.com/news/kitchenware-retailer-sur-la-table-101411214.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Is There A Risk Hiding In Uber Stock's Best-Looking Number?",
+          "publisher": "Trefis",
+          "published_at": "Oct 8, 9:01 PM",
+          "published_timestamp": 1791507694,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/risk-hiding-uber-stocks-best-010134445.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Uber\u2019s $2.3B ezCater Deal Continues Push Into Catering by Delivery Platforms",
+          "publisher": "Franchise Times",
+          "published_at": "Oct 8, 10:25 AM",
+          "published_timestamp": 1791469500,
+          "link": "https://finance.yahoo.com/news/uber-2-3b-ezcater-deal-142500117.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "score": 0.04936646690865443,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Intel Stocks Fall 1.0% as Applied Partnership Targets AI Bottlenecks",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 9, 2:34 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/intel-stocks-fall-1-0-183450667.html",
+      "items": [
+        {
+          "ticker": "INTC",
+          "title": "Intel Stocks Fall 1.0% as Applied Partnership Targets AI Bottlenecks",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 9, 2:34 PM",
+          "published_timestamp": 1791570890,
+          "link": "https://finance.yahoo.com/technology/ai/articles/intel-stocks-fall-1-0-183450667.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "INTC",
+          "title": "Super Micro Computer (SMCI) Appoints 35 Year Intel Veteran To Its Board",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 9, 2:11 PM",
+          "published_timestamp": 1791569499,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-appoints-181139313.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "INTC",
+          "title": "Intel Stock Is Still a Turnaround Bet. Here\u2019s What I See Ahead",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 9, 1:00 PM",
+          "published_timestamp": 1791565217,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-still-turnaround-bet-170017639.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 9, 2:23 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 9, 2:23 PM",
+          "published_timestamp": 1791570235,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Prediction: This Will Be AMD's Stock Price in 1 Year",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 12:52 PM",
+          "published_timestamp": 1791564720,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-amds-stock-price-1-165200419.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD vs. Broadcom: How Much Faster Must AMD\u2019s Cash Flow Grow to Earn Its Premium?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 9, 12:05 PM",
+          "published_timestamp": 1791561921,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-vs-broadcom-much-faster-160521892.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 11:37 AM",
+          "published_timestamp": 1791560220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-lead-ai-market-153700481.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Advanced Micro Devices\u2019 (AMD) Premium Valuation Puts Execution Under the Microscope",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 9, 11:24 AM",
+          "published_timestamp": 1791559487,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-premium-152447929.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Gordon Haskett Adjusts Price Target on Target to $160 From $200",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 12:42 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gordon-haskett-adjusts-price-target-164216684.html",
+      "items": [
+        {
+          "ticker": "TGT",
+          "title": "Gordon Haskett Adjusts Price Target on Target to $160 From $200",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 12:42 PM",
+          "published_timestamp": 1791564136,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gordon-haskett-adjusts-price-target-164216684.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target\u00a0tackles\u00a0a\u00a0frustrating\u00a0problem\u00a0for\u00a0shoppers",
+          "publisher": "TheStreet",
+          "published_at": "Oct 9, 12:17 PM",
+          "published_timestamp": 1791562620,
+          "link": "https://finance.yahoo.com/small-business/articles/target-tackles-frustrating-problem-shoppers-161700743.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Zacks Industry Outlook Ross Stores, Target, Dollar General  and  Dollar Tree",
+          "publisher": "Zacks",
+          "published_at": "Oct 9, 1:37 AM",
+          "published_timestamp": 1791524220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-ross-stores-053700316.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target (TGT) On Its Merchandising Reset And The Case For More Upside",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 8, 9:16 PM",
+          "published_timestamp": 1791508603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-tgt-merchandising-reset-case-011643799.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Jim Cramer Said It Was \u201cSuddenly\u201d A Market For Walmart (WMT) But Made A Big Prediction For Target (TGT)",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 8, 6:50 PM",
+          "published_timestamp": 1791499813,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-suddenly-market-225013684.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 8:18 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 8:18 AM",
+          "published_timestamp": 1791548294,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "What Is Procter & Gamble Stock's Biggest Opportunity?",
+          "publisher": "Trefis",
+          "published_at": "Oct 8, 4:08 PM",
+          "published_timestamp": 1791490090,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stocks-biggest-opportunity-200810515.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Top Analyst Reports for Eli Lilly, Procter & Gamble & Shell",
+          "publisher": "Zacks",
+          "published_at": "Oct 8, 3:18 PM",
+          "published_timestamp": 1791487080,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-eli-lilly-191800437.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Microsoft, Adobe Foreign Worker Visas Suspended by US",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 5:18 AM",
+      "link": "https://finance.yahoo.com/economy/policy/articles/microsoft-adobe-foreign-worker-visas-091818977.html",
+      "items": [
+        {
+          "ticker": "ADBE",
+          "title": "Microsoft, Adobe Foreign Worker Visas Suspended by US",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 5:18 AM",
+          "published_timestamp": 1791537498,
+          "link": "https://finance.yahoo.com/economy/policy/articles/microsoft-adobe-foreign-worker-visas-091818977.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Microsoft and Adobe Face a Green Card Sponsorship Freeze: What Investors Should Watch",
+          "publisher": "TIKR",
+          "published_at": "Oct 9, 2:19 AM",
+          "published_timestamp": 1791526790,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-adobe-face-green-card-061950221.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Why Is Adobe (ADBE) Suspended From A Key US Green Card Program?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 8, 11:18 PM",
+          "published_timestamp": 1791515889,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-adobe-adbe-suspended-key-031809105.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Trump's foreign worker crackdown comes for Microsoft, Adobe, IT firms",
+          "publisher": "Axios",
+          "published_at": "Oct 8, 2:04 PM",
+          "published_timestamp": 1791482675,
+          "link": "https://finance.yahoo.com/news/trumps-foreign-worker-crackdown-comes-180435500.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Citi, Morgan Stanley Put Alibaba Back in Focus",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 9, 12:39 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/citi-morgan-stanley-put-alibaba-163929429.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Citi, Morgan Stanley Put Alibaba Back in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 9, 12:39 PM",
+          "published_timestamp": 1791563969,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citi-morgan-stanley-put-alibaba-163929429.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Former Morgan Stanley CEO Lists Converted N.Y.C. Carriage House for $80 Million",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 9, 12:00 PM",
+          "published_timestamp": 1791561600,
+          "link": "https://finance.yahoo.com/m/39aae54b-8ce7-37e7-9bf7-987b58064a2e/former-morgan-stanley-ceo.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Stock Ahead of Q3 Earnings: Buy, Hold or Sell?",
+          "publisher": "Zacks",
+          "published_at": "Oct 9, 10:17 AM",
+          "published_timestamp": 1791555420,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-stock-ahead-q3-141700757.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "What Analyst Projections for Key Metrics Reveal About Morgan Stanley (MS) Q3 Earnings",
+          "publisher": "Zacks",
+          "published_at": "Oct 9, 8:15 AM",
+          "published_timestamp": 1791548103,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-121503737.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "V": {
+      "ticker": "V",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Baird Adjusts Price Target on Visa to $430 From $420",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 11:33 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Baird Adjusts Price Target on Visa to $430 From $420",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 11:33 AM",
+          "published_timestamp": 1791560036,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Gate and Visa roll out crypto payment card across 40 markets",
+          "publisher": "Electronic Payments",
+          "published_at": "Oct 9, 7:20 AM",
+          "published_timestamp": 1791544812,
+          "link": "https://finance.yahoo.com/news/gate-visa-roll-crypto-payment-112012696.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa (V) Stock May Be 13% Undervalued On Stablecoin Settlement Push",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 8, 6:12 PM",
+          "published_timestamp": 1791497567,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-stock-may-13-221247250.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa to Announce Fiscal Fourth Quarter and Full-Year 2026 Financial Results on October 27, 2026",
+          "publisher": "Business Wire",
+          "published_at": "Oct 8, 4:05 PM",
+          "published_timestamp": 1791489900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-announce-fiscal-fourth-quarter-200500263.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 9, 8:18 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 9, 8:18 AM",
+          "published_timestamp": 1791548294,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "What Is Procter & Gamble Stock's Biggest Opportunity?",
+          "publisher": "Trefis",
+          "published_at": "Oct 8, 4:08 PM",
+          "published_timestamp": 1791490090,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stocks-biggest-opportunity-200810515.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Top Analyst Reports for Eli Lilly, Procter & Gamble & Shell",
+          "publisher": "Zacks",
+          "published_at": "Oct 8, 3:18 PM",
+          "published_timestamp": 1791487080,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-eli-lilly-191800437.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 9, 2:23 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 9, 2:23 PM",
+          "published_timestamp": 1791570235,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Prediction: This Will Be AMD's Stock Price in 1 Year",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 12:52 PM",
+          "published_timestamp": 1791564720,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-amds-stock-price-1-165200419.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD vs. Broadcom: How Much Faster Must AMD\u2019s Cash Flow Grow to Earn Its Premium?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 9, 12:05 PM",
+          "published_timestamp": 1791561921,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-vs-broadcom-much-faster-160521892.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 9, 11:37 AM",
+          "published_timestamp": 1791560220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-lead-ai-market-153700481.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Advanced Micro Devices\u2019 (AMD) Premium Valuation Puts Execution Under the Microscope",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 9, 11:24 AM",
+          "published_timestamp": 1791559487,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-premium-152447929.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "COST": {
+      "price_score": 0.7495583089524048,
+      "news_score": 0.05029175563127811,
+      "combined_score": 0.7846437849306288
+    },
+    "ABNB": {
+      "price_score": -0.060586884117969156,
+      "news_score": 0.03374018954581576,
+      "combined_score": -0.03704842150215615
+    },
+    "AMAT": {
+      "price_score": 0.004409074236362082,
+      "news_score": 0.0,
+      "combined_score": 0.004409074236362082
+    },
+    "QCOM": {
+      "price_score": -1.1045545284644638,
+      "news_score": 0.0,
+      "combined_score": -1.1045545284644638
+    },
+    "TXN": {
+      "price_score": 0.12007717869056495,
+      "news_score": 0.06386578946075243,
+      "combined_score": 0.16463242624215244
+    },
+    "MCD": {
+      "price_score": -0.25360252113876547,
+      "news_score": -0.03420404224442988,
+      "combined_score": -0.2774645853570753
+    },
+    "BA": {
+      "price_score": -0.9912021918387619,
+      "news_score": 0.0,
+      "combined_score": -0.9912021918387619
+    },
+    "XOM": {
+      "price_score": 0.5731453368306215,
+      "news_score": 0.0,
+      "combined_score": 0.5731453368306215
+    },
+    "V": {
+      "price_score": 1.1330542753264496,
+      "news_score": 0.0,
+      "combined_score": 1.1330542753264496
+    },
+    "UBER": {
+      "price_score": 0.4696120280684864,
+      "news_score": 0.0,
+      "combined_score": 0.4696120280684864
+    },
+    "INTC": {
+      "price_score": -1.4037439916905197,
+      "news_score": 0.04936646690865443,
+      "combined_score": -1.3693040329515138
+    },
+    "GOOGL": {
+      "price_score": 0.5511106470694788,
+      "news_score": 0.0,
+      "combined_score": 0.5511106470694788
+    },
+    "PEP": {
+      "price_score": -0.4832571768903338,
+      "news_score": 0.0,
+      "combined_score": -0.4832571768903338
+    },
+    "AMD": {
+      "price_score": 0.8486520918227041,
+      "news_score": 0.0,
+      "combined_score": 0.8486520918227041
+    },
+    "PG": {
+      "price_score": 0.8988108658121623,
+      "news_score": 0.0,
+      "combined_score": 0.8988108658121623
+    },
+    "TGT": {
+      "price_score": -0.11855468514255586,
+      "news_score": 0.0,
+      "combined_score": -0.11855468514255586
+    },
+    "MS": {
+      "price_score": -0.7705263448565468,
+      "news_score": 0.0,
+      "combined_score": -0.7705263448565468
+    },
+    "ADBE": {
+      "price_score": -0.1624014826693175,
+      "news_score": 0.0,
+      "combined_score": -0.1624014826693175
+    }
+  },
   "data_version": 5
 }
