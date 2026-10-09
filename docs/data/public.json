@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T18:45:05.850515+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-09T22:55:45.854278+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-09",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.300875,
-  "display_points": -7.300875,
-  "completed_balance": 18.452159,
-  "display_balance": 18.452159,
-  "completed_rounds": 29,
-  "current_strategy": "trend",
+  "banked_points": -7.430725,
+  "display_points": -7.430725,
+  "completed_balance": 18.428199,
+  "display_balance": 18.428199,
+  "completed_rounds": 30,
+  "current_strategy": null,
   "strategy_scores": {
-    "trend": -0.06174,
+    "trend": -0.074,
     "dip": -1.69953,
     "steady": -0.14517,
     "breakout": -0.082
   },
   "news_learning_score": -0.11636,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.452159,
-    "market_date": "2026-10-09",
-    "quote_time": "2026-10-09T18:45:05.841663+00:00",
-    "holdings": [
-      {
-        "ticker": "V",
-        "weight": 0.404079,
-        "entry": 385.25,
-        "last_price": 385.25,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Baird Adjusts Price Target on Visa to $430 From $420",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/baird-adjusts-price-target-visa-153356674.html"
-      },
-      {
-        "ticker": "PG",
-        "weight": 0.306749,
-        "entry": 151.13,
-        "last_price": 151.13,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-procter-121814555.html"
-      },
-      {
-        "ticker": "AMD",
-        "weight": 0.289172,
-        "entry": 611.72,
-        "last_price": 611.72,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "AMD Stocks Slide Lower Despite Street-High $800 AI Target",
-        "publisher": "GuruFocus.com",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-slide-lower-despite-182355619.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -528,6 +487,26 @@
       "news_summaries": [
         "ABBV Neutral: Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive? | WMT Neutral: Walmart Opens Fulfillment Center in California | CSCO Neutral: Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?"
       ]
+    },
+    {
+      "market_date": "2026-10-09",
+      "point_change": -0.12985,
+      "banked_points": -7.430725,
+      "cash_before": 18.452159,
+      "cash_after": 18.428199,
+      "cash_change": -0.023960000000002424,
+      "rounds": 1,
+      "strategies": [
+        "trend"
+      ],
+      "companies": [
+        "V",
+        "PG",
+        "AMD"
+      ],
+      "news_summaries": [
+        "V Neutral: Baird Adjusts Price Target on Visa to $430 From $420 | PG Neutral: BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating | AMD Neutral: AMD Stocks Slide Lower Despite Street-High $800 AI Target"
+      ]
     }
   ],
   "rounds": [
@@ -878,6 +857,18 @@
       "companies": "ABBV, WMT, CSCO",
       "allocation": "{\"ABBV\": 0.39456224805237866, \"CSCO\": 0.29738731338294205, \"WMT\": 0.30805043856467934}",
       "news_summary": "ABBV Neutral: Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive? | WMT Neutral: Walmart Opens Fulfillment Center in California | CSCO Neutral: Is BCE (TSX:BCE) Cheap Following Its Cisco AI Deal And Ahlo 2 Launch?"
+    },
+    {
+      "market_date": "2026-10-09",
+      "timestamp": "2026-10-09T22:55:45+00:00",
+      "strategy": "trend",
+      "cash_before": "18.452159",
+      "cash_after": "18.428199",
+      "point_change": "-0.129850",
+      "banked_points": "-7.430725",
+      "companies": "V, PG, AMD",
+      "allocation": "{\"AMD\": 0.2891715663260591, \"PG\": 0.30674920423813834, \"V\": 0.40407922943580266}",
+      "news_summary": "V Neutral: Baird Adjusts Price Target on Visa to $430 From $420 | PG Neutral: BofA Adjusts Price Target on Procter & Gamble to $170 From $160, Keeps Buy Rating | AMD Neutral: AMD Stocks Slide Lower Despite Street-High $800 AI Target"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
