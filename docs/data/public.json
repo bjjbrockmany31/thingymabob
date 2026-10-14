@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-13T23:27:27.988426+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-14T17:57:01.107760+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-13",
+  "last_reroll_market_date": "2026-10-14",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.454017,
   "display_points": -7.454017,
   "completed_balance": 18.423906,
   "display_balance": 18.423906,
   "completed_rounds": 31,
-  "current_strategy": null,
+  "current_strategy": "dip",
   "strategy_scores": {
     "trend": -0.06487,
     "dip": -1.69953,
@@ -21,7 +21,48 @@
     "breakout": -0.082
   },
   "news_learning_score": -0.09909,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.423906,
+    "market_date": "2026-10-14",
+    "quote_time": "2026-10-14T17:57:01.094732+00:00",
+    "holdings": [
+      {
+        "ticker": "INTC",
+        "weight": 0.458233,
+        "entry": 98.42,
+        "last_price": 98.42,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Intel CEO says ‘good enough’ Chinese models are winning on price",
+        "publisher": "TheStreet",
+        "link": "https://finance.yahoo.com/technology/ai/articles/intel-ceo-says-good-enough-171700931.html"
+      },
+      {
+        "ticker": "AMAT",
+        "weight": 0.36883,
+        "entry": 447.4,
+        "last_price": 447.4,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Applied Materials Stocks Fall Although Its 2030 Plan Promises Higher Margins",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-fall-although-171404059.html"
+      },
+      {
+        "ticker": "GS",
+        "weight": 0.172937,
+        "entry": 866.62,
+        "last_price": 866.62,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Rejoining single market could give UK a £150bn boost, Goldman Sachs claims",
+        "publisher": "The Telegraph",
+        "link": "https://finance.yahoo.com/economy/articles/rejoining-eu-could-uk-150bn-144056247.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
