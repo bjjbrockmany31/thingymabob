@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T17:57:01.107760+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-14T21:34:18.530634+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-14",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.454017,
-  "display_points": -7.454017,
-  "completed_balance": 18.423906,
-  "display_balance": 18.423906,
-  "completed_rounds": 31,
-  "current_strategy": "dip",
+  "banked_points": -7.415712,
+  "display_points": -7.415712,
+  "completed_balance": 18.430964,
+  "display_balance": 18.430964,
+  "completed_rounds": 32,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.06487,
-    "dip": -1.69953,
+    "dip": -1.38672,
     "steady": -0.14517,
     "breakout": -0.082
   },
   "news_learning_score": -0.09909,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.423906,
-    "market_date": "2026-10-14",
-    "quote_time": "2026-10-14T17:57:01.094732+00:00",
-    "holdings": [
-      {
-        "ticker": "INTC",
-        "weight": 0.458233,
-        "entry": 98.42,
-        "last_price": 98.42,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Intel CEO says ‘good enough’ Chinese models are winning on price",
-        "publisher": "TheStreet",
-        "link": "https://finance.yahoo.com/technology/ai/articles/intel-ceo-says-good-enough-171700931.html"
-      },
-      {
-        "ticker": "AMAT",
-        "weight": 0.36883,
-        "entry": 447.4,
-        "last_price": 447.4,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Applied Materials Stocks Fall Although Its 2030 Plan Promises Higher Margins",
-        "publisher": "GuruFocus.com",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-fall-although-171404059.html"
-      },
-      {
-        "ticker": "GS",
-        "weight": 0.172937,
-        "entry": 866.62,
-        "last_price": 866.62,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Rejoining single market could give UK a £150bn boost, Goldman Sachs claims",
-        "publisher": "The Telegraph",
-        "link": "https://finance.yahoo.com/economy/articles/rejoining-eu-could-uk-150bn-144056247.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -568,6 +527,26 @@
       "news_summaries": [
         "META Neutral: Cathie Wood sells Meta shares after Zuckerberg's big AI launch | MSFT Neutral: Microsoft Stock Heads for a Record High. How It Suddenly Became an AI Winner. | DIS Neutral: Walt Disney vs. Netflix: Which Media Stock Is a Better Buy in 2026?"
       ]
+    },
+    {
+      "market_date": "2026-10-14",
+      "point_change": 0.038305,
+      "banked_points": -7.415712,
+      "cash_before": 18.423906,
+      "cash_after": 18.430964,
+      "cash_change": 0.007058000000000675,
+      "rounds": 1,
+      "strategies": [
+        "dip"
+      ],
+      "companies": [
+        "INTC",
+        "AMAT",
+        "GS"
+      ],
+      "news_summaries": [
+        "INTC Neutral: Intel CEO says ‘good enough’ Chinese models are winning on price | AMAT Neutral: Applied Materials Stocks Fall Although Its 2030 Plan Promises Higher Margins | GS Neutral: Rejoining single market could give UK a £150bn boost, Goldman Sachs claims"
+      ]
     }
   ],
   "rounds": [
@@ -942,6 +921,18 @@
       "companies": "META, MSFT, DIS",
       "allocation": "{\"DIS\": 0.20624491175738605, \"META\": 0.412667756790047, \"MSFT\": 0.38108733145256696}",
       "news_summary": "META Neutral: Cathie Wood sells Meta shares after Zuckerberg's big AI launch | MSFT Neutral: Microsoft Stock Heads for a Record High. How It Suddenly Became an AI Winner. | DIS Neutral: Walt Disney vs. Netflix: Which Media Stock Is a Better Buy in 2026?"
+    },
+    {
+      "market_date": "2026-10-14",
+      "timestamp": "2026-10-14T21:34:18+00:00",
+      "strategy": "dip",
+      "cash_before": "18.423906",
+      "cash_after": "18.430964",
+      "point_change": "0.038305",
+      "banked_points": "-7.415712",
+      "companies": "INTC, AMAT, GS",
+      "allocation": "{\"AMAT\": 0.3688303319341455, \"GS\": 0.1729368277591004, \"INTC\": 0.45823284030675415}",
+      "news_summary": "INTC Neutral: Intel CEO says ‘good enough’ Chinese models are winning on price | AMAT Neutral: Applied Materials Stocks Fall Although Its 2030 Plan Promises Higher Margins | GS Neutral: Rejoining single market could give UK a £150bn boost, Goldman Sachs claims"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
