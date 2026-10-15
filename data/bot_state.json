@@ -66,26 +66,1117 @@
     "steady": -0.14517191182927397,
     "breakout": -0.08200047295484972
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "WMT": 0.431358104435249,
+    "COST": 0.3160832511379583,
+    "COP": 0.2525586444267926
+  },
+  "entry_prices": {
+    "COST": 988.06,
+    "COP": 142.1,
+    "WMT": 118.42
+  },
+  "round_market_date": "2026-10-15",
+  "round_started_at": "2026-10-15T17:43:19.201867+00:00",
   "rounds_completed": 32,
   "last_round_tickers": [
     "INTC",
     "AMAT",
     "GS"
   ],
-  "last_reroll_market_date": "2026-10-14",
+  "last_reroll_market_date": "2026-10-15",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.09909490871160234,
-  "news_last_checked_at": "2026-10-14T17:57:01.094717+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-15T17:43:19.202616+00:00",
+  "news_signals": {
+    "MSFT": {
+      "ticker": "MSFT",
+      "score": 0.03570004849181549,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Microsoft's Azure, M365 Growth Expectations Rise Ahead of Earnings, UBS Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 15, 12:51 PM",
+      "link": "https://finance.yahoo.com/technology/articles/microsoft-apos-azure-m365-growth-165135114.html",
+      "items": [
+        {
+          "ticker": "MSFT",
+          "title": "Morgan Stanley finds a new twist in Microsoft's AI story",
+          "publisher": "TheStreet",
+          "published_at": "Oct 15, 1:07 PM",
+          "published_timestamp": 1792084020,
+          "link": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-finds-twist-microsofts-170700473.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Microsoft AI unveils 2.8 trillion-parameter model, claims efficiency gains",
+          "publisher": "Investing.com",
+          "published_at": "Oct 15, 12:56 PM",
+          "published_timestamp": 1792083377,
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-unveils-2-8-165617565.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Microsoft's Azure, M365 Growth Expectations Rise Ahead of Earnings, UBS Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 12:51 PM",
+          "published_timestamp": 1792083095,
+          "link": "https://finance.yahoo.com/technology/articles/microsoft-apos-azure-m365-growth-165135114.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Proofpoint MSP Platform Introduces New Capabilities to Support Secure AI Adoption for Organizations Using Microsoft 365",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 15, 11:46 AM",
+          "published_timestamp": 1792079160,
+          "link": "https://finance.yahoo.com/technology/ai/articles/proofpoint-msp-platform-introduces-capabilities-154600372.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MSFT",
+          "title": "Microsoft\u2019s Azure Grew 40% and Is Still Reportedly Hunting for 20% Cost Cuts",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 11:27 AM",
+          "published_timestamp": 1792078041,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-azure-grew-40-still-152721204.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Adobe, Nvidia Expand Collaboration to Improve AI Processing Speeds",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 15, 1:34 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/adobe-nvidia-expand-collaboration-improve-173423313.html",
+      "items": [
+        {
+          "ticker": "NVDA",
+          "title": "Adobe, Nvidia Expand Collaboration to Improve AI Processing Speeds",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 1:34 PM",
+          "published_timestamp": 1792085663,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-nvidia-expand-collaboration-improve-173423313.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NVDA",
+          "title": "Nvidia's Huang Signals CoreWeave Financials Improving, With Decreasing Cost Of Capital",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 15, 1:25 PM",
+          "published_timestamp": 1792085100,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidias-huang-signals-coreweave-financials-172500723.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "score": -0.05199417013992204,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "This Warning Signal Just Flashed Ahead of Netflix's Earnings -- Here's What It Means for the Stock",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 15, 12:47 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warning-signal-just-flashed-ahead-164711859.html",
+      "items": [
+        {
+          "ticker": "NFLX",
+          "title": "This Warning Signal Just Flashed Ahead of Netflix's Earnings -- Here's What It Means for the Stock",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 15, 12:47 PM",
+          "published_timestamp": 1792082831,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/warning-signal-just-flashed-ahead-164711859.html",
+          "score": -0.20173975176639067
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Skydance Rebounds 5% as Warrant Adjustment Selloff Fades; Netflix Rises 3%, Disney Advances 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 12:01 PM",
+          "published_timestamp": 1792080103,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/skydance-rebounds-5-warrant-adjustment-160143686.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Sentiment Seen Improving on Pricing, Content Slate, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 11:43 AM",
+          "published_timestamp": 1792079009,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-sentiment-seen-improving-pricing-154329444.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix's KPop Demon Hunters Is Coming to Toca Boca World\u2122 This October",
+          "publisher": "CNW Group",
+          "published_at": "Oct 15, 11:00 AM",
+          "published_timestamp": 1792076400,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflixs-kpop-demon-hunters-coming-150000516.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Ahead of Netflix (NFLX) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:15 AM",
+          "published_timestamp": 1792066516,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ahead-netflix-nflx-q3-earnings-121516048.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Here Are Thursday\u2019s Top Wall Street Analyst Research Calls: AngloGold Ashanti, Bank of America, Cirrus Logic, Crocs, Diamondback Energy, Devon Energy, Netflix, PayPal, Spotify Technolgy , and More",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 8:10 AM",
+          "published_timestamp": 1792066211,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/thursday-top-wall-street-analyst-121011735.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "What Netflix\u2019s Layoffs Mean for Other Companies; Inflation Ripple Effects",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 15, 6:52 AM",
+          "published_timestamp": 1792061520,
+          "link": "https://finance.yahoo.com/m/9903f4bc-62b0-3444-9ea1-399104c3b179/what-netflix%E2%80%99s-layoffs-mean.html",
+          "score": -0.20173975176639067
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
+      "publisher": "StockStory",
+      "published_at": "Oct 15, 1:36 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/formfactor-teradyne-applied-materials-amd-173627052.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
+          "publisher": "StockStory",
+          "published_at": "Oct 15, 1:36 PM",
+          "published_timestamp": 1792085787,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/formfactor-teradyne-applied-materials-amd-173627052.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "The Real AMD Catalyst Investors Are Sleeping On Isn\u2019t What You Think",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 12:30 PM",
+          "published_timestamp": 1792081834,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/real-amd-catalyst-investors-sleeping-163034055.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns \u2014 Saxo Says Financing Squeeze Could Hit Supply Chain",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 15, 11:28 AM",
+          "published_timestamp": 1792078106,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-nvda-other-chip-stocks-152826082.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "RBC Cuts Price Target on Boeing to $235 From $265, Keeps Outperform Rating",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 15, 7:38 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-cuts-price-target-boeing-113818897.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "RBC Cuts Price Target on Boeing to $235 From $265, Keeps Outperform Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 7:38 AM",
+          "published_timestamp": 1792064298,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-cuts-price-target-boeing-113818897.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Update: Market Chatter: Cathay Pacific Plans Talks With Boeing, Airbus Over Potential Wide-Body Order",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 7:08 AM",
+          "published_timestamp": 1792062508,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-cathay-pacific-plans-110828330.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Market Chatter: Cathay Pacific Plans Talks With Boeing and Airbus Over Potential Wide-Body Order",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 6:39 AM",
+          "published_timestamp": 1792060759,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-cathay-pacific-plans-103919534.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": 0.03304812501595655,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Why Is Oracle (ORCL) Reworking Project Jupiter As It Launches AI Startup Tools?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 15, 10:11 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-oracle-orcl-reworking-project-141110230.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Fell Nearly 9% as CoreWeave\u2019s Bond Scare Spread",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 11:08 AM",
+          "published_timestamp": 1792076899,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-fell-nearly-9-coreweave-150819090.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Why Is Oracle (ORCL) Reworking Project Jupiter As It Launches AI Startup Tools?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 15, 10:11 AM",
+          "published_timestamp": 1792073470,
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-oracle-orcl-reworking-project-141110230.html",
+          "score": 0.07485969068749909
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Procter & Gamble Pre-Q1 Earnings: Is It Wise to Buy the Stock Now?",
+      "publisher": "Zacks",
+      "published_at": "Oct 15, 11:39 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pre-q1-earnings-153900543.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Pre-Q1 Earnings: Is It Wise to Buy the Stock Now?",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 11:39 AM",
+          "published_timestamp": 1792078740,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pre-q1-earnings-153900543.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Earnings Preview: Procter & Gamble (PG) Q1 Earnings Expected to Decline",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 9:00 AM",
+          "published_timestamp": 1792069211,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-procter-gamble-pg-130011444.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "ETFs Are Net Sellers of Procter & Gamble (PG) on Tuesday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 15, 7:02 AM",
+          "published_timestamp": 1792062155,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-procter-gamble-110235890.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Is Procter & Gamble Stock Priced Right Against Its Peers?",
+          "publisher": "Trefis",
+          "published_at": "Oct 14, 1:53 PM",
+          "published_timestamp": 1792000426,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stock-priced-against-175346935.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "How P&G\u2019s New Product Tweaks and Affirmed Dividend Strategy Could Reshape Procter & Gamble (PG) Investors",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 14, 11:18 AM",
+          "published_timestamp": 1791991096,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-g-product-tweaks-affirmed-151816390.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble (PG) Could Be 42% Overvalued As Dividend News Lands",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 14, 10:10 AM",
+          "published_timestamp": 1791987043,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pg-could-42-141043497.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?",
+      "publisher": "Zacks",
+      "published_at": "Oct 15, 8:30 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-conocophillips-123006028.html",
+      "items": [
+        {
+          "ticker": "COP",
+          "title": "Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:30 AM",
+          "published_timestamp": 1792067406,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-conocophillips-123006028.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "Morgan Stanley Adjusts Price Target on ConocoPhillips to $159 From $151",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 14, 10:27 AM",
+          "published_timestamp": 1791988027,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-142707304.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "Roth Capital Adjusts ConocoPhillips Price Target to $152 From $126",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 14, 8:20 AM",
+          "published_timestamp": 1791980415,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/roth-capital-adjusts-conocophillips-price-122015387.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GM": {
+      "ticker": "GM",
+      "score": 0.16480636458273001,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "General Motors (GM) Raised Guidance Twice This Year. Why Is the Stock Still So Cheap?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 14, 2:45 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-raised-guidance-184537685.html",
+      "items": [
+        {
+          "ticker": "GM",
+          "title": "2 Revolutionary Developments That Should Change Your Investing Thesis on Ford and General Motors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 15, 8:25 AM",
+          "published_timestamp": 1792067100,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-revolutionary-developments-change-investing-122500859.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors (GM) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:15 AM",
+          "published_timestamp": 1792066523,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-q3-earnings-121523736.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "GM wants drivers to be able to text and drive",
+          "publisher": "TheStreet",
+          "published_at": "Oct 14, 9:03 PM",
+          "published_timestamp": 1792026180,
+          "link": "https://finance.yahoo.com/technology/ai/articles/gm-wants-drivers-able-text-010300231.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors (GM) Raised Guidance Twice This Year. Why Is the Stock Still So Cheap?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 14, 2:45 PM",
+          "published_timestamp": 1792003537,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-raised-guidance-184537685.html",
+          "score": 0.5545997223493823
+        }
+      ]
+    },
+    "COST": {
+      "ticker": "COST",
+      "score": 0.04426142119283993,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 15, 9:02 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-climbs-3-deutsche-bank-130212678.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Is Costco Stock Increasing Your Market Risk?",
+          "publisher": "Trefis",
+          "published_at": "Oct 15, 1:12 PM",
+          "published_timestamp": 1792084342,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-increasing-market-risk-171222910.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 9:02 AM",
+          "published_timestamp": 1792069332,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-climbs-3-deutsche-bank-130212678.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco, Cleveland Clinic, NTT Data and Red Hat Show What AI-Powered Observability Can Actually Deliver",
+          "publisher": "Business Wire",
+          "published_at": "Oct 15, 9:00 AM",
+          "published_timestamp": 1792069200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/costco-cleveland-clinic-ntt-data-130000600.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Stock Looks Expensive. Here\u2019s Why Investors Keep Buying",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 7:15 AM",
+          "published_timestamp": 1792062922,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-looks-expensive-why-111522969.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "score": 0.020410763121373483,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Exxon Mobil Holdings (XOM) Rises As Market Takes a Dip: Key Facts",
+      "publisher": "Zacks",
+      "published_at": "Oct 14, 4:45 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-rises-204502726.html",
+      "items": [
+        {
+          "ticker": "XOM",
+          "title": "Exxon\u2019s Dividend Stays Safe Even if Oil Crashes to $79 a Barrel",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 9:45 AM",
+          "published_timestamp": 1792071953,
+          "link": "https://finance.yahoo.com/energy/articles/exxon-dividend-stays-safe-even-134553099.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "XOM",
+          "title": "State Street Energy Select Sector SPDR (XLE) Adds XOM and CVX on Oct. 13",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 15, 7:05 AM",
+          "published_timestamp": 1792062327,
+          "link": "https://finance.yahoo.com/energy/articles/state-street-energy-select-sector-110527039.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "XOM",
+          "title": "Exxon Wants to Repeat Its Guyana Success in Trinidad. Should You Buy the Stock Now or Wait for the First Well?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 14, 5:50 PM",
+          "published_timestamp": 1792014600,
+          "link": "https://finance.yahoo.com/energy/articles/exxon-wants-repeat-guyana-success-215000483.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "XOM",
+          "title": "Exxon Mobil Holdings (XOM) Rises As Market Takes a Dip: Key Facts",
+          "publisher": "Zacks",
+          "published_at": "Oct 14, 4:45 PM",
+          "published_timestamp": 1792010702,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-rises-204502726.html",
+          "score": 0.0906594777770402
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 8,
+      "top_headline": "Quantum Computing Market Could Grow to $100 Billion-Plus Per Year by 2040, Morgan Stanley Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 15, 1:27 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/quantum-computing-market-could-grow-172749617.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Quantum Computing Market Could Grow to $100 Billion-Plus Per Year by 2040, Morgan Stanley Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 1:27 PM",
+          "published_timestamp": 1792085269,
+          "link": "https://finance.yahoo.com/technology/ai/articles/quantum-computing-market-could-grow-172749617.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley finds a new twist in Microsoft's AI story",
+          "publisher": "TheStreet",
+          "published_at": "Oct 15, 1:07 PM",
+          "published_timestamp": 1792084020,
+          "link": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-finds-twist-microsofts-170700473.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley's Q3 Beat Driven by Trading Activity, but Diversification is Key to Sustain Trends, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 12:07 PM",
+          "published_timestamp": 1792080460,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-apos-q3-beat-160740797.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley's Strong Q3 Results Driven by Strength in Investment Banking, Trading, RBC Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 11:58 AM",
+          "published_timestamp": 1792079900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-apos-strong-q3-155820569.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "TeraWulf Stock Keeps Falling, but Morgan Stanley Sees 463% Upside",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 15, 11:57 AM",
+          "published_timestamp": 1792079820,
+          "link": "https://finance.yahoo.com/m/df042861-a0fa-3db2-9157-6559fe2d6881/terawulf-stock-keeps-falling%2C.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Q3 Earnings Call Highlights Wealth and AI Strategy",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 10:10 AM",
+          "published_timestamp": 1792073400,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-q3-earnings-call-141000675.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley upgrades Quantinuum to Overweight on technology edge; shares rise",
+          "publisher": "Investing.com",
+          "published_at": "Oct 15, 9:32 AM",
+          "published_timestamp": 1792071158,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-upgrades-quantinuum-overweight-133238676.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Citigroup Adjusts Price Target on Morgan Stanley to $190 From $210",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 9:04 AM",
+          "published_timestamp": 1792069441,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-morgan-130401576.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "AMGN vs. MRK: Which Pharma Giant\u2019s Dividend Actually Has Room to Grow",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 15, 12:45 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/amgn-vs-mrk-pharma-giant-164525861.html",
+      "items": [
+        {
+          "ticker": "MRK",
+          "title": "AMGN vs. MRK: Which Pharma Giant\u2019s Dividend Actually Has Room to Grow",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 12:45 PM",
+          "published_timestamp": 1792082725,
+          "link": "https://finance.yahoo.com/healthcare/articles/amgn-vs-mrk-pharma-giant-164525861.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Merck & Co., Inc. (MRK) Reports Promising Skin Cancer Trial Results for Keytruda and Personalized mRNA Vaccine",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 15, 11:27 AM",
+          "published_timestamp": 1792078066,
+          "link": "https://finance.yahoo.com/healthcare/articles/merck-co-inc-mrk-reports-152746893.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Here is What to Know Beyond Why Merck & Co., Inc. (MRK) is a Trending Stock",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:00 AM",
+          "published_timestamp": 1792065608,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-merck-co-120008448.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Intel vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 15, 8:57 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-qualcomm-tech-stock-125701291.html",
+      "items": [
+        {
+          "ticker": "QCOM",
+          "title": "Intel vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 15, 8:57 AM",
+          "published_timestamp": 1792069021,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-qualcomm-tech-stock-125701291.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "QCOM",
+          "title": "QCOM, AVGO, NVDA Stocks In Focus As ByteDance Reportedly Closes In On A MediaTek Pact For AI Data Center Chips",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 15, 2:16 AM",
+          "published_timestamp": 1792044966,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/qcom-avgo-nvda-stocks-focus-061606511.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Siemens joins IBM research effort to develop nanostack technology",
+      "publisher": "Verdict",
+      "published_at": "Oct 15, 5:09 AM",
+      "link": "https://finance.yahoo.com/news/siemens-joins-ibm-research-effort-090942433.html",
+      "items": [
+        {
+          "ticker": "IBM",
+          "title": "Siemens joins IBM research effort to develop nanostack technology",
+          "publisher": "Verdict",
+          "published_at": "Oct 15, 5:09 AM",
+          "published_timestamp": 1792055382,
+          "link": "https://finance.yahoo.com/news/siemens-joins-ibm-research-effort-090942433.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "score": 0.0861881751240523,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Walmart expands health benefits with free GLP-1 drugs",
+      "publisher": "USA TODAY",
+      "published_at": "Oct 15, 12:25 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/walmart-expands-health-benefits-free-162559051.html",
+      "items": [
+        {
+          "ticker": "WMT",
+          "title": "Why Walmart (WMT) Stock Is Up Today",
+          "publisher": "StockStory",
+          "published_at": "Oct 15, 1:20 PM",
+          "published_timestamp": 1792084827,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-walmart-wmt-stock-today-172027774.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart plans to offer employees free prescriptions, paid NICU leave",
+          "publisher": "HR Dive",
+          "published_at": "Oct 15, 12:36 PM",
+          "published_timestamp": 1792082160,
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-plans-offer-employees-free-163600929.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart expands health benefits with free GLP-1 drugs",
+          "publisher": "USA TODAY",
+          "published_at": "Oct 15, 12:25 PM",
+          "published_timestamp": 1792081559,
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-expands-health-benefits-free-162559051.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Rises as Deutsche Bank Sees Pricing Tailwinds Building",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 15, 12:01 PM",
+          "published_timestamp": 1792080098,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-rises-deutsche-bank-sees-160138302.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Stock Gets an Upgrade as Analyst Sees More Room to Run",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 15, 11:22 AM",
+          "published_timestamp": 1792077720,
+          "link": "https://finance.yahoo.com/m/a5829aaa-b33d-3618-a8d7-1620561b898f/walmart-stock-gets-an-upgrade.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.026066112929098224,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Caterpillar Invests in North Carolina's Future Manufacturing Workforce",
+      "publisher": "PR Newswire",
+      "published_at": "Oct 15, 11:00 AM",
+      "link": "https://finance.yahoo.com/small-business/articles/caterpillar-invests-north-carolinas-future-150000397.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Invests in North Carolina's Future Manufacturing Workforce",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 15, 11:00 AM",
+          "published_timestamp": 1792076400,
+          "link": "https://finance.yahoo.com/small-business/articles/caterpillar-invests-north-carolinas-future-150000397.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Announces Leadership Transition in Resource Industries",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 15, 9:15 AM",
+          "published_timestamp": 1792070100,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-announces-leadership-transition-industries-131500990.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Inc. to Announce Third-Quarter 2026 Financial Results on October 29",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 15, 8:00 AM",
+          "published_timestamp": 1792065600,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-inc-announce-third-quarter-120000038.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "/C O R R E C T I O N - Caterpillar Inc./",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 14, 11:06 AM",
+          "published_timestamp": 1791990360,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-inc-maintains-dividend-131500226.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Market Chatter: Meta Releases New Open-Weight AI Model, Working With Apple to Run it on Macs",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 15, 1:25 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-meta-releases-open-172524553.html",
+      "items": [
+        {
+          "ticker": "META",
+          "title": "Market Chatter: Meta Releases New Open-Weight AI Model, Working With Apple to Run it on Macs",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 1:25 PM",
+          "published_timestamp": 1792085124,
+          "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-meta-releases-open-172524553.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Senators Want to Know Why Meta Claimed $6.6 Billion in Research Tax Credits for AI Data Centers",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 11:52 AM",
+          "published_timestamp": 1792079547,
+          "link": "https://finance.yahoo.com/technology/ai/articles/senators-want-know-why-meta-155227468.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Citi Raises Meta Price Target to $895 Ahead of Q3 Earnings",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 15, 11:51 AM",
+          "published_timestamp": 1792079498,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-meta-price-target-155138991.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Meta Platforms Investors Look Forward to Understanding AI Assistant Muse's ROI, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 11:44 AM",
+          "published_timestamp": 1792079043,
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-investors-look-forward-154403470.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "WMT": {
+      "ticker": "WMT",
+      "score": 0.0861881751240523,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Walmart expands health benefits with free GLP-1 drugs",
+      "publisher": "USA TODAY",
+      "published_at": "Oct 15, 12:25 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/walmart-expands-health-benefits-free-162559051.html",
+      "items": [
+        {
+          "ticker": "WMT",
+          "title": "Why Walmart (WMT) Stock Is Up Today",
+          "publisher": "StockStory",
+          "published_at": "Oct 15, 1:20 PM",
+          "published_timestamp": 1792084827,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-walmart-wmt-stock-today-172027774.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart plans to offer employees free prescriptions, paid NICU leave",
+          "publisher": "HR Dive",
+          "published_at": "Oct 15, 12:36 PM",
+          "published_timestamp": 1792082160,
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-plans-offer-employees-free-163600929.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart expands health benefits with free GLP-1 drugs",
+          "publisher": "USA TODAY",
+          "published_at": "Oct 15, 12:25 PM",
+          "published_timestamp": 1792081559,
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-expands-health-benefits-free-162559051.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Rises as Deutsche Bank Sees Pricing Tailwinds Building",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 15, 12:01 PM",
+          "published_timestamp": 1792080098,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-rises-deutsche-bank-sees-160138302.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart Stock Gets an Upgrade as Analyst Sees More Room to Run",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 15, 11:22 AM",
+          "published_timestamp": 1792077720,
+          "link": "https://finance.yahoo.com/m/a5829aaa-b33d-3618-a8d7-1620561b898f/walmart-stock-gets-an-upgrade.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "COST": {
+      "ticker": "COST",
+      "score": 0.04426142119283993,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 15, 9:02 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-climbs-3-deutsche-bank-130212678.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Is Costco Stock Increasing Your Market Risk?",
+          "publisher": "Trefis",
+          "published_at": "Oct 15, 1:12 PM",
+          "published_timestamp": 1792084342,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-increasing-market-risk-171222910.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 9:02 AM",
+          "published_timestamp": 1792069332,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-climbs-3-deutsche-bank-130212678.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco, Cleveland Clinic, NTT Data and Red Hat Show What AI-Powered Observability Can Actually Deliver",
+          "publisher": "Business Wire",
+          "published_at": "Oct 15, 9:00 AM",
+          "published_timestamp": 1792069200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/costco-cleveland-clinic-ntt-data-130000600.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Costco Stock Looks Expensive. Here\u2019s Why Investors Keep Buying",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 7:15 AM",
+          "published_timestamp": 1792062922,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-looks-expensive-why-111522969.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?",
+      "publisher": "Zacks",
+      "published_at": "Oct 15, 8:30 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-conocophillips-123006028.html",
+      "items": [
+        {
+          "ticker": "COP",
+          "title": "Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:30 AM",
+          "published_timestamp": 1792067406,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-conocophillips-123006028.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "Morgan Stanley Adjusts Price Target on ConocoPhillips to $159 From $151",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 14, 10:27 AM",
+          "published_timestamp": 1791988027,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-142707304.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "Roth Capital Adjusts ConocoPhillips Price Target to $152 From $126",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 14, 8:20 AM",
+          "published_timestamp": 1791980415,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/roth-capital-adjusts-conocophillips-price-122015387.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "GM": {
+      "price_score": -0.24077670370398294,
+      "news_score": 0.16480636458273001,
+      "combined_score": -0.12452109251097293
+    },
+    "NFLX": {
+      "price_score": -0.19921268897922706,
+      "news_score": -0.05199417013992204,
+      "combined_score": -0.2358897556895706
+    },
+    "COP": {
+      "price_score": 1.0346192687456761,
+      "news_score": 0.0,
+      "combined_score": 1.0346192687456761
+    },
+    "MSFT": {
+      "price_score": 0.9541322972164035,
+      "news_score": 0.03570004849181549,
+      "combined_score": 0.9793153717144318
+    },
+    "PG": {
+      "price_score": 1.0237825053221539,
+      "news_score": 0.0,
+      "combined_score": 1.0237825053221539
+    },
+    "NVDA": {
+      "price_score": -0.5890221456325385,
+      "news_score": 0.0,
+      "combined_score": -0.5890221456325385
+    },
+    "BA": {
+      "price_score": -0.6067929120488736,
+      "news_score": 0.0,
+      "combined_score": -0.6067929120488736
+    },
+    "ORCL": {
+      "price_score": -1.232928849693148,
+      "news_score": 0.03304812501595655,
+      "combined_score": -1.2096164613503764
+    },
+    "AMD": {
+      "price_score": -1.236193341825023,
+      "news_score": 0.0,
+      "combined_score": -1.236193341825023
+    },
+    "COST": {
+      "price_score": 1.1941047712331858,
+      "news_score": 0.04426142119283993,
+      "combined_score": 1.225327100456168
+    },
+    "QCOM": {
+      "price_score": -0.6461108387052343,
+      "news_score": 0.0,
+      "combined_score": -0.6461108387052343
+    },
+    "MS": {
+      "price_score": -1.2421116642573868,
+      "news_score": 0.0,
+      "combined_score": -1.2421116642573868
+    },
+    "MRK": {
+      "price_score": 0.36967048663813035,
+      "news_score": 0.0,
+      "combined_score": 0.36967048663813035
+    },
+    "CAT": {
+      "price_score": -1.6315035702118024,
+      "news_score": 0.026066112929098224,
+      "combined_score": -1.6131163441015075
+    },
+    "XOM": {
+      "price_score": 0.8807950348625707,
+      "news_score": 0.020410763121373483,
+      "combined_score": 0.8951929359848898
+    },
+    "IBM": {
+      "price_score": 0.11216810702718175,
+      "news_score": 0.0,
+      "combined_score": 0.11216810702718175
+    },
+    "WMT": {
+      "price_score": 1.428822368040186,
+      "news_score": 0.0861881751240523,
+      "combined_score": 1.4896201351775533
+    },
+    "META": {
+      "price_score": 0.6265578759717283,
+      "news_score": 0.0,
+      "combined_score": 0.6265578759717283
+    }
+  },
   "data_version": 5
 }

@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-15T00:03:25.924311+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-15T17:43:19.217904+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-14",
+  "last_reroll_market_date": "2026-10-15",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.415712,
   "display_points": -7.415712,
   "completed_balance": 18.430964,
   "display_balance": 18.430964,
   "completed_rounds": 32,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.06487,
     "dip": -1.38672,
@@ -21,7 +21,48 @@
     "breakout": -0.082
   },
   "news_learning_score": -0.09909,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.430964,
+    "market_date": "2026-10-15",
+    "quote_time": "2026-10-15T17:43:19.202626+00:00",
+    "holdings": [
+      {
+        "ticker": "WMT",
+        "weight": 0.431358,
+        "entry": 118.42,
+        "last_price": 118.42,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Walmart expands health benefits with free GLP-1 drugs",
+        "publisher": "USA TODAY",
+        "link": "https://finance.yahoo.com/healthcare/articles/walmart-expands-health-benefits-free-162559051.html"
+      },
+      {
+        "ticker": "COST",
+        "weight": 0.316083,
+        "entry": 988.06,
+        "last_price": 988.06,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+        "publisher": "24/7 Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-climbs-3-deutsche-bank-130212678.html"
+      },
+      {
+        "ticker": "COP",
+        "weight": 0.252559,
+        "entry": 142.1,
+        "last_price": 142.1,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-conocophillips-123006028.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
