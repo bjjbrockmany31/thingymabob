@@ -66,26 +66,1180 @@
     "steady": -0.14517191182927397,
     "breakout": -0.08200047295484972
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "breakout",
+  "allocation": {
+    "LLY": 0.38767498699010733,
+    "V": 0.3112317652222017,
+    "HD": 0.3010932477876909
+  },
+  "entry_prices": {
+    "HD": 310.91,
+    "V": 400.89,
+    "LLY": 1256.795
+  },
+  "round_market_date": "2026-10-16",
+  "round_started_at": "2026-10-16T17:19:43.781019+00:00",
   "rounds_completed": 33,
   "last_round_tickers": [
     "WMT",
     "COST",
     "COP"
   ],
-  "last_reroll_market_date": "2026-10-15",
+  "last_reroll_market_date": "2026-10-16",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.08874069891419652,
-  "news_last_checked_at": "2026-10-15T17:43:19.202616+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-16T17:19:43.781869+00:00",
+  "news_signals": {
+    "SBUX": {
+      "ticker": "SBUX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Starbucks Stock Gains 15% YTD: Can Its Turnaround Drive More Upside?",
+      "publisher": "Zacks",
+      "published_at": "Oct 16, 8:42 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-stock-gains-15-ytd-124200731.html",
+      "items": [
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Stock Gains 15% YTD: Can Its Turnaround Drive More Upside?",
+          "publisher": "Zacks",
+          "published_at": "Oct 16, 8:42 AM",
+          "published_timestamp": 1792154520,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-stock-gains-15-ytd-124200731.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Jim Cramer Says Starbucks Can Rise On Its Own, Apple\u2019s Audience Is Worth Paying For, And Intel Investors Need Patience",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 15, 8:01 PM",
+          "published_timestamp": 1792108905,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-starbucks-rise-000145096.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Has Raised Its Dividend for 16 Consecutive Years. Is the Payout Still Sustainable?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 15, 12:54 PM",
+          "published_timestamp": 1792083244,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-raised-dividend-16-consecutive-165404566.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "The Zacks Analyst Blog Highlights McDonald, Starbucks, Yum! Brands and Chipotle Mexican Grill",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 8:02 AM",
+          "published_timestamp": 1792065720,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-mcdonald-120200075.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GS": {
+      "ticker": "GS",
+      "score": 0.029913883125454975,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Goldman Sachs Picks Top African Gold Miners on Growth, Cash Flow Outlook",
+      "publisher": "Investing.com",
+      "published_at": "Oct 16, 10:38 AM",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/goldman-sachs-picks-top-african-143827652.html",
+      "items": [
+        {
+          "ticker": "GS",
+          "title": "Goldman Sachs: 3 Key Takeaways for Long-Term Investors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 12:14 PM",
+          "published_timestamp": 1792167242,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-3-key-takeaways-161402108.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GS",
+          "title": "Argentum AI Founder and CEO Andrew Sobko Honored by Goldman Sachs for Entrepreneurship",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 16, 11:30 AM",
+          "published_timestamp": 1792164600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/argentum-ai-founder-ceo-andrew-153000676.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GS",
+          "title": "Goldman Sachs Picks Top African Gold Miners on Growth, Cash Flow Outlook",
+          "publisher": "Investing.com",
+          "published_at": "Oct 16, 10:38 AM",
+          "published_timestamp": 1792161507,
+          "link": "https://finance.yahoo.com/markets/commodities/articles/goldman-sachs-picks-top-african-143827652.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "GS",
+          "title": "SK Hynix, SanDisk, and Micron Drop 3% Despite Goldman Sachs Calling China Chip Fears Overdone",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 9:30 AM",
+          "published_timestamp": 1792157452,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-sandisk-micron-drop-133052094.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GS",
+          "title": "Why CoreWeave, Nebius, and other neocloud stocks are being pounded: Goldman Sachs explains",
+          "publisher": "Yahoo Finance",
+          "published_at": "Oct 16, 8:57 AM",
+          "published_timestamp": 1792155450,
+          "link": "https://finance.yahoo.com/markets/stocks/article/why-coreweave-nebius-and-other-neocloud-stocks-are-being-pounded-goldman-sachs-explains-125730269.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GS",
+          "title": "SPDR Dow Jones Industrial Average ETF (DIA) Sells $31.3 Million More Goldman Sachs on Oct. 14",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 7:04 AM",
+          "published_timestamp": 1792148689,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-industrial-average-110449366.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "score": 0.4178110255190578,
+      "label": "Positive",
+      "headline_count": 2,
+      "top_headline": "Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report?",
+      "publisher": "Zacks",
+      "published_at": "Oct 16, 11:10 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-beat-estimates-again-151004050.html",
+      "items": [
+        {
+          "ticker": "INTC",
+          "title": "Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report?",
+          "publisher": "Zacks",
+          "published_at": "Oct 16, 11:10 AM",
+          "published_timestamp": 1792163404,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-beat-estimates-again-151004050.html",
+          "score": 0.7615941559557649
+        },
+        {
+          "ticker": "INTC",
+          "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 10:54 AM",
+          "published_timestamp": 1792162442,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-amd-drop-3-rotation-145402890.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "AbbVie is Outperforming the Market this Year So Far. Is Its 16.4x Valuation Attractive?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 16, 11:32 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-outperforming-market-far-16-153259597.html",
+      "items": [
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie is Outperforming the Market this Year So Far. Is Its 16.4x Valuation Attractive?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 11:32 AM",
+          "published_timestamp": 1792164779,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-outperforming-market-far-16-153259597.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie (ABBV) Stock Could Be 44% Undervalued As Cancer Trial News Lands",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 15, 7:21 PM",
+          "published_timestamp": 1792106493,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-stock-could-44-232133767.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "What Does AbbVie (ABBV) 51% DLBCL Risk Reduction Mean For Its Oncology Push?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 15, 6:16 PM",
+          "published_timestamp": 1792102608,
+          "link": "https://finance.yahoo.com/healthcare/articles/does-abbvie-abbv-51-dlbcl-221648068.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": -0.04096491587689893,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Netflix Falls 3% as Peter Rice Takes Over Content After Layoffs; Disney and Spotify Hold Steady",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 16, 8:25 AM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/netflix-falls-3-peter-rice-122551782.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Netflix Hires Former Disney Exec to Fix Content Problem. Why the Stock Is Falling.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:12 PM",
+          "published_timestamp": 1792167120,
+          "link": "https://finance.yahoo.com/m/2373eeb6-0a4f-3014-a253-36805e7f0972/netflix-hires-former-disney.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Netflix Names Former Disney Executive Peter Rice Chief Content Officer",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 10:58 AM",
+          "published_timestamp": 1792162698,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-names-former-disney-executive-145818749.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Netflix Falls 3% as Peter Rice Takes Over Content After Layoffs; Disney and Spotify Hold Steady",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 8:25 AM",
+          "published_timestamp": 1792153551,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-falls-3-peter-rice-122551782.html",
+          "score": -0.3078619874177537
+        },
+        {
+          "ticker": "DIS",
+          "title": "Netflix Turns to Disney Veteran Peter Rice as Growth Doubts Mount",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 8:20 AM",
+          "published_timestamp": 1792153216,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-turns-disney-veteran-peter-122016152.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "DIS",
+          "title": "Citigroup Adjusts Price Target on Walt Disney to $140 From $135",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 7:01 AM",
+          "published_timestamp": 1792148517,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-walt-110157747.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Nvidia and Apple Each Gave $25 Million to Trump\u2019s White House Ballroom",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 16, 1:06 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-apple-gave-25-million-170623082.html",
+      "items": [
+        {
+          "ticker": "AAPL",
+          "title": "Nvidia and Apple Each Gave $25 Million to Trump\u2019s White House Ballroom",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 1:06 PM",
+          "published_timestamp": 1792170383,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-apple-gave-25-million-170623082.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple Is Up Nearly 12X in 10 Years. Can It Repeat That Run?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 1:00 PM",
+          "published_timestamp": 1792170029,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-nearly-12x-10-years-170029987.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple and Alphabet Are Especially Scared of a Blue Wave",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 12:45 PM",
+          "published_timestamp": 1792169127,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-alphabet-especially-scared-blue-164527715.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "AAPL Stock Adds 1% As It Prepares To Tackle UK Regulators Over Apple Pay Dominance",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 16, 12:34 PM",
+          "published_timestamp": 1792168465,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/aapl-stock-adds-1-prepares-163425260.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple faces growing iPhone demand concerns as delivery wait times shrink, UBS warns",
+          "publisher": "Proactive",
+          "published_at": "Oct 16, 12:27 PM",
+          "published_timestamp": 1792168020,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-growing-iphone-demand-162700784.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple iPhone Duo Preorders Are Off to a Strong Start. That\u2019s a Win for the Stock.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:26 PM",
+          "published_timestamp": 1792167960,
+          "link": "https://finance.yahoo.com/m/d2f188fd-774c-3cdf-94e1-33c493329693/apple-iphone-duo-preorders.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "How Oracle Corporation (ORCL) Captures Mission-Critical Hyperscaler Workloads?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 16, 9:41 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-captures-mission-134122752.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "How Oracle Corporation (ORCL) Captures Mission-Critical Hyperscaler Workloads?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 9:41 AM",
+          "published_timestamp": 1792158082,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-captures-mission-134122752.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NKE": {
+      "ticker": "NKE",
+      "score": 0.024284959976960306,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Nike Resale Market Share Rises to 72.3% in September as Jordan Brand Leads Gains, Citi Reports",
+      "publisher": "InvestorsHub",
+      "published_at": "Oct 16, 6:03 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-resale-market-share-rises-100353014.html",
+      "items": [
+        {
+          "ticker": "NKE",
+          "title": "Why Nike Stock Is Drawing Value Buyers Without Any Big Company News",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 12:19 PM",
+          "published_timestamp": 1792167547,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-nike-stock-drawing-value-161907150.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike Walked Away From Foot Locker. It Never Got That Shelf Space Back.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 16, 10:35 AM",
+          "published_timestamp": 1792161310,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-walked-away-foot-locker-143510415.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Just 26% of Wall Street Analysts Rate Nike a Buy. Is It Time to Be Greedy While Others are Fearful?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 10:05 AM",
+          "published_timestamp": 1792159500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/just-26-wall-street-analysts-140500274.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike Resale Market Share Rises to 72.3% in September as Jordan Brand Leads Gains, Citi Reports",
+          "publisher": "InvestorsHub",
+          "published_at": "Oct 16, 6:03 AM",
+          "published_timestamp": 1792145033,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-resale-market-share-rises-100353014.html",
+          "score": 0.0906594777770402
+        }
+      ]
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "score": 0.08166360979619974,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "CORRECTING and REPLACING Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
+      "publisher": "Business Wire",
+      "published_at": "Oct 16, 12:56 PM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/adobe-u-holiday-shopping-season-120000427.html",
+      "items": [
+        {
+          "ticker": "ADBE",
+          "title": "CORRECTING and REPLACING Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY",
+          "publisher": "Business Wire",
+          "published_at": "Oct 16, 12:56 PM",
+          "published_timestamp": 1792169760,
+          "link": "https://finance.yahoo.com/media-advertising/articles/adobe-u-holiday-shopping-season-120000427.html",
+          "score": 0.20173975176639067
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Is Adobe A Better Way Than Salesforce To Own AI Software Growth?",
+          "publisher": "Trefis",
+          "published_at": "Oct 16, 12:02 PM",
+          "published_timestamp": 1792166529,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-better-way-salesforce-own-160209993.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Should You Buy Adobe Stock For Its Cash?",
+          "publisher": "Trefis",
+          "published_at": "Oct 15, 8:48 PM",
+          "published_timestamp": 1792111712,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-adobe-stock-cash-004832860.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Adobe, HubSpot, Workday, Asana, and Workiva Shares Are Soaring, What You Need To Know",
+          "publisher": "StockStory",
+          "published_at": "Oct 15, 4:11 PM",
+          "published_timestamp": 1792095069,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-hubspot-workday-asana-workiva-201109529.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Adobe, Nvidia Expand Collaboration to Improve AI Processing Speeds",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 15, 1:34 PM",
+          "published_timestamp": 1792085663,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-nvidia-expand-collaboration-improve-173423313.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ADBE",
+          "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+          "publisher": "Business Wire",
+          "published_at": "Oct 15, 1:00 PM",
+          "published_timestamp": 1792083600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-nvidia-expand-collaboration-speed-170000479.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Tesla Retreats After Flying Roadster Demo; Musk Cites SpaceX Collaboration",
+      "publisher": "Investor's Business Daily",
+      "published_at": "Oct 16, 12:41 PM",
+      "link": "https://finance.yahoo.com/m/742f39e4-fd25-3539-8b7a-19a6f7c16be8/tesla-retreats-after-flying.html",
+      "items": [
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Retreats After Flying Roadster Demo; Musk Cites SpaceX Collaboration",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Oct 16, 12:41 PM",
+          "published_timestamp": 1792168899,
+          "link": "https://finance.yahoo.com/m/742f39e4-fd25-3539-8b7a-19a6f7c16be8/tesla-retreats-after-flying.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Has Built a Flying Car. It Will Blow Your Mind.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:34 PM",
+          "published_timestamp": 1792168440,
+          "link": "https://finance.yahoo.com/m/33917906-5253-3056-8faf-6a7077a9d6dc/tesla-has-built-a-flying-car..html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Stocks Rise After Elon Musk Reveals Highly Anticipated Flying Roadster: \u2018Well, It Worked\u2019",
+          "publisher": "First for Money",
+          "published_at": "Oct 16, 12:31 PM",
+          "published_timestamp": 1792168262,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-rise-elon-musk-163102912.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla, SpaceX, CoreWeave, Lam Research, Netflix, Strategy, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:30 PM",
+          "published_timestamp": 1792168200,
+          "link": "https://finance.yahoo.com/m/c6ccb9fa-69f9-3a76-9ab4-a63df71bca8a/tesla%2C-spacex%2C-coreweave%2C-lam.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Tesla, SpaceX, CoreWeave, Lam Research, Netflix, Strategy, and More Stocks That Explain Today\u2019s Market",
+      "publisher": "Barrons.com",
+      "published_at": "Oct 16, 12:30 PM",
+      "link": "https://finance.yahoo.com/m/c6ccb9fa-69f9-3a76-9ab4-a63df71bca8a/tesla%2C-spacex%2C-coreweave%2C-lam.html",
+      "items": [
+        {
+          "ticker": "NFLX",
+          "title": "Tesla, SpaceX, CoreWeave, Lam Research, Netflix, Strategy, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:30 PM",
+          "published_timestamp": 1792168200,
+          "link": "https://finance.yahoo.com/m/c6ccb9fa-69f9-3a76-9ab4-a63df71bca8a/tesla%2C-spacex%2C-coreweave%2C-lam.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Hires Former Disney Exec to Fix Content Problem. Why the Stock Is Falling.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 16, 12:12 PM",
+          "published_timestamp": 1792167120,
+          "link": "https://finance.yahoo.com/m/2373eeb6-0a4f-3014-a253-36805e7f0972/netflix-hires-former-disney.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix's Q3 Average Revenue per Member to Rise Sequentially on Higher Prices, Wedbush Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 11:08 AM",
+          "published_timestamp": 1792163303,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-apos-q3-average-revenue-150823292.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Names Former Disney Executive Peter Rice Chief Content Officer",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 10:58 AM",
+          "published_timestamp": 1792162698,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-names-former-disney-executive-145818749.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix shares under pressure as chief content officer departs",
+          "publisher": "Proactive",
+          "published_at": "Oct 16, 10:56 AM",
+          "published_timestamp": 1792162560,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-shares-under-pressure-chief-145600773.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Taking Significant Steps to Address Engagement Issues, Wedbush Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 10:55 AM",
+          "published_timestamp": 1792162556,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-taking-significant-steps-address-145556076.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.050291755631278114,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Eli Lilly\u2019s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 16, 12:15 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly\u2019s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 12:15 PM",
+          "published_timestamp": 1792167355,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "LLY",
+          "title": "Novo Nordisk and Eli Lilly Just Got Some Fantastic News",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 11:52 AM",
+          "published_timestamp": 1792165920,
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-eli-lilly-just-155200690.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s Foundayo Pill Gets European Regulatory Backing \u2013 LLY Stock Heads For Best Week In Nearly Four Months",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 16, 11:41 AM",
+          "published_timestamp": 1792165319,
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-foundayo-pill-gets-european-154159558.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Novo Nordisk\u2019s Growth Story Is Under Pressure as Eli Lilly Gains Ground",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 11:41 AM",
+          "published_timestamp": 1792165262,
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-growth-story-under-154102050.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s Foundayo wins EMA panel backing for obesity and type 2 diabetes",
+          "publisher": "Pharmaceutical Technology",
+          "published_at": "Oct 16, 11:29 AM",
+          "published_timestamp": 1792164591,
+          "link": "https://finance.yahoo.com/news/lilly-foundayo-wins-ema-panel-152951300.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly Wins EU Backing for Foundayo Weight-Loss Pill",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 11:05 AM",
+          "published_timestamp": 1792163145,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-wins-eu-backing-150545893.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly's Biggest Shareholder Is Selling $347 Million of Stock. Should You Sell Too?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 7:30 AM",
+          "published_timestamp": 1792150200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lillys-biggest-shareholder-selling-113000484.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "score": 0.09483485078723156,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Strong Top-Line Growth and AI Innovation Lifted Meta Platforms (META) Higher",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 16, 12:33 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-top-line-growth-ai-163310059.html",
+      "items": [
+        {
+          "ticker": "META",
+          "title": "Strong Top-Line Growth and AI Innovation Lifted Meta Platforms (META) Higher",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 12:33 PM",
+          "published_timestamp": 1792168390,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-top-line-growth-ai-163310059.html",
+          "score": 0.24491866240370913
+        },
+        {
+          "ticker": "META",
+          "title": "Meta expected to beat revenue forecasts as AI boosts advertising, says Bank of America",
+          "publisher": "Proactive",
+          "published_at": "Oct 16, 11:37 AM",
+          "published_timestamp": 1792165020,
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-expected-beat-revenue-forecasts-153700114.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Meta Platforms (META) Unveiled Muse Spark Open For Developers",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 11:16 AM",
+          "published_timestamp": 1792163802,
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-unveiled-muse-151642195.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.037459311387188415,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "How Stablecoin Payout Launch Will Impact Visa (V) Investors",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 16, 4:16 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stablecoin-payout-launch-impact-visa-081621749.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Deutsche Bank Adjusts Visa Price Target to $470 From $430",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 9:15 AM",
+          "published_timestamp": 1792156517,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-visa-price-131517026.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "26 ETFs Add to Visa (V) Holdings on Wednesday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 7:01 AM",
+          "published_timestamp": 1792148504,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/26-etfs-add-visa-v-110144510.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "How Stablecoin Payout Launch Will Impact Visa (V) Investors",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 4:16 AM",
+          "published_timestamp": 1792138581,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stablecoin-payout-launch-impact-visa-081621749.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "V",
+          "title": "Visa Direct moves stablecoin payments into commercial deployment",
+          "publisher": "Electronic Payments",
+          "published_at": "Oct 16, 3:28 AM",
+          "published_timestamp": 1792135730,
+          "link": "https://finance.yahoo.com/news/visa-direct-moves-stablecoin-payments-072850142.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Arete Adjusts Price Target on QUALCOMM to $305 From $314",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 16, 5:34 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arete-adjusts-price-target-qualcomm-093443766.html",
+      "items": [
+        {
+          "ticker": "QCOM",
+          "title": "Arete Adjusts Price Target on QUALCOMM to $305 From $314",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 5:34 AM",
+          "published_timestamp": 1792143283,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arete-adjusts-price-target-qualcomm-093443766.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Qualcomm (QCOM) Unveils First AI Native Wi Fi 8 Gateway For Home Broadband",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 15, 4:23 PM",
+          "published_timestamp": 1792095793,
+          "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-unveils-first-ai-202313896.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures",
+      "publisher": "Zacks",
+      "published_at": "Oct 16, 7:48 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-114800284.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures",
+          "publisher": "Zacks",
+          "published_at": "Oct 16, 7:48 AM",
+          "published_timestamp": 1792151280,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-114800284.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Does Sales Momentum Change The Bull Case For Home Depot Stock?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 5:15 AM",
+          "published_timestamp": 1792142132,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/does-sales-momentum-change-bull-091532802.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "What Would Flat Store Sales Do To Home Depot Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 15, 2:20 PM",
+          "published_timestamp": 1792088403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/flat-store-sales-home-depot-182003523.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot Stock: One Big Catalyst Could Change Its Outlook",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 2:00 PM",
+          "published_timestamp": 1792087240,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-one-big-180040179.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Q3 Earnings Season Scorecard and Analyst Reports for NVIDIA, Philip Morris & Home Depot",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 1:41 PM",
+          "published_timestamp": 1792086060,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-scorecard-analyst-174100847.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "score": 0.07835050179930034,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Uber\u2019s A \u2018Compelling Investment Opportunity,\u2019 Says Guggenheim \u2013 Flags Valuation Discount Versus Revenue, Profit Growth",
+      "publisher": "Stocktwits",
+      "published_at": "Oct 16, 12:25 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-compelling-investment-opportunity-says-162525158.html",
+      "items": [
+        {
+          "ticker": "UBER",
+          "title": "Uber\u2019s A \u2018Compelling Investment Opportunity,\u2019 Says Guggenheim \u2013 Flags Valuation Discount Versus Revenue, Profit Growth",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 16, 12:25 PM",
+          "published_timestamp": 1792167925,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-compelling-investment-opportunity-says-162525158.html",
+          "score": 0.3078619874177537
+        },
+        {
+          "ticker": "UBER",
+          "title": "Here\u2019s Why the Strategy Exited Uber Technologies (UBER)",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 9:37 AM",
+          "published_timestamp": 1792157853,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-strategy-exited-uber-technologies-133733663.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Uber Technologies (UBER) Settles Sexual Assault Lawsuit Before Trial Tests Safety Reputation",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 15, 1:12 PM",
+          "published_timestamp": 1792084323,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-settles-sexual-171203685.html",
+          "score": -0.24491866240370913
+        },
+        {
+          "ticker": "UBER",
+          "title": "Coupang vs. Uber Technologies: Decelerating Versus Steady Revenue Growth",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 15, 11:04 AM",
+          "published_timestamp": 1792076641,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coupang-vs-uber-technologies-decelerating-150401508.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "F": {
+      "ticker": "F",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "2 Revolutionary Developments That Should Change Your Investing Thesis on Ford and General Motors",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 15, 8:25 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-revolutionary-developments-change-investing-122500859.html",
+      "items": [
+        {
+          "ticker": "F",
+          "title": "2 Revolutionary Developments That Should Change Your Investing Thesis on Ford and General Motors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 15, 8:25 AM",
+          "published_timestamp": 1792067100,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-revolutionary-developments-change-investing-122500859.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.050291755631278114,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Eli Lilly\u2019s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 16, 12:15 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly\u2019s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 12:15 PM",
+          "published_timestamp": 1792167355,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "LLY",
+          "title": "Novo Nordisk and Eli Lilly Just Got Some Fantastic News",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 11:52 AM",
+          "published_timestamp": 1792165920,
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-eli-lilly-just-155200690.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s Foundayo Pill Gets European Regulatory Backing \u2013 LLY Stock Heads For Best Week In Nearly Four Months",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 16, 11:41 AM",
+          "published_timestamp": 1792165319,
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-foundayo-pill-gets-european-154159558.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Novo Nordisk\u2019s Growth Story Is Under Pressure as Eli Lilly Gains Ground",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 16, 11:41 AM",
+          "published_timestamp": 1792165262,
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-growth-story-under-154102050.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s Foundayo wins EMA panel backing for obesity and type 2 diabetes",
+          "publisher": "Pharmaceutical Technology",
+          "published_at": "Oct 16, 11:29 AM",
+          "published_timestamp": 1792164591,
+          "link": "https://finance.yahoo.com/news/lilly-foundayo-wins-ema-panel-152951300.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly Wins EU Backing for Foundayo Weight-Loss Pill",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 11:05 AM",
+          "published_timestamp": 1792163145,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-wins-eu-backing-150545893.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly's Biggest Shareholder Is Selling $347 Million of Stock. Should You Sell Too?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 16, 7:30 AM",
+          "published_timestamp": 1792150200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lillys-biggest-shareholder-selling-113000484.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.037459311387188415,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "How Stablecoin Payout Launch Will Impact Visa (V) Investors",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 16, 4:16 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stablecoin-payout-launch-impact-visa-081621749.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Deutsche Bank Adjusts Visa Price Target to $470 From $430",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 16, 9:15 AM",
+          "published_timestamp": 1792156517,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-visa-price-131517026.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "26 ETFs Add to Visa (V) Holdings on Wednesday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 16, 7:01 AM",
+          "published_timestamp": 1792148504,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/26-etfs-add-visa-v-110144510.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "How Stablecoin Payout Launch Will Impact Visa (V) Investors",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 4:16 AM",
+          "published_timestamp": 1792138581,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stablecoin-payout-launch-impact-visa-081621749.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "V",
+          "title": "Visa Direct moves stablecoin payments into commercial deployment",
+          "publisher": "Electronic Payments",
+          "published_at": "Oct 16, 3:28 AM",
+          "published_timestamp": 1792135730,
+          "link": "https://finance.yahoo.com/news/visa-direct-moves-stablecoin-payments-072850142.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures",
+      "publisher": "Zacks",
+      "published_at": "Oct 16, 7:48 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-114800284.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures",
+          "publisher": "Zacks",
+          "published_at": "Oct 16, 7:48 AM",
+          "published_timestamp": 1792151280,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-114800284.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Does Sales Momentum Change The Bull Case For Home Depot Stock?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 16, 5:15 AM",
+          "published_timestamp": 1792142132,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/does-sales-momentum-change-bull-091532802.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "What Would Flat Store Sales Do To Home Depot Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 15, 2:20 PM",
+          "published_timestamp": 1792088403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/flat-store-sales-home-depot-182003523.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot Stock: One Big Catalyst Could Change Its Outlook",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 15, 2:00 PM",
+          "published_timestamp": 1792087240,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-one-big-180040179.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Q3 Earnings Season Scorecard and Analyst Reports for NVIDIA, Philip Morris & Home Depot",
+          "publisher": "Zacks",
+          "published_at": "Oct 15, 1:41 PM",
+          "published_timestamp": 1792086060,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-scorecard-analyst-174100847.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "ABBV": {
+      "price_score": 0.7618574813731154,
+      "news_score": 0.0,
+      "combined_score": 0.7618574813731154
+    },
+    "SBUX": {
+      "price_score": 0.5500403741385793,
+      "news_score": 0.0,
+      "combined_score": 0.5500403741385793
+    },
+    "GS": {
+      "price_score": -0.6803033759868079,
+      "news_score": 0.029913883125454975,
+      "combined_score": -0.6590625241458223
+    },
+    "INTC": {
+      "price_score": -2.575540861954733,
+      "news_score": 0.4178110255190578,
+      "combined_score": -2.2788671719038183
+    },
+    "ADBE": {
+      "price_score": 0.12123919966256269,
+      "news_score": 0.08166360979619974,
+      "combined_score": 0.17922580839558555
+    },
+    "ORCL": {
+      "price_score": -1.4498397973615944,
+      "news_score": 0.0,
+      "combined_score": -1.4498397973615944
+    },
+    "AAPL": {
+      "price_score": 0.18491247845591813,
+      "news_score": 0.0,
+      "combined_score": 0.18491247845591813
+    },
+    "DIS": {
+      "price_score": 0.6065465051043674,
+      "news_score": -0.04096491587689893,
+      "combined_score": 0.577458683066338
+    },
+    "NKE": {
+      "price_score": 0.9115129789225036,
+      "news_score": 0.024284959976960306,
+      "combined_score": 0.9287569199605674
+    },
+    "META": {
+      "price_score": 0.04629858114371549,
+      "news_score": 0.09483485078723156,
+      "combined_score": 0.11363764931101204
+    },
+    "TSLA": {
+      "price_score": -1.0096990621494721,
+      "news_score": 0.0,
+      "combined_score": -1.0096990621494721
+    },
+    "NFLX": {
+      "price_score": -0.09369263872870698,
+      "news_score": 0.0,
+      "combined_score": -0.09369263872870698
+    },
+    "V": {
+      "price_score": 0.964685033490569,
+      "news_score": 0.037459311387188415,
+      "combined_score": 0.9912836425679556
+    },
+    "HD": {
+      "price_score": 0.9631334697757181,
+      "news_score": 0.0,
+      "combined_score": 0.9631334697757181
+    },
+    "LLY": {
+      "price_score": 1.1422581882356373,
+      "news_score": 0.050291755631278114,
+      "combined_score": 1.177968688464142
+    },
+    "UBER": {
+      "price_score": -0.1997401469303172,
+      "news_score": 0.07835050179930034,
+      "combined_score": -0.14410606581131852
+    },
+    "QCOM": {
+      "price_score": -0.26073422592982604,
+      "news_score": 0.0,
+      "combined_score": -0.26073422592982604
+    },
+    "F": {
+      "price_score": 0.017065818738771568,
+      "news_score": 0.0,
+      "combined_score": 0.017065818738771568
+    }
+  },
   "data_version": 5
 }
