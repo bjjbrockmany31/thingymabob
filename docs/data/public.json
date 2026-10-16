@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T19:59:01.254788+00:00",
-  "status": "Tracking today’s fake holdings with available market prices.",
+  "updated_at": "2026-10-16T22:45:27.015346+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-16",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -8.003319,
-  "display_points": -7.919745,
-  "completed_balance": 18.322662,
-  "display_balance": 18.337975,
-  "completed_rounds": 33,
-  "current_strategy": "breakout",
+  "banked_points": -7.986496,
+  "display_points": -7.986496,
+  "completed_balance": 18.325744,
+  "display_balance": 18.325744,
+  "completed_rounds": 34,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15896,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.082
+    "breakout": -0.06421
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.083574,
-    "money_change": 0.015313,
-    "cash": 18.337975,
-    "market_date": "2026-10-16",
-    "quote_time": "2026-10-16T19:59:01.247487+00:00",
-    "holdings": [
-      {
-        "ticker": "LLY",
-        "weight": 0.387675,
-        "entry": 1256.795,
-        "last_price": 1258.03,
-        "points": 0.0381,
-        "money_change": 0.00698,
-        "headline": "Eli Lilly’s Growth Is Exceptional. Is Its Valuation Asking Too Much?",
-        "publisher": "Insider Monkey",
-        "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-growth-exceptional-valuation-161555998.html"
-      },
-      {
-        "ticker": "V",
-        "weight": 0.311232,
-        "entry": 400.89,
-        "last_price": 403.06,
-        "points": 0.16847,
-        "money_change": 0.03087,
-        "headline": "How Stablecoin Payout Launch Will Impact Visa (V) Investors",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stablecoin-payout-launch-impact-visa-081621749.html"
-      },
-      {
-        "ticker": "HD",
-        "weight": 0.301093,
-        "entry": 310.91,
-        "last_price": 309.64,
-        "points": -0.12299,
-        "money_change": -0.02254,
-        "headline": "The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-114800284.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -608,6 +567,26 @@
       "news_summaries": [
         "WMT Neutral: Walmart expands health benefits with free GLP-1 drugs | COST Neutral: Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up | COP Neutral: Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?"
       ]
+    },
+    {
+      "market_date": "2026-10-16",
+      "point_change": 0.016823,
+      "banked_points": -7.986496,
+      "cash_before": 18.322662,
+      "cash_after": 18.325744,
+      "cash_change": 0.003081999999999141,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "LLY",
+        "V",
+        "HD"
+      ],
+      "news_summaries": [
+        "LLY Neutral: Eli Lilly’s Growth Is Exceptional. Is Its Valuation Asking Too Much? | V Neutral: How Stablecoin Payout Launch Will Impact Visa (V) Investors | HD Neutral: The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures"
+      ]
     }
   ],
   "rounds": [
@@ -1006,6 +985,18 @@
       "companies": "WMT, COST, COP",
       "allocation": "{\"COP\": 0.2525586444267926, \"COST\": 0.3160832511379583, \"WMT\": 0.431358104435249}",
       "news_summary": "WMT Neutral: Walmart expands health benefits with free GLP-1 drugs | COST Neutral: Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up | COP Neutral: Wall Street Analysts Think ConocoPhillips (COP) Is a Good Investment: Is It?"
+    },
+    {
+      "market_date": "2026-10-16",
+      "timestamp": "2026-10-16T22:45:26+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.322662",
+      "cash_after": "18.325744",
+      "point_change": "0.016823",
+      "banked_points": "-7.986496",
+      "companies": "LLY, V, HD",
+      "allocation": "{\"HD\": 0.3010932477876909, \"LLY\": 0.38767498699010733, \"V\": 0.3112317652222017}",
+      "news_summary": "LLY Neutral: Eli Lilly’s Growth Is Exceptional. Is Its Valuation Asking Too Much? | V Neutral: How Stablecoin Payout Launch Will Impact Visa (V) Investors | HD Neutral: The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
