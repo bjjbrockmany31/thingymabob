@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T19:14:23.886941+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-19T22:55:23.262895+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,50 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-19",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.986496,
-  "display_points": -7.986496,
-  "completed_balance": 18.325744,
-  "display_balance": 18.325744,
-  "completed_rounds": 34,
-  "current_strategy": "breakout",
+  "banked_points": -7.835971,
+  "display_points": -7.835971,
+  "completed_balance": 18.353329,
+  "display_balance": 18.353329,
+  "completed_rounds": 35,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15896,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.06421
+    "breakout": -0.02556
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.325744,
-    "market_date": "2026-10-19",
-    "quote_time": "2026-10-19T19:14:23.873350+00:00",
-    "holdings": [
-      {
-        "ticker": "UNH",
-        "weight": 0.637122,
-        "entry": 406.325,
-        "last_price": 406.325,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html"
-      },
-      {
-        "ticker": "NKE",
-        "weight": 0.362878,
-        "entry": 37.145,
-        "last_price": 37.145,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
-        "publisher": "Retail Dive",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -617,6 +587,25 @@
       "news_summaries": [
         "LLY Neutral: Eli Lilly’s Growth Is Exceptional. Is Its Valuation Asking Too Much? | V Neutral: How Stablecoin Payout Launch Will Impact Visa (V) Investors | HD Neutral: The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures"
       ]
+    },
+    {
+      "market_date": "2026-10-19",
+      "point_change": 0.150525,
+      "banked_points": -7.835971,
+      "cash_before": 18.325744,
+      "cash_after": 18.353329,
+      "cash_change": 0.027584999999998416,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "UNH",
+        "NKE"
+      ],
+      "news_summaries": [
+        "UNH Neutral: UnitedHealth Group (UNH) Has The Market Asking A Bigger Question | NKE Neutral: Nike hired Elliott Hill to fix a couple problems. They keep growing."
+      ]
     }
   ],
   "rounds": [
@@ -1027,6 +1016,18 @@
       "companies": "LLY, V, HD",
       "allocation": "{\"HD\": 0.3010932477876909, \"LLY\": 0.38767498699010733, \"V\": 0.3112317652222017}",
       "news_summary": "LLY Neutral: Eli Lilly’s Growth Is Exceptional. Is Its Valuation Asking Too Much? | V Neutral: How Stablecoin Payout Launch Will Impact Visa (V) Investors | HD Neutral: The Zacks Analyst Blog Highlights NVIDIA, Philip Morris International, Home Depot and CPI Aerostructures"
+    },
+    {
+      "market_date": "2026-10-19",
+      "timestamp": "2026-10-19T22:55:23+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.325744",
+      "cash_after": "18.353329",
+      "point_change": "0.150525",
+      "banked_points": "-7.835971",
+      "companies": "UNH, NKE",
+      "allocation": "{\"NKE\": 0.36287848255364913, \"UNH\": 0.6371215174463509}",
+      "news_summary": "UNH Neutral: UnitedHealth Group (UNH) Has The Market Asking A Bigger Question | NKE Neutral: Nike hired Elliott Hill to fix a couple problems. They keep growing."
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
