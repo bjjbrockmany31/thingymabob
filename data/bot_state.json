@@ -66,26 +66,1022 @@
     "steady": -0.14517191182927397,
     "breakout": -0.06421225883460396
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "breakout",
+  "allocation": {
+    "UNH": 0.6371215174463509,
+    "NKE": 0.36287848255364913
+  },
+  "entry_prices": {
+    "UNH": 406.325,
+    "NKE": 37.145
+  },
+  "round_market_date": "2026-10-19",
+  "round_started_at": "2026-10-19T19:14:23.872684+00:00",
   "rounds_completed": 34,
   "last_round_tickers": [
     "LLY",
     "V",
     "HD"
   ],
-  "last_reroll_market_date": "2026-10-16",
+  "last_reroll_market_date": "2026-10-19",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.08874069891419652,
-  "news_last_checked_at": "2026-10-16T17:19:43.781869+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-19T19:14:23.873339+00:00",
+  "news_signals": {
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Jefferies Adjusts Price Target on IBM to $270 From $260",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 19, 9:08 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ibm-130847936.html",
+      "items": [
+        {
+          "ticker": "IBM",
+          "title": "Jefferies Adjusts Price Target on IBM to $270 From $260",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 19, 9:08 AM",
+          "published_timestamp": 1792415327,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ibm-130847936.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 19, 11:15 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html",
+      "items": [
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 19, 11:15 AM",
+          "published_timestamp": 1792422909,
+          "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "What Would It Take For Rising Medical Costs To Break UnitedHealth Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 19, 8:55 AM",
+          "published_timestamp": 1792414547,
+          "link": "https://finance.yahoo.com/healthcare/articles/rising-medical-costs-break-unitedhealth-125547552.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Is UnitedHealth Group Stock a Buy After Another Solid Quarter?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 19, 8:20 AM",
+          "published_timestamp": 1792412401,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-stock-buy-another-122001625.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Healthcare ETFs to Buy as UnitedHealth Beats on Q3 Earnings",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 7:25 AM",
+          "published_timestamp": 1792409100,
+          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-etfs-buy-unitedhealth-beats-112500618.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.12591232518173434,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Should FAA Approval Nears Require Action From Boeing (BA) Investors?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 18, 1:18 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/faa-approval-nears-require-action-171824841.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "Boeing Averts a Strike as the FAA Reviews 737 MAX Software. Here\u2019s What Investors Need to Know",
+          "publisher": "TIKR",
+          "published_at": "Oct 19, 3:04 AM",
+          "published_timestamp": 1792393489,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-averts-strike-faa-reviews-070449523.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Should FAA Approval Nears Require Action From Boeing (BA) Investors?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 18, 1:18 PM",
+          "published_timestamp": 1792343904,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/faa-approval-nears-require-action-171824841.html",
+          "score": 0.24491866240370913
+        },
+        {
+          "ticker": "BA",
+          "title": "FAA Prepares Final Approval For Long Delayed Boeing 737 MAX 10",
+          "publisher": "TIKR",
+          "published_at": "Oct 18, 9:25 AM",
+          "published_timestamp": 1792329957,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/faa-prepares-final-approval-long-132557692.html",
+          "score": 0.24491866240370913
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Sales Chief Brad McMullen Retires Following Commercial Recovery Effort",
+          "publisher": "TIKR",
+          "published_at": "Oct 18, 8:58 AM",
+          "published_timestamp": 1792328329,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-sales-chief-brad-mcmullen-125849846.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "score": 0.15688352940624206,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Intel stock surges on JPMorgan upgrade after 14% weekly plunge",
+      "publisher": "TheStreet",
+      "published_at": "Oct 19, 2:11 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-surges-jpmorgan-upgrade-181149210.html",
+      "items": [
+        {
+          "ticker": "INTC",
+          "title": "Intel Shares Rise After JPMorgan Upgrade",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 19, 2:31 PM",
+          "published_timestamp": 1792434713,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-shares-rise-jpmorgan-upgrade-183153397.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "INTC",
+          "title": "Intel stock surges on JPMorgan upgrade after 14% weekly plunge",
+          "publisher": "TheStreet",
+          "published_at": "Oct 19, 2:11 PM",
+          "published_timestamp": 1792433509,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-surges-jpmorgan-upgrade-181149210.html",
+          "score": 0.32828875172595445
+        },
+        {
+          "ticker": "INTC",
+          "title": "Intel Stock Is Upgraded. Why Losing $78 Billion in Market Value Is a Good Thing.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 19, 1:54 PM",
+          "published_timestamp": 1792432440,
+          "link": "https://finance.yahoo.com/m/7e562663-d099-3ee0-bc05-da36907c63a7/intel-stock-is-upgraded.-why.html",
+          "score": 0.08727737447415773
+        },
+        {
+          "ticker": "INTC",
+          "title": "Datadog, Intel, CoreWeave, Tesla, Amazon, Cleveland-Cliffs, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 19, 1:14 PM",
+          "published_timestamp": 1792430040,
+          "link": "https://finance.yahoo.com/m/81a4deae-1e16-3913-a37f-3c4abe680ee4/datadog%2C-intel%2C-coreweave%2C.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Pfizer\u2019s Dividend Freeze Raises a Bigger Question About Its Cash Flow",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 19, 11:15 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pfizer-dividend-freeze-raises-bigger-151545083.html",
+      "items": [
+        {
+          "ticker": "PFE",
+          "title": "Pfizer\u2019s Dividend Freeze Raises a Bigger Question About Its Cash Flow",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 19, 11:15 AM",
+          "published_timestamp": 1792422945,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pfizer-dividend-freeze-raises-bigger-151545083.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Bristol Myers is Cheaper Than Pfizer, but Its 40% Earnings Jump Has a Catch",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 9:39 AM",
+          "published_timestamp": 1792417157,
+          "link": "https://finance.yahoo.com/healthcare/articles/bristol-myers-cheaper-pfizer-40-133917882.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Pfizer's Non-Oncology Performance in Q3: Driving Factors to Watch",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 9:25 AM",
+          "published_timestamp": 1792416300,
+          "link": "https://finance.yahoo.com/healthcare/articles/pfizers-non-oncology-performance-q3-132500986.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Why Amazon Stock Has 40% Upside Even as Meta\u2019s Muse Changes the E-Commerce Landscape",
+      "publisher": "Barrons.com",
+      "published_at": "Oct 19, 1:56 PM",
+      "link": "https://finance.yahoo.com/m/0ec1dcc1-e8d1-37df-8476-df574f4bc729/why-amazon-stock-has-40%25.html",
+      "items": [
+        {
+          "ticker": "META",
+          "title": "Why Amazon Stock Has 40% Upside Even as Meta\u2019s Muse Changes the E-Commerce Landscape",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 19, 1:56 PM",
+          "published_timestamp": 1792432560,
+          "link": "https://finance.yahoo.com/m/0ec1dcc1-e8d1-37df-8476-df574f4bc729/why-amazon-stock-has-40%25.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 1:35 PM",
+          "published_timestamp": 1792431300,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-7-earnings-preview-meta-173500726.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
+      "publisher": "decrypt",
+      "published_at": "Oct 19, 1:31 PM",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/jpmorgans-jpm-coin-arrives-ethereum-173104913.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
+          "publisher": "decrypt",
+          "published_at": "Oct 19, 1:31 PM",
+          "published_timestamp": 1792431064,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/jpmorgans-jpm-coin-arrives-ethereum-173104913.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "\ud83d\udcac Money Quote: JPMorgan\u2019s Jamie Dimon",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 19, 1:00 PM",
+          "published_timestamp": 1792429202,
+          "link": "https://finance.yahoo.com/m/d175355e-642e-3480-bd3d-0ed6cdabcf5c/%F0%9F%92%AC-money-quote%3A-jpmorgan%E2%80%99s.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan updates interim targets, progress towards $2.5 trillion goal",
+          "publisher": "ESG Dive",
+          "published_at": "Oct 19, 12:38 PM",
+          "published_timestamp": 1792427880,
+          "link": "https://finance.yahoo.com/energy/articles/jpmorgan-updates-interim-targets-progress-163800651.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "The Investment Case for JPMorgan Chase & Co. (JPM)",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 12:32 PM",
+          "published_timestamp": 1792427546,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investment-case-jpmorgan-chase-co-163226230.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Backs Two Defense Startups With $5 Billion",
+          "publisher": "Moby",
+          "published_at": "Oct 19, 12:14 PM",
+          "published_timestamp": 1792426490,
+          "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-backs-two-defense-startups-161450999.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "Intel Stock Climbs as JPMorgan Ends Bearish Call Held Since 2022",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 19, 12:10 PM",
+          "published_timestamp": 1792426238,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-climbs-jpmorgan-ends-161038269.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.05822446515379506,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Global-E Online gains as Morgan Stanley sees persistent growth durability",
+      "publisher": "Investing.com",
+      "published_at": "Oct 19, 12:29 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/global-e-online-gains-morgan-162950222.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick'",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 19, 1:48 PM",
+          "published_timestamp": 1792432138,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amzn-stock-set-best-day-174858785.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Amazon shares jump as Morgan Stanley calls AWS runway \u201cunder-appreciated\u201d",
+          "publisher": "Proactive",
+          "published_at": "Oct 19, 1:05 PM",
+          "published_timestamp": 1792429500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-shares-jump-morgan-stanley-170500525.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Global-E Online gains as Morgan Stanley sees persistent growth durability",
+          "publisher": "Investing.com",
+          "published_at": "Oct 19, 12:29 PM",
+          "published_timestamp": 1792427390,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/global-e-online-gains-morgan-162950222.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MS",
+          "title": "Amazon Jumps 5% as Morgan Stanley Names It Top Pick on Faster AWS Growth; Microsoft and Alphabet Edge Higher",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 19, 12:15 PM",
+          "published_timestamp": 1792426544,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-jumps-5-morgan-stanley-161544196.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley: 3 Key Takeaways for Long-Term Investors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 19, 9:48 AM",
+          "published_timestamp": 1792417723,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-3-key-takeaways-134843995.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Is Most-Watched Stock Morgan Stanley (MS) Worth Betting on Now?",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 8:00 AM",
+          "published_timestamp": 1792411202,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-morgan-stanley-120002505.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "score": -0.11371948555696414,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Netflix Is In A \u2018Show-Me\u2019 Period Ahead Of Earnings, Seaport Says Amid Price Target Cut",
+      "publisher": "Stocktwits",
+      "published_at": "Oct 19, 11:58 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-show-period-ahead-earnings-155820029.html",
+      "items": [
+        {
+          "ticker": "NFLX",
+          "title": "Netflix's Co-CEO Ted Sarandos Just Gave Investors Bad News Before Earnings",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 19, 1:05 PM",
+          "published_timestamp": 1792429501,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflixs-co-ceo-ted-sarandos-170501007.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Signs Content Licensing Deal for 18 Globo Original Productions",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 19, 12:19 PM",
+          "published_timestamp": 1792426766,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-signs-content-licensing-deal-161926894.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Is In A \u2018Show-Me\u2019 Period Ahead Of Earnings, Seaport Says Amid Price Target Cut",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 19, 11:58 AM",
+          "published_timestamp": 1792425500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-show-period-ahead-earnings-155820029.html",
+          "score": -0.4256281972349947
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix stock is down roughly 25% in 2026 as Q3 earnings loom",
+          "publisher": "Yahoo Finance",
+          "published_at": "Oct 19, 9:56 AM",
+          "published_timestamp": 1792418210,
+          "link": "https://finance.yahoo.com/markets/stocks/article/netflix-stock-is-down-roughly-25-in-2026-as-q3-earnings-loom-135650094.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Trump Added Netflix to His Portfolio. Should You Buy Before Earnings?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 9:36 AM",
+          "published_timestamp": 1792417015,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/trump-added-netflix-portfolio-buy-133655500.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NKE": {
+      "ticker": "NKE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+      "publisher": "Retail Dive",
+      "published_at": "Oct 19, 9:08 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html",
+      "items": [
+        {
+          "ticker": "NKE",
+          "title": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+          "publisher": "Retail Dive",
+          "published_at": "Oct 19, 9:08 AM",
+          "published_timestamp": 1792415280,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Argus Research Adjusts Nike Price Target to $42 From $55",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 19, 8:06 AM",
+          "published_timestamp": 1792411602,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/argus-research-adjusts-nike-price-120642815.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "NKE Stock Wrapped Its Best Week In 3 Months: Analyst Says Nike Will Recover From \u2018Lackluster Product Development,\u2019 Shares Undervalued",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 19, 4:55 AM",
+          "published_timestamp": 1792400143,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nke-stock-wrapped-best-week-085543271.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividend Stocks Is a Buy This October.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 18, 1:25 PM",
+          "published_timestamp": 1792344300,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-yields-2-3-172500721.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike Stock Is Down 44% in a Year. Is It Cheap Enough to Buy Now?",
+          "publisher": "TIKR",
+          "published_at": "Oct 18, 1:57 AM",
+          "published_timestamp": 1792303074,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-stock-down-44-cheap-055754967.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "F": {
+      "ticker": "F",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "What Could Go Wrong With Ford Stock?",
+      "publisher": "Trefis",
+      "published_at": "Oct 19, 8:55 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-wrong-ford-stock-125552178.html",
+      "items": [
+        {
+          "ticker": "F",
+          "title": "What Could Go Wrong With Ford Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 19, 8:55 AM",
+          "published_timestamp": 1792414552,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/could-wrong-ford-stock-125552178.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "F",
+          "title": "Stingray Unveils Ford Streaming Radio and Lincoln Streaming Radio Apps to Enhance the In-Vehicle Audio Experience",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 19, 8:00 AM",
+          "published_timestamp": 1792411200,
+          "link": "https://finance.yahoo.com/media-advertising/articles/stingray-unveils-ford-streaming-radio-120000362.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Broadcom (AVGO) vs. Texas Instruments (TXN): Higher Income or Stronger Dividend Coverage?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 19, 2:57 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-vs-texas-instruments-185756091.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Broadcom (AVGO) vs. Texas Instruments (TXN): Higher Income or Stronger Dividend Coverage?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 2:57 PM",
+          "published_timestamp": 1792436276,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-vs-texas-instruments-185756091.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Sandisk (SNDK)  vs. Texas Instruments (TXN): How Much Cash-Yield Protection Does Memory Offer?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 2:57 PM",
+          "published_timestamp": 1792436251,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-vs-texas-instruments-185731846.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments: 3 Things to Watch Before Buying the Dividend Stock",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 10:09 AM",
+          "published_timestamp": 1792418940,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-3-things-watch-140900279.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": 0.05822446515379506,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Red Hat Expands Availability of Its Industry-Leading Hybrid Cloud Platforms on Oracle Cloud Infrastructure",
+      "publisher": "Business Wire",
+      "published_at": "Oct 19, 9:00 AM",
+      "link": "https://finance.yahoo.com/technology/articles/red-hat-expands-availability-industry-130000968.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "Oracle\u2019s (ORCL) Growing but Can It Pay for the Buildout?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 2:12 PM",
+          "published_timestamp": 1792433559,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-orcl-growing-pay-buildout-181239583.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Prediction: Oracle\u2019s Next Chapter Could Be Huge for Shareholders",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 19, 9:00 AM",
+          "published_timestamp": 1792414802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-oracle-next-chapter-could-130002142.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Red Hat Expands Availability of Its Industry-Leading Hybrid Cloud Platforms on Oracle Cloud Infrastructure",
+          "publisher": "Business Wire",
+          "published_at": "Oct 19, 9:00 AM",
+          "published_timestamp": 1792414800,
+          "link": "https://finance.yahoo.com/technology/articles/red-hat-expands-availability-industry-130000968.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "General Electric (GE) And The 2027 Pentagon Magnet Ban Investors Need To Watch",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 19, 12:14 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-electric-ge-2027-pentagon-161415557.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "General Electric (GE) And The 2027 Pentagon Magnet Ban Investors Need To Watch",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 19, 12:14 PM",
+          "published_timestamp": 1792426455,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-electric-ge-2027-pentagon-161415557.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "General Electric (GE) Is Back In The Spotlight, What Is Drawing Attention Now?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 19, 11:13 AM",
+          "published_timestamp": 1792422833,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-electric-ge-back-spotlight-151353397.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "RTX, GE Aerospace Lead Defense Earnings Amid Soaring Demand",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Oct 19, 10:35 AM",
+          "published_timestamp": 1792420525,
+          "link": "https://finance.yahoo.com/m/49974681-7148-3764-ba6e-98c1dc0d0c8f/rtx%2C-ge-aerospace-lead.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Is GE Aerospace (GE) a 'Buy' Ahead of Earnings?",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 8:41 AM",
+          "published_timestamp": 1792413660,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-buy-ahead-124100674.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Is GE Aerospace (GE) Stock Outpacing Its Aerospace Peers This Year?",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 8:40 AM",
+          "published_timestamp": 1792413603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-stock-outpacing-124003626.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace and RTX Earnings Preview: What to Watch as Aerospace and Defense Report",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 19, 8:20 AM",
+          "published_timestamp": 1792412419,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-rtx-earnings-preview-122019464.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": -0.07229868856506722,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine?",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 19, 8:20 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-bank-america-stock-1-122000033.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "Bank of America's bad news may not be what investors think",
+          "publisher": "TheStreet",
+          "published_at": "Oct 19, 2:17 PM",
+          "published_timestamp": 1792433820,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-americas-bad-news-may-181700351.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Should You Buy Bank of America Stock After a $1.2 Billion Regulatory Fine?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 19, 8:20 AM",
+          "published_timestamp": 1792412400,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-bank-america-stock-1-122000033.html",
+          "score": -0.1577621670251537
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "State Street Industrial Select Sector SPDR (XLI) Adds Caterpillar and GE on Thursday",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 19, 7:04 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110426472.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "State Street Industrial Select Sector SPDR (XLI) Adds Caterpillar and GE on Thursday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 19, 7:04 AM",
+          "published_timestamp": 1792407866,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110426472.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "GE Vernova vs. Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 18, 2:50 AM",
+          "published_timestamp": 1792306200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ge-vernova-vs-caterpillar-more-065000983.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "AbbVie (ABBV) Unveils Phase 2a Crohn's Data And Flags 2026 ESMO Readouts",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 19, 11:15 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-unveils-phase-2a-151542087.html",
+      "items": [
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie (ABBV) Unveils Phase 2a Crohn's Data And Flags 2026 ESMO Readouts",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 19, 11:15 AM",
+          "published_timestamp": 1792422942,
+          "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-unveils-phase-2a-151542087.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie vs. Bristol Myers: Is AbbVie\u2019s Valuation Premium Worth Paying?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 9:43 AM",
+          "published_timestamp": 1792417416,
+          "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-bristol-myers-abbvie-134336548.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie's Neuroscience Franchise: What to Expect Ahead of Q3 Results",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 8:00 AM",
+          "published_timestamp": 1792411200,
+          "link": "https://finance.yahoo.com/healthcare/articles/abbvies-neuroscience-franchise-expect-ahead-120000610.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "Zacks Market Edge Highlights: Palantir Technologies, BP, Palo Alto Networks, Visa and AbbVie",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 8:00 AM",
+          "published_timestamp": 1792411200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-market-edge-highlights-palantir-120000631.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Nvidia vs. TSMC: Which Business Depends Less on Picking the Winning AI Chip?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 19, 2:56 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-tsmc-business-depends-185630787.html",
+      "items": [
+        {
+          "ticker": "NVDA",
+          "title": "Nvidia vs. TSMC: Which Business Depends Less on Picking the Winning AI Chip?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 2:56 PM",
+          "published_timestamp": 1792436190,
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-tsmc-business-depends-185630787.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NVDA",
+          "title": "Nvidia vs. AMD: Who Can Afford the Next Jump in Research Spending?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 19, 2:56 PM",
+          "published_timestamp": 1792436175,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-amd-afford-next-185615035.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "UNH": {
+      "ticker": "UNH",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 19, 11:15 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html",
+      "items": [
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 19, 11:15 AM",
+          "published_timestamp": 1792422909,
+          "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "What Would It Take For Rising Medical Costs To Break UnitedHealth Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 19, 8:55 AM",
+          "published_timestamp": 1792414547,
+          "link": "https://finance.yahoo.com/healthcare/articles/rising-medical-costs-break-unitedhealth-125547552.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Is UnitedHealth Group Stock a Buy After Another Solid Quarter?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 19, 8:20 AM",
+          "published_timestamp": 1792412401,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-stock-buy-another-122001625.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Healthcare ETFs to Buy as UnitedHealth Beats on Q3 Earnings",
+          "publisher": "Zacks",
+          "published_at": "Oct 19, 7:25 AM",
+          "published_timestamp": 1792409100,
+          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-etfs-buy-unitedhealth-beats-112500618.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NKE": {
+      "ticker": "NKE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+      "publisher": "Retail Dive",
+      "published_at": "Oct 19, 9:08 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html",
+      "items": [
+        {
+          "ticker": "NKE",
+          "title": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+          "publisher": "Retail Dive",
+          "published_at": "Oct 19, 9:08 AM",
+          "published_timestamp": 1792415280,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Argus Research Adjusts Nike Price Target to $42 From $55",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 19, 8:06 AM",
+          "published_timestamp": 1792411602,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/argus-research-adjusts-nike-price-120642815.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "NKE Stock Wrapped Its Best Week In 3 Months: Analyst Says Nike Will Recover From \u2018Lackluster Product Development,\u2019 Shares Undervalued",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 19, 4:55 AM",
+          "published_timestamp": 1792400143,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nke-stock-wrapped-best-week-085543271.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividend Stocks Is a Buy This October.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 18, 1:25 PM",
+          "published_timestamp": 1792344300,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-yields-2-3-172500721.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike Stock Is Down 44% in a Year. Is It Cheap Enough to Buy Now?",
+          "publisher": "TIKR",
+          "published_at": "Oct 18, 1:57 AM",
+          "published_timestamp": 1792303074,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-stock-down-44-cheap-055754967.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "UNH": {
+      "price_score": 1.6394409098625264,
+      "news_score": 0.0,
+      "combined_score": 1.6394409098625264
+    },
+    "INTC": {
+      "price_score": -2.127486699136293,
+      "news_score": 0.15688352940624206,
+      "combined_score": -2.0160889314030475
+    },
+    "NFLX": {
+      "price_score": 0.08618430878733428,
+      "news_score": -0.11371948555696414,
+      "combined_score": 0.005435890602430729
+    },
+    "NKE": {
+      "price_score": 1.160982384154891,
+      "news_score": 0.0,
+      "combined_score": 1.160982384154891
+    },
+    "IBM": {
+      "price_score": 1.1555629249157928,
+      "news_score": 0.0,
+      "combined_score": 1.1555629249157928
+    },
+    "BA": {
+      "price_score": 0.42256048407110086,
+      "news_score": 0.12591232518173434,
+      "combined_score": 0.5119666314750592
+    },
+    "PFE": {
+      "price_score": 1.010820091696435,
+      "news_score": 0.0,
+      "combined_score": 1.010820091696435
+    },
+    "JPM": {
+      "price_score": 0.07755586099486457,
+      "news_score": 0.0,
+      "combined_score": 0.07755586099486457
+    },
+    "META": {
+      "price_score": -0.32124821404792525,
+      "news_score": 0.0,
+      "combined_score": -0.32124821404792525
+    },
+    "F": {
+      "price_score": 0.08105235822817687,
+      "news_score": 0.0,
+      "combined_score": 0.08105235822817687
+    },
+    "MS": {
+      "price_score": -0.989868700072189,
+      "news_score": 0.05822446515379506,
+      "combined_score": -0.9485254470860865
+    },
+    "NVDA": {
+      "price_score": -0.45620193610399146,
+      "news_score": 0.0,
+      "combined_score": -0.45620193610399146
+    },
+    "ORCL": {
+      "price_score": -0.6047902883217947,
+      "news_score": 0.05822446515379506,
+      "combined_score": -0.5634470353356923
+    },
+    "TXN": {
+      "price_score": 0.06808777150119137,
+      "news_score": 0.0,
+      "combined_score": 0.06808777150119137
+    },
+    "ABBV": {
+      "price_score": 0.9458235908102864,
+      "news_score": 0.0,
+      "combined_score": 0.9458235908102864
+    },
+    "BAC": {
+      "price_score": -1.1653504434214306,
+      "news_score": -0.07229868856506722,
+      "combined_score": -1.2166873335760013
+    },
+    "GE": {
+      "price_score": 0.3385840253994655,
+      "news_score": 0.0,
+      "combined_score": 0.3385840253994655
+    },
+    "CAT": {
+      "price_score": -1.3217084293184407,
+      "news_score": 0.0,
+      "combined_score": -1.3217084293184407
+    }
+  },
   "data_version": 5
 }

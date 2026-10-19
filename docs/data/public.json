@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-17T00:48:09.371316+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-19T19:14:23.886941+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-16",
+  "last_reroll_market_date": "2026-10-19",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.986496,
   "display_points": -7.986496,
   "completed_balance": 18.325744,
   "display_balance": 18.325744,
   "completed_rounds": 34,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.15896,
     "dip": -1.38672,
@@ -21,7 +21,37 @@
     "breakout": -0.06421
   },
   "news_learning_score": -0.08874,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.325744,
+    "market_date": "2026-10-19",
+    "quote_time": "2026-10-19T19:14:23.873350+00:00",
+    "holdings": [
+      {
+        "ticker": "UNH",
+        "weight": 0.637122,
+        "entry": 406.325,
+        "last_price": 406.325,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "UnitedHealth Group (UNH) Has The Market Asking A Bigger Question",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-market-asking-151509298.html"
+      },
+      {
+        "ticker": "NKE",
+        "weight": 0.362878,
+        "entry": 37.145,
+        "last_price": 37.145,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+        "publisher": "Retail Dive",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nike-hired-elliott-hill-fix-130800638.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
