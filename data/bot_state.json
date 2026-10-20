@@ -66,25 +66,1078 @@
     "steady": -0.14517191182927397,
     "breakout": -0.025559623152511885
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "trend",
+  "allocation": {
+    "NOW": 0.3444655200833009,
+    "MA": 0.3370043361911312,
+    "COST": 0.318530143725568
+  },
+  "entry_prices": {
+    "COST": 994.085,
+    "NOW": 149.8,
+    "MA": 621.66
+  },
+  "round_market_date": "2026-10-20",
+  "round_started_at": "2026-10-20T17:55:22.008056+00:00",
   "rounds_completed": 35,
   "last_round_tickers": [
     "UNH",
     "NKE"
   ],
-  "last_reroll_market_date": "2026-10-19",
+  "last_reroll_market_date": "2026-10-20",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.08874069891419652,
-  "news_last_checked_at": "2026-10-19T19:14:23.873339+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-20T17:55:22.008713+00:00",
+  "news_signals": {
+    "BAC": {
+      "ticker": "BAC",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Reflecting On Diversified Banks Stocks\u2019 Q3 Earnings: Bank of America (NYSE:BAC)",
+      "publisher": "StockStory",
+      "published_at": "Oct 20, 12:13 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/reflecting-diversified-banks-stocks-q3-161350210.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "Reflecting On Diversified Banks Stocks\u2019 Q3 Earnings: Bank of America (NYSE:BAC)",
+          "publisher": "StockStory",
+          "published_at": "Oct 20, 12:13 PM",
+          "published_timestamp": 1792512830,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/reflecting-diversified-banks-stocks-q3-161350210.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America back in market after last week's $8B sale",
+          "publisher": "Bloomberg",
+          "published_at": "Oct 20, 9:49 AM",
+          "published_timestamp": 1792504190,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-back-market-last-134950478.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BAC",
+          "title": "Bank of America (BAC): Is Its Deposit Franchise Getting Stronger as Lending Accelerates?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 9:38 AM",
+          "published_timestamp": 1792503495,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-deposit-franchise-133815113.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "score": -0.04133324694544262,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Apple Stock Is the Best Performer in the Mag 7. An Analyst Downgrade Signals It\u2019s Time to Pump the Brakes.",
+      "publisher": "Barrons.com",
+      "published_at": "Oct 20, 10:23 AM",
+      "link": "https://finance.yahoo.com/m/9c328c9e-5590-3cfd-a4e7-dc003aabe2af/apple-stock-is-the-best.html",
+      "items": [
+        {
+          "ticker": "AAPL",
+          "title": "Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 20, 11:47 AM",
+          "published_timestamp": 1792511241,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-expected-report-fiscal-q4-154721344.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Should You Buy Apple Stock Now or Wait for a Dip?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 11:19 AM",
+          "published_timestamp": 1792509541,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-apple-stock-now-wait-151901424.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Mark Zuckerberg once trashed Apple. Now he\u2019s thanking its new CEO \u2014 and had to do it on Elon Musk\u2019s X, not Threads",
+          "publisher": "Moneywise",
+          "published_at": "Oct 20, 11:00 AM",
+          "published_timestamp": 1792508400,
+          "link": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-once-trashed-apple-150000909.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple Stock Is the Best Performer in the Mag 7. An Analyst Downgrade Signals It\u2019s Time to Pump the Brakes.",
+          "publisher": "Barrons.com",
+          "published_at": "Oct 20, 10:23 AM",
+          "published_timestamp": 1792506180,
+          "link": "https://finance.yahoo.com/m/9c328c9e-5590-3cfd-a4e7-dc003aabe2af/apple-stock-is-the-best.html",
+          "score": -0.17984081852510791
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Chips Are Selling Off and Apple Just Hit a New High. What Splits the AI Trade",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 10:00 AM",
+          "published_timestamp": 1792504819,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/chips-selling-off-apple-just-140019735.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MCD": {
+      "ticker": "MCD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Is The Market Underpricing McDonald's Stock?",
+      "publisher": "Trefis",
+      "published_at": "Oct 20, 12:17 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-underpricing-mcdonalds-stock-161749902.html",
+      "items": [
+        {
+          "ticker": "MCD",
+          "title": "Is The Market Underpricing McDonald's Stock?",
+          "publisher": "Trefis",
+          "published_at": "Oct 20, 12:17 PM",
+          "published_timestamp": 1792513069,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-underpricing-mcdonalds-stock-161749902.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MCD",
+          "title": "Goldman, McDonald\u2019s, Microsoft Push Back Against Efforts to Tokenize Their Stocks",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 20, 11:28 AM",
+          "published_timestamp": 1792510086,
+          "link": "https://finance.yahoo.com/m/a4ea4925-48e7-396c-804c-b8daf67b489f/goldman%2C-mcdonald%E2%80%99s%2C.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.05118933966360131,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "AMD Faces Key Test as AI Server Demand Surges",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 20, 1:18 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amd-faces-key-test-ai-171816475.html",
+      "items": [
+        {
+          "ticker": "AMD",
+          "title": "AMD Faces Key Test as AI Server Demand Surges",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 1:18 PM",
+          "published_timestamp": 1792516696,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-faces-key-test-ai-171816475.html",
+          "score": 0.17984081852510791
+        },
+        {
+          "ticker": "AMD",
+          "title": "Advanced Micro Devices Server CPU Demand Seen Driving Q3 Upside, Wedbush Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 20, 11:23 AM",
+          "published_timestamp": 1792509799,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-server-cpu-152319975.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD Stock Price Prediction: Is the AI Chip Opportunity Bigger Than Wall Street Thinks?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 10:30 AM",
+          "published_timestamp": 1792506619,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-price-prediction-ai-143019627.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "Nvidia Is Coming for Intel and AMD's CPU Business",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 10:28 AM",
+          "published_timestamp": 1792506501,
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-coming-intel-amds-cpu-142821522.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT\u2019s Progress?",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 20, 12:45 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-micron-more-exposed-164512063.html",
+      "items": [
+        {
+          "ticker": "INTC",
+          "title": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT\u2019s Progress?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 12:45 PM",
+          "published_timestamp": 1792514712,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-micron-more-exposed-164512063.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "INTC",
+          "title": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 20, 11:47 AM",
+          "published_timestamp": 1792511220,
+          "link": "https://finance.yahoo.com/technology/articles/photonic-integrated-circuit-pic-global-154700122.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "INTC",
+          "title": "Nvidia Is Coming for Intel and AMD's CPU Business",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 10:28 AM",
+          "published_timestamp": 1792506501,
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-coming-intel-amds-cpu-142821522.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 20, 11:35 AM",
+      "link": "https://finance.yahoo.com/energy/articles/shells-latest-lng-move-rethinking-153500596.html",
+      "items": [
+        {
+          "ticker": "XOM",
+          "title": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 11:35 AM",
+          "published_timestamp": 1792510500,
+          "link": "https://finance.yahoo.com/energy/articles/shells-latest-lng-move-rethinking-153500596.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.03570004849181549,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "All You Need to Know About Caterpillar (CAT) Rating Upgrade to Buy",
+      "publisher": "Zacks",
+      "published_at": "Oct 20, 11:00 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/know-caterpillar-cat-rating-upgrade-150003274.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "All You Need to Know About Caterpillar (CAT) Rating Upgrade to Buy",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 11:00 AM",
+          "published_timestamp": 1792508403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/know-caterpillar-cat-rating-upgrade-150003274.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CAT",
+          "title": "Is Caterpillar (CAT) Stock Outpacing Its Industrial Products Peers This Year?",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:40 AM",
+          "published_timestamp": 1792500003,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-stock-outpacing-industrial-124003351.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Wall Street Analysts Think Caterpillar (CAT) Is a Good Investment: Is It?",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:30 AM",
+          "published_timestamp": 1792499403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-caterpillar-123003340.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar vs. Deere: The Better Heavy Equipment Stock for the Data Center Boom",
+          "publisher": "Barchart",
+          "published_at": "Oct 20, 7:45 AM",
+          "published_timestamp": 1792496754,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-vs-deere-better-heavy-114554255.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "State Street SPDR Dow Jones (DIA) Sells Goldman Sachs and Caterpillar on Friday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 7:05 AM",
+          "published_timestamp": 1792494303,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-dow-jones-110503534.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Chevron Moves to Take Over Russia's Most Prized Iraqi Oil Field",
+      "publisher": "Oilprice.com",
+      "published_at": "Oct 20, 1:00 PM",
+      "link": "https://finance.yahoo.com/energy/articles/chevron-moves-over-russias-most-170000404.html",
+      "items": [
+        {
+          "ticker": "CVX",
+          "title": "Chevron Moves to Take Over Russia's Most Prized Iraqi Oil Field",
+          "publisher": "Oilprice.com",
+          "published_at": "Oct 20, 1:00 PM",
+          "published_timestamp": 1792515600,
+          "link": "https://finance.yahoo.com/energy/articles/chevron-moves-over-russias-most-170000404.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CVX",
+          "title": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 11:35 AM",
+          "published_timestamp": 1792510500,
+          "link": "https://finance.yahoo.com/energy/articles/shells-latest-lng-move-rethinking-153500596.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CVX",
+          "title": "The Zacks Analyst Blog Highlights EOG Resources, ExxonMobil, Diamondback Energy and Chevron",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 7:31 AM",
+          "published_timestamp": 1792495860,
+          "link": "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-eog-113100985.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CVX",
+          "title": "Goldman Sachs Adjusts Price Target on Chevron to $241 From $228",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 20, 5:10 AM",
+          "published_timestamp": 1792487414,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-091014360.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CVX",
+          "title": "Why Did XOM, CVX, MPC Stocks Surge To 52-Week Highs Today?",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 20, 12:11 AM",
+          "published_timestamp": 1792469488,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-did-xom-cvx-mpc-041128720.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CVX",
+          "title": "Chevron CEO disagrees with Scott Bessent's take on the economy",
+          "publisher": "TheStreet",
+          "published_at": "Oct 19, 10:47 PM",
+          "published_timestamp": 1792464420,
+          "link": "https://finance.yahoo.com/energy/articles/chevron-ceo-disagrees-scott-bessents-024700278.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "COST": {
+      "ticker": "COST",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Costco (COST): Can Its Membership Model Travel Further Overseas?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 20, 9:51 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-membership-model-travel-135135530.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Costco (COST): Can Its Membership Model Travel Further Overseas?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 9:51 AM",
+          "published_timestamp": 1792504295,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-membership-model-travel-135135530.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Walmart, Target and Costco Win Over Digital Shoppers With Speed",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 9:00 AM",
+          "published_timestamp": 1792501200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-target-costco-win-over-130000097.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Is Trending Stock Costco Wholesale Corporation (COST) a Buy Now?",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:00 AM",
+          "published_timestamp": 1792497606,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-costco-wholesale-corporation-120006441.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Inflation Just Hit 3.7%. Here's Why Walmart and Costco Could Be the Biggest Winners.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 7:05 AM",
+          "published_timestamp": 1792494300,
+          "link": "https://finance.yahoo.com/economy/articles/inflation-just-hit-3-7-110500196.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 20, 7:50 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-lam-research-report-115003421.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 7:50 AM",
+          "published_timestamp": 1792497003,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-lam-research-report-115003421.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments (TXN) To Report Earnings Tomorrow: Here Is What To Expect",
+          "publisher": "StockStory",
+          "published_at": "Oct 20, 7:49 AM",
+          "published_timestamp": 1792496990,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-report-earnings-114950336.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "The Zacks Analyst Blog Highlights Meta Platforms, Lam Research, Texas Instruments, Tesla, Netflix, Procter & Gamble and GE Aerospace",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 7:27 AM",
+          "published_timestamp": 1792495620,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-meta-112700586.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Industrial Semiconductors - Global Strategic Business Report 2026 | Secure Share of the US$156.1 Billion 2032 Market as Infineon, Intel, STMicroelectronics, NXP, and Texas Instruments Lead",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 20, 6:28 AM",
+          "published_timestamp": 1792492080,
+          "link": "https://finance.yahoo.com/technology/articles/industrial-semiconductors-global-strategic-business-102800770.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MA": {
+      "ticker": "MA",
+      "score": 0.11691159655220351,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Mastercard Expands Stablecoin Reach With New Money Platform",
+      "publisher": "Zacks",
+      "published_at": "Oct 20, 8:45 AM",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-expands-stablecoin-reach-money-124500168.html",
+      "items": [
+        {
+          "ticker": "MA",
+          "title": "Mastercard Unveils Stablecoin Security Tool",
+          "publisher": "CryptoProwl",
+          "published_at": "Oct 20, 9:29 AM",
+          "published_timestamp": 1792502940,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-unveils-stablecoin-security-tool-132900731.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Expands Stablecoin Reach With New Money Platform",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:45 AM",
+          "published_timestamp": 1792500300,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-expands-stablecoin-reach-money-124500168.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MA",
+          "title": "Pelican AI Appoints Former Mastercard and Interac Executive Maria Papas and Alliances Leader Doug Drummond to Drive Sales and Partner Growth",
+          "publisher": "TMX Newsfile",
+          "published_at": "Oct 20, 6:45 AM",
+          "published_timestamp": 1792493100,
+          "link": "https://finance.yahoo.com/technology/ai/articles/pelican-ai-appoints-former-mastercard-104500218.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Launches Stablecoin Security API \u2014 Risk Scoring for the Fiat-to-Stablecoin Payment Lifecycle",
+          "publisher": "Forkast News",
+          "published_at": "Oct 20, 6:41 AM",
+          "published_timestamp": 1792492907,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-launches-stablecoin-security-api-104147839.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "GE Aerospace Stocks Fall 3.31% Although Higher Guidance Sets a $2.4 Billion Cash Hurdle",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 20, 1:48 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-stocks-fall-3-174807639.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace Stocks Fall 3.31% Although Higher Guidance Sets a $2.4 Billion Cash Hurdle",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 1:48 PM",
+          "published_timestamp": 1792518487,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-stocks-fall-3-174807639.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace Q3 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "published_at": "Oct 20, 12:55 PM",
+          "published_timestamp": 1792515335,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-q3-2026-earnings-165535395.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE (GE) Q3 2026 Earnings Call Transcript",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 11:28 AM",
+          "published_timestamp": 1792510122,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-ge-q3-2026-earnings-152842712.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Why GE Aerospace Stock Dropped After Beating Earnings",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 11:27 AM",
+          "published_timestamp": 1792510028,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-ge-aerospace-stock-dropped-152708366.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Aerospace Sinks 2% Despite Raising 2026 Guidance \u201cAcross the Board\u201d",
+          "publisher": "TIKR",
+          "published_at": "Oct 20, 11:18 AM",
+          "published_timestamp": 1792509537,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-sinks-2-despite-151857402.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "What GE Aerospace (GE) Said on Its Q3 Earnings Call",
+          "publisher": "MarketBeat",
+          "published_at": "Oct 20, 11:04 AM",
+          "published_timestamp": 1792508685,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-said-q3-150445925.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": 0.0872413728388639,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 20, 12:13 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/oracle-orcl-expands-ai-healthcare-161346861.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?",
+          "publisher": "TIKR",
+          "published_at": "Oct 20, 12:26 PM",
+          "published_timestamp": 1792513575,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-just-dropped-12-month-162615289.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 20, 12:13 PM",
+          "published_timestamp": 1792512826,
+          "link": "https://finance.yahoo.com/healthcare/articles/oracle-orcl-expands-ai-healthcare-161346861.html",
+          "score": 0.2871474123322536
+        },
+        {
+          "ticker": "ORCL",
+          "title": "What Is Oracle\u2019s (ORCL) Economic Moat, and Is It Widening or Narrowing?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 10:43 AM",
+          "published_timestamp": 1792507407,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-economic-moat-widening-144327905.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "BNP Paribas Has a Strong Message For Oracle Stock Investors",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 10:38 AM",
+          "published_timestamp": 1792507135,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-strong-message-oracle-143855696.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "score": 0.029913883125454975,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook",
+      "publisher": "Investing.com",
+      "published_at": "Oct 20, 8:20 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-gets-street-high-266-122052290.html",
+      "items": [
+        {
+          "ticker": "NOW",
+          "title": "Can ServiceNow (NOW) Keep Growing at This Size?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 10:47 AM",
+          "published_timestamp": 1792507629,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-keep-growing-size-144709628.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Fell 20% Over a Year But This Wall Street Analyst Predicts 70% Gains From Here",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 10:45 AM",
+          "published_timestamp": 1792507534,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-fell-20-over-wall-144534095.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Should AI Product Wins Require Action From ServiceNow Stock Investors?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 20, 10:09 AM",
+          "published_timestamp": 1792505349,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-product-wins-require-action-140909044.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Salesforce Retreats 2% on $5.66B Deal for Braze, Even as ServiceNow and Adobe Gain 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 9:37 AM",
+          "published_timestamp": 1792503443,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-retreats-2-5-66b-133723750.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Research Study Warns Security Leaders: Ungoverned Agentic AI Exposure Is Compounding Inside Enterprises",
+          "publisher": "Business Wire",
+          "published_at": "Oct 20, 9:00 AM",
+          "published_timestamp": 1792501200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-research-study-warns-security-130000749.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook",
+          "publisher": "Investing.com",
+          "published_at": "Oct 20, 8:20 AM",
+          "published_timestamp": 1792498852,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-gets-street-high-266-122052290.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "GM": {
+      "ticker": "GM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "General Motors Stocks Fall 7.55% Although Board Approves $20 Billion Buyback",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 20, 1:53 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stocks-fall-7-175340323.html",
+      "items": [
+        {
+          "ticker": "GM",
+          "title": "General Motors Stocks Fall 7.55% Although Board Approves $20 Billion Buyback",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 1:53 PM",
+          "published_timestamp": 1792518820,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stocks-fall-7-175340323.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors Stock Sinks 6% Despite a Beat: \u201cGot a Narrowed Range Instead\u201d",
+          "publisher": "TIKR",
+          "published_at": "Oct 20, 1:13 PM",
+          "published_timestamp": 1792516386,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stock-sinks-6-171306164.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "General Motors Company Q3 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "published_at": "Oct 20, 12:57 PM",
+          "published_timestamp": 1792515470,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-company-q3-2026-165750345.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "JPMorgan Stocks Fall Although Its Security Initiative Reaches $230 Billion",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 20, 12:53 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stocks-fall-although-security-165348950.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Stocks Fall Although Its Security Initiative Reaches $230 Billion",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 12:53 PM",
+          "published_timestamp": 1792515228,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stocks-fall-although-security-165348950.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan (JPM): Can New Branches Keep Winning Profitable Customers?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 12:51 PM",
+          "published_timestamp": 1792515101,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-branches-keep-winning-165141984.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Says One Big Headwind for Stocks May Be Fading",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 20, 11:41 AM",
+          "published_timestamp": 1792510893,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-says-one-big-headwind-154133955.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "Ethereum News: JPMorgan Just Brought JPM Coin to Ethereum. Could Wall Street Money Lift ETH?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 9:07 AM",
+          "published_timestamp": 1792501669,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/ethereum-news-jpmorgan-just-brought-130749174.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    }
+  },
+  "entry_news_signals": {
+    "NOW": {
+      "ticker": "NOW",
+      "score": 0.029913883125454975,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook",
+      "publisher": "Investing.com",
+      "published_at": "Oct 20, 8:20 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-gets-street-high-266-122052290.html",
+      "items": [
+        {
+          "ticker": "NOW",
+          "title": "Can ServiceNow (NOW) Keep Growing at This Size?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 10:47 AM",
+          "published_timestamp": 1792507629,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-keep-growing-size-144709628.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Fell 20% Over a Year But This Wall Street Analyst Predicts 70% Gains From Here",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 10:45 AM",
+          "published_timestamp": 1792507534,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-fell-20-over-wall-144534095.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Should AI Product Wins Require Action From ServiceNow Stock Investors?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 20, 10:09 AM",
+          "published_timestamp": 1792505349,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-product-wins-require-action-140909044.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "Salesforce Retreats 2% on $5.66B Deal for Braze, Even as ServiceNow and Adobe Gain 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 20, 9:37 AM",
+          "published_timestamp": 1792503443,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-retreats-2-5-66b-133723750.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow Research Study Warns Security Leaders: Ungoverned Agentic AI Exposure Is Compounding Inside Enterprises",
+          "publisher": "Business Wire",
+          "published_at": "Oct 20, 9:00 AM",
+          "published_timestamp": 1792501200,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-research-study-warns-security-130000749.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NOW",
+          "title": "ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook",
+          "publisher": "Investing.com",
+          "published_at": "Oct 20, 8:20 AM",
+          "published_timestamp": 1792498852,
+          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-gets-street-high-266-122052290.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "MA": {
+      "ticker": "MA",
+      "score": 0.11691159655220351,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Mastercard Expands Stablecoin Reach With New Money Platform",
+      "publisher": "Zacks",
+      "published_at": "Oct 20, 8:45 AM",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-expands-stablecoin-reach-money-124500168.html",
+      "items": [
+        {
+          "ticker": "MA",
+          "title": "Mastercard Unveils Stablecoin Security Tool",
+          "publisher": "CryptoProwl",
+          "published_at": "Oct 20, 9:29 AM",
+          "published_timestamp": 1792502940,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-unveils-stablecoin-security-tool-132900731.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Expands Stablecoin Reach With New Money Platform",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:45 AM",
+          "published_timestamp": 1792500300,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-expands-stablecoin-reach-money-124500168.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MA",
+          "title": "Pelican AI Appoints Former Mastercard and Interac Executive Maria Papas and Alliances Leader Doug Drummond to Drive Sales and Partner Growth",
+          "publisher": "TMX Newsfile",
+          "published_at": "Oct 20, 6:45 AM",
+          "published_timestamp": 1792493100,
+          "link": "https://finance.yahoo.com/technology/ai/articles/pelican-ai-appoints-former-mastercard-104500218.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Launches Stablecoin Security API \u2014 Risk Scoring for the Fiat-to-Stablecoin Payment Lifecycle",
+          "publisher": "Forkast News",
+          "published_at": "Oct 20, 6:41 AM",
+          "published_timestamp": 1792492907,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-launches-stablecoin-security-api-104147839.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "COST": {
+      "ticker": "COST",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Costco (COST): Can Its Membership Model Travel Further Overseas?",
+      "publisher": "Insider Monkey",
+      "published_at": "Oct 20, 9:51 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-membership-model-travel-135135530.html",
+      "items": [
+        {
+          "ticker": "COST",
+          "title": "Costco (COST): Can Its Membership Model Travel Further Overseas?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 20, 9:51 AM",
+          "published_timestamp": 1792504295,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-membership-model-travel-135135530.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Walmart, Target and Costco Win Over Digital Shoppers With Speed",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 9:00 AM",
+          "published_timestamp": 1792501200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-target-costco-win-over-130000097.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Is Trending Stock Costco Wholesale Corporation (COST) a Buy Now?",
+          "publisher": "Zacks",
+          "published_at": "Oct 20, 8:00 AM",
+          "published_timestamp": 1792497606,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-costco-wholesale-corporation-120006441.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COST",
+          "title": "Inflation Just Hit 3.7%. Here's Why Walmart and Costco Could Be the Biggest Winners.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 20, 7:05 AM",
+          "published_timestamp": 1792494300,
+          "link": "https://finance.yahoo.com/economy/articles/inflation-just-hit-3-7-110500196.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "BAC": {
+      "price_score": -0.7250179615328687,
+      "news_score": 0.0,
+      "combined_score": -0.7250179615328687
+    },
+    "AMD": {
+      "price_score": -1.3617173135729592,
+      "news_score": 0.05118933966360131,
+      "combined_score": -1.3253694688256752
+    },
+    "AAPL": {
+      "price_score": 0.457893423017459,
+      "news_score": -0.04133324694544262,
+      "combined_score": 0.42854406135842626
+    },
+    "XOM": {
+      "price_score": 1.19703815286439,
+      "news_score": 0.0,
+      "combined_score": 1.19703815286439
+    },
+    "INTC": {
+      "price_score": -2.0282646349274973,
+      "news_score": 0.0,
+      "combined_score": -2.0282646349274973
+    },
+    "MCD": {
+      "price_score": 0.5852171411250143,
+      "news_score": 0.0,
+      "combined_score": 0.5852171411250143
+    },
+    "TXN": {
+      "price_score": 0.2511703417078405,
+      "news_score": 0.0,
+      "combined_score": 0.2511703417078405
+    },
+    "CVX": {
+      "price_score": 1.2631822428147905,
+      "news_score": 0.0,
+      "combined_score": 1.2631822428147905
+    },
+    "COST": {
+      "price_score": 1.3258826023079178,
+      "news_score": 0.0,
+      "combined_score": 1.3258826023079178
+    },
+    "CAT": {
+      "price_score": -0.8691840485620519,
+      "news_score": 0.03570004849181549,
+      "combined_score": -0.8438346334576857
+    },
+    "MA": {
+      "price_score": 1.2907894538414957,
+      "news_score": 0.11691159655220351,
+      "combined_score": 1.3738044837005006
+    },
+    "GOOGL": {
+      "price_score": -0.07301907186187252,
+      "news_score": 0.0,
+      "combined_score": -0.07301907186187252
+    },
+    "JPM": {
+      "price_score": 0.44699577647371436,
+      "news_score": 0.0,
+      "combined_score": 0.44699577647371436
+    },
+    "GM": {
+      "price_score": -1.2309132634900055,
+      "news_score": 0.0,
+      "combined_score": -1.2309132634900055
+    },
+    "ORCL": {
+      "price_score": -1.3191331555129486,
+      "news_score": 0.0872413728388639,
+      "combined_score": -1.2571859630637803
+    },
+    "NOW": {
+      "price_score": 1.3711771029629725,
+      "news_score": 0.029913883125454975,
+      "combined_score": 1.392417954803958
+    },
+    "GE": {
+      "price_score": -0.2579363105620097,
+      "news_score": 0.0,
+      "combined_score": -0.2579363105620097
+    },
+    "NVDA": {
+      "price_score": -0.3241604770933825,
+      "news_score": 0.0,
+      "combined_score": -0.3241604770933825
+    }
+  },
   "data_version": 5
 }

@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-19T22:55:23.262895+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-20T17:55:22.022735+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-19",
+  "last_reroll_market_date": "2026-10-20",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.835971,
   "display_points": -7.835971,
   "completed_balance": 18.353329,
   "display_balance": 18.353329,
   "completed_rounds": 35,
-  "current_strategy": null,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.15896,
     "dip": -1.38672,
@@ -21,7 +21,48 @@
     "breakout": -0.02556
   },
   "news_learning_score": -0.08874,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.353329,
+    "market_date": "2026-10-20",
+    "quote_time": "2026-10-20T17:55:22.008723+00:00",
+    "holdings": [
+      {
+        "ticker": "NOW",
+        "weight": 0.344466,
+        "entry": 149.8,
+        "last_price": 149.8,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook",
+        "publisher": "Investing.com",
+        "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-gets-street-high-266-122052290.html"
+      },
+      {
+        "ticker": "MA",
+        "weight": 0.337004,
+        "entry": 621.66,
+        "last_price": 621.66,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Mastercard Expands Stablecoin Reach With New Money Platform",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/mastercard-expands-stablecoin-reach-money-124500168.html"
+      },
+      {
+        "ticker": "COST",
+        "weight": 0.31853,
+        "entry": 994.085,
+        "last_price": 994.085,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Costco (COST): Can Its Membership Model Travel Further Overseas?",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-membership-model-travel-135135530.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
