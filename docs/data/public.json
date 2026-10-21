@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T17:58:51.953363+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-21T21:33:24.941625+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-21",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.946157,
-  "display_points": -7.946157,
-  "completed_balance": 18.333106,
-  "display_balance": 18.333106,
-  "completed_rounds": 36,
-  "current_strategy": "breakout",
+  "banked_points": -7.861749,
+  "display_points": -7.861749,
+  "completed_balance": 18.348581,
+  "display_balance": 18.348581,
+  "completed_rounds": 37,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.02556
+    "breakout": -0.00577
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.333106,
-    "market_date": "2026-10-21",
-    "quote_time": "2026-10-21T17:58:51.939065+00:00",
-    "holdings": [
-      {
-        "ticker": "UNH",
-        "weight": 0.376241,
-        "entry": 415.84,
-        "last_price": 415.84,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "UnitedHealth (UNH): Does Optum Truly Diversify Its Earnings Risk?",
-        "publisher": "Insider Monkey",
-        "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-does-optum-truly-143831272.html"
-      },
-      {
-        "ticker": "LLY",
-        "weight": 0.31685,
-        "entry": 1270.83,
-        "last_price": 1270.83,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Eli Lilly (LLY) Grew Revenue 48% While Prices Fell, Can Volume Keep Winning?",
-        "publisher": "Insider Monkey",
-        "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-grew-revenue-173137270.html"
-      },
-      {
-        "ticker": "HD",
-        "weight": 0.306909,
-        "entry": 314.33,
-        "last_price": 314.33,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Home Depot (HD): Does Becoming a Bigger Distributor Change How the Stock Should Be Valued?",
-        "publisher": "Insider Monkey",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-does-becoming-144800377.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -667,6 +626,26 @@
       "news_summaries": [
         "NOW Neutral: ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook | MA Neutral: Mastercard Expands Stablecoin Reach With New Money Platform | COST Neutral: Costco (COST): Can Its Membership Model Travel Further Overseas?"
       ]
+    },
+    {
+      "market_date": "2026-10-21",
+      "point_change": 0.084408,
+      "banked_points": -7.861749,
+      "cash_before": 18.333106,
+      "cash_after": 18.348581,
+      "cash_change": 0.015474999999998573,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "UNH",
+        "LLY",
+        "HD"
+      ],
+      "news_summaries": [
+        "UNH Neutral: UnitedHealth (UNH): Does Optum Truly Diversify Its Earnings Risk? | LLY Neutral: Eli Lilly (LLY) Grew Revenue 48% While Prices Fell, Can Volume Keep Winning? | HD Neutral: Home Depot (HD): Does Becoming a Bigger Distributor Change How the Stock Should Be Valued?"
+      ]
     }
   ],
   "rounds": [
@@ -1101,6 +1080,18 @@
       "companies": "NOW, MA, COST",
       "allocation": "{\"COST\": 0.318530143725568, \"MA\": 0.3370043361911312, \"NOW\": 0.3444655200833009}",
       "news_summary": "NOW Neutral: ServiceNow gets Street-high $266 price target as AI adoption boosts growth outlook | MA Neutral: Mastercard Expands Stablecoin Reach With New Money Platform | COST Neutral: Costco (COST): Can Its Membership Model Travel Further Overseas?"
+    },
+    {
+      "market_date": "2026-10-21",
+      "timestamp": "2026-10-21T21:33:24+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.333106",
+      "cash_after": "18.348581",
+      "point_change": "0.084408",
+      "banked_points": "-7.861749",
+      "companies": "UNH, LLY, HD",
+      "allocation": "{\"HD\": 0.3069093246868776, \"LLY\": 0.3168496964839578, \"UNH\": 0.37624097882916463}",
+      "news_summary": "UNH Neutral: UnitedHealth (UNH): Does Optum Truly Diversify Its Earnings Risk? | LLY Neutral: Eli Lilly (LLY) Grew Revenue 48% While Prices Fell, Can Volume Keep Winning? | HD Neutral: Home Depot (HD): Does Becoming a Bigger Distributor Change How the Stock Should Be Valued?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
