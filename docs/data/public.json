@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T17:55:54.647829+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-22T21:27:44.750400+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-22",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.861749,
-  "display_points": -7.861749,
-  "completed_balance": 18.348581,
-  "display_balance": 18.348581,
-  "completed_rounds": 37,
-  "current_strategy": "breakout",
+  "banked_points": -7.2573,
+  "display_points": -7.2573,
+  "completed_balance": 18.459489,
+  "display_balance": 18.459489,
+  "completed_rounds": 38,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.00577
+    "breakout": 0.10407
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.348581,
-    "market_date": "2026-10-22",
-    "quote_time": "2026-10-22T17:55:54.633695+00:00",
-    "holdings": [
-      {
-        "ticker": "IBM",
-        "weight": 0.386403,
-        "entry": 249.67,
-        "last_price": 249.67,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "IBM's Strong Q3 Infrastructure Growth, Cost Savings Offset Weak Gross Margins, Morgan Stanley Says",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-apos-strong-q3-infrastructure-150040663.html"
-      },
-      {
-        "ticker": "PEP",
-        "weight": 0.350673,
-        "entry": 138.13,
-        "last_price": 138.13,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "PepsiCo (PEP) Extends Its Global Beverage Partnership Through 2036",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-extends-global-beverage-171557292.html"
-      },
-      {
-        "ticker": "SBUX",
-        "weight": 0.262924,
-        "entry": 101.72,
-        "last_price": 101.72,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-earnings-expected-grow-130013450.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -687,6 +646,26 @@
       "news_summaries": [
         "UNH Neutral: UnitedHealth (UNH): Does Optum Truly Diversify Its Earnings Risk? | LLY Neutral: Eli Lilly (LLY) Grew Revenue 48% While Prices Fell, Can Volume Keep Winning? | HD Neutral: Home Depot (HD): Does Becoming a Bigger Distributor Change How the Stock Should Be Valued?"
       ]
+    },
+    {
+      "market_date": "2026-10-22",
+      "point_change": 0.604449,
+      "banked_points": -7.2573,
+      "cash_before": 18.348581,
+      "cash_after": 18.459489,
+      "cash_change": 0.110908000000002,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "IBM",
+        "PEP",
+        "SBUX"
+      ],
+      "news_summaries": [
+        "IBM Neutral: IBM's Strong Q3 Infrastructure Growth, Cost Savings Offset Weak Gross Margins, Morgan Stanley Says | PEP Neutral: PepsiCo (PEP) Extends Its Global Beverage Partnership Through 2036 | SBUX Neutral: Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?"
+      ]
     }
   ],
   "rounds": [
@@ -1133,6 +1112,18 @@
       "companies": "UNH, LLY, HD",
       "allocation": "{\"HD\": 0.3069093246868776, \"LLY\": 0.3168496964839578, \"UNH\": 0.37624097882916463}",
       "news_summary": "UNH Neutral: UnitedHealth (UNH): Does Optum Truly Diversify Its Earnings Risk? | LLY Neutral: Eli Lilly (LLY) Grew Revenue 48% While Prices Fell, Can Volume Keep Winning? | HD Neutral: Home Depot (HD): Does Becoming a Bigger Distributor Change How the Stock Should Be Valued?"
+    },
+    {
+      "market_date": "2026-10-22",
+      "timestamp": "2026-10-22T21:27:44+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.348581",
+      "cash_after": "18.459489",
+      "point_change": "0.604449",
+      "banked_points": "-7.257300",
+      "companies": "IBM, PEP, SBUX",
+      "allocation": "{\"IBM\": 0.386403204345831, \"PEP\": 0.3506732268861814, \"SBUX\": 0.2629235687679876}",
+      "news_summary": "IBM Neutral: IBM's Strong Q3 Infrastructure Growth, Cost Savings Offset Weak Gross Margins, Morgan Stanley Says | PEP Neutral: PepsiCo (PEP) Extends Its Global Beverage Partnership Through 2036 | SBUX Neutral: Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
