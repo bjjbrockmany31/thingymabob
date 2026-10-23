@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-23T00:06:59.598604+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-23T17:50:18.288909+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-22",
+  "last_reroll_market_date": "2026-10-23",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.2573,
   "display_points": -7.2573,
   "completed_balance": 18.459489,
   "display_balance": 18.459489,
   "completed_rounds": 38,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
@@ -21,7 +21,26 @@
     "breakout": 0.10407
   },
   "news_learning_score": -0.08874,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.459489,
+    "market_date": "2026-10-23",
+    "quote_time": "2026-10-23T17:50:18.274639+00:00",
+    "holdings": [
+      {
+        "ticker": "NOW",
+        "weight": 1.0,
+        "entry": 157.845,
+        "last_price": 157.845,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-raises-servicenow-price-170129790.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
