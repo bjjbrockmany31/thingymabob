@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T17:50:18.288909+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-23T20:40:37.643295+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,39 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-23",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.2573,
-  "display_points": -7.2573,
-  "completed_balance": 18.459489,
-  "display_balance": 18.459489,
-  "completed_rounds": 38,
-  "current_strategy": "breakout",
+  "banked_points": -6.550911,
+  "display_points": -6.550911,
+  "completed_balance": 18.589885,
+  "display_balance": 18.589885,
+  "completed_rounds": 39,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.10407
+    "breakout": 0.21249
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.459489,
-    "market_date": "2026-10-23",
-    "quote_time": "2026-10-23T17:50:18.274639+00:00",
-    "holdings": [
-      {
-        "ticker": "NOW",
-        "weight": 1.0,
-        "entry": 157.845,
-        "last_price": 157.845,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-raises-servicenow-price-170129790.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -685,6 +666,24 @@
       "news_summaries": [
         "IBM Neutral: IBM's Strong Q3 Infrastructure Growth, Cost Savings Offset Weak Gross Margins, Morgan Stanley Says | PEP Neutral: PepsiCo (PEP) Extends Its Global Beverage Partnership Through 2036 | SBUX Neutral: Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?"
       ]
+    },
+    {
+      "market_date": "2026-10-23",
+      "point_change": 0.706389,
+      "banked_points": -6.550911,
+      "cash_before": 18.459489,
+      "cash_after": 18.589885,
+      "cash_change": 0.13039599999999751,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "NOW"
+      ],
+      "news_summaries": [
+        "NOW Neutral: Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating"
+      ]
     }
   ],
   "rounds": [
@@ -1143,6 +1142,18 @@
       "companies": "IBM, PEP, SBUX",
       "allocation": "{\"IBM\": 0.386403204345831, \"PEP\": 0.3506732268861814, \"SBUX\": 0.2629235687679876}",
       "news_summary": "IBM Neutral: IBM's Strong Q3 Infrastructure Growth, Cost Savings Offset Weak Gross Margins, Morgan Stanley Says | PEP Neutral: PepsiCo (PEP) Extends Its Global Beverage Partnership Through 2036 | SBUX Neutral: Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?"
+    },
+    {
+      "market_date": "2026-10-23",
+      "timestamp": "2026-10-23T20:40:37+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.459489",
+      "cash_after": "18.589885",
+      "point_change": "0.706389",
+      "banked_points": "-6.550911",
+      "companies": "NOW",
+      "allocation": "{\"NOW\": 1.0}",
+      "news_summary": "NOW Neutral: Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
