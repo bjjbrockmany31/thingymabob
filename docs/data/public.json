@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-23T23:34:10.693997+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-10-26T19:09:28.615336+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-23",
+  "last_reroll_market_date": "2026-10-26",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -6.550911,
   "display_points": -6.550911,
   "completed_balance": 18.589885,
   "display_balance": 18.589885,
   "completed_rounds": 39,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
@@ -21,7 +21,37 @@
     "breakout": 0.21249
   },
   "news_learning_score": -0.08874,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.589885,
+    "market_date": "2026-10-26",
+    "quote_time": "2026-10-26T19:09:28.600923+00:00",
+    "holdings": [
+      {
+        "ticker": "IBM",
+        "weight": 0.653557,
+        "entry": 253.605,
+        "last_price": 253.605,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap",
+        "publisher": "24/7 Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html"
+      },
+      {
+        "ticker": "CVX",
+        "weight": 0.346443,
+        "entry": 232.58,
+        "last_price": 232.58,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",

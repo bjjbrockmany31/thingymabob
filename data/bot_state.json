@@ -66,24 +66,975 @@
     "steady": -0.14517191182927397,
     "breakout": 0.21249000761832404
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "breakout",
+  "allocation": {
+    "IBM": 0.6535568030546303,
+    "CVX": 0.3464431969453698
+  },
+  "entry_prices": {
+    "IBM": 253.605,
+    "CVX": 232.58
+  },
+  "round_market_date": "2026-10-26",
+  "round_started_at": "2026-10-26T19:09:28.600210+00:00",
   "rounds_completed": 39,
   "last_round_tickers": [
     "NOW"
   ],
-  "last_reroll_market_date": "2026-10-23",
+  "last_reroll_market_date": "2026-10-26",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.08874069891419652,
-  "news_last_checked_at": "2026-10-23T17:50:18.274630+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-26T19:09:28.600913+00:00",
+  "news_signals": {
+    "CVX": {
+      "ticker": "CVX",
+      "score": 0.07229868856506722,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 26, 11:10 AM",
+      "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html",
+      "items": [
+        {
+          "ticker": "CVX",
+          "title": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 11:10 AM",
+          "published_timestamp": 1793027437,
+          "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CVX",
+          "title": "Chevron (CVX) is a Great Momentum Stock: Should You Buy?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 11:00 AM",
+          "published_timestamp": 1793026802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-great-momentum-stock-150002723.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "F": {
+      "ticker": "F",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Buy, Hold or Sell Ford Stock Before Q3 Earnings Release?",
+      "publisher": "Zacks",
+      "published_at": "Oct 26, 8:43 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-ford-stock-124300966.html",
+      "items": [
+        {
+          "ticker": "F",
+          "title": "Buy, Hold or Sell Ford Stock Before Q3 Earnings Release?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:43 AM",
+          "published_timestamp": 1793018580,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-ford-stock-124300966.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "F",
+          "title": "Forget Ford's Lucrative Dividend. GM Has a Different and Perhaps Better Way to Reward Investors.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 25, 2:23 PM",
+          "published_timestamp": 1792952580,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/forget-fords-lucrative-dividend-gm-182300776.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Caterpillar Stocks Move Higher Before Data-Center Backlog Test",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 26, 2:49 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stocks-move-higher-data-184941388.html",
+      "items": [
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Stocks Move Higher Before Data-Center Backlog Test",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 26, 2:49 PM",
+          "published_timestamp": 1793040581,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stocks-move-higher-data-184941388.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar Set to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 10:00 AM",
+          "published_timestamp": 1793023200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-set-report-q3-earnings-140000139.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "UBS Adjusts Price Target on Caterpillar to $750 From $925, Maintains Neutral Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 9:46 AM",
+          "published_timestamp": 1793022396,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-caterpillar-134636836.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Caterpillar (CAT) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:15 AM",
+          "published_timestamp": 1793016907,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-q3-earnings-preview-121507778.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CAT",
+          "title": "Industrial Select SPDR (XLI) Sells $11.2 Million More Caterpillar on Oct. 22",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 26, 7:05 AM",
+          "published_timestamp": 1793012710,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/industrial-select-spdr-xli-sells-110510320.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "IBM Fixed Its Plumbing; Intel Became Big Tech\u2019s Real Structural Trap",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 12:45 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html",
+      "items": [
+        {
+          "ticker": "IBM",
+          "title": "IBM Fixed Its Plumbing; Intel Became Big Tech\u2019s Real Structural Trap",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 12:45 PM",
+          "published_timestamp": 1793033148,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Salesforce vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 26, 11:50 AM",
+          "published_timestamp": 1793029802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-vs-international-business-machines-155002285.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Is Kyndryl the next MicroStrategy? Why this IBM spinoff is now surging",
+          "publisher": "Investing.com",
+          "published_at": "Oct 26, 11:13 AM",
+          "published_timestamp": 1793027601,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-next-microstrategy-why-ibm-151321413.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Information Technology (IT) Resilience Orchestration Market 2026-2030 | Capitalize on 14.2% CAGR as Microsoft, IBM, Broadcom and ServiceNow Scale AI and Hybrid Cloud",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 26, 10:41 AM",
+          "published_timestamp": 1793025660,
+          "link": "https://finance.yahoo.com/technology/articles/information-technology-resilience-orchestration-market-144100159.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "What Could IBM (IBM) Gain From Open Weight AI And Asset Management Moves?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 10:06 AM",
+          "published_timestamp": 1793023603,
+          "link": "https://finance.yahoo.com/technology/ai/articles/could-ibm-ibm-gain-open-140643502.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Cohesity Data Cloud Becomes the First Cloud Recovery Method Validated for Interoperability with IBM Terraform Self-Managed",
+          "publisher": "Business Wire",
+          "published_at": "Oct 26, 9:00 AM",
+          "published_timestamp": 1793019600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/cohesity-data-cloud-becomes-first-130000491.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "International Business Machines Corporation (IBM) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:00 AM",
+          "published_timestamp": 1793016004,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-corporation-ibm-120004722.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.04426142119283993,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Accelevation Offers Growth Prospects, Risk, Morgan Stanley Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 26, 10:56 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/accelevation-offers-growth-prospects-risk-145650100.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Accelevation Offers Growth Prospects, Risk, Morgan Stanley Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 10:56 AM",
+          "published_timestamp": 1793026610,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/accelevation-offers-growth-prospects-risk-145650100.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley sees limited upside for Block as credit risks rise",
+          "publisher": "Investing.com",
+          "published_at": "Oct 26, 10:17 AM",
+          "published_timestamp": 1793024225,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-limited-upside-141705654.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Goldman or Morgan Stanley: Which Stock Is Better Bet Post Q3 Results?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 10:12 AM",
+          "published_timestamp": 1793023920,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-morgan-stanley-stock-better-141200942.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Bearish Sentiment Ticks up as Investors Grow More Cautious, Morgan Stanley Wealth Management Pulse Survey Finds",
+          "publisher": "Business Wire",
+          "published_at": "Oct 26, 10:00 AM",
+          "published_timestamp": 1793023200,
+          "link": "https://finance.yahoo.com/markets/articles/bearish-sentiment-ticks-investors-grow-140000430.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Visa, Mastercard May Top Views as Major Fintech Firms Release Results This Week, RBC Says",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 26, 1:13 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-mastercard-may-top-views-171324472.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Visa, Mastercard May Top Views as Major Fintech Firms Release Results This Week, RBC Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 1:13 PM",
+          "published_timestamp": 1793034804,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-mastercard-may-top-views-171324472.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "What Drives Visa\u2019s (V) Long-Term Compounding Potential?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 26, 12:34 PM",
+          "published_timestamp": 1793032454,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/drives-visa-v-long-term-163414429.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa (V) Q3 earnings: what to expect",
+          "publisher": "StockStory",
+          "published_at": "Oct 26, 11:42 AM",
+          "published_timestamp": 1793029367,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-q3-earnings-expect-154247727.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "score": 0.0539283917232331,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Pfizer Secures FDA Approval for Talazoparib Combination for mAPMN/S Prostate Cancer with HRR Gene Mutations",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 26, 1:21 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/pfizer-secures-fda-approval-talazoparib-172156815.html",
+      "items": [
+        {
+          "ticker": "PFE",
+          "title": "Pfizer\u2019s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting",
+          "publisher": "Business Wire",
+          "published_at": "Oct 26, 1:41 PM",
+          "published_timestamp": 1793036460,
+          "link": "https://finance.yahoo.com/healthcare/articles/pfizer-talzenna-plus-xtandi-fda-174100422.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PFE",
+          "title": "Pfizer Secures FDA Approval for Talazoparib Combination for mAPMN/S Prostate Cancer with HRR Gene Mutations",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 1:21 PM",
+          "published_timestamp": 1793035316,
+          "link": "https://finance.yahoo.com/healthcare/articles/pfizer-secures-fda-approval-talazoparib-172156815.html",
+          "score": 0.24491866240370913
+        },
+        {
+          "ticker": "PFE",
+          "title": "Moderna Tumbles 7% as Cancer Vaccine Selloff Deepens; BioNTech Falls 3%, Pfizer Holds Steady",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 9:14 AM",
+          "published_timestamp": 1793020442,
+          "link": "https://finance.yahoo.com/healthcare/articles/moderna-tumbles-7-cancer-vaccine-131402076.html",
+          "score": -0.11314973979462131
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": 0.04032365042392038,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Micron Climbs 4% as Bank of America Grows More Positive on Memory; Western Digital Rises 5%, SanDisk Gains 3%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 1:52 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-climbs-4-bank-america-175234042.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "Micron Climbs 4% as Bank of America Grows More Positive on Memory; Western Digital Rises 5%, SanDisk Gains 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 1:52 PM",
+          "published_timestamp": 1793037154,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-climbs-4-bank-america-175234042.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "BAC",
+          "title": "Accelevation's SkyBridge bookings strengthen Bank of America's bullish outlook",
+          "publisher": "Proactive",
+          "published_at": "Oct 26, 12:54 PM",
+          "published_timestamp": 1793033640,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/accelevations-skybridge-bookings-strengthen-bank-165400745.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Merck\u2019s Endometrial Cancer Drug Cuts Risk Of Death By 32% \u2013 FDA Decision Due By June 2027",
+      "publisher": "Stocktwits",
+      "published_at": "Oct 26, 1:30 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/merck-endometrial-cancer-drug-cuts-173054296.html",
+      "items": [
+        {
+          "ticker": "MRK",
+          "title": "Merck\u2019s Endometrial Cancer Drug Cuts Risk Of Death By 32% \u2013 FDA Decision Due By June 2027",
+          "publisher": "Stocktwits",
+          "published_at": "Oct 26, 1:30 PM",
+          "published_timestamp": 1793035854,
+          "link": "https://finance.yahoo.com/healthcare/articles/merck-endometrial-cancer-drug-cuts-173054296.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Merck (MRK) Stock Gets Fair Value Bump As Analysts Split On Vaccine Outlook",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 1:08 PM",
+          "published_timestamp": 1793034511,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/merck-mrk-stock-gets-fair-170831051.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Merck's Sac-TMT Lowers Risk of Death 32% in Advanced Endometrial Cancer Trial",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 12:36 PM",
+          "published_timestamp": 1793032619,
+          "link": "https://finance.yahoo.com/healthcare/articles/merck-apos-sac-tmt-lowers-163659660.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "What Do New China Biotech Curbs Mean For Merck (MRK) Stock?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 12:15 PM",
+          "published_timestamp": 1793031305,
+          "link": "https://finance.yahoo.com/healthcare/articles/china-biotech-curbs-mean-merck-161505602.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MRK",
+          "title": "Merck Says Keytruda Demonstrated 'Significant' Improvement in Progression-Free Survival in Endometrial Cancer Trial",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 12:11 PM",
+          "published_timestamp": 1793031091,
+          "link": "https://finance.yahoo.com/healthcare/articles/merck-says-keytruda-demonstrated-apos-161131543.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "AbbVie Options Price In a Sudden 5% Swing\u2014What Investors Must Know Before Oct. 30",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 7:51 AM",
+      "link": "https://finance.yahoo.com/markets/options/articles/abbvie-options-price-sudden-5-115126170.html",
+      "items": [
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie Options Price In a Sudden 5% Swing\u2014What Investors Must Know Before Oct. 30",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 7:51 AM",
+          "published_timestamp": 1793015486,
+          "link": "https://finance.yahoo.com/markets/options/articles/abbvie-options-price-sudden-5-115126170.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "score": -0.11621837783534013,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Uber Technologies (UBER) Is Defending A Negligent Hiring Lawsuit",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 26, 10:07 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-defending-negligent-140723492.html",
+      "items": [
+        {
+          "ticker": "UBER",
+          "title": "Instacart's Potential Sale to Uber, DoorDash Shows 'Strategic Rationale,' Wedbush Says",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 11:12 AM",
+          "published_timestamp": 1793027526,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/instacart-apos-potential-sale-uber-151206944.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UBER",
+          "title": "Uber Technologies (UBER) Is Defending A Negligent Hiring Lawsuit",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 10:07 AM",
+          "published_timestamp": 1793023643,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-defending-negligent-140723492.html",
+          "score": -0.24491866240370913
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Jefferies Adjusts Price Target on GE Aerospace to $425 From $435",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 26, 5:51 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ge-095139237.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "Jefferies Adjusts Price Target on GE Aerospace to $425 From $435",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 5:51 AM",
+          "published_timestamp": 1793008299,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ge-095139237.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABNB": {
+      "ticker": "ABNB",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Her Father\u2019s Smoky Mountains Cabin Will Come With 61 Airbnb Bookings Already on the Calendar and a Short-Term-Rental Permit That Will Die With Him",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 9:14 AM",
+      "link": "https://finance.yahoo.com/real-estate/articles/her-father-smoky-mountains-cabin-131409044.html",
+      "items": [
+        {
+          "ticker": "ABNB",
+          "title": "Her Father\u2019s Smoky Mountains Cabin Will Come With 61 Airbnb Bookings Already on the Calendar and a Short-Term-Rental Permit That Will Die With Him",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 9:14 AM",
+          "published_timestamp": 1793020449,
+          "link": "https://finance.yahoo.com/real-estate/articles/her-father-smoky-mountains-cabin-131409044.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb vs. Coupang: Cyclical Volatility vs. Steady Scale in Revenue",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 25, 2:07 PM",
+          "published_timestamp": 1792951624,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-coupang-cyclical-volatility-180704006.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.016319587562177815,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Market Chatter: Boeing's 777 Freighter Production Stalled by Supplier Dispute",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 26, 5:56 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-boeing-apos-777-095609711.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "Boeing Losses Expected To Narrow. Defense Awards, 737 Certification, Deliveries In Focus.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Oct 26, 2:48 PM",
+          "published_timestamp": 1793040493,
+          "link": "https://finance.yahoo.com/m/c405c137-48c6-3a98-8a48-41ab3910e8a9/boeing-losses-expected-to.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "What Does Boeing (BA) Need To Prove After Its 777F Halt And Defense Win?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 12:13 PM",
+          "published_timestamp": 1793031223,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/does-boeing-ba-prove-777f-161343024.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Global Military Drones Market Report 2026 | Capitalize on AI Autonomy and Swarming as Market Hits $121 Billion by 2030: Lockheed Martin, Northrop Grumman, Boeing, BAE Systems",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 26, 10:35 AM",
+          "published_timestamp": 1793025300,
+          "link": "https://finance.yahoo.com/technology/articles/global-military-drones-market-report-143500783.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing, Coca-Cola Earnings Previews: A Turnaround Story and a Defensive Staple Face the Same Test",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 8:05 AM",
+          "published_timestamp": 1793016322,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-coca-cola-earnings-previews-120522327.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing vs. Airbus: Which Stock Offers Greater Upside Potential?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 7:10 AM",
+          "published_timestamp": 1793013000,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-vs-airbus-stock-offers-111000812.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Market Chatter: Boeing's 777 Freighter Production Stalled by Supplier Dispute",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 5:56 AM",
+          "published_timestamp": 1793008569,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-boeing-apos-777-095609711.html",
+          "score": 0.0906594777770402
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.14754261501527252,
+      "label": "Positive",
+      "headline_count": 3,
+      "top_headline": "Will JPMorgan's Nigeria Expansion Bolster Its Growth Prospects?",
+      "publisher": "Zacks",
+      "published_at": "Oct 26, 10:40 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgans-nigeria-expansion-bolster-growth-144000060.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "Will JPMorgan's Nigeria Expansion Bolster Its Growth Prospects?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 10:40 AM",
+          "published_timestamp": 1793025600,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgans-nigeria-expansion-bolster-growth-144000060.html",
+          "score": 0.3078619874177537
+        },
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan (JPM) Stock Could Be 33% Undervalued Following JPM Coin Expansion",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 10:08 AM",
+          "published_timestamp": 1793023691,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-stock-could-33-140811654.html",
+          "score": 0.08727737447415773
+        },
+        {
+          "ticker": "JPM",
+          "title": "Can French stocks rebound despite persistent political risks? JPM weighs in",
+          "publisher": "Investing.com",
+          "published_at": "Oct 26, 7:21 AM",
+          "published_timestamp": 1793013694,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/french-stocks-rebound-despite-persistent-112134881.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "SBUX": {
+      "ticker": "SBUX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Starbucks Is Beating McDonald\u2019s in 2026. But Which Dividend Is Safer?",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 10:15 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-beating-mcdonald-2026-dividend-141548589.html",
+      "items": [
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Is Beating McDonald\u2019s in 2026. But Which Dividend Is Safer?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 10:15 AM",
+          "published_timestamp": 1793024148,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-beating-mcdonald-2026-dividend-141548589.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks (SBUX) Q4 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:15 AM",
+          "published_timestamp": 1793016905,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-q4-earnings-horizon-121505564.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Coffee Price Check: Starbucks, Dunkin', 7 Brew, Wawa, and McDonald's",
+          "publisher": "TheStreet",
+          "published_at": "Oct 25, 9:17 PM",
+          "published_timestamp": 1792977420,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coffee-price-check-starbucks-dunkin-011700256.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Earnings: Will Brian Niccol\u2019s $500M Gamble Live Up to the Hype on Oct 29?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 25, 11:18 AM",
+          "published_timestamp": 1792941512,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-earnings-brian-niccol-500m-151832387.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks (SBUX) Stock Stays Reasonable As Turnaround Cash Flow Comes Into Focus",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 25, 1:13 AM",
+          "published_timestamp": 1792905216,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-stock-stays-reasonable-051336208.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GM": {
+      "ticker": "GM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Is General Motors Stock Stronger Than It Looks?",
+      "publisher": "Trefis",
+      "published_at": "Oct 26, 8:30 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stock-stronger-looks-123054056.html",
+      "items": [
+        {
+          "ticker": "GM",
+          "title": "Is General Motors Stock Stronger Than It Looks?",
+          "publisher": "Trefis",
+          "published_at": "Oct 26, 8:30 AM",
+          "published_timestamp": 1793017854,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stock-stronger-looks-123054056.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "Forget Ford's Lucrative Dividend. GM Has a Different and Perhaps Better Way to Reward Investors.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 25, 2:23 PM",
+          "published_timestamp": 1792952580,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/forget-fords-lucrative-dividend-gm-182300776.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GM",
+          "title": "GM Just Announced a $20 Billion Buyback. Tesla Trades at 350 Times Earnings. Here's Which Auto Stock I'd Buy Today.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 25, 2:25 AM",
+          "published_timestamp": 1792909500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gm-just-announced-20-billion-062500483.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "score": 0.05822446515379506,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Target's Roundel Growth Highlights Rising Retail Media Value Ahead",
+      "publisher": "Zacks",
+      "published_at": "Oct 26, 8:59 AM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/targets-roundel-growth-highlights-rising-125900888.html",
+      "items": [
+        {
+          "ticker": "TGT",
+          "title": "Target spruces up SoHo store, fan shops ahead of the holidays",
+          "publisher": "Retail Dive",
+          "published_at": "Oct 26, 12:13 PM",
+          "published_timestamp": 1793031180,
+          "link": "https://finance.yahoo.com/small-business/articles/target-spruces-soho-store-fan-161300124.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target CFO Jim Lee: The art of the possible",
+          "publisher": "CFO Dive",
+          "published_at": "Oct 26, 10:37 AM",
+          "published_timestamp": 1793025420,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-cfo-jim-lee-art-143700387.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target's Roundel Growth Highlights Rising Retail Media Value Ahead",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:59 AM",
+          "published_timestamp": 1793019540,
+          "link": "https://finance.yahoo.com/media-advertising/articles/targets-roundel-growth-highlights-rising-125900888.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "IBM Fixed Its Plumbing; Intel Became Big Tech\u2019s Real Structural Trap",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 26, 12:45 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html",
+      "items": [
+        {
+          "ticker": "IBM",
+          "title": "IBM Fixed Its Plumbing; Intel Became Big Tech\u2019s Real Structural Trap",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 12:45 PM",
+          "published_timestamp": 1793033148,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Salesforce vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 26, 11:50 AM",
+          "published_timestamp": 1793029802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-vs-international-business-machines-155002285.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Is Kyndryl the next MicroStrategy? Why this IBM spinoff is now surging",
+          "publisher": "Investing.com",
+          "published_at": "Oct 26, 11:13 AM",
+          "published_timestamp": 1793027601,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-next-microstrategy-why-ibm-151321413.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Information Technology (IT) Resilience Orchestration Market 2026-2030 | Capitalize on 14.2% CAGR as Microsoft, IBM, Broadcom and ServiceNow Scale AI and Hybrid Cloud",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 26, 10:41 AM",
+          "published_timestamp": 1793025660,
+          "link": "https://finance.yahoo.com/technology/articles/information-technology-resilience-orchestration-market-144100159.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "What Could IBM (IBM) Gain From Open Weight AI And Asset Management Moves?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 10:06 AM",
+          "published_timestamp": 1793023603,
+          "link": "https://finance.yahoo.com/technology/ai/articles/could-ibm-ibm-gain-open-140643502.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Cohesity Data Cloud Becomes the First Cloud Recovery Method Validated for Interoperability with IBM Terraform Self-Managed",
+          "publisher": "Business Wire",
+          "published_at": "Oct 26, 9:00 AM",
+          "published_timestamp": 1793019600,
+          "link": "https://finance.yahoo.com/technology/ai/articles/cohesity-data-cloud-becomes-first-130000491.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "International Business Machines Corporation (IBM) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 8:00 AM",
+          "published_timestamp": 1793016004,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-corporation-ibm-120004722.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "score": 0.07229868856506722,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 26, 11:10 AM",
+      "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html",
+      "items": [
+        {
+          "ticker": "CVX",
+          "title": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 26, 11:10 AM",
+          "published_timestamp": 1793027437,
+          "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "CVX",
+          "title": "Chevron (CVX) is a Great Momentum Stock: Should You Buy?",
+          "publisher": "Zacks",
+          "published_at": "Oct 26, 11:00 AM",
+          "published_timestamp": 1793026802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-great-momentum-stock-150002723.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "CAT": {
+      "price_score": -1.4577319100708974,
+      "news_score": 0.0,
+      "combined_score": -1.4577319100708974
+    },
+    "MS": {
+      "price_score": 0.27542526761087094,
+      "news_score": 0.04426142119283993,
+      "combined_score": 0.3068538282522862
+    },
+    "CVX": {
+      "price_score": 1.3735429935327037,
+      "news_score": 0.07229868856506722,
+      "combined_score": 1.4248798836872743
+    },
+    "IBM": {
+      "price_score": 1.9643838759666956,
+      "news_score": 0.0,
+      "combined_score": 1.9643838759666956
+    },
+    "PFE": {
+      "price_score": 0.5309697513045989,
+      "news_score": 0.0539283917232331,
+      "combined_score": 0.5692625056692465
+    },
+    "F": {
+      "price_score": -0.924567533185748,
+      "news_score": 0.0,
+      "combined_score": -0.924567533185748
+    },
+    "V": {
+      "price_score": 0.7048069506509573,
+      "news_score": 0.0,
+      "combined_score": 0.7048069506509573
+    },
+    "MRK": {
+      "price_score": -0.33967803114183137,
+      "news_score": 0.0,
+      "combined_score": -0.33967803114183137
+    },
+    "UBER": {
+      "price_score": -0.8164667360242746,
+      "news_score": -0.11621837783534013,
+      "combined_score": -0.8989895343666776
+    },
+    "ABBV": {
+      "price_score": 0.6741219302072006,
+      "news_score": 0.0,
+      "combined_score": 0.6741219302072006
+    },
+    "GE": {
+      "price_score": -1.2871468410116316,
+      "news_score": 0.0,
+      "combined_score": -1.2871468410116316
+    },
+    "BAC": {
+      "price_score": -0.49043156237547125,
+      "news_score": 0.04032365042392038,
+      "combined_score": -0.46179908157215666
+    },
+    "ABNB": {
+      "price_score": 0.27206606551140694,
+      "news_score": 0.0,
+      "combined_score": 0.27206606551140694
+    },
+    "GM": {
+      "price_score": -1.0216407516050898,
+      "news_score": 0.0,
+      "combined_score": -1.0216407516050898
+    },
+    "SBUX": {
+      "price_score": 1.3123305783442225,
+      "news_score": 0.0,
+      "combined_score": 1.3123305783442225
+    },
+    "JPM": {
+      "price_score": -0.02287863663632736,
+      "news_score": 0.14754261501527252,
+      "combined_score": 0.08188645897588945
+    },
+    "BA": {
+      "price_score": -0.028656309228865494,
+      "news_score": 0.016319587562177815,
+      "combined_score": -0.01706831378004872
+    },
+    "TGT": {
+      "price_score": -0.7184491018485197,
+      "news_score": 0.05822446515379506,
+      "combined_score": -0.6771058488624173
+    }
+  },
   "data_version": 5
 }
