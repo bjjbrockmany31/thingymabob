@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26T19:09:28.615336+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-26T23:10:07.862845+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,50 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-26",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.550911,
-  "display_points": -6.550911,
-  "completed_balance": 18.589885,
-  "display_balance": 18.589885,
-  "completed_rounds": 39,
-  "current_strategy": "breakout",
+  "banked_points": -6.678338,
+  "display_points": -6.678338,
+  "completed_balance": 18.566196,
+  "display_balance": 18.566196,
+  "completed_rounds": 40,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.21249
+    "breakout": 0.1513
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.589885,
-    "market_date": "2026-10-26",
-    "quote_time": "2026-10-26T19:09:28.600923+00:00",
-    "holdings": [
-      {
-        "ticker": "IBM",
-        "weight": 0.653557,
-        "entry": 253.605,
-        "last_price": 253.605,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap",
-        "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-fixed-plumbing-intel-became-164548935.html"
-      },
-      {
-        "ticker": "CVX",
-        "weight": 0.346443,
-        "entry": 232.58,
-        "last_price": 232.58,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-plans-13-8-151037904.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -714,6 +684,25 @@
       "news_summaries": [
         "NOW Neutral: Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating"
       ]
+    },
+    {
+      "market_date": "2026-10-26",
+      "point_change": -0.127427,
+      "banked_points": -6.678338,
+      "cash_before": 18.589885,
+      "cash_after": 18.566196,
+      "cash_change": -0.023688999999997407,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "IBM",
+        "CVX"
+      ],
+      "news_summaries": [
+        "IBM Neutral: IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap | CVX Neutral: Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035"
+      ]
     }
   ],
   "rounds": [
@@ -1184,6 +1173,18 @@
       "companies": "NOW",
       "allocation": "{\"NOW\": 1.0}",
       "news_summary": "NOW Neutral: Update: BofA Securities Raises ServiceNow Price Target to $180 From $150, Maintains Buy Rating"
+    },
+    {
+      "market_date": "2026-10-26",
+      "timestamp": "2026-10-26T23:10:07+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.589885",
+      "cash_after": "18.566196",
+      "point_change": "-0.127427",
+      "banked_points": "-6.678338",
+      "companies": "IBM, CVX",
+      "allocation": "{\"CVX\": 0.3464431969453698, \"IBM\": 0.6535568030546303}",
+      "news_summary": "IBM Neutral: IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap | CVX Neutral: Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
