@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T18:39:04.509836+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-27T22:39:22.513950+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,39 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-27",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.678338,
-  "display_points": -6.678338,
-  "completed_balance": 18.566196,
-  "display_balance": 18.566196,
-  "completed_rounds": 40,
-  "current_strategy": "breakout",
+  "banked_points": -6.043076,
+  "display_points": -6.043076,
+  "completed_balance": 18.68414,
+  "display_balance": 18.68414,
+  "completed_rounds": 41,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.1513
+    "breakout": 0.23842
   },
   "news_learning_score": -0.08874,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.566196,
-    "market_date": "2026-10-27",
-    "quote_time": "2026-10-27T18:39:04.495198+00:00",
-    "holdings": [
-      {
-        "ticker": "TXN",
-        "weight": 1.0,
-        "entry": 306.96,
-        "last_price": 306.96,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound",
-        "publisher": "Investor's Business Daily",
-        "link": "https://finance.yahoo.com/m/079527db-4352-34b4-a62e-690a29c677a6/texas-instruments%2C-ibd-stock.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -722,6 +703,24 @@
       "news_summaries": [
         "IBM Neutral: IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap | CVX Neutral: Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035"
       ]
+    },
+    {
+      "market_date": "2026-10-27",
+      "point_change": 0.635262,
+      "banked_points": -6.043076,
+      "cash_before": 18.566196,
+      "cash_after": 18.68414,
+      "cash_change": 0.11794399999999783,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "TXN"
+      ],
+      "news_summaries": [
+        "TXN Neutral: Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound"
+      ]
     }
   ],
   "rounds": [
@@ -1204,6 +1203,18 @@
       "companies": "IBM, CVX",
       "allocation": "{\"CVX\": 0.3464431969453698, \"IBM\": 0.6535568030546303}",
       "news_summary": "IBM Neutral: IBM Fixed Its Plumbing; Intel Became Big Tech’s Real Structural Trap | CVX Neutral: Chevron (CVX) Plans $13.8 Billion Vaca Muerta Expansion Through 2035"
+    },
+    {
+      "market_date": "2026-10-27",
+      "timestamp": "2026-10-27T22:39:22+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.566196",
+      "cash_after": "18.684140",
+      "point_change": "0.635262",
+      "banked_points": "-6.043076",
+      "companies": "TXN",
+      "allocation": "{\"TXN\": 1.0}",
+      "news_summary": "TXN Neutral: Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
