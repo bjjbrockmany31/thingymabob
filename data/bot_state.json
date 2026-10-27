@@ -66,25 +66,1007 @@
     "steady": -0.14517191182927397,
     "breakout": 0.15130497609372273
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "breakout",
+  "allocation": {
+    "TXN": 1.0
+  },
+  "entry_prices": {
+    "TXN": 306.96
+  },
+  "round_market_date": "2026-10-27",
+  "round_started_at": "2026-10-27T18:39:04.494514+00:00",
   "rounds_completed": 40,
   "last_round_tickers": [
     "IBM",
     "CVX"
   ],
-  "last_reroll_market_date": "2026-10-26",
+  "last_reroll_market_date": "2026-10-27",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.08874069891419652,
-  "news_last_checked_at": "2026-10-26T19:09:28.600913+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-10-27T18:39:04.495189+00:00",
+  "news_signals": {
+    "CSCO": {
+      "ticker": "CSCO",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Can Cisco Systems (CSCO) Stay Cheap As AI Cash Flow Builds?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 27, 12:05 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-csco-stay-cheap-160545016.html",
+      "items": [
+        {
+          "ticker": "CSCO",
+          "title": "Can Cisco Systems (CSCO) Stay Cheap As AI Cash Flow Builds?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 12:05 PM",
+          "published_timestamp": 1793117145,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-csco-stay-cheap-160545016.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "What Are Cisco Investors Betting On?",
+          "publisher": "Trefis",
+          "published_at": "Oct 27, 9:15 AM",
+          "published_timestamp": 1793106915,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-investors-betting-131515910.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "CSCO",
+          "title": "Bravo Consulting Wins Cisco's Influence Revenue Award for 2026",
+          "publisher": "PR Newswire",
+          "published_at": "Oct 27, 9:00 AM",
+          "published_timestamp": 1793106000,
+          "link": "https://finance.yahoo.com/technology/articles/bravo-consulting-wins-ciscos-influence-130000288.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMAT": {
+      "ticker": "AMAT",
+      "score": 0.016319587562177818,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Besi Stock Rises as Applied Materials Lifts Stake to 20%",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 27, 9:00 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/besi-stock-rises-applied-materials-130044741.html",
+      "items": [
+        {
+          "ticker": "AMAT",
+          "title": "Besi Stock Rises as Applied Materials Lifts Stake to 20%",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 9:00 AM",
+          "published_timestamp": 1793106044,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/besi-stock-rises-applied-materials-130044741.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "AMAT",
+          "title": "Dutch chip firm Besi's shares jump as Applied Materials moves to double stake",
+          "publisher": "Euronews",
+          "published_at": "Oct 27, 8:36 AM",
+          "published_timestamp": 1793104575,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dutch-chip-firm-besis-shares-123615043.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "What Does Applied Materials (AMAT) Owning About 20% Mean For Its AI Push?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 8:12 AM",
+          "published_timestamp": 1793103155,
+          "link": "https://finance.yahoo.com/technology/ai/articles/does-applied-materials-amat-owning-121235879.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "Semiconductor Equipment Selloff Challenges Applied Materials (AMAT)",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 27, 8:04 AM",
+          "published_timestamp": 1793102657,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-equipment-selloff-challenges-applied-120417903.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "BE Semiconductor Shares Jump After Applied Materials Increases Stake",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Oct 27, 7:32 AM",
+          "published_timestamp": 1793100720,
+          "link": "https://finance.yahoo.com/m/9f1363e9-79c0-3062-bac5-4bf291e6d979/be-semiconductor-shares-jump.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMAT",
+          "title": "ETFs Are Buying Applied Materials (AMAT) on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:01 AM",
+          "published_timestamp": 1793098890,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-applied-materials-amat-110130617.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "DoorDash Is Close to Buying Instacart for $17 Billion After Uber Walked Away",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Oct 27, 11:37 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-close-buying-instacart-17-153716298.html",
+      "items": [
+        {
+          "ticker": "UBER",
+          "title": "DoorDash Is Close to Buying Instacart for $17 Billion After Uber Walked Away",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 27, 11:37 AM",
+          "published_timestamp": 1793115436,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-close-buying-instacart-17-153716298.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TMO": {
+      "ticker": "TMO",
+      "score": 0.043935364351469074,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Cell and Gene Therapy Contract Research Organization Market Report 2026 | Capitalize on 12.3% CAGR as Thermo Fisher, IQVIA, Labcorp, ICON, and WuXi AppTec Scale Integrated Trials",
+      "publisher": "GlobeNewswire",
+      "published_at": "Oct 26, 10:32 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/cell-gene-therapy-contract-research-143200602.html",
+      "items": [
+        {
+          "ticker": "TMO",
+          "title": "BIO (BIO) vs. TMO and DHR: Can Activist Pressure Close Bio-Rad\u2019s Valuation Discount?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 27, 10:58 AM",
+          "published_timestamp": 1793113127,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bio-bio-vs-tmo-dhr-145847994.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TMO",
+          "title": "Global DNA Sequencing in Drug Discovery Market Report 2026 | Capitalize on 12.5% CAGR as Illumina, Thermo Fisher, QIAGEN, and Oxford Nanopore Accelerate AI-Driven Precision R&D",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 26, 10:36 AM",
+          "published_timestamp": 1793025360,
+          "link": "https://finance.yahoo.com/healthcare/articles/global-dna-sequencing-drug-discovery-143600006.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TMO",
+          "title": "Cell and Gene Therapy Contract Research Organization Market Report 2026 | Capitalize on 12.3% CAGR as Thermo Fisher, IQVIA, Labcorp, ICON, and WuXi AppTec Scale Integrated Trials",
+          "publisher": "GlobeNewswire",
+          "published_at": "Oct 26, 10:32 AM",
+          "published_timestamp": 1793025120,
+          "link": "https://finance.yahoo.com/healthcare/articles/cell-gene-therapy-contract-research-143200602.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "score": 0.17548776975604505,
+      "label": "Positive",
+      "headline_count": 3,
+      "top_headline": "AbbVie Seeks FDA Approval for Etentamig in Multiple Myeloma",
+      "publisher": "MT Newswires",
+      "published_at": "Oct 27, 9:22 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbvie-seeks-fda-approval-etentamig-132229375.html",
+      "items": [
+        {
+          "ticker": "ABBV",
+          "title": "Buy, Hold or Sell ABBV Stock? Key Tips Ahead of Q3 Earnings",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 10:32 AM",
+          "published_timestamp": 1793111520,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-abbv-stock-143200556.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABBV",
+          "title": "AbbVie Seeks FDA Approval for Etentamig in Multiple Myeloma",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 27, 9:22 AM",
+          "published_timestamp": 1793107349,
+          "link": "https://finance.yahoo.com/healthcare/articles/abbvie-seeks-fda-approval-etentamig-132229375.html",
+          "score": 0.24491866240370913
+        },
+        {
+          "ticker": "ABBV",
+          "title": "Is AbbVie (ABBV) Fully Valued Following Its Crohn's Disease SKYRIZI Approval?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 9:12 AM",
+          "published_timestamp": 1793106728,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-abbv-fully-valued-following-131208233.html",
+          "score": 0.24491866240370913
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Top Auto Parts Stocks to Watch, According to Bank of America",
+      "publisher": "Investing.com",
+      "published_at": "Oct 27, 12:22 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-auto-parts-stocks-watch-162214214.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "Top Auto Parts Stocks to Watch, According to Bank of America",
+          "publisher": "Investing.com",
+          "published_at": "Oct 27, 12:22 PM",
+          "published_timestamp": 1793118134,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-auto-parts-stocks-watch-162214214.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ABNB": {
+      "ticker": "ABNB",
+      "score": -0.03688746309240373,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "Advance Auto Parts vs. Airbnb: Diverging Paths in Revenue Flash a Warning for Investors",
+      "publisher": "Motley Fool",
+      "published_at": "Oct 27, 1:40 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/advance-auto-parts-vs-airbnb-174002149.html",
+      "items": [
+        {
+          "ticker": "ABNB",
+          "title": "Advance Auto Parts vs. Airbnb: Diverging Paths in Revenue Flash a Warning for Investors",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 1:40 PM",
+          "published_timestamp": 1793122802,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advance-auto-parts-vs-airbnb-174002149.html",
+          "score": -0.20173975176639067
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb vs. GameStop: Will Consumers Going Out or Staying In Benefit One of These Stocks More in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 11:40 AM",
+          "published_timestamp": 1793115601,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-gamestop-consumers-going-154001349.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb vs. Five Below: Which Consumer Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 9:06 AM",
+          "published_timestamp": 1793106362,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-five-below-consumer-130602784.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Oppenheimer Adjusts Airbnb Price Target to $210 From $190, Maintains Outperform Rating",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 27, 8:28 AM",
+          "published_timestamp": 1793104113,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-airbnb-price-target-122833942.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb vs. Coupang: Which Consumer Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 1:46 AM",
+          "published_timestamp": 1793080002,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-coupang-consumer-stock-054642306.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Here's What to Expect From Airbnb's Next Earnings Report",
+          "publisher": "Barchart",
+          "published_at": "Oct 26, 10:11 AM",
+          "published_timestamp": 1793023900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-airbnbs-next-earnings-141140904.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Her Father\u2019s Smoky Mountains Cabin Will Come With 61 Airbnb Bookings Already on the Calendar and a Short-Term-Rental Permit That Will Die With Him",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 9:14 AM",
+          "published_timestamp": 1793020449,
+          "link": "https://finance.yahoo.com/real-estate/articles/her-father-smoky-mountains-cabin-131409044.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "ExxonMobil (XOM) Wins Dismissal Of Kazakhstan\u2019s $12 Billion Kashagan Claim",
+      "publisher": "Simply Wall St.",
+      "published_at": "Oct 27, 11:16 AM",
+      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-wins-dismissal-kazakhstan-151643124.html",
+      "items": [
+        {
+          "ticker": "XOM",
+          "title": "ExxonMobil (XOM) Wins Dismissal Of Kazakhstan\u2019s $12 Billion Kashagan Claim",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 11:16 AM",
+          "published_timestamp": 1793114203,
+          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-wins-dismissal-kazakhstan-151643124.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "XOM",
+          "title": "State Street Energy SPDR (XLE) Buys $49.2 Million More Exxon on Friday",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:05 AM",
+          "published_timestamp": 1793099111,
+          "link": "https://finance.yahoo.com/energy/articles/state-street-energy-spdr-xle-110511889.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "score": 0.31041117115308714,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+      "publisher": "Zacks",
+      "published_at": "Oct 27, 11:10 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-beat-estimates-again-151001052.html",
+      "items": [
+        {
+          "ticker": "AAPL",
+          "title": "Apple's Most Expensive iPhone Faces Unexpected Problem",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 2:33 PM",
+          "published_timestamp": 1793125983,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apples-most-expensive-iphone-faces-183303534.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple Stocks Move Higher With $1,999 M6 MacBook Pro Launch",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 2:29 PM",
+          "published_timestamp": 1793125747,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-move-higher-1-182907678.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Will Apple (AAPL) Beat Estimates Again in Its Next Earnings Report?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 11:10 AM",
+          "published_timestamp": 1793113801,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-beat-estimates-again-151001052.html",
+          "score": 0.7615941559557649
+        },
+        {
+          "ticker": "AAPL",
+          "title": "Apple (AAPL) vs. MSFT and GOOGL: Is the Post-Earnings Selloff Creating a Long-Term Buying Opportunity?",
+          "publisher": "Insider Monkey",
+          "published_at": "Oct 27, 10:59 AM",
+          "published_timestamp": 1793113196,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-vs-msft-googl-145956028.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "JPMorgan CEO Warns of 5 Risks Threatening US Stocks and Bonds",
+      "publisher": "BeInCrypto",
+      "published_at": "Oct 27, 11:32 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-ceo-warns-5-risks-153200082.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan CEO Warns of 5 Risks Threatening US Stocks and Bonds",
+          "publisher": "BeInCrypto",
+          "published_at": "Oct 27, 11:32 AM",
+          "published_timestamp": 1793115120,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-ceo-warns-5-risks-153200082.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "AstraZeneca offers compelling risk-reward into 2027 pipeline readouts, says JPMorgan",
+          "publisher": "Proactive",
+          "published_at": "Oct 27, 10:30 AM",
+          "published_timestamp": 1793111400,
+          "link": "https://finance.yahoo.com/healthcare/articles/astrazeneca-offers-compelling-risk-reward-143000564.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "JPM",
+          "title": "ETFs Are Net Sellers of JPMorgan Chase (JPM) on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:02 AM",
+          "published_timestamp": 1793098960,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-jpmorgan-chase-110240629.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PEP": {
+      "ticker": "PEP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?",
+      "publisher": "TheStreet",
+      "published_at": "Oct 27, 1:47 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pepsi-vs-coca-cola-dividend-174700976.html",
+      "items": [
+        {
+          "ticker": "PEP",
+          "title": "Pepsi vs. Coca-Cola: Which Dividend King stock will outperform in 2027?",
+          "publisher": "TheStreet",
+          "published_at": "Oct 27, 1:47 PM",
+          "published_timestamp": 1793123220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsi-vs-coca-cola-dividend-174700976.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "Coca-Cola Yields Just 2.2% Compared to 4.3% for PepsiCo. Here's the Better Dividend King Stock for Generating Long-Term Passive Income.",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 9:19 AM",
+          "published_timestamp": 1793107140,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-yields-just-2-131900707.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PEP",
+          "title": "PepsiCo Slips 10% in Six Months as Coca-Cola Lifts Its Outlook and KFC Defects",
+          "publisher": "TIKR",
+          "published_at": "Oct 27, 9:17 AM",
+          "published_timestamp": 1793107031,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-slips-10-six-months-131711250.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MA": {
+      "ticker": "MA",
+      "score": 0.2916155926768686,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Mastercard Looks Poised for a Q3 Earnings Beat: Time to Buy?",
+      "publisher": "Zacks",
+      "published_at": "Oct 27, 11:52 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-looks-poised-q3-earnings-155200951.html",
+      "items": [
+        {
+          "ticker": "MA",
+          "title": "Mastercard Looks Poised for a Q3 Earnings Beat: Time to Buy?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 11:52 AM",
+          "published_timestamp": 1793116320,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-looks-poised-q3-earnings-155200951.html",
+          "score": 0.7206956331664799
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard (MA) After Stablecoin Platform Launch And Earnings Hype, Buy Or Fully Valued?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 11:08 AM",
+          "published_timestamp": 1793113730,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-stablecoin-platform-launch-150850752.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "MA",
+          "title": "CME vs. Mastercard: Which Financial Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Oct 27, 10:50 AM",
+          "published_timestamp": 1793112601,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cme-vs-mastercard-financial-stock-145001555.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "American Airlines, Citi, Mastercard Enhance Platinum Select, Business Credit Cards",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 27, 9:50 AM",
+          "published_timestamp": 1793109022,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-citi-mastercard-enhance-135022308.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "score": 0.0039482983014382,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Qualcomm Pledges Global Layoffs as Handset Revenue Falls 20%: \u201cStronger Performance Culture\u201d",
+      "publisher": "TIKR",
+      "published_at": "Oct 27, 9:02 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-pledges-global-layoffs-handset-130234727.html",
+      "items": [
+        {
+          "ticker": "QCOM",
+          "title": "Qualcomm\u2019s Layoff Notices Start in November. A 2026 Bonus Paid in January Shouldn\u2019t Count Against His $25,560 Social Security Earnings Limit",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 27, 2:00 PM",
+          "published_timestamp": 1793124043,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-layoff-notices-start-november-180043223.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Anduril and Qualcomm launch BlueChip to onshore computer manufacturing",
+          "publisher": "Investing.com",
+          "published_at": "Oct 27, 11:04 AM",
+          "published_timestamp": 1793113492,
+          "link": "https://finance.yahoo.com/technology/articles/anduril-qualcomm-launch-bluechip-onshore-150452000.html",
+          "score": 0.22343882281432276
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Qualcomm, Anduril to Build Laptop Designed and Assembled in US",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 27, 9:28 AM",
+          "published_timestamp": 1793107730,
+          "link": "https://finance.yahoo.com/technology/articles/qualcomm-anduril-build-laptop-designed-132850688.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Qualcomm Pledges Global Layoffs as Handset Revenue Falls 20%: \u201cStronger Performance Culture\u201d",
+          "publisher": "TIKR",
+          "published_at": "Oct 27, 9:02 AM",
+          "published_timestamp": 1793106154,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-pledges-global-layoffs-handset-130234727.html",
+          "score": -0.3078619874177537
+        },
+        {
+          "ticker": "QCOM",
+          "title": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+          "publisher": "TechCrunch",
+          "published_at": "Oct 27, 9:00 AM",
+          "published_timestamp": 1793106000,
+          "link": "https://finance.yahoo.com/technology/articles/anduril-qualcomm-launch-bluechip-kind-130000302.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Court rejects Novo bid to block Lilly obesity drug ads",
+      "publisher": "BioPharma Dive",
+      "published_at": "Oct 27, 12:03 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/court-rejects-novo-bid-block-160300486.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Court rejects Novo bid to block Lilly obesity drug ads",
+          "publisher": "BioPharma Dive",
+          "published_at": "Oct 27, 12:03 PM",
+          "published_timestamp": 1793116980,
+          "link": "https://finance.yahoo.com/healthcare/articles/court-rejects-novo-bid-block-160300486.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "US Judge Denies Novo Nordisk Request To Block Eli Lilly Weight Loss Drug Ads",
+          "publisher": "TIKR",
+          "published_at": "Oct 27, 10:31 AM",
+          "published_timestamp": 1793111519,
+          "link": "https://finance.yahoo.com/healthcare/articles/us-judge-denies-novo-nordisk-143159054.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": 0.032899993637863265,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Capital Group Growth (CGGR) Adds Disney and Rocket on Oct. 23",
+      "publisher": "GuruFocus.com",
+      "published_at": "Oct 27, 7:04 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/capital-group-growth-cggr-adds-110439404.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Walt Disney (DIS) Bids For Character.AI, Is The 13% Discount Enough?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 10:08 AM",
+          "published_timestamp": 1793110093,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-bids-character-140813171.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "The Walt Disney Company (DIS) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:00 AM",
+          "published_timestamp": 1793102402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-company-dis-attracting-120002615.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Capital Group Growth (CGGR) Adds Disney and Rocket on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:04 AM",
+          "published_timestamp": 1793099079,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/capital-group-growth-cggr-adds-110439404.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "DIS",
+          "title": "24 ETFs Add to Walt Disney (DIS) Holdings on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:01 AM",
+          "published_timestamp": 1793098918,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/24-etfs-add-walt-disney-110158970.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney Stock Rose 10 Sessions in a Row While Bidding $20 Million for Character.AI\u2019s Technology. Here\u2019s Where It Could Go by 2030",
+          "publisher": "TIKR",
+          "published_at": "Oct 26, 4:57 PM",
+          "published_timestamp": 1793048222,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-stock-rose-10-sessions-205702418.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Skydance Sinks 6% Despite Citi Buy Call and Elon Musk\u2019s Reported $1B Investment; Roku and Disney Dip",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 26, 2:00 PM",
+          "published_timestamp": 1793037625,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/skydance-sinks-6-despite-citi-180025310.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GE": {
+      "ticker": "GE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "GE vs. RTX: Which Stock Offers the More Compelling Investment Case?",
+      "publisher": "Zacks",
+      "published_at": "Oct 27, 11:05 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vs-rtx-stock-offers-150500174.html",
+      "items": [
+        {
+          "ticker": "GE",
+          "title": "GE vs. RTX: Which Stock Offers the More Compelling Investment Case?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 11:05 AM",
+          "published_timestamp": 1793113500,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vs-rtx-stock-offers-150500174.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "LMT vs. GE: Which Stock Should Value Investors Buy Now?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 10:40 AM",
+          "published_timestamp": 1793112002,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lmt-vs-ge-stock-value-144002520.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Here's Why GE (GE) is Poised for a Turnaround After Losing 9.4% in 4 Weeks",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:35 AM",
+          "published_timestamp": 1793104501,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-ge-ge-poised-123501681.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "GE Vernova Stock And 2 Nuclear Power Shares In The Spotlight",
+          "publisher": "Simply Wall St.",
+          "published_at": "Oct 27, 12:27 AM",
+          "published_timestamp": 1793075254,
+          "link": "https://finance.yahoo.com/energy/articles/ge-vernova-stock-2-nuclear-042734235.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GE",
+          "title": "Jefferies Adjusts Price Target on GE Aerospace to $425 From $435",
+          "publisher": "MT Newswires",
+          "published_at": "Oct 26, 5:51 AM",
+          "published_timestamp": 1793008299,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ge-095139237.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound",
+      "publisher": "Investor's Business Daily",
+      "published_at": "Oct 27, 11:46 AM",
+      "link": "https://finance.yahoo.com/m/079527db-4352-34b4-a62e-690a29c677a6/texas-instruments%2C-ibd-stock.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Oct 27, 11:46 AM",
+          "published_timestamp": 1793116010,
+          "link": "https://finance.yahoo.com/m/079527db-4352-34b4-a62e-690a29c677a6/texas-instruments%2C-ibd-stock.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Earnings Estimates Moving Higher for Texas Instruments (TXN): Time to Buy?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 11:20 AM",
+          "published_timestamp": 1793114402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-texas-152002750.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments (TXN) Recently Broke Out Above the 20-Day Moving Average",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:35 AM",
+          "published_timestamp": 1793104501,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-recently-broke-123501216.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Investors Heavily Search Texas Instruments Incorporated (TXN): Here is What You Need to Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:00 AM",
+          "published_timestamp": 1793102402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-texas-instruments-120002217.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Here's How Much a $1000 Investment in Texas Instruments Made 10 Years Ago Would Be Worth Today",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 7:30 AM",
+          "published_timestamp": 1793100602,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-texas-113002658.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "What Invesco Semiconductors ETF (PSI) Sold: Texas Instruments Leads on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:05 AM",
+          "published_timestamp": 1793099133,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-semiconductors-etf-psi-sold-110533165.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.10249869260530278,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Can AI Adoption Sustain Morgan Stanley's Wealth Management Growth?",
+      "publisher": "Zacks",
+      "published_at": "Oct 27, 10:49 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-adoption-sustain-morgan-stanleys-144900951.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Just Turned Bullish on Lockheed Martin After a Big Pentagon Deal",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Oct 27, 11:50 AM",
+          "published_timestamp": 1793116223,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-just-turned-bullish-155023692.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Can AI Adoption Sustain Morgan Stanley's Wealth Management Growth?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 10:49 AM",
+          "published_timestamp": 1793112540,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-adoption-sustain-morgan-stanleys-144900951.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Family Office Launches Initiative to Help Families Navigate Complexity, Change and Generational Transitions",
+          "publisher": "Business Wire",
+          "published_at": "Oct 27, 9:00 AM",
+          "published_timestamp": 1793106000,
+          "link": "https://finance.yahoo.com/small-business/articles/morgan-stanley-family-office-launches-130000126.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "TXN": {
+      "ticker": "TXN",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound",
+      "publisher": "Investor's Business Daily",
+      "published_at": "Oct 27, 11:46 AM",
+      "link": "https://finance.yahoo.com/m/079527db-4352-34b4-a62e-690a29c677a6/texas-instruments%2C-ibd-stock.html",
+      "items": [
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments, IBD Stock Of The Day, Clears Early Buy Point In Analog Chip Rebound",
+          "publisher": "Investor's Business Daily",
+          "published_at": "Oct 27, 11:46 AM",
+          "published_timestamp": 1793116010,
+          "link": "https://finance.yahoo.com/m/079527db-4352-34b4-a62e-690a29c677a6/texas-instruments%2C-ibd-stock.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Earnings Estimates Moving Higher for Texas Instruments (TXN): Time to Buy?",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 11:20 AM",
+          "published_timestamp": 1793114402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-texas-152002750.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Texas Instruments (TXN) Recently Broke Out Above the 20-Day Moving Average",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:35 AM",
+          "published_timestamp": 1793104501,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-recently-broke-123501216.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Investors Heavily Search Texas Instruments Incorporated (TXN): Here is What You Need to Know",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 8:00 AM",
+          "published_timestamp": 1793102402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-texas-instruments-120002217.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "Here's How Much a $1000 Investment in Texas Instruments Made 10 Years Ago Would Be Worth Today",
+          "publisher": "Zacks",
+          "published_at": "Oct 27, 7:30 AM",
+          "published_timestamp": 1793100602,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-texas-113002658.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TXN",
+          "title": "What Invesco Semiconductors ETF (PSI) Sold: Texas Instruments Leads on Oct. 23",
+          "publisher": "GuruFocus.com",
+          "published_at": "Oct 27, 7:05 AM",
+          "published_timestamp": 1793099133,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-semiconductors-etf-psi-sold-110533165.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "UBER": {
+      "price_score": -1.2268075138464996,
+      "news_score": 0.0,
+      "combined_score": -1.2268075138464996
+    },
+    "BAC": {
+      "price_score": -0.7841849930036249,
+      "news_score": 0.0,
+      "combined_score": -0.7841849930036249
+    },
+    "CSCO": {
+      "price_score": 0.5253483950612328,
+      "news_score": 0.0,
+      "combined_score": 0.5253483950612328
+    },
+    "ABBV": {
+      "price_score": 0.2770391225769799,
+      "news_score": 0.17548776975604505,
+      "combined_score": 0.4016471415914434
+    },
+    "AMAT": {
+      "price_score": -2.218773633058114,
+      "news_score": 0.016319587562177818,
+      "combined_score": -2.2071856376092973
+    },
+    "TMO": {
+      "price_score": 0.44131215757342,
+      "news_score": 0.043935364351469074,
+      "combined_score": 0.47250919611420217
+    },
+    "JPM": {
+      "price_score": -0.19965708047654765,
+      "news_score": 0.0,
+      "combined_score": -0.19965708047654765
+    },
+    "PEP": {
+      "price_score": 0.08033207764030442,
+      "news_score": 0.0,
+      "combined_score": 0.08033207764030442
+    },
+    "ABNB": {
+      "price_score": -0.38898600025513025,
+      "news_score": -0.03688746309240373,
+      "combined_score": -0.41517855890923683
+    },
+    "XOM": {
+      "price_score": 0.7204540408057428,
+      "news_score": 0.0,
+      "combined_score": 0.7204540408057428
+    },
+    "AAPL": {
+      "price_score": 0.183430550717393,
+      "news_score": 0.31041117115308714,
+      "combined_score": 0.4038431821567037
+    },
+    "MA": {
+      "price_score": -0.00653289547640569,
+      "news_score": 0.2916155926768686,
+      "combined_score": 0.20053362185245538
+    },
+    "QCOM": {
+      "price_score": 0.4552274602312246,
+      "news_score": 0.0039482983014382,
+      "combined_score": 0.4580310153194472
+    },
+    "GE": {
+      "price_score": -0.6296966046317898,
+      "news_score": 0.0,
+      "combined_score": -0.6296966046317898
+    },
+    "LLY": {
+      "price_score": 0.6490527279095857,
+      "news_score": 0.0,
+      "combined_score": 0.6490527279095857
+    },
+    "TXN": {
+      "price_score": 1.9684304030944244,
+      "news_score": 0.0,
+      "combined_score": 1.9684304030944244
+    },
+    "DIS": {
+      "price_score": -0.08462643305953933,
+      "news_score": 0.032899993637863265,
+      "combined_score": -0.06126524362450536
+    },
+    "MS": {
+      "price_score": 0.23863821819734338,
+      "news_score": 0.10249869260530278,
+      "combined_score": 0.3114191251225068
+    }
+  },
   "data_version": 5
 }
