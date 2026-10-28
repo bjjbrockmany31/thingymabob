@@ -1,0 +1,11 @@
+{
+  "round_market_date": "2026-10-28",
+  "market_date": "2026-10-28",
+  "fetched_at": "2026-10-28T18:47:23.786411+00:00",
+  "prices": {
+    "ORCL": 144.925
+  },
+  "market_timestamps": {
+    "ORCL": 1793213242
+  }
+}
