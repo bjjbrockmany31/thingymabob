@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T18:31:45.044531+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-10-30T22:36:46.089278+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,61 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-10-30",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -5.930731,
-  "display_points": -5.930731,
-  "completed_balance": 18.704943,
-  "display_balance": 18.704943,
-  "completed_rounds": 43,
-  "current_strategy": "breakout",
+  "banked_points": -6.599543,
+  "display_points": -6.599543,
+  "completed_balance": 18.579842,
+  "display_balance": 18.579842,
+  "completed_rounds": 44,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.18914
+    "breakout": 0.03471
   },
-  "news_learning_score": -0.07114,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.704943,
-    "market_date": "2026-10-30",
-    "quote_time": "2026-10-30T18:31:45.032389+00:00",
-    "holdings": [
-      {
-        "ticker": "SBUX",
-        "weight": 0.360926,
-        "entry": 104.6,
-        "last_price": 104.6,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Starbucks recovery gains momentum as sales growth and margins improve, brokers say",
-        "publisher": "Proactive",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-recovery-gains-momentum-sales-154600157.html"
-      },
-      {
-        "ticker": "JNJ",
-        "weight": 0.353097,
-        "entry": 275.72,
-        "last_price": 275.72,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "JNJ's MedTech Segment Disappoints in Q3: Will Growth Rebound in Q4?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/healthcare/articles/jnjs-medtech-segment-disappoints-q3-132300678.html"
-      },
-      {
-        "ticker": "ABBV",
-        "weight": 0.285978,
-        "entry": 295.15,
-        "last_price": 295.15,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "ABBV Beats on Q3 Earnings & Sales, Stock Rises on Raised '26 EPS View",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/healthcare/articles/abbv-beats-q3-earnings-sales-150900251.html"
-      }
-    ]
-  },
+  "news_learning_score": -0.06667,
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -800,6 +759,26 @@
       "news_summaries": [
         "GM Neutral: GM to pay $220 million to settle allegations it violated drivers' privacy | COP Neutral: ConocoPhillips (COP) Stock Stays Hard To Call On Strong Q2 Earnings | MA Positive: Mastercard Pushes to Be an AI and Stablecoin Powerhouse. The Stock Jumps on Earnings Beat."
       ]
+    },
+    {
+      "market_date": "2026-10-30",
+      "point_change": -0.668812,
+      "banked_points": -6.599543,
+      "cash_before": 18.704943,
+      "cash_after": 18.579842,
+      "cash_change": -0.1251010000000008,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "SBUX",
+        "JNJ",
+        "ABBV"
+      ],
+      "news_summaries": [
+        "SBUX Neutral: Starbucks recovery gains momentum as sales growth and margins improve, brokers say | JNJ Neutral: JNJ's MedTech Segment Disappoints in Q3: Will Growth Rebound in Q4? | ABBV Neutral: ABBV Beats on Q3 Earnings & Sales, Stock Rises on Raised '26 EPS View"
+      ]
     }
   ],
   "rounds": [
@@ -1318,6 +1297,18 @@
       "companies": "GM, COP, MA",
       "allocation": "{\"COP\": 0.2968336851461764, \"GM\": 0.4284416615786959, \"MA\": 0.2747246532751277}",
       "news_summary": "GM Neutral: GM to pay $220 million to settle allegations it violated drivers' privacy | COP Neutral: ConocoPhillips (COP) Stock Stays Hard To Call On Strong Q2 Earnings | MA Positive: Mastercard Pushes to Be an AI and Stablecoin Powerhouse. The Stock Jumps on Earnings Beat."
+    },
+    {
+      "market_date": "2026-10-30",
+      "timestamp": "2026-10-30T22:36:46+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.704943",
+      "cash_after": "18.579842",
+      "point_change": "-0.668812",
+      "banked_points": "-6.599543",
+      "companies": "SBUX, JNJ, ABBV",
+      "allocation": "{\"ABBV\": 0.2859775969923536, \"JNJ\": 0.3530966406679361, \"SBUX\": 0.36092576233971035}",
+      "news_summary": "SBUX Neutral: Starbucks recovery gains momentum as sales growth and margins improve, brokers say | JNJ Neutral: JNJ's MedTech Segment Disappoints in Q3: Will Growth Rebound in Q4? | ABBV Neutral: ABBV Beats on Q3 Earnings & Sales, Stock Rises on Raised '26 EPS View"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
