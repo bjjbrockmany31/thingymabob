@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-03T03:29:31.159381+00:00",
-  "status": "Market closed; cloud bot will check again on its next scheduled run.",
+  "updated_at": "2026-11-03T20:02:22.256144+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-10-30",
+  "last_reroll_market_date": "2026-11-03",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -6.599543,
   "display_points": -6.599543,
   "completed_balance": 18.579842,
   "display_balance": 18.579842,
   "completed_rounds": 44,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
@@ -21,7 +21,26 @@
     "breakout": 0.03471
   },
   "news_learning_score": -0.06667,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.579842,
+    "market_date": "2026-11-03",
+    "quote_time": "2026-11-03T20:02:22.240139+00:00",
+    "holdings": [
+      {
+        "ticker": "LLY",
+        "weight": 1.0,
+        "entry": 1417.41,
+        "last_price": 1417.41,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Raised Guidance Altering The Investment Case For Eli Lilly Stock?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-altering-investment-case-180837410.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",

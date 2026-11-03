@@ -66,26 +66,997 @@
     "steady": -0.14517191182927397,
     "breakout": 0.03470952889471887
   },
-  "active_strategy": null,
-  "allocation": {},
-  "entry_prices": {},
-  "round_market_date": null,
-  "round_started_at": null,
+  "active_strategy": "breakout",
+  "allocation": {
+    "LLY": 1.0
+  },
+  "entry_prices": {
+    "LLY": 1417.41
+  },
+  "round_market_date": "2026-11-03",
+  "round_started_at": "2026-11-03T20:02:22.239461+00:00",
   "rounds_completed": 44,
   "last_round_tickers": [
     "SBUX",
     "JNJ",
     "ABBV"
   ],
-  "last_reroll_market_date": "2026-10-30",
+  "last_reroll_market_date": "2026-11-03",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.06667246375792663,
-  "news_last_checked_at": "2026-10-30T18:31:45.032379+00:00",
-  "news_signals": {},
-  "entry_news_signals": {},
-  "selection_scores": {},
+  "news_last_checked_at": "2026-11-03T20:02:22.240129+00:00",
+  "news_signals": {
+    "CVX": {
+      "ticker": "CVX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Chevron Maintains 2028 Data Center Power Target Despite Texas Pause",
+      "publisher": "Zacks",
+      "published_at": "Nov 3, 9:54 AM",
+      "link": "https://finance.yahoo.com/energy/articles/chevron-maintains-2028-data-center-145400067.html",
+      "items": [
+        {
+          "ticker": "CVX",
+          "title": "Chevron Maintains 2028 Data Center Power Target Despite Texas Pause",
+          "publisher": "Zacks",
+          "published_at": "Nov 3, 9:54 AM",
+          "published_timestamp": 1793717640,
+          "link": "https://finance.yahoo.com/energy/articles/chevron-maintains-2028-data-center-145400067.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Ackman calls stock market \"broken\" but touts Visa, MasterCard and Netflix",
+      "publisher": "Investing.com",
+      "published_at": "Nov 3, 2:01 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ackman-calls-stock-market-broken-190109429.html",
+      "items": [
+        {
+          "ticker": "NFLX",
+          "title": "Ackman calls stock market \"broken\" but touts Visa, MasterCard and Netflix",
+          "publisher": "Investing.com",
+          "published_at": "Nov 3, 2:01 PM",
+          "published_timestamp": 1793732469,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ackman-calls-stock-market-broken-190109429.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Trades at a Discount to the S&P 500's Valuation. Is It Deserved?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 12:13 PM",
+          "published_timestamp": 1793725980,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-trades-discount-p-500s-171300846.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Prediction: $5,000 Invested in Netflix Will Be Worth This Much by 2030",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 10:13 AM",
+          "published_timestamp": 1793718780,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-5-000-invested-netflix-151300770.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Can Netflix Stock Bounce Off The Current Support?",
+          "publisher": "Trefis",
+          "published_at": "Nov 3, 7:41 AM",
+          "published_timestamp": 1793709695,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-bounce-off-current-124135875.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix hires Darshan Kantak to lead ads platform",
+          "publisher": "Axios Media",
+          "published_at": "Nov 2, 1:39 PM",
+          "published_timestamp": 1793644798,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-hires-darshan-kantak-lead-183958293.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MS": {
+      "ticker": "MS",
+      "score": 0.030179933594191844,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Market Chatter: Morgan Stanley Launches $2.3 Billion Baldwin Debt Offering",
+      "publisher": "MT Newswires",
+      "published_at": "Nov 3, 12:28 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-morgan-stanley-launches-172848377.html",
+      "items": [
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Warns of Stock Market Drop Amid 3 \u2018Clearing Events\u2019: \u2018Much of the Damage Already Done\u2019",
+          "publisher": "First for Money",
+          "published_at": "Nov 3, 2:24 PM",
+          "published_timestamp": 1793733840,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-warns-stock-market-192400472.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Flags Major Turning Point for Stock Market",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 1:09 PM",
+          "published_timestamp": 1793729359,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-flags-major-turning-180919995.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley Flags Major Turn in the AI Trade",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 1:04 PM",
+          "published_timestamp": 1793729089,
+          "link": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-flags-major-turn-180449865.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Market Chatter: Morgan Stanley Launches $2.3 Billion Baldwin Debt Offering",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 12:28 PM",
+          "published_timestamp": 1793726928,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-morgan-stanley-launches-172848377.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "MS",
+          "title": "Morgan Stanley and Houlihan Lokey lead financial services M&A rankings in Q1-Q3 of 2026",
+          "publisher": "Private Banker International",
+          "published_at": "Nov 3, 12:01 PM",
+          "published_timestamp": 1793725315,
+          "link": "https://finance.yahoo.com/news/morgan-stanley-houlihan-lokey-lead-170155583.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GS": {
+      "ticker": "GS",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Goldman Sachs (GS) Enters Talks For Controlling Stake In South Korean Mobility App",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 3, 2:15 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-gs-enters-talks-191549642.html",
+      "items": [
+        {
+          "ticker": "GS",
+          "title": "Goldman Sachs (GS) Enters Talks For Controlling Stake In South Korean Mobility App",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 3, 2:15 PM",
+          "published_timestamp": 1793733349,
+          "link": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-gs-enters-talks-191549642.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "GS",
+          "title": "Goldman Sachs Adjusts Gartner Price Target to $207 From $181",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 1:04 PM",
+          "published_timestamp": 1793729063,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-gartner-price-180423910.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "META": {
+      "ticker": "META",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Market Chatter: Meta Set to Raise $15 Billion From US Dollar Portion of Cross-Border Bond Sale",
+      "publisher": "MT Newswires",
+      "published_at": "Nov 3, 2:49 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-set-raise-194904179.html",
+      "items": [
+        {
+          "ticker": "META",
+          "title": "Market Chatter: Meta Set to Raise $15 Billion From US Dollar Portion of Cross-Border Bond Sale",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 2:49 PM",
+          "published_timestamp": 1793735344,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-set-raise-194904179.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Meta Platforms, Inc. (META) Is Spending Billions on AI: Will the Bet Pay Off?",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 2:43 PM",
+          "published_timestamp": 1793734993,
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-inc-meta-spending-194313087.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "Investors Demand Steep Yield in Meta Bond Sale",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Nov 3, 2:37 PM",
+          "published_timestamp": 1793734620,
+          "link": "https://finance.yahoo.com/m/2b234fd4-d12b-36f0-8ad7-94d5ff4e1e9e/investors-demand-steep-yield.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "META",
+          "title": "As Big Tech Sheds Billions, Meta (META) Signals a Top Buying Opportunity",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 2:30 PM",
+          "published_timestamp": 1793734238,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-sheds-billions-meta-193038566.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "score": 0.0532014024310982,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Oracle's $20 Billion Raise Exposes the Cost of Its AI Expansion",
+      "publisher": "GuruFocus.com",
+      "published_at": "Nov 3, 12:58 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/oracles-20-billion-raise-exposes-175834408.html",
+      "items": [
+        {
+          "ticker": "ORCL",
+          "title": "Microsoft and Oracle Can't Cool AI Data Centers Without This Growth Stock. Here's Why It Could Soar.",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 2:51 PM",
+          "published_timestamp": 1793735460,
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-oracle-cant-cool-ai-195100472.html",
+          "score": 0.08727737447415773
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle (ORCL): A Top 10 Cheap AI Stock Trading at Just 11x Forward Earnings",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 1:39 PM",
+          "published_timestamp": 1793731145,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-top-10-cheap-183905094.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle's $20 Billion Raise Exposes the Cost of Its AI Expansion",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 12:58 PM",
+          "published_timestamp": 1793728714,
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracles-20-billion-raise-exposes-175834408.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Stocks Gain 4.31% With $20 Billion Financing Package in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 12:47 PM",
+          "published_timestamp": 1793728041,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-gain-4-31-174721310.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ORCL",
+          "title": "Oracle Rallies 6% as $20 Billion Stock and Bond Sale Clears Funding Overhang; CoreWeave Climbs 7%, Microsoft Gains 2%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 3, 11:48 AM",
+          "published_timestamp": 1793724508,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-6-20-billion-164828873.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NKE": {
+      "ticker": "NKE",
+      "score": 0.034585097438532615,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Nike\u2019s Fall, Netflix Growth, and What We Learned in Q3",
+      "publisher": "Motley Fool",
+      "published_at": "Nov 2, 5:55 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-fall-netflix-growth-learned-225501064.html",
+      "items": [
+        {
+          "ticker": "NKE",
+          "title": "What Would Warren Buffett Do With Nike Stock Down 38% in 2026?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 1:35 PM",
+          "published_timestamp": 1793730900,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-nike-stock-down-183500670.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike Just Gained 15% in a Month. Is the Stock Really \u201cNear Bottom\u201d?",
+          "publisher": "TIKR",
+          "published_at": "Nov 3, 7:11 AM",
+          "published_timestamp": 1793707875,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-just-gained-15-month-121115399.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Why I Still Wouldn't Buy Nike Stock in November",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 5:20 AM",
+          "published_timestamp": 1793701200,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-still-wouldnt-buy-nike-102000653.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "Nike\u2019s Fall, Netflix Growth, and What We Learned in Q3",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 2, 5:55 PM",
+          "published_timestamp": 1793660101,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-fall-netflix-growth-learned-225501064.html",
+          "score": 0.1577621670251537
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": 0.2502152624266263,
+      "label": "Positive",
+      "headline_count": 5,
+      "top_headline": "Will Home Depot (HD) Beat Estimates Again in Its Next Earnings Report?",
+      "publisher": "Zacks",
+      "published_at": "Nov 3, 11:10 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-beat-estimates-161002074.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "Will Home Depot (HD) Beat Estimates Again in Its Next Earnings Report?",
+          "publisher": "Zacks",
+          "published_at": "Nov 3, 11:10 AM",
+          "published_timestamp": 1793722202,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-beat-estimates-161002074.html",
+          "score": 0.7615941559557649
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot Stock Could Be Poised for a Turnaround. Here\u2019s How High It Could Go",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 3, 9:03 AM",
+          "published_timestamp": 1793714638,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-could-poised-140358448.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "The Home Depot to Host Third Quarter Earnings Conference Call on November 17",
+          "publisher": "PR Newswire",
+          "published_at": "Nov 3, 8:00 AM",
+          "published_timestamp": 1793710800,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-host-third-quarter-130000983.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot Executive Says Housing Market Is Frozen. A Retiree Who Pulls $50,000 From Her 401(k) for a Kitchen Remodel Could See Higher Medicare Premiums in Two Years",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 3, 6:05 AM",
+          "published_timestamp": 1793703920,
+          "link": "https://finance.yahoo.com/real-estate/articles/home-depot-executive-says-housing-110520160.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Dick's Sporting Goods vs. Home Depot: Which Consumer Stock Is a Better Buy for 2027?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 2, 4:10 PM",
+          "published_timestamp": 1793653801,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dicks-sporting-goods-vs-home-211001965.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "MA": {
+      "ticker": "MA",
+      "score": 0.21085672415213952,
+      "label": "Positive",
+      "headline_count": 6,
+      "top_headline": "Did Earnings Beat Just Shift Mastercard's (MA) Investment Narrative?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 3, 12:10 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-171040157.html",
+      "items": [
+        {
+          "ticker": "MA",
+          "title": "Visa vs Mastercard: growth, valuation, and fair value compared",
+          "publisher": "Investing.com",
+          "published_at": "Nov 3, 2:13 PM",
+          "published_timestamp": 1793733222,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-vs-mastercard-growth-valuation-191342606.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "MA",
+          "title": "Ackman calls stock market \"broken\" but touts Visa, MasterCard and Netflix",
+          "publisher": "Investing.com",
+          "published_at": "Nov 3, 2:01 PM",
+          "published_timestamp": 1793732469,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ackman-calls-stock-market-broken-190109429.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "Did Earnings Beat Just Shift Mastercard's (MA) Investment Narrative?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 3, 12:10 PM",
+          "published_timestamp": 1793725840,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-171040157.html",
+          "score": 0.7206956331664799
+        },
+        {
+          "ticker": "MA",
+          "title": "Mastercard Stocks Move Lower With Tencent AI Payments Plan in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 11:09 AM",
+          "published_timestamp": 1793722155,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stocks-move-lower-tencent-160915906.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "Is Mastercard's Next Big Thing Already Here?",
+          "publisher": "Trefis",
+          "published_at": "Nov 3, 8:18 AM",
+          "published_timestamp": 1793711911,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercards-next-big-thing-already-131831512.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MA",
+          "title": "If You Invested $1000 in MasterCard a Decade Ago, This is How Much It'd Be Worth Now",
+          "publisher": "Zacks",
+          "published_at": "Nov 3, 7:30 AM",
+          "published_timestamp": 1793709001,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-mastercard-decade-ago-123001081.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TGT": {
+      "ticker": "TGT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Target raises price of annual grocery offer for holiday shoppers",
+      "publisher": "TheStreet",
+      "published_at": "Nov 3, 2:47 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/target-raises-price-annual-grocery-194700997.html",
+      "items": [
+        {
+          "ticker": "TGT",
+          "title": "Target raises price of annual grocery offer for holiday shoppers",
+          "publisher": "TheStreet",
+          "published_at": "Nov 3, 2:47 PM",
+          "published_timestamp": 1793735220,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-raises-price-annual-grocery-194700997.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target Poised to At Least Match Third-Quarter Street Views, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 1:45 PM",
+          "published_timestamp": 1793731559,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-poised-least-match-third-184559935.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Target Well Positioned to Match Wall Street's Q3 Expectations, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 12:01 PM",
+          "published_timestamp": 1793725287,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-well-positioned-match-wall-170127183.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TGT",
+          "title": "Sat Out Target's 80% Rally? Here Is What Holders Saw",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 3, 11:15 AM",
+          "published_timestamp": 1793722513,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sat-targets-80-rally-holders-161513110.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "UnitedHealth Group Incorporated (UNH) Rebounded After Better-Than-Expected Results: Mott Capital\u2019s Take",
+      "publisher": "Insider Monkey",
+      "published_at": "Nov 3, 1:44 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-incorporated-unh-rebounded-184449658.html",
+      "items": [
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Group Incorporated (UNH) Rebounded After Better-Than-Expected Results: Mott Capital\u2019s Take",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 1:44 PM",
+          "published_timestamp": 1793731489,
+          "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-incorporated-unh-rebounded-184449658.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Just Gained 11% in a Month: Take Profits, or Buy More?",
+          "publisher": "TIKR",
+          "published_at": "Nov 3, 12:33 PM",
+          "published_timestamp": 1793727211,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-just-gained-11-month-173331820.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "\u2018We Need to Break Up Big Medicine\u2019: Elizabeth Warren Says Trump DOJ Gave UnitedHealth \u2018More Power\u2019 in $3.3 Billion Amedisys Deal",
+          "publisher": "Benzinga",
+          "published_at": "Nov 3, 9:30 AM",
+          "published_timestamp": 1793716207,
+          "link": "https://finance.yahoo.com/healthcare/articles/break-big-medicine-elizabeth-warren-143007436.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "Elizabeth Warren Wants to Break Up UnitedHealth, and One Day Later a Nonprofit Called It Undervalued",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 2, 4:56 PM",
+          "published_timestamp": 1793656578,
+          "link": "https://finance.yahoo.com/healthcare/articles/elizabeth-warren-wants-break-unitedhealth-215618782.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "UNH",
+          "title": "UnitedHealth Group (UNH) Draws ETF Buying As Margin Recovery Fuels Undervalued Debate",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 2, 3:15 PM",
+          "published_timestamp": 1793650536,
+          "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-draws-etf-201536510.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.3128396651689493,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Raised Guidance Altering The Investment Case For Eli Lilly Stock?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 3, 1:08 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-altering-investment-case-180837410.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Raised Guidance Altering The Investment Case For Eli Lilly Stock?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 3, 1:08 PM",
+          "published_timestamp": 1793729317,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-altering-investment-case-180837410.html",
+          "score": 0.8131859905663357
+        },
+        {
+          "ticker": "LLY",
+          "title": "Forget Nvidia: Eli Lilly Will Become \u201cthe Most Valuable Company in the World,\u201d Says Macro Investor",
+          "publisher": "TIKR",
+          "published_at": "Nov 3, 12:17 PM",
+          "published_timestamp": 1793726239,
+          "link": "https://finance.yahoo.com/healthcare/articles/forget-nvidia-eli-lilly-become-171719731.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s R&D whirlwind \u2014 what the large pharma has taken in and what it\u2019s dropped",
+          "publisher": "Pharma Voice",
+          "published_at": "Nov 3, 8:48 AM",
+          "published_timestamp": 1793713705,
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-r-d-whirlwind-large-134825534.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly Just Delivered Another Monster Quarter. But There\u2019s More to This Story Than Weight-Loss Drugs",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 3, 8:03 AM",
+          "published_timestamp": 1793711019,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-just-delivered-another-130339284.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.04987126706163632,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Is Defense Backlog Growth Altering The Investment Case For Boeing (BA)?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 2, 8:24 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/defense-backlog-growth-altering-investment-012454240.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "Where Will Boeing Stock Be by This Time Next Year?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 2:04 PM",
+          "published_timestamp": 1793732640,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/where-boeing-stock-time-next-190400661.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "The Boeing Company (BA) Could Benefit From Its Massive Order Backlog, Mott Capital Believes",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 1:44 PM",
+          "published_timestamp": 1793731478,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-company-ba-could-benefit-184438124.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing Stock Rises on New 767 Jet Deal",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 8:46 AM",
+          "published_timestamp": 1793713569,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-stock-rises-767-jet-134609936.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "BA",
+          "title": "Is Defense Backlog Growth Altering The Investment Case For Boeing (BA)?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 2, 8:24 PM",
+          "published_timestamp": 1793669094,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/defense-backlog-growth-altering-investment-012454240.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "BA",
+          "title": "Why Is Boeing (BA) Pushing Deeper Into Cargo And Airline Data Tools?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 2, 7:21 PM",
+          "published_timestamp": 1793665312,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-boeing-ba-pushing-deeper-002152370.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
+      "publisher": "Insider Monkey",
+      "published_at": "Nov 3, 1:46 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 3, 1:46 PM",
+          "published_timestamp": 1793731565,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Insider Sold Shares Worth $1,545,077, According to a Recent SEC Filing",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 1:07 PM",
+          "published_timestamp": 1793729276,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-insider-sold-shares-180756657.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Can PG's Premium Brands Hold Up in a Value-Seeking Market?",
+          "publisher": "Zacks",
+          "published_at": "Nov 3, 10:41 AM",
+          "published_timestamp": 1793720460,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pgs-premium-brands-hold-value-154100080.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Insider Sold Shares Worth $6,311,745, According to a Recent SEC Filing",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 10:38 AM",
+          "published_timestamp": 1793720315,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-insider-sold-shares-153835705.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble Insider Sold Shares Worth $3,093,336, According to a Recent SEC Filing",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 3, 10:37 AM",
+          "published_timestamp": 1793720270,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-insider-sold-shares-153750374.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Here's Exactly How Much $5,000 in Procter & Gamble Has Paid Out in Dividends Since 2020",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 3, 5:35 AM",
+          "published_timestamp": 1793702100,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-exactly-much-5-000-103500676.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "score": 0.03570004849181549,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Tesla Stocks Move Lower With Fort Worth Robotaxi Expansion in Focus",
+      "publisher": "GuruFocus.com",
+      "published_at": "Nov 3, 1:13 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-move-lower-fort-181318576.html",
+      "items": [
+        {
+          "ticker": "TSLA",
+          "title": "Tesla's China-Made Vehicle Sales Rise 10.3% in October",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 1:22 PM",
+          "published_timestamp": 1793730120,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/teslas-china-made-vehicle-sales-182200130.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Tesla Stocks Move Lower With Fort Worth Robotaxi Expansion in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 3, 1:13 PM",
+          "published_timestamp": 1793729598,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-move-lower-fort-181318576.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Elon Musk\u2019s Tesla and SpaceX Block Their Stock From OKX-ICE Tokenized Venue",
+          "publisher": "decrypt",
+          "published_at": "Nov 3, 12:46 PM",
+          "published_timestamp": 1793727975,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/elon-musk-tesla-spacex-block-174615605.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "Gary Black Says Tesla Is Losing EV Share to \u2018No-Name\u2019 Rivals Despite \u2018Huge First-Mover Advantage\u2019\u2014Warns TSLA Needs Better Marketing",
+          "publisher": "Benzinga",
+          "published_at": "Nov 3, 12:30 PM",
+          "published_timestamp": 1793727010,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-tesla-losing-173010505.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "TSLA",
+          "title": "What the Marvell-Lumentum Misfire Means for a Tesla-SpaceX Merger",
+          "publisher": "Barrons.com",
+          "published_at": "Nov 3, 10:09 AM",
+          "published_timestamp": 1793718540,
+          "link": "https://finance.yahoo.com/m/4e07bebb-339f-368a-a045-9daa726a5986/what-the-marvell-lumentum.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "COP": {
+      "ticker": "COP",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Insights Into ConocoPhillips (COP) Q3: Wall Street Projections for Key Metrics",
+      "publisher": "Zacks",
+      "published_at": "Nov 3, 8:15 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/insights-conocophillips-cop-q3-wall-131503202.html",
+      "items": [
+        {
+          "ticker": "COP",
+          "title": "Insights Into ConocoPhillips (COP) Q3: Wall Street Projections for Key Metrics",
+          "publisher": "Zacks",
+          "published_at": "Nov 3, 8:15 AM",
+          "published_timestamp": 1793711703,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/insights-conocophillips-cop-q3-wall-131503202.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "COP",
+          "title": "How Investors Are Reacting To ConocoPhillips Stock Ahead Of Earnings",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 2, 12:10 PM",
+          "published_timestamp": 1793639423,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-conocophillips-stock-ahead-171023634.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "entry_news_signals": {
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.3128396651689493,
+      "label": "Positive",
+      "headline_count": 4,
+      "top_headline": "Raised Guidance Altering The Investment Case For Eli Lilly Stock?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 3, 1:08 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-altering-investment-case-180837410.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Raised Guidance Altering The Investment Case For Eli Lilly Stock?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 3, 1:08 PM",
+          "published_timestamp": 1793729317,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-altering-investment-case-180837410.html",
+          "score": 0.8131859905663357
+        },
+        {
+          "ticker": "LLY",
+          "title": "Forget Nvidia: Eli Lilly Will Become \u201cthe Most Valuable Company in the World,\u201d Says Macro Investor",
+          "publisher": "TIKR",
+          "published_at": "Nov 3, 12:17 PM",
+          "published_timestamp": 1793726239,
+          "link": "https://finance.yahoo.com/healthcare/articles/forget-nvidia-eli-lilly-become-171719731.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Lilly\u2019s R&D whirlwind \u2014 what the large pharma has taken in and what it\u2019s dropped",
+          "publisher": "Pharma Voice",
+          "published_at": "Nov 3, 8:48 AM",
+          "published_timestamp": 1793713705,
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-r-d-whirlwind-large-134825534.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly Just Delivered Another Monster Quarter. But There\u2019s More to This Story Than Weight-Loss Drugs",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 3, 8:03 AM",
+          "published_timestamp": 1793711019,
+          "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-just-delivered-another-130339284.html",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "selection_scores": {
+    "MA": {
+      "price_score": 1.0711272508051664,
+      "news_score": 0.21085672415213952,
+      "combined_score": 1.2229435421346542
+    },
+    "NFLX": {
+      "price_score": -0.579586219932176,
+      "news_score": 0.0,
+      "combined_score": -0.579586219932176
+    },
+    "GS": {
+      "price_score": -0.16508714923529258,
+      "news_score": 0.0,
+      "combined_score": -0.16508714923529258
+    },
+    "MS": {
+      "price_score": -0.04308276492423031,
+      "news_score": 0.030179933594191844,
+      "combined_score": -0.021353291466535355
+    },
+    "CVX": {
+      "price_score": 0.12376593725447804,
+      "news_score": 0.0,
+      "combined_score": 0.12376593725447804
+    },
+    "GOOGL": {
+      "price_score": -2.3295564867652465,
+      "news_score": 0.0,
+      "combined_score": -2.3295564867652465
+    },
+    "TGT": {
+      "price_score": 0.16516228534569716,
+      "news_score": 0.0,
+      "combined_score": 0.16516228534569716
+    },
+    "META": {
+      "price_score": -0.9480687934594872,
+      "news_score": 0.0,
+      "combined_score": -0.9480687934594872
+    },
+    "ORCL": {
+      "price_score": -0.6928872721482169,
+      "news_score": 0.0532014024310982,
+      "combined_score": -0.6545824011838495
+    },
+    "NKE": {
+      "price_score": 0.5763370844255393,
+      "news_score": 0.034585097438532615,
+      "combined_score": 0.601238264359448
+    },
+    "LLY": {
+      "price_score": 2.115065427684163,
+      "news_score": 0.3128396651689493,
+      "combined_score": 2.3403091705037666
+    },
+    "UNH": {
+      "price_score": 0.026286254038208716,
+      "news_score": 0.0,
+      "combined_score": 0.026286254038208716
+    },
+    "HD": {
+      "price_score": 1.0973759777981393,
+      "news_score": 0.2502152624266263,
+      "combined_score": 1.2775303140109904
+    },
+    "BA": {
+      "price_score": -0.21668130148882359,
+      "news_score": 0.04987126706163632,
+      "combined_score": -0.18077411930317433
+    },
+    "PG": {
+      "price_score": 0.4994474796026729,
+      "news_score": 0.0,
+      "combined_score": 0.4994474796026729
+    },
+    "TSLA": {
+      "price_score": 0.26365631235940695,
+      "news_score": 0.03570004849181549,
+      "combined_score": 0.2893602541431165
+    },
+    "NVDA": {
+      "price_score": -1.0331176337749957,
+      "news_score": 0.0,
+      "combined_score": -1.0331176337749957
+    },
+    "COP": {
+      "price_score": 0.06984361241499662,
+      "news_score": 0.0,
+      "combined_score": 0.06984361241499662
+    }
+  },
   "data_version": 5
 }
