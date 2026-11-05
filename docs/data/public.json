@@ -1,65 +1,65 @@
 {
-  "updated_at": "2026-11-05T01:00:28.686096+00:00",
-  "status": "Market closed; cloud bot will check again on its next scheduled run.",
+  "updated_at": "2026-11-05T20:35:26.113510+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-11-04",
+  "last_reroll_market_date": "2026-11-05",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.166069,
-  "display_points": -7.166069,
-  "completed_balance": 18.474583,
-  "display_balance": 18.474583,
-  "completed_rounds": 45,
-  "current_strategy": "breakout",
+  "banked_points": -6.859151,
+  "display_points": -6.859151,
+  "completed_balance": 18.531285,
+  "display_balance": 18.531285,
+  "completed_rounds": 46,
+  "current_strategy": "trend",
   "strategy_scores": {
     "trend": -0.15018,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.07351
+    "breakout": -0.00504
   },
-  "news_learning_score": -0.08326,
+  "news_learning_score": -0.06653,
   "live": {
     "points": 0.0,
     "money_change": 0.0,
-    "cash": 18.474583,
-    "market_date": "2026-11-04",
-    "quote_time": "2026-11-04T20:22:43.885043+00:00",
+    "cash": 18.531285,
+    "market_date": "2026-11-05",
+    "quote_time": "2026-11-05T20:35:26.097486+00:00",
     "holdings": [
       {
-        "ticker": "MCD",
-        "weight": 0.449034,
-        "entry": 279.39,
-        "last_price": 279.39,
+        "ticker": "KO",
+        "weight": 0.34637,
+        "entry": 95.81,
+        "last_price": 95.81,
         "points": 0.0,
         "money_change": 0.0,
-        "headline": "McDonald’s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the “Final Piece That’s Missing”",
-        "publisher": "TIKR",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-soars-6-earnings-beat-190526971.html"
+        "headline": "2% Undervalued? Coca Cola (KO) As Earnings Beat Lifts Guidance And Dividend",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-undervalued-coca-cola-ko-201340943.html"
       },
       {
-        "ticker": "GM",
-        "weight": 0.301718,
-        "entry": 92.075,
-        "last_price": 92.075,
+        "ticker": "SBUX",
+        "weight": 0.331921,
+        "entry": 106.77,
+        "last_price": 106.77,
         "points": 0.0,
         "money_change": 0.0,
-        "headline": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%",
+        "headline": "McDonald’s Rises 5% as Earnings Beat Outweighs U.S. Sales Dip; Chipotle Climbs 4%, Starbucks Gains 3%",
         "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-declines-6-tesla-falls-134949443.html"
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-rises-5-earnings-beat-160448146.html"
       },
       {
-        "ticker": "MA",
-        "weight": 0.249248,
-        "entry": 671.14,
-        "last_price": 671.14,
+        "ticker": "DIS",
+        "weight": 0.321709,
+        "entry": 117.17,
+        "last_price": 117.17,
         "points": 0.0,
         "money_change": 0.0,
-        "headline": "Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay",
-        "publisher": "Business Wire",
-        "link": "https://finance.yahoo.com/technology/articles/mastercard-expands-mobile-payment-choice-131700471.html"
+        "headline": "Disney Is Planning Thousands of Layoffs in Search of 20% Cost Savings",
+        "publisher": "Entrepreneur",
+        "link": "https://finance.yahoo.com/media-advertising/articles/disney-planning-thousands-layoffs-search-150000407.html"
       }
     ]
   },
@@ -838,6 +838,26 @@
       "news_summaries": [
         "LLY Positive: Raised Guidance Altering The Investment Case For Eli Lilly Stock?"
       ]
+    },
+    {
+      "market_date": "2026-11-04",
+      "point_change": 0.306919,
+      "banked_points": -6.859151,
+      "cash_before": 18.474583,
+      "cash_after": 18.531285,
+      "cash_change": 0.05670200000000136,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "MCD",
+        "GM",
+        "MA"
+      ],
+      "news_summaries": [
+        "MCD Positive: McDonald’s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the “Final Piece That’s Missing” | GM Neutral: SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2% | MA Neutral: Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay"
+      ]
     }
   ],
   "rounds": [
@@ -1380,6 +1400,18 @@
       "companies": "LLY",
       "allocation": "{\"LLY\": 1.0}",
       "news_summary": "LLY Positive: Raised Guidance Altering The Investment Case For Eli Lilly Stock?"
+    },
+    {
+      "market_date": "2026-11-04",
+      "timestamp": "2026-11-05T20:35:24+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.474583",
+      "cash_after": "18.531285",
+      "point_change": "0.306919",
+      "banked_points": "-6.859151",
+      "companies": "MCD, GM, MA",
+      "allocation": "{\"GM\": 0.3017182865895289, \"MA\": 0.24924795344466177, \"MCD\": 0.44903375996580935}",
+      "news_summary": "MCD Positive: McDonald’s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the “Final Piece That’s Missing” | GM Neutral: SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2% | MA Neutral: Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."

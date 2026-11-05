@@ -1,6 +1,6 @@
 {
-  "cash_at_round_start": 18.474582672027058,
-  "banked_points": -7.166069207444232,
+  "cash_at_round_start": 18.531284613831836,
+  "banked_points": -6.859150546214418,
   "goal": 100.0,
   "tickers": [
     "AAPL",
@@ -64,338 +64,306 @@
     "trend": -0.1501845079542047,
     "dip": -1.3867196190184463,
     "steady": -0.14517191182927397,
-    "breakout": -0.07351291486052329
+    "breakout": -0.005035231164262674
   },
-  "active_strategy": "breakout",
+  "active_strategy": "trend",
   "allocation": {
-    "MCD": 0.44903375996580935,
-    "GM": 0.3017182865895289,
-    "MA": 0.24924795344466177
+    "KO": 0.3463703743734221,
+    "SBUX": 0.33192097959000766,
+    "DIS": 0.3217086460365702
   },
   "entry_prices": {
-    "MA": 671.14,
-    "MCD": 279.39,
-    "GM": 92.075
+    "KO": 95.81,
+    "SBUX": 106.77,
+    "DIS": 117.17
   },
-  "round_market_date": "2026-11-04",
-  "round_started_at": "2026-11-04T20:22:43.884480+00:00",
-  "rounds_completed": 45,
+  "round_market_date": "2026-11-05",
+  "round_started_at": "2026-11-05T20:35:26.096970+00:00",
+  "rounds_completed": 46,
   "last_round_tickers": [
-    "LLY"
+    "MCD",
+    "GM",
+    "MA"
   ],
-  "last_reroll_market_date": "2026-11-04",
+  "last_reroll_market_date": "2026-11-05",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
-  "news_learning_score": -0.08325637747472776,
-  "news_last_checked_at": "2026-11-04T20:22:43.885033+00:00",
+  "news_learning_score": -0.06653325509904953,
+  "news_last_checked_at": "2026-11-05T20:35:26.097475+00:00",
   "news_signals": {
-    "NVDA": {
-      "ticker": "NVDA",
+    "JNJ": {
+      "ticker": "JNJ",
       "score": 0.0,
       "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "Tesla Wants to Build 20,000 Optimus Robots a Week. Here's the Supplier That Gets Paid for Every Single One -- and It's Not Nvidia.",
-      "publisher": "Motley Fool",
-      "published_at": "Nov 4, 2:40 PM",
-      "link": "https://finance.yahoo.com/technology/articles/tesla-wants-build-20-000-194000757.html",
+      "headline_count": 1,
+      "top_headline": "BAYRY vs. JNJ: Which Stock Is the Better Value Option?",
+      "publisher": "Zacks",
+      "published_at": "Nov 5, 10:40 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bayry-vs-jnj-stock-better-154003417.html",
       "items": [
         {
-          "ticker": "NVDA",
-          "title": "Tesla Wants to Build 20,000 Optimus Robots a Week. Here's the Supplier That Gets Paid for Every Single One -- and It's Not Nvidia.",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 2:40 PM",
-          "published_timestamp": 1793821200,
-          "link": "https://finance.yahoo.com/technology/articles/tesla-wants-build-20-000-194000757.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NVDA",
-          "title": "Alibaba and Tencent Face Stunning Nvidia Chip Shortfall Despite Millions of Orders",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 2:37 PM",
-          "published_timestamp": 1793821079,
-          "link": "https://finance.yahoo.com/technology/ai/articles/alibaba-tencent-face-stunning-nvidia-193759713.html",
+          "ticker": "JNJ",
+          "title": "BAYRY vs. JNJ: Which Stock Is the Better Value Option?",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 10:40 AM",
+          "published_timestamp": 1793893203,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bayry-vs-jnj-stock-better-154003417.html",
           "score": 0.0
         }
       ]
     },
-    "AMZN": {
-      "ticker": "AMZN",
+    "AVGO": {
+      "ticker": "AVGO",
       "score": 0.0,
-      "label": "No recent news",
-      "headline_count": 0,
-      "top_headline": "No company-specific headline found from today or yesterday.",
-      "publisher": "\u2014",
-      "published_at": "\u2014",
-      "link": "",
-      "items": []
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Broadcom Stocks Fall 6.42% With $21.7 Billion AI Forecast in Focus",
+      "publisher": "GuruFocus.com",
+      "published_at": "Nov 5, 1:50 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-6-42-185039421.html",
+      "items": [
+        {
+          "ticker": "AVGO",
+          "title": "Broadcom Stocks Fall 6.42% With $21.7 Billion AI Forecast in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 1:50 PM",
+          "published_timestamp": 1793904639,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-6-42-185039421.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Broadcom Sinks 9% as AI Regulation Fears Deepen Chip Rout",
+          "publisher": "TIKR",
+          "published_at": "Nov 5, 1:25 PM",
+          "published_timestamp": 1793903108,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-sinks-9-ai-regulation-182508878.html",
+          "score": 0.0
+        }
+      ]
     },
-    "MA": {
-      "ticker": "MA",
-      "score": 0.04426142119283993,
+    "MSFT": {
+      "ticker": "MSFT",
+      "score": 0.02537683313361442,
       "label": "Neutral",
       "headline_count": 4,
-      "top_headline": "Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay",
-      "publisher": "Business Wire",
-      "published_at": "Nov 4, 8:17 AM",
-      "link": "https://finance.yahoo.com/technology/articles/mastercard-expands-mobile-payment-choice-131700471.html",
+      "top_headline": "Microsoft Reportedly Steps Back From Renewing Data Center Contract With Nvidia-Backed Nscale",
+      "publisher": "Stocktwits",
+      "published_at": "Nov 5, 1:04 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-reportedly-steps-back-renewing-180458369.html",
       "items": [
         {
-          "ticker": "MA",
-          "title": "Mastercard Incorporated (MA) Is Riding the Global Shift Toward Digital Payments: Here\u2019s Why It Matters",
-          "publisher": "Insider Monkey",
-          "published_at": "Nov 4, 9:37 AM",
-          "published_timestamp": 1793803030,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-incorporated-ma-riding-global-143710021.html",
+          "ticker": "MSFT",
+          "title": "Nvidia and Microsoft Get a New Spotlight From Bank of America",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 2:34 PM",
+          "published_timestamp": 1793907291,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-microsoft-spotlight-bank-america-193451774.html",
           "score": 0.0
         },
         {
-          "ticker": "MA",
-          "title": "Mastercard Is \u201cOne of the Greatest Businesses in the World,\u201d Says Bill Ackman. Do the Estimates Agree?",
-          "publisher": "TIKR",
-          "published_at": "Nov 4, 9:04 AM",
-          "published_timestamp": 1793801077,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-one-greatest-businesses-world-140437512.html",
+          "ticker": "MSFT",
+          "title": "Microsoft Stocks Fall 2.59% as Cloud Returns Take Center Stage",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 1:59 PM",
+          "published_timestamp": 1793905182,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-fall-2-59-185942487.html",
           "score": 0.0
         },
         {
-          "ticker": "MA",
-          "title": "Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay",
-          "publisher": "Business Wire",
-          "published_at": "Nov 4, 8:17 AM",
-          "published_timestamp": 1793798220,
-          "link": "https://finance.yahoo.com/technology/articles/mastercard-expands-mobile-payment-choice-131700471.html",
-          "score": 0.1577621670251537
+          "ticker": "MSFT",
+          "title": "Update: Market Chatter: Microsoft Declines Texas Data Center Contract Extension With Nscale, Tightening Data Center Oversight",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 5, 1:21 PM",
+          "published_timestamp": 1793902902,
+          "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-declines-texas-182142412.html",
+          "score": 0.022723360437673666
         },
         {
-          "ticker": "MA",
-          "title": "Mastercard vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 6:35 AM",
-          "published_timestamp": 1793792102,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-vs-p-global-financial-113502750.html",
-          "score": 0.0
+          "ticker": "MSFT",
+          "title": "Microsoft Reportedly Steps Back From Renewing Data Center Contract With Nvidia-Backed Nscale",
+          "publisher": "Stocktwits",
+          "published_at": "Nov 5, 1:04 PM",
+          "published_timestamp": 1793901898,
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-reportedly-steps-back-renewing-180458369.html",
+          "score": 0.07485969068749909
         }
       ]
     },
-    "GM": {
-      "ticker": "GM",
-      "score": -0.061515309544691824,
-      "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%",
-      "publisher": "24/7 Wall St.",
-      "published_at": "Nov 4, 8:49 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-declines-6-tesla-falls-134949443.html",
-      "items": [
-        {
-          "ticker": "GM",
-          "title": "Ford and GM see savings drivers may pay for later",
-          "publisher": "TheStreet",
-          "published_at": "Nov 4, 2:17 PM",
-          "published_timestamp": 1793819820,
-          "link": "https://finance.yahoo.com/economy/policy/articles/ford-gm-see-savings-drivers-191700785.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GM",
-          "title": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 8:49 AM",
-          "published_timestamp": 1793800189,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-declines-6-tesla-falls-134949443.html",
-          "score": -0.13552464707668704
-        }
-      ]
-    },
-    "NOW": {
-      "ticker": "NOW",
-      "score": 0.09559970630831016,
+    "IBM": {
+      "ticker": "IBM",
+      "score": 0.05357866399393633,
       "label": "Neutral",
       "headline_count": 5,
-      "top_headline": "ServiceNow Q3 Earnings Call Highlights AI Growth and Outlook Risks",
-      "publisher": "Zacks",
-      "published_at": "Nov 4, 9:00 AM",
-      "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-q3-earnings-call-highlights-140000382.html",
+      "top_headline": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits",
+      "publisher": "PR Newswire",
+      "published_at": "Nov 5, 9:05 AM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/supermicro-launches-kv-cache-solution-140500280.html",
       "items": [
         {
-          "ticker": "NOW",
-          "title": "ServiceNow Q3 Earnings Call Highlights AI Growth and Outlook Risks",
-          "publisher": "Zacks",
-          "published_at": "Nov 4, 9:00 AM",
-          "published_timestamp": 1793800800,
-          "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-q3-earnings-call-highlights-140000382.html",
-          "score": 0.1577621670251537
+          "ticker": "IBM",
+          "title": "Nvidia Stock Tumbles. IBM and Supermicro AI Deal Delivers 56x Speed Boost",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 1:45 PM",
+          "published_timestamp": 1793904350,
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-tumbles-ibm-supermicro-184550220.html",
+          "score": 0.11314973979462131
         },
         {
-          "ticker": "NOW",
-          "title": "AI Automation Market Growth 2027: Microsoft, AWS, Accenture, ServiceNow and Salesforce Race to Scale Agentic Automation",
-          "publisher": "GlobeNewswire",
-          "published_at": "Nov 4, 9:00 AM",
-          "published_timestamp": 1793800800,
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-automation-market-growth-2027-140000612.html",
-          "score": 0.1577621670251537
-        },
-        {
-          "ticker": "NOW",
-          "title": "NBA and ServiceNow extend partnership to enhance employee experience with ServiceNow EmployeeWorks",
-          "publisher": "Business Wire",
-          "published_at": "Nov 4, 9:00 AM",
-          "published_timestamp": 1793800800,
-          "link": "https://finance.yahoo.com/technology/articles/nba-servicenow-extend-partnership-enhance-140000095.html",
-          "score": 0.13552464707668704
-        },
-        {
-          "ticker": "NOW",
-          "title": "Investors Heavily Search ServiceNow, Inc. (NOW): Here is What You Need to Know",
-          "publisher": "Zacks",
-          "published_at": "Nov 4, 8:00 AM",
-          "published_timestamp": 1793797202,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-servicenow-inc-130002521.html",
+          "ticker": "IBM",
+          "title": "IBM Collaborating With AMD, Oak Ridge Lab to Accelerate Quantum Computing Development",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 5, 11:07 AM",
+          "published_timestamp": 1793894867,
+          "link": "https://finance.yahoo.com/technology/ai/articles/ibm-collaborating-amd-oak-ridge-160747516.html",
           "score": 0.0
         },
         {
-          "ticker": "NOW",
-          "title": "Can ServiceNow Stock Bounce Off Its Current Support?",
-          "publisher": "Trefis",
-          "published_at": "Nov 4, 4:59 AM",
-          "published_timestamp": 1793786349,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-bounce-off-current-095909830.html",
+          "ticker": "IBM",
+          "title": "Digital Transformation in BFSI - Global Strategic Business Report: Secure Your Share of US$220.2 Billion by 2030 as Accenture, AWS, IBM, Microsoft, and Oracle Accelerate AI-Led Disruption",
+          "publisher": "GlobeNewswire",
+          "published_at": "Nov 5, 10:51 AM",
+          "published_timestamp": 1793893860,
+          "link": "https://finance.yahoo.com/technology/ai/articles/digital-transformation-bfsi-global-strategic-155100143.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Digital Transformation in BPO - Global Strategic Business Report: Capitalize on a US$263.9 Billion Market by 2030 as Accenture, Capgemini, Cognizant, Genpact and IBM Accelerate AI-Led Disruption",
+          "publisher": "GlobeNewswire",
+          "published_at": "Nov 5, 10:49 AM",
+          "published_timestamp": 1793893740,
+          "link": "https://finance.yahoo.com/technology/articles/digital-transformation-bpo-global-strategic-154900777.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "IBM",
+          "title": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits",
+          "publisher": "PR Newswire",
+          "published_at": "Nov 5, 9:05 AM",
+          "published_timestamp": 1793887500,
+          "link": "https://finance.yahoo.com/technology/ai/articles/supermicro-launches-kv-cache-solution-140500280.html",
+          "score": 0.13552464707668704
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Procter & Gamble vs. Colgate-Palmolive: Which Dividend Stock Is Safer?",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Nov 5, 1:47 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-vs-colgate-palmolive-184753134.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble vs. Colgate-Palmolive: Which Dividend Stock Is Safer?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 5, 1:47 PM",
+          "published_timestamp": 1793904473,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-vs-colgate-palmolive-184753134.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Is Wall Street Bullish or Bearish on Procter & Gamble Stock?",
+          "publisher": "Barchart",
+          "published_at": "Nov 5, 5:33 AM",
+          "published_timestamp": 1793874782,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-procter-103302719.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Here\u2019s Why Dividend Kings Coca-Cola, Procter & Gamble, and Colgate-Palmolive Are Hitting 52-Week Highs Following Midterm Election Results",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 4, 3:35 PM",
+          "published_timestamp": 1793824502,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-dividend-kings-coca-cola-203502707.html",
           "score": 0.0
         }
       ]
     },
     "MRK": {
       "ticker": "MRK",
-      "score": 0.0,
+      "score": 0.0869391780388735,
       "label": "Neutral",
       "headline_count": 3,
-      "top_headline": "Downstream Processing - Global Strategic Business Report 2026: Capitalize on 15.7% CAGR to US$128.9 Billion by 2032 as Danaher, Merck, Sartorius, and Thermo Fisher Reshape Biomanufacturing",
-      "publisher": "GlobeNewswire",
-      "published_at": "Nov 4, 10:19 AM",
-      "link": "https://finance.yahoo.com/healthcare/articles/downstream-processing-global-strategic-business-151900803.html",
+      "top_headline": "Business Development Supports Merck & Co.\u2019s (MRK) Next Growth Chapter",
+      "publisher": "Insider Monkey",
+      "published_at": "Nov 5, 12:17 PM",
+      "link": "https://finance.yahoo.com/healthcare/articles/business-development-supports-merck-co-171702898.html",
       "items": [
         {
           "ticker": "MRK",
-          "title": "Downstream Processing - Global Strategic Business Report 2026: Capitalize on 15.7% CAGR to US$128.9 Billion by 2032 as Danaher, Merck, Sartorius, and Thermo Fisher Reshape Biomanufacturing",
-          "publisher": "GlobeNewswire",
-          "published_at": "Nov 4, 10:19 AM",
-          "published_timestamp": 1793805540,
-          "link": "https://finance.yahoo.com/healthcare/articles/downstream-processing-global-strategic-business-151900803.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MRK",
-          "title": "Daiwa Securities Adjusts Merck & Co Price Target to $160 From $143",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 4, 10:16 AM",
-          "published_timestamp": 1793805375,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/daiwa-securities-adjusts-merck-co-151615304.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MRK",
-          "title": "Glycomics / Glycobiology - Global Strategic Business Report 2026: Capitalize on a $4.5 Billion Market by 2032 | Agilent, Bruker, Danaher, Merck, and Thermo Fisher Battle for Share",
-          "publisher": "GlobeNewswire",
-          "published_at": "Nov 4, 9:43 AM",
-          "published_timestamp": 1793803380,
-          "link": "https://finance.yahoo.com/healthcare/articles/glycomics-glycobiology-global-strategic-business-144300062.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "C": {
-      "ticker": "C",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 1,
-      "top_headline": "Why Is Citigroup (C) Building A Bigger China Business Through A New Securities Unit?",
-      "publisher": "Simply Wall St.",
-      "published_at": "Nov 4, 2:14 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-citigroup-c-building-bigger-191418362.html",
-      "items": [
-        {
-          "ticker": "C",
-          "title": "Why Is Citigroup (C) Building A Bigger China Business Through A New Securities Unit?",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 4, 2:14 PM",
-          "published_timestamp": 1793819658,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-citigroup-c-building-bigger-191418362.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "JNJ": {
-      "ticker": "JNJ",
-      "score": 0.0,
-      "label": "No recent news",
-      "headline_count": 0,
-      "top_headline": "No company-specific headline found from today or yesterday.",
-      "publisher": "\u2014",
-      "published_at": "\u2014",
-      "link": "",
-      "items": []
-    },
-    "GS": {
-      "ticker": "GS",
-      "score": 0.04744741702907507,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Goldman Sachs Research Expects Slower S&P 500 Earnings Growth in 2027 (Only 18%). Can the Bull Market Keep Going?",
-      "publisher": "Motley Fool",
-      "published_at": "Nov 4, 5:50 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-research-expects-slower-105000319.html",
-      "items": [
-        {
-          "ticker": "GS",
-          "title": "The Goldman Sachs Group, Inc. (GS) is Attracting Investor Attention: Here is What You Should Know",
-          "publisher": "Zacks",
-          "published_at": "Nov 4, 8:00 AM",
-          "published_timestamp": 1793797202,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-group-inc-gs-130002182.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GS",
-          "title": "Goldman Sachs Said Buy This Stock a Year Ago. Now It\u2019s Lost 61%",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 7:32 AM",
-          "published_timestamp": 1793795525,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-said-buy-stock-123205599.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GS",
-          "title": "Goldman Sachs Research Expects Slower S&P 500 Earnings Growth in 2027 (Only 18%). Can the Bull Market Keep Going?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 5:50 AM",
-          "published_timestamp": 1793789400,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-research-expects-slower-105000319.html",
+          "title": "Business Development Supports Merck & Co.\u2019s (MRK) Next Growth Chapter",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 5, 12:17 PM",
+          "published_timestamp": 1793899022,
+          "link": "https://finance.yahoo.com/healthcare/articles/business-development-supports-merck-co-171702898.html",
           "score": 0.1577621670251537
         },
         {
-          "ticker": "GS",
-          "title": "Goldman Sachs (GS) Enters Talks For Controlling Stake In South Korean Mobility App",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 3, 2:15 PM",
-          "published_timestamp": 1793733349,
-          "link": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-gs-enters-talks-191549642.html",
+          "ticker": "MRK",
+          "title": "Messenger Ribonucleic Acid (mRNA) Manufacturing Service Market Report 2026 | Capitalize on 16.2% CAGR in IVT and LNP with Thermo Fisher, Merck, Lonza and GenScript ProBio",
+          "publisher": "GlobeNewswire",
+          "published_at": "Nov 5, 9:03 AM",
+          "published_timestamp": 1793887380,
+          "link": "https://finance.yahoo.com/healthcare/articles/messenger-ribonucleic-acid-mrna-manufacturing-140300690.html",
+          "score": 0.0906594777770402
+        },
+        {
+          "ticker": "MRK",
+          "title": "MRK's Keytruda & Gardasil Sales Rise in Q3: Can the Momentum Last?",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 7:46 AM",
+          "published_timestamp": 1793882760,
+          "link": "https://finance.yahoo.com/healthcare/articles/mrks-keytruda-gardasil-sales-rise-124600184.html",
           "score": 0.0
         }
       ]
     },
     "DIS": {
       "ticker": "DIS",
-      "score": -0.13714426889556744,
-      "label": "Negative",
-      "headline_count": 5,
+      "score": -0.06461345928807521,
+      "label": "Neutral",
+      "headline_count": 6,
       "top_headline": "Disney Is Planning Thousands of Layoffs in Search of 20% Cost Savings",
       "publisher": "Entrepreneur",
       "published_at": "Nov 4, 10:00 AM",
       "link": "https://finance.yahoo.com/media-advertising/articles/disney-planning-thousands-layoffs-search-150000407.html",
       "items": [
+        {
+          "ticker": "DIS",
+          "title": "Disney (DIS) Stock Looks Fairly Valued As Cash Flow Holds Up",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 10:18 AM",
+          "published_timestamp": 1793891886,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-looks-fairly-151806694.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "I've Been Writing About Disney Stock for 30 Years. Here's Why My Conviction Has Never Been Higher.",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 5, 9:27 AM",
+          "published_timestamp": 1793888820,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ive-writing-disney-stock-30-142700663.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "ETFs Are Buying Disney (DIS) on Nov. 3",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 6:01 AM",
+          "published_timestamp": 1793876498,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-disney-dis-nov-110138323.html",
+          "score": 0.0
+        },
         {
           "ticker": "DIS",
           "title": "Morgan Stanley Adjusts Price Target on Walt Disney to $133 From $125",
@@ -422,377 +390,316 @@
           "published_timestamp": 1793797770,
           "link": "https://finance.yahoo.com/markets/stocks/articles/dis-stock-layoffs-know-disney-130930361.html",
           "score": -0.20173975176639067
-        },
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "score": 0.0,
+      "label": "No recent news",
+      "headline_count": 0,
+      "top_headline": "No company-specific headline found from today or yesterday.",
+      "publisher": "\u2014",
+      "published_at": "\u2014",
+      "link": "",
+      "items": []
+    },
+    "F": {
+      "ticker": "F",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Ford vs. General Motors: Which Stock Looks Stronger After Q3?",
+      "publisher": "Zacks",
+      "published_at": "Nov 5, 7:51 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ford-vs-general-motors-stock-125100886.html",
+      "items": [
         {
-          "ticker": "DIS",
-          "title": "Disney Opts for Yet Another Round of Layoffs",
-          "publisher": "The Daily Upside",
-          "published_at": "Nov 4, 12:01 AM",
-          "published_timestamp": 1793768460,
-          "link": "https://finance.yahoo.com/media-advertising/articles/disney-opts-yet-another-round-050100045.html",
-          "score": -0.20173975176639067
-        },
-        {
-          "ticker": "DIS",
-          "title": "Why Walt Disney (DIS) Outpaced the Stock Market Today",
+          "ticker": "F",
+          "title": "Ford vs. General Motors: Which Stock Looks Stronger After Q3?",
           "publisher": "Zacks",
-          "published_at": "Nov 3, 4:45 PM",
-          "published_timestamp": 1793742302,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-walt-disney-dis-outpaced-214502713.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "QCOM": {
-      "ticker": "QCOM",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Arm Stock Has Crashed 37%. Is It a Better Buy Than Qualcomm?",
-      "publisher": "24/7 Wall St.",
-      "published_at": "Nov 4, 3:17 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-crashed-37-better-201742214.html",
-      "items": [
-        {
-          "ticker": "QCOM",
-          "title": "Arm Stock Has Crashed 37%. Is It a Better Buy Than Qualcomm?",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 3:17 PM",
-          "published_timestamp": 1793823462,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-crashed-37-better-201742214.html",
+          "published_at": "Nov 5, 7:51 AM",
+          "published_timestamp": 1793883060,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ford-vs-general-motors-stock-125100886.html",
           "score": 0.0
         },
         {
-          "ticker": "QCOM",
-          "title": "Qualcomm to report Q4 earnings amid slowing smartphone, PC sales",
-          "publisher": "Yahoo Finance",
-          "published_at": "Nov 4, 12:33 PM",
-          "published_timestamp": 1793813600,
-          "link": "https://finance.yahoo.com/technology/article/qualcomm-to-report-q4-earnings-amid-slowing-smartphone-pc-sales-173320120.html",
+          "ticker": "F",
+          "title": "What Would Rising Commodity Costs Do To Ford Stock?",
+          "publisher": "Trefis",
+          "published_at": "Nov 5, 7:06 AM",
+          "published_timestamp": 1793880375,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rising-commodity-costs-ford-stock-120615327.html",
           "score": 0.0
         },
         {
-          "ticker": "QCOM",
-          "title": "SpaceX and Qualcomm Are Coming for Verizon and AT&T. Hello, Starlink Mobile.",
-          "publisher": "Barrons.com",
-          "published_at": "Nov 4, 10:43 AM",
-          "published_timestamp": 1793806980,
-          "link": "https://finance.yahoo.com/m/2acb2183-e704-3857-9cc9-bee0f4370d19/spacex-and-qualcomm-are.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "QCOM",
-          "title": "SpaceX Strikes Major Qualcomm Deal to Take on Verizon and AT&T",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 10:18 AM",
-          "published_timestamp": 1793805516,
-          "link": "https://finance.yahoo.com/technology/articles/spacex-strikes-major-qualcomm-deal-151836207.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "QCOM",
-          "title": "Qualcomm, SpaceX Team Up To Build Starlink Cell Network: Deal Could \u2018Lay The Foundation For AI-Native 6G,\u2019 Says Executive",
-          "publisher": "Stocktwits",
-          "published_at": "Nov 4, 10:07 AM",
-          "published_timestamp": 1793804841,
-          "link": "https://finance.yahoo.com/technology/articles/qualcomm-spacex-team-build-starlink-150721582.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "IBM": {
-      "ticker": "IBM",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "International Business Machines (IBM) Puts Quantum Encryption To Work On Heron R2",
-      "publisher": "Simply Wall St.",
-      "published_at": "Nov 4, 2:11 PM",
-      "link": "https://finance.yahoo.com/technology/ai/articles/international-business-machines-ibm-puts-191142844.html",
-      "items": [
-        {
-          "ticker": "IBM",
-          "title": "International Business Machines (IBM) Puts Quantum Encryption To Work On Heron R2",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 4, 2:11 PM",
-          "published_timestamp": 1793819502,
-          "link": "https://finance.yahoo.com/technology/ai/articles/international-business-machines-ibm-puts-191142844.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "IBM",
-          "title": "IBM Plummets 18.5% in the Past Year: Time to Reassess the Stock?",
+          "ticker": "F",
+          "title": "Will Ford Pro Regain Its Profitability Momentum After Q3's Decline?",
           "publisher": "Zacks",
-          "published_at": "Nov 4, 8:46 AM",
-          "published_timestamp": 1793799960,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-plummets-18-5-past-134600762.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "ORCL": {
-      "ticker": "ORCL",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Oracle Sees Massive Trading Surge After Selloff",
-      "publisher": "GuruFocus.com",
-      "published_at": "Nov 4, 2:48 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-sees-massive-trading-surge-194803232.html",
-      "items": [
-        {
-          "ticker": "ORCL",
-          "title": "Oracle Sees Massive Trading Surge After Selloff",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 2:48 PM",
-          "published_timestamp": 1793821683,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-sees-massive-trading-surge-194803232.html",
+          "published_at": "Nov 5, 6:56 AM",
+          "published_timestamp": 1793879760,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ford-pro-regain-profitability-momentum-115600189.html",
           "score": 0.0
         },
         {
-          "ticker": "ORCL",
-          "title": "Trump Pressure Kills Oracle\u2019s $7 Billion Tencent AI Deal Days After Its $20 Billion Raise",
-          "publisher": "TIKR",
-          "published_at": "Nov 4, 12:55 PM",
-          "published_timestamp": 1793814956,
-          "link": "https://finance.yahoo.com/technology/ai/articles/trump-pressure-kills-oracle-7-175556928.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "ORCL",
-          "title": "Accenture vs. Oracle: Which Technology Stock Is a Better Buy in 2027?",
+          "ticker": "F",
+          "title": "Ford's Q3 Sales Slipped. Here's the Silver Lining: Customers Are Splurging on Fancy Trims.",
           "publisher": "Motley Fool",
-          "published_at": "Nov 4, 12:20 PM",
-          "published_timestamp": 1793812802,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/accenture-vs-oracle-technology-stock-172002311.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "ORCL",
-          "title": "CoreWeave and Oracle Face a New Threat From Texas",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 12:01 PM",
-          "published_timestamp": 1793811664,
-          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-oracle-face-threat-texas-170104243.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "ORCL",
-          "title": "Oracle's $7 Billion AI Deal Collapses After US Intervention",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 11:51 AM",
-          "published_timestamp": 1793811070,
-          "link": "https://finance.yahoo.com/technology/ai/articles/oracles-7-billion-ai-deal-165110379.html",
+          "published_at": "Nov 4, 2:52 PM",
+          "published_timestamp": 1793821920,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/fords-q3-sales-slipped-heres-195200021.html",
           "score": 0.0
         }
       ]
     },
-    "PG": {
-      "ticker": "PG",
+    "ABNB": {
+      "ticker": "ABNB",
       "score": 0.0,
       "label": "Neutral",
       "headline_count": 3,
-      "top_headline": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
-      "publisher": "Insider Monkey",
-      "published_at": "Nov 4, 9:03 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
+      "top_headline": "Stocks to Watch: Qualcomm, Zillow, Toyota, Airbnb",
+      "publisher": "The Wall Street Journal",
+      "published_at": "Nov 5, 9:55 AM",
+      "link": "https://finance.yahoo.com/m/6769e84e-be35-3595-abf6-7d7ca8f35287/stocks-to-watch%3A-qualcomm%2C.html",
       "items": [
         {
-          "ticker": "PG",
-          "title": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
-          "publisher": "Insider Monkey",
-          "published_at": "Nov 4, 9:03 AM",
-          "published_timestamp": 1793800985,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
+          "ticker": "ABNB",
+          "title": "Stocks to Watch: Qualcomm, Zillow, Toyota, Airbnb",
+          "publisher": "The Wall Street Journal",
+          "published_at": "Nov 5, 9:55 AM",
+          "published_timestamp": 1793890502,
+          "link": "https://finance.yahoo.com/m/6769e84e-be35-3595-abf6-7d7ca8f35287/stocks-to-watch%3A-qualcomm%2C.html",
           "score": 0.0
         },
         {
-          "ticker": "PG",
-          "title": "Nike vs. Procter & Gamble: Which Consumer Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 3, 9:20 PM",
-          "published_timestamp": 1793758801,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-vs-procter-gamble-consumer-022001625.html",
+          "ticker": "ABNB",
+          "title": "Airbnb, Inc. (ABNB) Just Flashed Golden Cross Signal: Do You Buy?",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 8:35 AM",
+          "published_timestamp": 1793885701,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-just-flashed-133501264.html",
           "score": 0.0
         },
         {
-          "ticker": "PG",
-          "title": "Procter & Gamble Insider Sold Shares Worth $1,545,077, According to a Recent SEC Filing",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 3, 1:07 PM",
-          "published_timestamp": 1793729276,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-insider-sold-shares-180756657.html",
+          "ticker": "ABNB",
+          "title": "Airbnb, Inc. (ABNB) Just Reclaimed the 50-Day Moving Average",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 8:30 AM",
+          "published_timestamp": 1793885402,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-just-reclaimed-133002239.html",
           "score": 0.0
         }
       ]
     },
-    "MCD": {
-      "ticker": "MCD",
-      "score": 0.22161049195474283,
-      "label": "Positive",
-      "headline_count": 5,
-      "top_headline": "McDonald\u2019s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the \u201cFinal Piece That\u2019s Missing\u201d",
-      "publisher": "TIKR",
-      "published_at": "Nov 4, 2:05 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-soars-6-earnings-beat-190526971.html",
+    "UNH": {
+      "ticker": "UNH",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 2,
+      "top_headline": "Utilization and Policy Concerns Weigh on UnitedHealth Group Incorporated (UNH)",
+      "publisher": "Insider Monkey",
+      "published_at": "Nov 5, 11:35 AM",
+      "link": "https://finance.yahoo.com/healthcare/articles/utilization-policy-concerns-weigh-unitedhealth-163552833.html",
       "items": [
         {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Puts Focus on Entry-Level Value to Lift Sluggish Sales",
-          "publisher": "QSR",
-          "published_at": "Nov 4, 2:49 PM",
-          "published_timestamp": 1793821781,
-          "link": "https://finance.yahoo.com/small-business/articles/mcdonald-puts-focus-entry-level-194941031.html",
+          "ticker": "UNH",
+          "title": "Utilization and Policy Concerns Weigh on UnitedHealth Group Incorporated (UNH)",
+          "publisher": "Insider Monkey",
+          "published_at": "Nov 5, 11:35 AM",
+          "published_timestamp": 1793896552,
+          "link": "https://finance.yahoo.com/healthcare/articles/utilization-policy-concerns-weigh-unitedhealth-163552833.html",
           "score": 0.0
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald's (MCD) Q3 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 2:16 PM",
-          "published_timestamp": 1793819786,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-q3-2026-earnings-191626442.html",
+          "ticker": "UNH",
+          "title": "UnitedHealth Group Incorporated (UNH) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 8:00 AM",
+          "published_timestamp": 1793883603,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-incorporated-unh-attracting-130003486.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BA": {
+      "ticker": "BA",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "These Boeing Directors Just Bought Shares. Here\u2019s What Wall Street Thinks.",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Nov 5, 10:46 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-directors-just-bought-shares-154608201.html",
+      "items": [
+        {
+          "ticker": "BA",
+          "title": "These Boeing Directors Just Bought Shares. Here\u2019s What Wall Street Thinks.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 5, 10:46 AM",
+          "published_timestamp": 1793893568,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-directors-just-bought-shares-154608201.html",
           "score": 0.0
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the \u201cFinal Piece That\u2019s Missing\u201d",
-          "publisher": "TIKR",
-          "published_at": "Nov 4, 2:05 PM",
-          "published_timestamp": 1793819126,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-soars-6-earnings-beat-190526971.html",
+          "ticker": "BA",
+          "title": "Boeing, ServiceNow and Nebius Keep Their Stock Off ICE-OKX Token Venue, Lifting Objectors to 62",
+          "publisher": "Unchained",
+          "published_at": "Nov 5, 4:30 AM",
+          "published_timestamp": 1793871046,
+          "link": "https://finance.yahoo.com/markets/crypto/articles/boeing-servicenow-nebius-keep-stock-093046350.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Caught Out By Boeing's Slide? Here's What The Bears Saw",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 4:16 AM",
+          "published_timestamp": 1793870188,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caught-boeings-slide-heres-bears-091628037.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "BA",
+          "title": "Boeing\u2019s factories stall, yet this aviation supplier\u2019s orders jumped 49%",
+          "publisher": "Investing.com",
+          "published_at": "Nov 5, 3:27 AM",
+          "published_timestamp": 1793867243,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-factories-stall-yet-aviation-082723931.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "score": 0.03086003263466458,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Amazon.com (AMZN) Could Gain From Slower AI Data Center Expansion",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 5, 3:17 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-could-gain-201734801.html",
+      "items": [
+        {
+          "ticker": "AMZN",
+          "title": "Amazon.com (AMZN) Could Gain From Slower AI Data Center Expansion",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 3:17 PM",
+          "published_timestamp": 1793909854,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-could-gain-201734801.html",
+          "score": 0.08727737447415773
+        },
+        {
+          "ticker": "AMZN",
+          "title": "What Anthropic's IPO could mean for Amazon and Google",
+          "publisher": "Yahoo Finance",
+          "published_at": "Nov 5, 2:27 PM",
+          "published_timestamp": 1793906836,
+          "link": "https://finance.yahoo.com/technology/article/what-anthropics-ipo-could-mean-for-amazon-and-google-192716198.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMZN",
+          "title": "Amazon Stocks Decline 3.52% With AWS Profitability in Focus",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 1:59 PM",
+          "published_timestamp": 1793905178,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-decline-3-52-185938413.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "V": {
+      "ticker": "V",
+      "score": 0.047068662656575375,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Visa (V) Reports Record Earnings And Dividend Hike, Is The Stock Overvalued?",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 5, 2:11 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-reports-record-earnings-191119637.html",
+      "items": [
+        {
+          "ticker": "V",
+          "title": "Visa (V) Reports Record Earnings And Dividend Hike, Is The Stock Overvalued?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 2:11 PM",
+          "published_timestamp": 1793905879,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-reports-record-earnings-191119637.html",
+          "score": 0.20173975176639067
+        },
+        {
+          "ticker": "V",
+          "title": "Adjusted for Inflation, Economists From Visa Call for a Holiday Sales Gain of 1.1%",
+          "publisher": "Sourcing Journal",
+          "published_at": "Nov 5, 10:18 AM",
+          "published_timestamp": 1793891913,
+          "link": "https://finance.yahoo.com/economy/articles/adjusted-inflation-economists-visa-call-151833355.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa Releases First-of-Its-Kind Industry Benchmark for AI Shopping; Almost Half of Test Runs Fail",
+          "publisher": "Business Wire",
+          "published_at": "Nov 5, 9:43 AM",
+          "published_timestamp": 1793889780,
+          "link": "https://finance.yahoo.com/technology/ai/articles/visa-releases-first-kind-industry-144300055.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa's Solid Q4 Masks Rising Incentives: Is V Still Worth Buying?",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 9:06 AM",
+          "published_timestamp": 1793887560,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visas-solid-q4-masks-rising-140600930.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "V",
+          "title": "Visa Just Raised Its Dividend 16%. Is It a Better Buy Than Mastercard?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 5, 8:17 AM",
+          "published_timestamp": 1793884652,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-just-raised-dividend-16-131732904.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "KO": {
+      "ticker": "KO",
+      "score": 0.3389847726928702,
+      "label": "Positive",
+      "headline_count": 3,
+      "top_headline": "2% Undervalued? Coca Cola (KO) As Earnings Beat Lifts Guidance And Dividend",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 5, 3:13 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-undervalued-coca-cola-ko-201340943.html",
+      "items": [
+        {
+          "ticker": "KO",
+          "title": "2% Undervalued? Coca Cola (KO) As Earnings Beat Lifts Guidance And Dividend",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 3:13 PM",
+          "published_timestamp": 1793909620,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-undervalued-coca-cola-ko-201340943.html",
           "score": 0.7206956331664799
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald's Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "published_at": "Nov 4, 1:57 PM",
-          "published_timestamp": 1793818654,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-corporation-q3-2026-earnings-185734099.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s earnings analysis: questions answered and next catalysts",
-          "publisher": "Investing.com",
-          "published_at": "Nov 4, 1:12 PM",
-          "published_timestamp": 1793815939,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-earnings-analysis-questions-answered-181219203.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "NKE": {
-      "ticker": "NKE",
-      "score": 0.04859564209915022,
-      "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "NIKE's Product Reset: Can Fresh Launches Revive Momentum?",
-      "publisher": "Zacks",
-      "published_at": "Nov 4, 11:34 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nikes-product-reset-fresh-launches-163400959.html",
-      "items": [
-        {
-          "ticker": "NKE",
-          "title": "Will Product Reset Change Nike's (NKE) Narrative",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 4, 2:09 PM",
-          "published_timestamp": 1793819376,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/product-reset-change-nikes-nke-190936698.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NKE",
-          "title": "Nike Climbs 7% as Dow Rally Lifts Consumer Stocks; Deckers Gains 7%, Lululemon Rises 6%",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 12:57 PM",
-          "published_timestamp": 1793815061,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-climbs-7-dow-rally-175741566.html",
-          "score": 0.0906594777770402
-        },
-        {
-          "ticker": "NKE",
-          "title": "Nike vs. Lululemon: Which Stock Is a Better Buy for the Last 2 Months of 2026?",
+          "ticker": "KO",
+          "title": "Hershey vs. Coca-Cola: Which Consumer Goods Stock Is a Better Buy for 2027?",
           "publisher": "Motley Fool",
-          "published_at": "Nov 4, 11:35 AM",
-          "published_timestamp": 1793810100,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-vs-lululemon-stock-better-163500967.html",
+          "published_at": "Nov 5, 3:11 PM",
+          "published_timestamp": 1793909489,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-vs-coca-cola-consumer-201129376.html",
           "score": 0.0
         },
         {
-          "ticker": "NKE",
-          "title": "NIKE's Product Reset: Can Fresh Launches Revive Momentum?",
+          "ticker": "KO",
+          "title": "Can Coca-Cola Keep Expanding Margins While Investing More?",
           "publisher": "Zacks",
-          "published_at": "Nov 4, 11:34 AM",
-          "published_timestamp": 1793810040,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nikes-product-reset-fresh-launches-163400959.html",
-          "score": 0.13552464707668704
-        },
-        {
-          "ticker": "NKE",
-          "title": "Morgan Stanley Adjusts Nike Price Target to $25 From $27",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 4, 8:11 AM",
-          "published_timestamp": 1793797870,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-nike-price-131110132.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "PFE": {
-      "ticker": "PFE",
-      "score": 0.25959705551650986,
-      "label": "Positive",
-      "headline_count": 5,
-      "top_headline": "Pfizer Just Raised Guidance. The Bigger Test Comes Next",
-      "publisher": "GuruFocus.com",
-      "published_at": "Nov 4, 12:08 PM",
-      "link": "https://finance.yahoo.com/healthcare/articles/pfizer-just-raised-guidance-bigger-170809403.html",
-      "items": [
-        {
-          "ticker": "PFE",
-          "title": "Pfizer Just Raised Guidance. The Bigger Test Comes Next",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 4, 12:08 PM",
-          "published_timestamp": 1793812089,
-          "link": "https://finance.yahoo.com/healthcare/articles/pfizer-just-raised-guidance-bigger-170809403.html",
-          "score": 0.8131859905663357
-        },
-        {
-          "ticker": "PFE",
-          "title": "Morgan Stanley Adjusts Pfizer Price Target to $26 From $28",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 4, 10:21 AM",
-          "published_timestamp": 1793805690,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-pfizer-price-152130993.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "PFE",
-          "title": "UBS Adjusts Pfizer Price Target to $30 From $27, Maintains Neutral Rating",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 4, 9:11 AM",
-          "published_timestamp": 1793801483,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-pfizer-price-target-141123337.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "PFE",
-          "title": "RBC Raises Price Target on Pfizer to $28 From $25, Keeps Sector Perform Rating",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 4, 9:09 AM",
-          "published_timestamp": 1793801367,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-pfizer-140927060.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "PFE",
-          "title": "Pfizer: 3 Key Takeaways for Long-Term Investors",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 9:07 AM",
-          "published_timestamp": 1793801235,
-          "link": "https://finance.yahoo.com/healthcare/articles/pfizer-3-key-takeaways-long-140715604.html",
+          "published_at": "Nov 5, 11:46 AM",
+          "published_timestamp": 1793897160,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-keep-expanding-margins-164600014.html",
           "score": 0.0
         }
       ]
@@ -801,269 +708,329 @@
       "ticker": "TGT",
       "score": 0.0,
       "label": "Neutral",
-      "headline_count": 3,
-      "top_headline": "Target (TGT) Is Up 1.06% in One Week: What You Should Know",
-      "publisher": "Zacks",
-      "published_at": "Nov 4, 11:00 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/target-tgt-1-06-one-160002837.html",
+      "headline_count": 2,
+      "top_headline": "Target bets big on a growing food trend for the holidays",
+      "publisher": "TheStreet",
+      "published_at": "Nov 5, 2:17 PM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/target-leans-growing-food-trend-191700815.html",
       "items": [
         {
           "ticker": "TGT",
-          "title": "Target (TGT) Is Up 1.06% in One Week: What You Should Know",
-          "publisher": "Zacks",
-          "published_at": "Nov 4, 11:00 AM",
-          "published_timestamp": 1793808002,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/target-tgt-1-06-one-160002837.html",
+          "title": "Target bets big on a growing food trend for the holidays",
+          "publisher": "TheStreet",
+          "published_at": "Nov 5, 2:17 PM",
+          "published_timestamp": 1793906220,
+          "link": "https://finance.yahoo.com/media-advertising/articles/target-leans-growing-food-trend-191700815.html",
           "score": 0.0
         },
         {
           "ticker": "TGT",
-          "title": "Target vs. Walmart: Holiday marketing\u2019s stakes feel higher this year",
-          "publisher": "Marketing Dive",
-          "published_at": "Nov 4, 9:00 AM",
-          "published_timestamp": 1793800800,
-          "link": "https://finance.yahoo.com/media-advertising/articles/target-vs-walmart-holiday-marketing-140000276.html",
+          "title": "Target May Take Cautious Fourth-Quarter View Amid Slowing Sales Trends, Truist Says",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 5, 6:50 AM",
+          "published_timestamp": 1793879438,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/target-may-cautious-fourth-quarter-115038230.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "ETFs Are Net Sellers of Bank of America (BAC) on Nov. 3",
+      "publisher": "GuruFocus.com",
+      "published_at": "Nov 5, 6:02 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-bank-america-110233906.html",
+      "items": [
+        {
+          "ticker": "BAC",
+          "title": "ETFs Are Net Sellers of Bank of America (BAC) on Nov. 3",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 6:02 AM",
+          "published_timestamp": 1793876553,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-bank-america-110233906.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "SBUX": {
+      "ticker": "SBUX",
+      "score": 0.3695309071079493,
+      "label": "Positive",
+      "headline_count": 3,
+      "top_headline": "McDonald\u2019s Rises 5% as Earnings Beat Outweighs U.S. Sales Dip; Chipotle Climbs 4%, Starbucks Gains 3%",
+      "publisher": "24/7 Wall St.",
+      "published_at": "Nov 4, 11:04 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-rises-5-earnings-beat-160448146.html",
+      "items": [
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Shows Confidence in Growth Prospects, Deutsche Bank Says",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 5, 2:35 PM",
+          "published_timestamp": 1793907345,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-shows-confidence-growth-prospects-193545368.html",
+          "score": 0.1577621670251537
+        },
+        {
+          "ticker": "SBUX",
+          "title": "Starbucks Served Up a 54% Earnings Jump. The SBUX Comeback Story Is Brewing.",
+          "publisher": "Barchart",
+          "published_at": "Nov 4, 1:12 PM",
+          "published_timestamp": 1793815966,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-served-54-earnings-jump-181246225.html",
           "score": 0.0
         },
         {
-          "ticker": "TGT",
-          "title": "Target Yields Nearly 4 Times Walmart. Which Dividend Is Better for Retirement?",
+          "ticker": "SBUX",
+          "title": "McDonald\u2019s Rises 5% as Earnings Beat Outweighs U.S. Sales Dip; Chipotle Climbs 4%, Starbucks Gains 3%",
           "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 8:17 AM",
-          "published_timestamp": 1793798230,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/target-yields-nearly-4-times-131710472.html",
-          "score": 0.0
+          "published_at": "Nov 4, 11:04 AM",
+          "published_timestamp": 1793808288,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-rises-5-earnings-beat-160448146.html",
+          "score": 0.7615941559557649
         }
       ]
     }
   },
   "entry_news_signals": {
-    "MCD": {
-      "ticker": "MCD",
-      "score": 0.22161049195474283,
+    "KO": {
+      "ticker": "KO",
+      "score": 0.3389847726928702,
       "label": "Positive",
-      "headline_count": 5,
-      "top_headline": "McDonald\u2019s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the \u201cFinal Piece That\u2019s Missing\u201d",
-      "publisher": "TIKR",
-      "published_at": "Nov 4, 2:05 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-soars-6-earnings-beat-190526971.html",
+      "headline_count": 3,
+      "top_headline": "2% Undervalued? Coca Cola (KO) As Earnings Beat Lifts Guidance And Dividend",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 5, 3:13 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-undervalued-coca-cola-ko-201340943.html",
       "items": [
         {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Puts Focus on Entry-Level Value to Lift Sluggish Sales",
-          "publisher": "QSR",
-          "published_at": "Nov 4, 2:49 PM",
-          "published_timestamp": 1793821781,
-          "link": "https://finance.yahoo.com/small-business/articles/mcdonald-puts-focus-entry-level-194941031.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald's (MCD) Q3 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 2:16 PM",
-          "published_timestamp": 1793819786,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-q3-2026-earnings-191626442.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Soars 6% on Earnings Beat as CEO Calls Entry-Level Value the \u201cFinal Piece That\u2019s Missing\u201d",
-          "publisher": "TIKR",
-          "published_at": "Nov 4, 2:05 PM",
-          "published_timestamp": 1793819126,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-soars-6-earnings-beat-190526971.html",
+          "ticker": "KO",
+          "title": "2% Undervalued? Coca Cola (KO) As Earnings Beat Lifts Guidance And Dividend",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 3:13 PM",
+          "published_timestamp": 1793909620,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-undervalued-coca-cola-ko-201340943.html",
           "score": 0.7206956331664799
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald's Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "published_at": "Nov 4, 1:57 PM",
-          "published_timestamp": 1793818654,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-corporation-q3-2026-earnings-185734099.html",
+          "ticker": "KO",
+          "title": "Hershey vs. Coca-Cola: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 5, 3:11 PM",
+          "published_timestamp": 1793909489,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-vs-coca-cola-consumer-201129376.html",
           "score": 0.0
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s earnings analysis: questions answered and next catalysts",
-          "publisher": "Investing.com",
-          "published_at": "Nov 4, 1:12 PM",
-          "published_timestamp": 1793815939,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-earnings-analysis-questions-answered-181219203.html",
+          "ticker": "KO",
+          "title": "Can Coca-Cola Keep Expanding Margins While Investing More?",
+          "publisher": "Zacks",
+          "published_at": "Nov 5, 11:46 AM",
+          "published_timestamp": 1793897160,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-keep-expanding-margins-164600014.html",
           "score": 0.0
         }
       ]
     },
-    "GM": {
-      "ticker": "GM",
-      "score": -0.061515309544691824,
-      "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%",
+    "SBUX": {
+      "ticker": "SBUX",
+      "score": 0.3695309071079493,
+      "label": "Positive",
+      "headline_count": 3,
+      "top_headline": "McDonald\u2019s Rises 5% as Earnings Beat Outweighs U.S. Sales Dip; Chipotle Climbs 4%, Starbucks Gains 3%",
       "publisher": "24/7 Wall St.",
-      "published_at": "Nov 4, 8:49 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-declines-6-tesla-falls-134949443.html",
+      "published_at": "Nov 4, 11:04 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-rises-5-earnings-beat-160448146.html",
       "items": [
         {
-          "ticker": "GM",
-          "title": "Ford and GM see savings drivers may pay for later",
-          "publisher": "TheStreet",
-          "published_at": "Nov 4, 2:17 PM",
-          "published_timestamp": 1793819820,
-          "link": "https://finance.yahoo.com/economy/policy/articles/ford-gm-see-savings-drivers-191700785.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GM",
-          "title": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 4, 8:49 AM",
-          "published_timestamp": 1793800189,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-declines-6-tesla-falls-134949443.html",
-          "score": -0.13552464707668704
-        }
-      ]
-    },
-    "MA": {
-      "ticker": "MA",
-      "score": 0.04426142119283993,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay",
-      "publisher": "Business Wire",
-      "published_at": "Nov 4, 8:17 AM",
-      "link": "https://finance.yahoo.com/technology/articles/mastercard-expands-mobile-payment-choice-131700471.html",
-      "items": [
-        {
-          "ticker": "MA",
-          "title": "Mastercard Incorporated (MA) Is Riding the Global Shift Toward Digital Payments: Here\u2019s Why It Matters",
-          "publisher": "Insider Monkey",
-          "published_at": "Nov 4, 9:37 AM",
-          "published_timestamp": 1793803030,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-incorporated-ma-riding-global-143710021.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MA",
-          "title": "Mastercard Is \u201cOne of the Greatest Businesses in the World,\u201d Says Bill Ackman. Do the Estimates Agree?",
-          "publisher": "TIKR",
-          "published_at": "Nov 4, 9:04 AM",
-          "published_timestamp": 1793801077,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-one-greatest-businesses-world-140437512.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MA",
-          "title": "Mastercard Expands Mobile Payment Choice in Morocco With Samsung Pay",
-          "publisher": "Business Wire",
-          "published_at": "Nov 4, 8:17 AM",
-          "published_timestamp": 1793798220,
-          "link": "https://finance.yahoo.com/technology/articles/mastercard-expands-mobile-payment-choice-131700471.html",
+          "ticker": "SBUX",
+          "title": "Starbucks Shows Confidence in Growth Prospects, Deutsche Bank Says",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 5, 2:35 PM",
+          "published_timestamp": 1793907345,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-shows-confidence-growth-prospects-193545368.html",
           "score": 0.1577621670251537
         },
         {
-          "ticker": "MA",
-          "title": "Mastercard vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 4, 6:35 AM",
-          "published_timestamp": 1793792102,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-vs-p-global-financial-113502750.html",
+          "ticker": "SBUX",
+          "title": "Starbucks Served Up a 54% Earnings Jump. The SBUX Comeback Story Is Brewing.",
+          "publisher": "Barchart",
+          "published_at": "Nov 4, 1:12 PM",
+          "published_timestamp": 1793815966,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-served-54-earnings-jump-181246225.html",
           "score": 0.0
+        },
+        {
+          "ticker": "SBUX",
+          "title": "McDonald\u2019s Rises 5% as Earnings Beat Outweighs U.S. Sales Dip; Chipotle Climbs 4%, Starbucks Gains 3%",
+          "publisher": "24/7 Wall St.",
+          "published_at": "Nov 4, 11:04 AM",
+          "published_timestamp": 1793808288,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-rises-5-earnings-beat-160448146.html",
+          "score": 0.7615941559557649
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": -0.06461345928807521,
+      "label": "Neutral",
+      "headline_count": 6,
+      "top_headline": "Disney Is Planning Thousands of Layoffs in Search of 20% Cost Savings",
+      "publisher": "Entrepreneur",
+      "published_at": "Nov 4, 10:00 AM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/disney-planning-thousands-layoffs-search-150000407.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Disney (DIS) Stock Looks Fairly Valued As Cash Flow Holds Up",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 5, 10:18 AM",
+          "published_timestamp": 1793891886,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-looks-fairly-151806694.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "I've Been Writing About Disney Stock for 30 Years. Here's Why My Conviction Has Never Been Higher.",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 5, 9:27 AM",
+          "published_timestamp": 1793888820,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ive-writing-disney-stock-30-142700663.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "ETFs Are Buying Disney (DIS) on Nov. 3",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 5, 6:01 AM",
+          "published_timestamp": 1793876498,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-disney-dis-nov-110138323.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Morgan Stanley Adjusts Price Target on Walt Disney to $133 From $125",
+          "publisher": "MT Newswires",
+          "published_at": "Nov 4, 10:28 AM",
+          "published_timestamp": 1793806134,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-152854783.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney Is Planning Thousands of Layoffs in Search of 20% Cost Savings",
+          "publisher": "Entrepreneur",
+          "published_at": "Nov 4, 10:00 AM",
+          "published_timestamp": 1793804400,
+          "link": "https://finance.yahoo.com/media-advertising/articles/disney-planning-thousands-layoffs-search-150000407.html",
+          "score": -0.20173975176639067
+        },
+        {
+          "ticker": "DIS",
+          "title": "DIS Stock Layoffs: What to Know as Disney Plans More Layoffs",
+          "publisher": "Barchart",
+          "published_at": "Nov 4, 8:09 AM",
+          "published_timestamp": 1793797770,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dis-stock-layoffs-know-disney-130930361.html",
+          "score": -0.20173975176639067
         }
       ]
     }
   },
   "selection_scores": {
-    "AMZN": {
-      "price_score": 0.30641041738217834,
+    "AVGO": {
+      "price_score": -2.5878599842629355,
       "news_score": 0.0,
-      "combined_score": 0.30641041738217834
+      "combined_score": -2.5878599842629355
+    },
+    "MSFT": {
+      "price_score": 0.12216876395028463,
+      "news_score": 0.02537683313361442,
+      "combined_score": 0.1404416073098773
     },
     "NVDA": {
-      "price_score": -1.2657079271156837,
+      "price_score": -2.5654709218658893,
       "news_score": 0.0,
-      "combined_score": -1.2657079271156837
-    },
-    "MA": {
-      "price_score": 0.853566519353451,
-      "news_score": 0.04426142119283993,
-      "combined_score": 0.8851043147324014
-    },
-    "GM": {
-      "price_score": 1.0913248275410186,
-      "news_score": -0.061515309544691824,
-      "combined_score": 1.047493039206867
-    },
-    "C": {
-      "price_score": -0.38082358450405956,
-      "news_score": 0.0,
-      "combined_score": -0.38082358450405956
-    },
-    "NOW": {
-      "price_score": -2.5688835132369343,
-      "news_score": 0.09559970630831016,
-      "combined_score": -2.500765411861397
-    },
-    "JNJ": {
-      "price_score": 0.1876013129943369,
-      "news_score": 0.0,
-      "combined_score": 0.1876013129943369
-    },
-    "DIS": {
-      "price_score": 0.6348916352424563,
-      "news_score": -0.13714426889556744,
-      "combined_score": 0.5371715943296299
-    },
-    "MRK": {
-      "price_score": 0.11813799910410948,
-      "news_score": 0.0,
-      "combined_score": 0.11813799910410948
-    },
-    "GS": {
-      "price_score": -0.04716524658107262,
-      "news_score": 0.04744741702907507,
-      "combined_score": -0.013357318837334396
-    },
-    "NKE": {
-      "price_score": 0.7699443557280005,
-      "news_score": 0.04859564209915022,
-      "combined_score": 0.804570433597358
-    },
-    "ORCL": {
-      "price_score": -1.2470964782964866,
-      "news_score": 0.0,
-      "combined_score": -1.2470964782964866
-    },
-    "QCOM": {
-      "price_score": -1.0931411865197074,
-      "news_score": 0.0,
-      "combined_score": -1.0931411865197074
-    },
-    "MCD": {
-      "price_score": 1.2275515595786608,
-      "news_score": 0.22161049195474283,
-      "combined_score": 1.385456709497973
+      "combined_score": -2.5654709218658893
     },
     "IBM": {
-      "price_score": 0.2623229655790781,
-      "news_score": 0.0,
-      "combined_score": 0.2623229655790781
-    },
-    "PFE": {
-      "price_score": 0.19791277295268514,
-      "news_score": 0.25959705551650986,
-      "combined_score": 0.38288466488963285
+      "price_score": 0.23043684475007128,
+      "news_score": 0.05357866399393633,
+      "combined_score": 0.26901669943180484
     },
     "PG": {
-      "price_score": 0.4473961334487208,
+      "price_score": 0.9426495667951924,
       "news_score": 0.0,
-      "combined_score": 0.4473961334487208
+      "combined_score": 0.9426495667951924
+    },
+    "JNJ": {
+      "price_score": 0.18886863994346353,
+      "news_score": 0.0,
+      "combined_score": 0.18886863994346353
+    },
+    "ABNB": {
+      "price_score": 0.12319303324939487,
+      "news_score": 0.0,
+      "combined_score": 0.12319303324939487
+    },
+    "MRK": {
+      "price_score": 0.08690729169484679,
+      "news_score": 0.0869391780388735,
+      "combined_score": 0.14950871929424897
+    },
+    "F": {
+      "price_score": 0.08794262017821376,
+      "news_score": 0.0,
+      "combined_score": 0.08794262017821376
+    },
+    "DIS": {
+      "price_score": 1.157057711933472,
+      "news_score": -0.06461345928807521,
+      "combined_score": 1.110532142163756
+    },
+    "BA": {
+      "price_score": -0.822106400698355,
+      "news_score": 0.0,
+      "combined_score": -0.822106400698355
+    },
+    "UNH": {
+      "price_score": 0.03005175789163297,
+      "news_score": 0.0,
+      "combined_score": 0.03005175789163297
+    },
+    "AMZN": {
+      "price_score": 0.39492711752013465,
+      "news_score": 0.03086003263466458,
+      "combined_score": 0.4171481937054919
+    },
+    "SBUX": {
+      "price_score": 0.871010728916707,
+      "news_score": 0.3695309071079493,
+      "combined_score": 1.1370951668983507
+    },
+    "V": {
+      "price_score": 1.0553816243026861,
+      "news_score": 0.047068662656575375,
+      "combined_score": 1.0892738871922523
+    },
+    "KO": {
+      "price_score": 0.9292257427298647,
+      "news_score": 0.3389847726928702,
+      "combined_score": 1.1733151300891966
+    },
+    "BAC": {
+      "price_score": -0.5523613818955614,
+      "news_score": 0.0,
+      "combined_score": -0.5523613818955614
     },
     "TGT": {
-      "price_score": 0.5057574373492489,
+      "price_score": 0.3079772448667758,
       "news_score": 0.0,
-      "combined_score": 0.5057574373492489
+      "combined_score": 0.3079772448667758
     }
   },
   "data_version": 5
