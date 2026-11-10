@@ -1,0 +1,13 @@
+{
+  "round_market_date": "2026-11-10",
+  "market_date": "2026-11-10",
+  "fetched_at": "2026-11-10T20:25:20.805724+00:00",
+  "prices": {
+    "ABNB": 186.39,
+    "JNJ": 280.47
+  },
+  "market_timestamps": {
+    "ABNB": 1794342311,
+    "JNJ": 1794342314
+  }
+}
