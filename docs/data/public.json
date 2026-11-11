@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T20:25:20.820177+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-11-11T00:50:39.600738+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,50 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-11-10",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.264908,
-  "display_points": -7.264908,
-  "completed_balance": 18.456169,
-  "display_balance": 18.456169,
-  "completed_rounds": 48,
-  "current_strategy": "breakout",
+  "banked_points": -7.042999,
+  "display_points": -7.042999,
+  "completed_balance": 18.497125,
+  "display_balance": 18.497125,
+  "completed_rounds": 49,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.16002,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": -0.0403
+    "breakout": 0.0069
   },
   "news_learning_score": -0.05578,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.456169,
-    "market_date": "2026-11-10",
-    "quote_time": "2026-11-10T20:25:20.805724+00:00",
-    "holdings": [
-      {
-        "ticker": "ABNB",
-        "weight": 0.682936,
-        "entry": 186.39,
-        "last_price": 186.39,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Airbnb Shares Higher After Rothschild & Co Redburn Upgrade",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-shares-higher-rothschild-co-194754479.html"
-      },
-      {
-        "ticker": "JNJ",
-        "weight": 0.317064,
-        "entry": 280.47,
-        "last_price": 280.47,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-below-fair-191104493.html"
-      }
-    ]
-  },
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -887,6 +857,25 @@
       "news_summaries": [
         "WMT Neutral: Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal | V Neutral: Mastercard Hit a Record as Visa Raised Its Dividend 16%. Here’s Where Mastercard’s Cash Goes | LLY Neutral: Hims & Hers stock climbs on direct partnership with Eli Lilly for obesity drugs"
       ]
+    },
+    {
+      "market_date": "2026-11-10",
+      "point_change": 0.221909,
+      "banked_points": -7.042999,
+      "cash_before": 18.456169,
+      "cash_after": 18.497125,
+      "cash_change": 0.040956000000001325,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "ABNB",
+        "JNJ"
+      ],
+      "news_summaries": [
+        "ABNB Neutral: Airbnb Shares Higher After Rothschild & Co Redburn Upgrade | JNJ Neutral: Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?"
+      ]
     }
   ],
   "rounds": [
@@ -1465,6 +1454,18 @@
       "companies": "WMT, V, LLY",
       "allocation": "{\"LLY\": 0.2909541691684172, \"V\": 0.3345679971199385, \"WMT\": 0.37447783371164434}",
       "news_summary": "WMT Neutral: Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal | V Neutral: Mastercard Hit a Record as Visa Raised Its Dividend 16%. Here’s Where Mastercard’s Cash Goes | LLY Neutral: Hims & Hers stock climbs on direct partnership with Eli Lilly for obesity drugs"
+    },
+    {
+      "market_date": "2026-11-10",
+      "timestamp": "2026-11-11T00:50:39+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.456169",
+      "cash_after": "18.497125",
+      "point_change": "0.221909",
+      "banked_points": "-7.042999",
+      "companies": "ABNB, JNJ",
+      "allocation": "{\"ABNB\": 0.6829357928879681, \"JNJ\": 0.3170642071120318}",
+      "news_summary": "ABNB Neutral: Airbnb Shares Higher After Rothschild & Co Redburn Upgrade | JNJ Neutral: Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
