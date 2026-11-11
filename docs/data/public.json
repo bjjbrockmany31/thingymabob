@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-11T00:50:39.600738+00:00",
-  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
+  "updated_at": "2026-11-11T20:07:52.414119+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-11-10",
+  "last_reroll_market_date": "2026-11-11",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
   "banked_points": -7.042999,
   "display_points": -7.042999,
   "completed_balance": 18.497125,
   "display_balance": 18.497125,
   "completed_rounds": 49,
-  "current_strategy": null,
+  "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.16002,
     "dip": -1.38672,
@@ -21,7 +21,48 @@
     "breakout": 0.0069
   },
   "news_learning_score": -0.05578,
-  "live": null,
+  "live": {
+    "points": 0.0,
+    "money_change": 0.0,
+    "cash": 18.497125,
+    "market_date": "2026-11-11",
+    "quote_time": "2026-11-11T20:07:52.397099+00:00",
+    "holdings": [
+      {
+        "ticker": "GE",
+        "weight": 0.451229,
+        "entry": 340.994,
+        "last_price": 340.994,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html"
+      },
+      {
+        "ticker": "AMAT",
+        "weight": 0.301989,
+        "entry": 396.652,
+        "last_price": 396.652,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
+        "publisher": "24/7 Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html"
+      },
+      {
+        "ticker": "MCD",
+        "weight": 0.246781,
+        "entry": 277.585,
+        "last_price": 277.585,
+        "points": 0.0,
+        "money_change": 0.0,
+        "headline": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html"
+      }
+    ]
+  },
   "daily": [
     {
       "market_date": "2026-08-05",
