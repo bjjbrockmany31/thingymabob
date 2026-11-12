@@ -1,6 +1,6 @@
 {
-  "cash_at_round_start": 18.49712479556752,
-  "banked_points": -7.042998548263883,
+  "cash_at_round_start": 18.47216974176857,
+  "banked_points": -7.177911698684572,
   "goal": 100.0,
   "tickers": [
     "AAPL",
@@ -64,262 +64,163 @@
     "trend": -0.16001962876137815,
     "dip": -1.3867196190184463,
     "steady": -0.14517191182927397,
-    "breakout": 0.006900245287018381
+    "breakout": -0.01862616594036895
   },
   "active_strategy": "breakout",
   "allocation": {
-    "GE": 0.45122935370158207,
-    "AMAT": 0.30198922582977916,
-    "MCD": 0.24678142046863868
+    "AMD": 1.0
   },
   "entry_prices": {
-    "AMAT": 396.652,
-    "GE": 340.994,
-    "MCD": 277.585
+    "AMD": 580.39
   },
-  "round_market_date": "2026-11-11",
-  "round_started_at": "2026-11-11T20:07:52.396469+00:00",
-  "rounds_completed": 49,
+  "round_market_date": "2026-11-12",
+  "round_started_at": "2026-11-12T20:44:41.408328+00:00",
+  "rounds_completed": 50,
   "last_round_tickers": [
-    "ABNB",
-    "JNJ"
+    "GE",
+    "AMAT",
+    "MCD"
   ],
-  "last_reroll_market_date": "2026-11-11",
+  "last_reroll_market_date": "2026-11-12",
   "candidate_pool_size": 18,
   "refresh_seconds": 60,
   "auto_refresh": true,
   "news_enabled": true,
   "news_learning_score": -0.05578179995249499,
-  "news_last_checked_at": "2026-11-11T20:07:52.397089+00:00",
+  "news_last_checked_at": "2026-11-12T20:44:41.409006+00:00",
   "news_signals": {
-    "PG": {
-      "ticker": "PG",
+    "ABNB": {
+      "ticker": "ABNB",
       "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 7,
+      "top_headline": "What Airbnb Holders Bought Into",
+      "publisher": "Simply Wall St.",
+      "published_at": "Nov 12, 12:11 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-holders-bought-171114523.html",
+      "items": [
+        {
+          "ticker": "ABNB",
+          "title": "What Airbnb Holders Bought Into",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 12:11 PM",
+          "published_timestamp": 1794503474,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-holders-bought-171114523.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb, Inc. (ABNB) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 8:00 AM",
+          "published_timestamp": 1794488404,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-attracting-investor-130004117.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb (ABNB) And The AI Travel Deal That Could Rewire Trip Booking",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 12:18 AM",
+          "published_timestamp": 1794460721,
+          "link": "https://finance.yahoo.com/technology/ai/articles/airbnb-abnb-ai-travel-deal-051841667.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 11, 6:20 PM",
+          "published_timestamp": 1794439202,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-mercadolibre-consumer-stock-232002640.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Should You Invest in Airbnb (ABNB) Based on Bullish Wall Street Views?",
+          "publisher": "Zacks",
+          "published_at": "Nov 11, 3:22 PM",
+          "published_timestamp": 1794428563,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invest-airbnb-abnb-based-bullish-202243348.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Are Consumer Discretionary Stocks Lagging  Airbnb (ABNB) This Year?",
+          "publisher": "Zacks",
+          "published_at": "Nov 11, 3:07 PM",
+          "published_timestamp": 1794427631,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/consumer-discretionary-stocks-lagging-airbnb-200711703.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "ABNB",
+          "title": "Airbnb and Travel Stocks Fall as OpenAI Acquisition Raises New AI Threat",
+          "publisher": "Barrons.com",
+          "published_at": "Nov 11, 1:01 PM",
+          "published_timestamp": 1794420060,
+          "link": "https://finance.yahoo.com/m/c4858008-67d3-3265-bf27-e4a80959541c/airbnb-and-travel-stocks-fall.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 3,
+      "top_headline": "Pacvue Earns Walmart Data Ventures Verified Service Provider Certification",
+      "publisher": "GlobeNewswire",
+      "published_at": "Nov 12, 12:00 PM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/pacvue-earns-walmart-data-ventures-170000712.html",
+      "items": [
+        {
+          "ticker": "WMT",
+          "title": "Pacvue Earns Walmart Data Ventures Verified Service Provider Certification",
+          "publisher": "GlobeNewswire",
+          "published_at": "Nov 12, 12:00 PM",
+          "published_timestamp": 1794502800,
+          "link": "https://finance.yahoo.com/media-advertising/articles/pacvue-earns-walmart-data-ventures-170000712.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart more than doubles planned drone delivery sites",
+          "publisher": "Retail Dive",
+          "published_at": "Nov 12, 11:46 AM",
+          "published_timestamp": 1794501960,
+          "link": "https://finance.yahoo.com/technology/articles/walmart-more-doubles-planned-drone-164600684.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "WMT",
+          "title": "Walmart (WMT) Agrees To $7.8 Million Pennsylvania Child Labor Settlement",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 10:12 AM",
+          "published_timestamp": 1794496356,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-agrees-7-8-151236144.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CSCO": {
+      "ticker": "CSCO",
+      "score": 0.1104335169176076,
       "label": "Neutral",
       "headline_count": 1,
-      "top_headline": "What Does Procter & Gamble (PG) Naming A New India Beauty Head Signal?",
-      "publisher": "Simply Wall St.",
-      "published_at": "Nov 10, 12:17 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-procter-gamble-pg-naming-051735895.html",
+      "top_headline": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
+      "publisher": "Insider Monkey",
+      "published_at": "Nov 12, 12:00 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html",
       "items": [
         {
-          "ticker": "PG",
-          "title": "What Does Procter & Gamble (PG) Naming A New India Beauty Head Signal?",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 10, 12:17 AM",
-          "published_timestamp": 1794287855,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-procter-gamble-pg-naming-051735895.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "COP": {
-      "ticker": "COP",
-      "score": 0.020410763121373483,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "COP Q3 2026 deep dive: capital discipline and portfolio efficiency offset production decline",
-      "publisher": "StockStory",
-      "published_at": "Nov 10, 9:13 AM",
-      "link": "https://finance.yahoo.com/energy/articles/cop-q3-2026-deep-dive-141336870.html",
-      "items": [
-        {
-          "ticker": "COP",
-          "title": "Goldman Sachs Adjusts ConocoPhillips Price Target to $156 From $157",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 9:03 AM",
-          "published_timestamp": 1794405819,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-conocophillips-price-140339538.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "COP",
-          "title": "Bernstein Downgrades ConocoPhillips to Market Perform, Price Target is $122",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 6:06 AM",
-          "published_timestamp": 1794395212,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bernstein-downgrades-conocophillips-market-perform-110652320.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "COP",
-          "title": "ConocoPhillips Just Raised Its Dividend 10.7%. Does Its Free Cash Flow Cover the 2.5% Yield?",
-          "publisher": "TIKR",
-          "published_at": "Nov 10, 9:58 AM",
-          "published_timestamp": 1794322721,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-just-raised-dividend-10-145841774.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "COP",
-          "title": "COP Q3 2026 deep dive: capital discipline and portfolio efficiency offset production decline",
-          "publisher": "StockStory",
-          "published_at": "Nov 10, 9:13 AM",
-          "published_timestamp": 1794320016,
-          "link": "https://finance.yahoo.com/energy/articles/cop-q3-2026-deep-dive-141336870.html",
-          "score": 0.0906594777770402
-        }
-      ]
-    },
-    "CVX": {
-      "ticker": "CVX",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 6,
-      "top_headline": "Exxon vs. Chevron: 45 and 39 Straight Years of Raises. Which Oil Dividend Wins the Next Decade?",
-      "publisher": "TIKR",
-      "published_at": "Nov 11, 2:50 PM",
-      "link": "https://finance.yahoo.com/energy/articles/exxon-vs-chevron-45-39-195052283.html",
-      "items": [
-        {
-          "ticker": "CVX",
-          "title": "Exxon vs. Chevron: 45 and 39 Straight Years of Raises. Which Oil Dividend Wins the Next Decade?",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 2:50 PM",
-          "published_timestamp": 1794426652,
-          "link": "https://finance.yahoo.com/energy/articles/exxon-vs-chevron-45-39-195052283.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CVX",
-          "title": "Chevron (CVX) Could Be 76% Below Fair Value As Q3 Earnings Reset Valuation",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 11, 11:10 AM",
-          "published_timestamp": 1794413405,
-          "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-could-76-below-161005971.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CVX",
-          "title": "Better Dividend Stock: Chevron vs. Duke Energy",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 9:35 AM",
-          "published_timestamp": 1794407759,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-chevron-vs-143559204.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CVX",
-          "title": "Goldman Sachs Adjusts Chevron Price target to $245 From $256",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 8:53 AM",
-          "published_timestamp": 1794405234,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-chevron-price-135354706.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CVX",
-          "title": "BMO Capital Adjusts Price Target on Chevron to $238 From $248",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 6:08 AM",
-          "published_timestamp": 1794395337,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-110857951.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CVX",
-          "title": "Bernstein Adjusts Price Target on Chevron to $233 From $248",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 6:07 AM",
-          "published_timestamp": 1794395223,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-chevron-110703986.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "GS": {
-      "ticker": "GS",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Goldman Sachs, HSBC Strike Major Saudi Financing Deal",
-      "publisher": "GuruFocus.com",
-      "published_at": "Nov 11, 1:59 PM",
-      "link": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-hsbc-strike-major-185922142.html",
-      "items": [
-        {
-          "ticker": "GS",
-          "title": "Goldman Sachs, HSBC Strike Major Saudi Financing Deal",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 1:59 PM",
-          "published_timestamp": 1794423562,
-          "link": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-hsbc-strike-major-185922142.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GS",
-          "title": "MercadoLibre Keeps Sliding: Why Goldman Sachs Still Sees 41% Upside",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 12:08 PM",
-          "published_timestamp": 1794416928,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-keeps-sliding-why-goldman-170848212.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GS",
-          "title": "Why Jim Cramer\u2019s Charitable Trust Stuck With Goldman Sachs and What Backs Its $5 Quarterly Dividend",
+          "ticker": "CSCO",
+          "title": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
           "publisher": "Insider Monkey",
-          "published_at": "Nov 11, 11:32 AM",
-          "published_timestamp": 1794414750,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-jim-cramer-charitable-trust-163230018.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "GS",
-          "title": "GS' Capital Distribution Strategy: Can It Sustain Higher Payouts?",
-          "publisher": "Zacks",
-          "published_at": "Nov 11, 11:23 AM",
-          "published_timestamp": 1794414180,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gs-capital-distribution-strategy-sustain-162300669.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "NOW": {
-      "ticker": "NOW",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
-      "publisher": "Zacks",
-      "published_at": "Nov 11, 12:20 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-drops-29-month-hold-172000560.html",
-      "items": [
-        {
-          "ticker": "NOW",
-          "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
-          "publisher": "Zacks",
-          "published_at": "Nov 11, 12:20 PM",
-          "published_timestamp": 1794417600,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-drops-29-month-hold-172000560.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NOW",
-          "title": "What Are ServiceNow Stock Bears Missing?",
-          "publisher": "Trefis",
-          "published_at": "Nov 10, 5:13 PM",
-          "published_timestamp": 1794348828,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-bears-missing-221348566.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NOW",
-          "title": "ServiceNow Just Dropped 30% in a Month: Stay the Course, or Just Stay Away?",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 10, 3:02 PM",
-          "published_timestamp": 1794340928,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-just-dropped-30-month-200208794.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NOW",
-          "title": "FJTSY vs. NOW: Which Stock Should Value Investors Buy Now?",
-          "publisher": "Zacks",
-          "published_at": "Nov 10, 2:38 PM",
-          "published_timestamp": 1794339489,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/fjtsy-vs-now-stock-value-193809487.html",
-          "score": 0.0
+          "published_at": "Nov 12, 12:00 PM",
+          "published_timestamp": 1794502846,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html",
+          "score": 0.1577621670251537
         }
       ]
     },
@@ -327,12 +228,39 @@
       "ticker": "NFLX",
       "score": 0.0,
       "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Clarion Partners\u2019 loan on Netflix-occupied Hollywood campus hits market",
-      "publisher": "The Real Deal",
-      "published_at": "Nov 11, 1:59 PM",
-      "link": "https://finance.yahoo.com/real-estate/articles/clarion-partners-loan-netflix-occupied-185958704.html",
+      "headline_count": 4,
+      "top_headline": "Will Content Capex Weigh on Netflix's Free Cash Flow Trajectory?",
+      "publisher": "Zacks",
+      "published_at": "Nov 12, 8:23 AM",
+      "link": "https://finance.yahoo.com/media-advertising/articles/content-capex-weigh-netflixs-free-132300122.html",
       "items": [
+        {
+          "ticker": "NFLX",
+          "title": "Will Content Capex Weigh on Netflix's Free Cash Flow Trajectory?",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 8:23 AM",
+          "published_timestamp": 1794489780,
+          "link": "https://finance.yahoo.com/media-advertising/articles/content-capex-weigh-netflixs-free-132300122.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix\u2019s Thanksgiving Eve NFL Game Is the Next Test After a $300 Million Ad Cut",
+          "publisher": "TIKR",
+          "published_at": "Nov 11, 11:38 PM",
+          "published_timestamp": 1794458293,
+          "link": "https://finance.yahoo.com/media-advertising/articles/netflix-thanksgiving-eve-nfl-game-043813301.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NFLX",
+          "title": "Netflix Wipes Out Five Years of Gains",
+          "publisher": "Moby",
+          "published_at": "Nov 11, 4:22 PM",
+          "published_timestamp": 1794432140,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-wipes-five-years-gains-212220476.html",
+          "score": 0.0
+        },
         {
           "ticker": "NFLX",
           "title": "Clarion Partners\u2019 loan on Netflix-occupied Hollywood campus hits market",
@@ -341,276 +269,190 @@
           "published_timestamp": 1794423598,
           "link": "https://finance.yahoo.com/real-estate/articles/clarion-partners-loan-netflix-occupied-185958704.html",
           "score": 0.0
-        },
-        {
-          "ticker": "NFLX",
-          "title": "Netflix trades at under 18x earnings after a steep valuation reset",
-          "publisher": "Investing.com",
-          "published_at": "Nov 11, 7:06 AM",
-          "published_timestamp": 1794398809,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-trades-under-18x-earnings-120649905.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NFLX",
-          "title": "Will Netflix Ever Pay a Dividend?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 11, 3:58 AM",
-          "published_timestamp": 1794387482,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-ever-pay-dividend-085802743.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NFLX",
-          "title": "Netflix Insider Sold Shares Worth $1,737,551, According to a Recent SEC Filing",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 3:57 AM",
-          "published_timestamp": 1794387441,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-insider-sold-shares-worth-085721918.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NFLX",
-          "title": "NFLX Stock Slips Overnight: Co-CEO Gregory Peters Sells $1.74M Worth Of Company Shares",
-          "publisher": "Stocktwits",
-          "published_at": "Nov 10, 11:52 PM",
-          "published_timestamp": 1794372779,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-slips-overnight-co-045259045.html",
-          "score": 0.0
         }
       ]
     },
-    "MCD": {
-      "ticker": "MCD",
-      "score": 0.1230455677017358,
-      "label": "Positive",
-      "headline_count": 3,
-      "top_headline": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
-      "publisher": "Zacks",
-      "published_at": "Nov 11, 12:22 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html",
-      "items": [
-        {
-          "ticker": "MCD",
-          "title": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
-          "publisher": "Zacks",
-          "published_at": "Nov 11, 12:22 PM",
-          "published_timestamp": 1794417720,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html",
-          "score": 0.3078619874177537
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s and Uber expand delivery and loyalty tie-up",
-          "publisher": "Verdict Food Service",
-          "published_at": "Nov 11, 9:42 AM",
-          "published_timestamp": 1794408178,
-          "link": "https://finance.yahoo.com/small-business/articles/mcdonald-uber-expand-delivery-loyalty-144258578.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Is Now a Dividend King. Here\u2019s Why One Investor Calls It a Generational Compounder",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 11, 9:17 AM",
-          "published_timestamp": 1794406661,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-now-dividend-king-why-141741016.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "CAT": {
-      "ticker": "CAT",
+    "AMZN": {
+      "ticker": "AMZN",
       "score": 0.0,
       "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Caterpillar faces further valuation risks despite machinery strength, Bank of America warns",
-      "publisher": "Proactive",
-      "published_at": "Nov 11, 2:00 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-faces-further-valuation-risks-190000802.html",
-      "items": [
-        {
-          "ticker": "CAT",
-          "title": "Caterpillar faces further valuation risks despite machinery strength, Bank of America warns",
-          "publisher": "Proactive",
-          "published_at": "Nov 11, 2:00 PM",
-          "published_timestamp": 1794423600,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-faces-further-valuation-risks-190000802.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CAT",
-          "title": "Caterpillar Keeps Sliding: Why Evercore ISI Still Sees 40% Upside",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 10:43 AM",
-          "published_timestamp": 1794411816,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-keeps-sliding-why-evercore-154336995.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CAT",
-          "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:04 AM",
-          "published_timestamp": 1794395050,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CAT",
-          "title": "Is The Market Underpricing Caterpillar Stock?",
-          "publisher": "Trefis",
-          "published_at": "Nov 10, 6:42 PM",
-          "published_timestamp": 1794354171,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/market-underpricing-caterpillar-stock-234251317.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "CAT",
-          "title": "Caterpillar Stock Is Waiting On One Answer",
-          "publisher": "Trefis",
-          "published_at": "Nov 10, 4:38 PM",
-          "published_timestamp": 1794346712,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-waiting-one-answer-213832489.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "score": 0.0,
-      "label": "No recent news",
-      "headline_count": 0,
-      "top_headline": "No company-specific headline found from today or yesterday.",
-      "publisher": "\u2014",
-      "published_at": "\u2014",
-      "link": "",
-      "items": []
-    },
-    "AMAT": {
-      "ticker": "AMAT",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
+      "headline_count": 2,
+      "top_headline": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
       "publisher": "24/7 Wall St.",
-      "published_at": "Nov 11, 2:02 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html",
+      "published_at": "Nov 12, 1:02 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-climbs-3-nvidia-leadership-180251815.html",
       "items": [
         {
-          "ticker": "AMAT",
-          "title": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
+          "ticker": "AMZN",
+          "title": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
           "publisher": "24/7 Wall St.",
-          "published_at": "Nov 11, 2:02 PM",
-          "published_timestamp": 1794423777,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html",
+          "published_at": "Nov 12, 1:02 PM",
+          "published_timestamp": 1794506571,
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-climbs-3-nvidia-leadership-180251815.html",
           "score": 0.0
         },
         {
-          "ticker": "AMAT",
-          "title": "Applied Materials Stocks Climb 5.72% a Day Before Fourth-Quarter Results",
+          "ticker": "AMZN",
+          "title": "Amazon Stocks Gain as Anthropic IPO Puts $271.8 Billion Value on Stake",
           "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 1:39 PM",
-          "published_timestamp": 1794422391,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-climb-5-183951114.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials fiscal Q4 2026 earnings preview: what to watch for in the print",
-          "publisher": "Investing.com",
-          "published_at": "Nov 11, 1:07 PM",
-          "published_timestamp": 1794420479,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-fiscal-q4-2026-180759731.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: \u201cDouble Our Output\u201d",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 8:50 AM",
-          "published_timestamp": 1794405018,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-59-even-halving-135018958.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:01 AM",
-          "published_timestamp": 1794394893,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-317-1-million-110133796.html",
+          "published_at": "Nov 12, 12:59 PM",
+          "published_timestamp": 1794506361,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-gain-anthropic-ipo-175921521.html",
           "score": 0.0
         }
       ]
     },
-    "ADBE": {
-      "ticker": "ADBE",
-      "score": 0.10229888472875125,
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.053812259677610885,
       "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Adobe (ADBE) Expands Its AI Partnership and Workspace Reach",
-      "publisher": "Simply Wall St.",
-      "published_at": "Nov 11, 1:13 AM",
-      "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-expands-ai-partnership-061347460.html",
+      "headline_count": 6,
+      "top_headline": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
+      "publisher": "TIKR",
+      "published_at": "Nov 12, 3:05 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html",
       "items": [
         {
-          "ticker": "ADBE",
-          "title": "Adobe Systems vs. Snowflake: Which Technology Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "published_at": "Nov 11, 1:50 PM",
-          "published_timestamp": 1794423002,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-systems-vs-snowflake-technology-185002955.html",
+          "ticker": "AMD",
+          "title": "Advanced Micro Devices (AMD) Stock Jumped, What Is Driving Attention Today?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 3:16 PM",
+          "published_timestamp": 1794514561,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-stock-201601837.html",
           "score": 0.0
         },
         {
-          "ticker": "ADBE",
-          "title": "Adobe (ADBE) Is Down About 31% This Year. Here\u2019s What Citi\u2019s Tyler Radke Sees Next",
-          "publisher": "Insider Monkey",
-          "published_at": "Nov 11, 1:03 PM",
-          "published_timestamp": 1794420206,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-down-31-citi-180326888.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "ADBE",
-          "title": "Adobe Poised to Outperform Peers Over the Next 12 Months, RBC Says",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 11:14 AM",
-          "published_timestamp": 1794413650,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-poised-outperform-peers-over-161410699.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "ADBE",
-          "title": "Global Omnichannel Retail Market Report 2026 | Capitalize on Unified Commerce Growth to $22.26 Billion by 2030 with Adobe, Adyen, AWS, Salesforce, and Shopify",
-          "publisher": "GlobeNewswire",
-          "published_at": "Nov 11, 9:32 AM",
-          "published_timestamp": 1794407520,
-          "link": "https://finance.yahoo.com/small-business/articles/global-omnichannel-retail-market-report-143200066.html",
+          "ticker": "AMD",
+          "title": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
+          "publisher": "TIKR",
+          "published_at": "Nov 12, 3:05 PM",
+          "published_timestamp": 1794513935,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html",
           "score": 0.1577621670251537
         },
         {
-          "ticker": "ADBE",
-          "title": "Adobe (ADBE) Expands Its AI Partnership and Workspace Reach",
+          "ticker": "AMD",
+          "title": "Bank of America Revamps AMD Stock Price Target for 2027",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 12, 2:44 PM",
+          "published_timestamp": 1794512681,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-amd-stock-194441792.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD makes surprise quantum computing move with new investment",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 12, 2:44 PM",
+          "published_timestamp": 1794512679,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-makes-surprise-quantum-computing-194439551.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference",
+          "publisher": "Business Wire",
+          "published_at": "Nov 12, 2:00 PM",
+          "published_timestamp": 1794510000,
+          "link": "https://finance.yahoo.com/technology/ai/articles/lmsys-org-launches-sglang-consortium-190000546.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+          "publisher": "Yahoo Finance",
+          "published_at": "Nov 12, 1:32 PM",
+          "published_timestamp": 1794508333,
+          "link": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 5,
+      "top_headline": "Disney\u2019s New CEO Is Helping the Stock Recapture Its Magic",
+      "publisher": "Barrons.com",
+      "published_at": "Nov 12, 10:53 AM",
+      "link": "https://finance.yahoo.com/m/93b15602-05d7-3575-95ab-78b254e78dc9/disney%E2%80%99s-new-ceo-is-helping.html",
+      "items": [
+        {
+          "ticker": "DIS",
+          "title": "Disney\u2019s New CEO Is Helping the Stock Recapture Its Magic",
+          "publisher": "Barrons.com",
+          "published_at": "Nov 12, 10:53 AM",
+          "published_timestamp": 1794498780,
+          "link": "https://finance.yahoo.com/m/93b15602-05d7-3575-95ab-78b254e78dc9/disney%E2%80%99s-new-ceo-is-helping.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Walt Disney (DIS) Just Gave Investors Something To Think About",
           "publisher": "Simply Wall St.",
-          "published_at": "Nov 11, 1:13 AM",
-          "published_timestamp": 1794377627,
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-expands-ai-partnership-061347460.html",
-          "score": 0.2871474123322536
+          "published_at": "Nov 12, 10:09 AM",
+          "published_timestamp": 1794496185,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-just-gave-150945933.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Unlocking Q4 Potential of Disney (DIS): Exploring Wall Street Estimates for Key Metrics",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 8:15 AM",
+          "published_timestamp": 1794489302,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unlocking-q4-potential-disney-dis-131502385.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney Raised Its Dividend by 50% Last Year. Don\u2019t Expect a Similar Bonanza This Time.",
+          "publisher": "Barchart",
+          "published_at": "Nov 11, 7:30 PM",
+          "published_timestamp": 1794443403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-raised-dividend-50-last-003003066.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "DIS",
+          "title": "Disney Earnings Play: Profiting from Volatility with a Naked Put",
+          "publisher": "Barchart",
+          "published_at": "Nov 11, 7:00 AM",
+          "published_timestamp": 1794398403,
+          "link": "https://finance.yahoo.com/markets/options/articles/disney-earnings-play-profiting-volatility-120003499.html",
+          "score": 0.0
         }
       ]
     },
     "NKE": {
       "ticker": "NKE",
-      "score": -0.021516164600399415,
+      "score": 0.0,
       "label": "Neutral",
       "headline_count": 5,
-      "top_headline": "Nike (NKE) Declines More Than Market: Some Information for Investors",
+      "top_headline": "NIKE's Shares Slide Nearly 40% YTD: Is a Rebound in Sight?",
       "publisher": "Zacks",
-      "published_at": "Nov 10, 4:45 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-declines-more-market-214502786.html",
+      "published_at": "Nov 12, 10:33 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nikes-shares-slide-nearly-40-153300220.html",
       "items": [
+        {
+          "ticker": "NKE",
+          "title": "NIKE's Shares Slide Nearly 40% YTD: Is a Rebound in Sight?",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 10:33 AM",
+          "published_timestamp": 1794497580,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nikes-shares-slide-nearly-40-153300220.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
+          "title": "If You Ran Nike, What Would You Do?",
+          "publisher": "Trefis",
+          "published_at": "Nov 12, 10:13 AM",
+          "published_timestamp": 1794496380,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ran-nike-151300102.html",
+          "score": 0.0
+        },
         {
           "ticker": "NKE",
           "title": "Nike Faces Persistent Brand Pressure, Limited Recovery Visibility, Truist Says",
@@ -622,38 +464,41 @@
         },
         {
           "ticker": "NKE",
+          "title": "A 72-Year-Old With $500,000 in PepsiCo, Nike and Bristol Myers Squibb Collects $1,729 a Month in Dividends. How Safe Is Each Check?",
+          "publisher": "TIKR",
+          "published_at": "Nov 11, 2:56 PM",
+          "published_timestamp": 1794426976,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/72-old-500-000-pepsico-195616528.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "NKE",
           "title": "Nike Stock Is Down 78% From Its Peak. Here's Why I'd Buy and Hold for a Decade.",
           "publisher": "Motley Fool",
           "published_at": "Nov 11, 1:05 PM",
           "published_timestamp": 1794420300,
           "link": "https://finance.yahoo.com/markets/stocks/articles/nike-stock-down-78-peak-180500641.html",
           "score": 0.0
-        },
+        }
+      ]
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "Adobe makes major change creators will notice as Citi flags \u2018hard reset\u2019",
+      "publisher": "TheStreet",
+      "published_at": "Nov 12, 3:37 PM",
+      "link": "https://finance.yahoo.com/technology/ai/articles/adobe-makes-major-change-creators-203700222.html",
+      "items": [
         {
-          "ticker": "NKE",
-          "title": "Nike (NKE) Declines More Than Market: Some Information for Investors",
-          "publisher": "Zacks",
-          "published_at": "Nov 10, 4:45 PM",
-          "published_timestamp": 1794347102,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-declines-more-market-214502786.html",
-          "score": -0.11314973979462131
-        },
-        {
-          "ticker": "NKE",
-          "title": "Nike (NKE) Stock Trades Near Fair Value On Cash Flow",
-          "publisher": "Simply Wall St.",
-          "published_at": "Nov 10, 4:09 PM",
-          "published_timestamp": 1794344981,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-stock-trades-near-210941923.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "NKE",
-          "title": "Nike retiree returns as CAO",
-          "publisher": "CFO Dive",
-          "published_at": "Nov 10, 3:42 PM",
-          "published_timestamp": 1794343367,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-retiree-returns-cao-204247820.html",
+          "ticker": "ADBE",
+          "title": "Adobe makes major change creators will notice as Citi flags \u2018hard reset\u2019",
+          "publisher": "TheStreet",
+          "published_at": "Nov 12, 3:37 PM",
+          "published_timestamp": 1794515820,
+          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-makes-major-change-creators-203700222.html",
           "score": 0.0
         }
       ]
@@ -662,464 +507,503 @@
       "ticker": "MS",
       "score": 0.0,
       "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Morgan Stanley Real Estate Investing Acquires Silicon Valley R&D Facility for $84.1 million, Building on Continued Investment Themes Across the Platform",
-      "publisher": "Business Wire",
-      "published_at": "Nov 11, 2:00 PM",
-      "link": "https://finance.yahoo.com/real-estate/articles/morgan-stanley-real-estate-investing-190000158.html",
+      "headline_count": 5,
+      "top_headline": "Morgan Stanley cuts TeraWulf target to $47 on higher discount rates, keeps Overweight",
+      "publisher": "Blockspace",
+      "published_at": "Nov 12, 11:32 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-cuts-terawulf-target-163237446.html",
       "items": [
         {
           "ticker": "MS",
-          "title": "Morgan Stanley Real Estate Investing Acquires Silicon Valley R&D Facility for $84.1 million, Building on Continued Investment Themes Across the Platform",
-          "publisher": "Business Wire",
-          "published_at": "Nov 11, 2:00 PM",
-          "published_timestamp": 1794423600,
-          "link": "https://finance.yahoo.com/real-estate/articles/morgan-stanley-real-estate-investing-190000158.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MS",
-          "title": "Why Morgan Stanley still believes in Atlassian after the sell-off",
-          "publisher": "TheStreet",
-          "published_at": "Nov 11, 12:33 PM",
-          "published_timestamp": 1794418380,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-still-believes-173300372.html",
+          "title": "Morgan Stanley cuts TeraWulf target to $47 on higher discount rates, keeps Overweight",
+          "publisher": "Blockspace",
+          "published_at": "Nov 12, 11:32 AM",
+          "published_timestamp": 1794501157,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-cuts-terawulf-target-163237446.html",
           "score": 0.0
         },
         {
           "ticker": "MS",
-          "title": "72% Upside for NVIDIA? Morgan Stanley Thinks So, and Here\u2019s How",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 11:23 AM",
-          "published_timestamp": 1794414202,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/72-upside-nvidia-morgan-stanley-162322830.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "MS",
-          "title": "Morgan Stanley shares a definitive oil price verdict for 2027",
-          "publisher": "TheStreet",
-          "published_at": "Nov 10, 7:00 PM",
-          "published_timestamp": 1794355200,
-          "link": "https://finance.yahoo.com/energy/articles/morgan-stanley-shares-definitive-oil-000000436.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "PFE": {
-      "ticker": "PFE",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "AT&T or Pfizer: Only One Gets My Dividend Dollars for the Next 10 Years",
-      "publisher": "TIKR",
-      "published_at": "Nov 11, 2:50 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/t-pfizer-only-one-gets-195022558.html",
-      "items": [
-        {
-          "ticker": "PFE",
-          "title": "AT&T or Pfizer: Only One Gets My Dividend Dollars for the Next 10 Years",
-          "publisher": "TIKR",
-          "published_at": "Nov 11, 2:50 PM",
-          "published_timestamp": 1794426622,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/t-pfizer-only-one-gets-195022558.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "PFE",
-          "title": "Daiwa Securities Adjusts Price Target on Pfizer to $29 From $27",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 5:34 AM",
-          "published_timestamp": 1794393249,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/daiwa-securities-adjusts-price-target-103409963.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "F": {
-      "ticker": "F",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Group 1 Automotive Announces Hennessy Ford Lincoln is now Group 1 Ford Lincoln Atlanta",
-      "publisher": "PR Newswire",
-      "published_at": "Nov 11, 9:09 AM",
-      "link": "https://finance.yahoo.com/small-business/articles/group-1-automotive-announces-hennessy-140900504.html",
-      "items": [
-        {
-          "ticker": "F",
-          "title": "Group 1 Automotive Announces Hennessy Ford Lincoln is now Group 1 Ford Lincoln Atlanta",
-          "publisher": "PR Newswire",
-          "published_at": "Nov 11, 9:09 AM",
-          "published_timestamp": 1794406140,
-          "link": "https://finance.yahoo.com/small-business/articles/group-1-automotive-announces-hennessy-140900504.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "F",
-          "title": "Last-Mile Delivery Vehicles Global Market Report 2026 | Capitalize on the $188.46B Industry by 2030 as Toyota, Volkswagen, Ford and Mercedes-Benz Accelerate Electric and Autonomous Fleets",
-          "publisher": "GlobeNewswire",
-          "published_at": "Nov 10, 9:29 AM",
-          "published_timestamp": 1794320940,
-          "link": "https://finance.yahoo.com/markets/articles/last-mile-delivery-vehicles-global-142900679.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "F",
-          "title": "Jefferies Adjusts Price Target on Ford Motor to $16.50 From $17.50",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 10, 5:31 AM",
-          "published_timestamp": 1794306695,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-ford-103135481.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "F",
-          "title": "Ford Motor Co's Dividend Analysis",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 10, 5:04 AM",
-          "published_timestamp": 1794305040,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ford-motor-cos-dividend-analysis-100400123.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "V": {
-      "ticker": "V",
-      "score": 0.044667128734090816,
-      "label": "Neutral",
-      "headline_count": 3,
-      "top_headline": "Can Visa's Monad Integration Boost Its Stablecoin Strategy?",
-      "publisher": "Zacks",
-      "published_at": "Nov 11, 12:17 PM",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/visas-monad-integration-boost-stablecoin-171700114.html",
-      "items": [
-        {
-          "ticker": "V",
-          "title": "Can Visa's Monad Integration Boost Its Stablecoin Strategy?",
-          "publisher": "Zacks",
-          "published_at": "Nov 11, 12:17 PM",
-          "published_timestamp": 1794417420,
-          "link": "https://finance.yahoo.com/markets/crypto/articles/visas-monad-integration-boost-stablecoin-171700114.html",
-          "score": 0.11314973979462131
-        },
-        {
-          "ticker": "V",
-          "title": "Bernstein Adjusts Price Target on Visa to $486 From $475",
-          "publisher": "MT Newswires",
-          "published_at": "Nov 11, 5:29 AM",
-          "published_timestamp": 1794392994,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-visa-102954887.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "V",
-          "title": "Visa\u2019s Services Grow Over 20% as Company Pushes Beyond Payments",
-          "publisher": "MarketBeat",
-          "published_at": "Nov 10, 9:14 PM",
-          "published_timestamp": 1794363284,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-services-grow-over-20-021444751.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "TXN": {
-      "ticker": "TXN",
-      "score": 0.046845272217833474,
-      "label": "Neutral",
-      "headline_count": 4,
-      "top_headline": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
-      "publisher": "Zacks",
-      "published_at": "Nov 10, 1:53 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-stock-surges-70-185300785.html",
-      "items": [
-        {
-          "ticker": "TXN",
-          "title": "42 ETFs Add to Texas Instruments (TXN) on Monday",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:01 AM",
-          "published_timestamp": 1794394884,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/42-etfs-add-texas-instruments-110124362.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "TXN",
-          "title": "Did Agentic AI Tools Just Shift Texas Instruments (TXN) Investment Narrative?",
+          "title": "Why Is Morgan Stanley (MS) Bringing Transfer Agency In House?",
           "publisher": "Simply Wall St.",
-          "published_at": "Nov 10, 8:14 PM",
-          "published_timestamp": 1794359692,
-          "link": "https://finance.yahoo.com/technology/ai/articles/did-agentic-ai-tools-just-011452983.html",
+          "published_at": "Nov 12, 11:10 AM",
+          "published_timestamp": 1794499814,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-ms-bringing-161014077.html",
           "score": 0.0
         },
         {
-          "ticker": "TXN",
-          "title": "Here\u2019s Why Texas Instruments is One of the Best Tech Stocks That Pay Dividends",
-          "publisher": "Insider Monkey",
-          "published_at": "Nov 10, 2:28 PM",
-          "published_timestamp": 1794338927,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-texas-instruments-one-best-192847349.html",
+          "ticker": "MS",
+          "title": "67% Upside for GE Vernova? Morgan Stanley Thinks So, and Here\u2019s How",
+          "publisher": "TIKR",
+          "published_at": "Nov 12, 10:12 AM",
+          "published_timestamp": 1794496359,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/67-upside-ge-vernova-morgan-151239666.html",
           "score": 0.0
         },
         {
-          "ticker": "TXN",
-          "title": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
-          "publisher": "Zacks",
-          "published_at": "Nov 10, 1:53 PM",
-          "published_timestamp": 1794336780,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-stock-surges-70-185300785.html",
-          "score": 0.17984081852510791
+          "ticker": "MS",
+          "title": "Can Morgan Stanley (MS) Justify Its Price After New Digital Moves?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 10:12 AM",
+          "published_timestamp": 1794496330,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-ms-justify-price-151210208.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "MS",
+          "title": "Could Rocket Lab Actually Climb 56%? Or Is Morgan Stanley Totally Wrong?",
+          "publisher": "TIKR",
+          "published_at": "Nov 12, 7:55 AM",
+          "published_timestamp": 1794488126,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/could-rocket-lab-actually-climb-125526507.html",
+          "score": 0.0
         }
       ]
     },
-    "GE": {
-      "ticker": "GE",
-      "score": 0.0,
+    "BA": {
+      "ticker": "BA",
+      "score": -0.09414057487317969,
       "label": "Neutral",
       "headline_count": 2,
-      "top_headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-      "publisher": "GuruFocus.com",
-      "published_at": "Nov 11, 6:04 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html",
+      "top_headline": "Boeing layoffs raise new fears about its financial future",
+      "publisher": "TheStreet",
+      "published_at": "Nov 12, 12:33 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-layoffs-raise-fears-financial-173300389.html",
       "items": [
         {
-          "ticker": "GE",
-          "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:04 AM",
-          "published_timestamp": 1794395050,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html",
+          "ticker": "BA",
+          "title": "Boeing layoffs raise new fears about its financial future",
+          "publisher": "TheStreet",
+          "published_at": "Nov 12, 12:33 PM",
+          "published_timestamp": 1794504780,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-layoffs-raise-fears-financial-173300389.html",
+          "score": -0.20173975176639067
+        },
+        {
+          "ticker": "BA",
+          "title": "$500 Invested in Boeing Today Could Be Worth This Much in 3 Years",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 12, 8:05 AM",
+          "published_timestamp": 1794488702,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/500-invested-boeing-today-could-130502775.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "What Is Going on With Apple Stock on Thursday?",
+      "publisher": "Benzinga",
+      "published_at": "Nov 12, 1:27 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/going-apple-stock-thursday-182739647.html",
+      "items": [
+        {
+          "ticker": "AAPL",
+          "title": "What Is Going on With Apple Stock on Thursday?",
+          "publisher": "Benzinga",
+          "published_at": "Nov 12, 1:27 PM",
+          "published_timestamp": 1794508059,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/going-apple-stock-thursday-182739647.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "CRM": {
+      "ticker": "CRM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "The Pacific Financial Group Taps Salesforce and Newly Acquired Contentful for a World-Class Advisor Experience",
+      "publisher": "PR Newswire",
+      "published_at": "Nov 12, 9:01 AM",
+      "link": "https://finance.yahoo.com/technology/articles/pacific-financial-group-taps-salesforce-140100283.html",
+      "items": [
+        {
+          "ticker": "CRM",
+          "title": "The Pacific Financial Group Taps Salesforce and Newly Acquired Contentful for a World-Class Advisor Experience",
+          "publisher": "PR Newswire",
+          "published_at": "Nov 12, 9:01 AM",
+          "published_timestamp": 1794492060,
+          "link": "https://finance.yahoo.com/technology/articles/pacific-financial-group-taps-salesforce-140100283.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "HD": {
+      "ticker": "HD",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "What Will Decide Home Depot Stock Over The Next Six Months?",
+      "publisher": "Trefis",
+      "published_at": "Nov 12, 10:45 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/decide-home-depot-stock-over-154557654.html",
+      "items": [
+        {
+          "ticker": "HD",
+          "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
+          "publisher": "Trefis",
+          "published_at": "Nov 12, 10:45 AM",
+          "published_timestamp": 1794498357,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/decide-home-depot-stock-over-154557654.html",
           "score": 0.0
         },
         {
-          "ticker": "GE",
-          "title": "GE Gains From Strength in Defense & Propulsion: Will the Momentum Last?",
+          "ticker": "HD",
+          "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
           "publisher": "Zacks",
-          "published_at": "Nov 10, 8:23 AM",
-          "published_timestamp": 1794316980,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-gains-strength-defense-propulsion-132300362.html",
+          "published_at": "Nov 12, 10:40 AM",
+          "published_timestamp": 1794498000,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 8:15 AM",
+          "published_timestamp": 1794489302,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "HD",
+          "title": "Home Depot or Lowe\u2019s: Only One Gets My Dividend Dollars for the Next 20 Years",
+          "publisher": "TIKR",
+          "published_at": "Nov 12, 7:43 AM",
+          "published_timestamp": 1794487394,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-lowe-only-one-124314629.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "PG": {
+      "ticker": "PG",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "PG vs. CHD: Which Consumer Staples Giant Has the Competitive Edge?",
+      "publisher": "Zacks",
+      "published_at": "Nov 12, 10:06 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pg-vs-chd-consumer-staples-150600204.html",
+      "items": [
+        {
+          "ticker": "PG",
+          "title": "PG vs. CHD: Which Consumer Staples Giant Has the Competitive Edge?",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 10:06 AM",
+          "published_timestamp": 1794495960,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pg-vs-chd-consumer-staples-150600204.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Johnson & Johnson vs. Procter & Gamble: 64 and 70 Straight Years of Raises. Which Dividend King Pays You More Over the Next Decade?",
+          "publisher": "TIKR",
+          "published_at": "Nov 12, 7:51 AM",
+          "published_timestamp": 1794487895,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-vs-procter-gamble-125135104.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Is Procter & Gamble (PG) Worth More Than Its Price Today?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 7:14 AM",
+          "published_timestamp": 1794485655,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pg-worth-more-121415536.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "PG",
+          "title": "Procter & Gamble (PG) Has Raised Its Dividend for 70 Straight Years. Here's Why I'd Buy Before 2027.",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 12, 2:25 AM",
+          "published_timestamp": 1794468300,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pg-raised-dividend-072500218.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 1,
+      "top_headline": "JPMorgan Chase & Co. (JPM) Up 2.4% Since Last Earnings Report: Can It Continue?",
+      "publisher": "Zacks",
+      "published_at": "Nov 12, 10:30 AM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-2-153003153.html",
+      "items": [
+        {
+          "ticker": "JPM",
+          "title": "JPMorgan Chase & Co. (JPM) Up 2.4% Since Last Earnings Report: Can It Continue?",
+          "publisher": "Zacks",
+          "published_at": "Nov 12, 10:30 AM",
+          "published_timestamp": 1794497403,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-2-153003153.html",
+          "score": 0.0
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "score": 0.07259277270903645,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Eli Lilly beats Novo to oral China GLP-1RA market on NMPA approval",
+      "publisher": "Pharmaceutical Technology",
+      "published_at": "Nov 12, 11:42 AM",
+      "link": "https://finance.yahoo.com/news/eli-lilly-beats-novo-oral-164230454.html",
+      "items": [
+        {
+          "ticker": "LLY",
+          "title": "Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site to make next-generation obesity medicines, the latest of 10 new U.S. sites since 2020",
+          "publisher": "PR Newswire",
+          "published_at": "Nov 12, 3:30 PM",
+          "published_timestamp": 1794515400,
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-breaks-ground-pennsylvanias-lehigh-203000187.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Jensen Huang Says AI's 'Most Profound Impact' Will Be in Life Sciences -- and Eli Lilly Is Already Building on It",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 12, 1:36 PM",
+          "published_timestamp": 1794508560,
+          "link": "https://finance.yahoo.com/healthcare/articles/nvidia-ceo-jensen-huang-says-183600507.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "More Good News for Eli Lilly Sends the Stock Even Higher",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 12, 12:35 PM",
+          "published_timestamp": 1794504902,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/more-good-news-eli-lilly-173502581.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "LLY",
+          "title": "Eli Lilly beats Novo to oral China GLP-1RA market on NMPA approval",
+          "publisher": "Pharmaceutical Technology",
+          "published_at": "Nov 12, 11:42 AM",
+          "published_timestamp": 1794501750,
+          "link": "https://finance.yahoo.com/news/eli-lilly-beats-novo-oral-164230454.html",
+          "score": 0.24491866240370913
+        }
+      ]
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "score": 0.0,
+      "label": "Neutral",
+      "headline_count": 4,
+      "top_headline": "Why Broadcom Stock Rallied Thursday Morning",
+      "publisher": "Motley Fool",
+      "published_at": "Nov 12, 3:07 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-stock-rallied-thursday-200732300.html",
+      "items": [
+        {
+          "ticker": "AVGO",
+          "title": "Why Broadcom Stock Rallied Thursday Morning",
+          "publisher": "Motley Fool",
+          "published_at": "Nov 12, 3:07 PM",
+          "published_timestamp": 1794514052,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-stock-rallied-thursday-200732300.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+          "publisher": "Yahoo Finance",
+          "published_at": "Nov 12, 1:32 PM",
+          "published_timestamp": 1794508333,
+          "link": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
+          "publisher": "Investing.com",
+          "published_at": "Nov 12, 1:26 PM",
+          "published_timestamp": 1794507990,
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-succession-uncertainty-opens-door-182630689.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AVGO",
+          "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
+          "publisher": "decrypt",
+          "published_at": "Nov 12, 1:06 PM",
+          "published_timestamp": 1794506763,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-broadcom-ai-stock-180603430.html",
           "score": 0.0
         }
       ]
     }
   },
   "entry_news_signals": {
-    "GE": {
-      "ticker": "GE",
-      "score": 0.0,
+    "AMD": {
+      "ticker": "AMD",
+      "score": 0.053812259677610885,
       "label": "Neutral",
-      "headline_count": 2,
-      "top_headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-      "publisher": "GuruFocus.com",
-      "published_at": "Nov 11, 6:04 AM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html",
+      "headline_count": 6,
+      "top_headline": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
+      "publisher": "TIKR",
+      "published_at": "Nov 12, 3:05 PM",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html",
       "items": [
         {
-          "ticker": "GE",
-          "title": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:04 AM",
-          "published_timestamp": 1794395050,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html",
+          "ticker": "AMD",
+          "title": "Advanced Micro Devices (AMD) Stock Jumped, What Is Driving Attention Today?",
+          "publisher": "Simply Wall St.",
+          "published_at": "Nov 12, 3:16 PM",
+          "published_timestamp": 1794514561,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-stock-201601837.html",
           "score": 0.0
         },
         {
-          "ticker": "GE",
-          "title": "GE Gains From Strength in Defense & Propulsion: Will the Momentum Last?",
-          "publisher": "Zacks",
-          "published_at": "Nov 10, 8:23 AM",
-          "published_timestamp": 1794316980,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-gains-strength-defense-propulsion-132300362.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "AMAT": {
-      "ticker": "AMAT",
-      "score": 0.0,
-      "label": "Neutral",
-      "headline_count": 5,
-      "top_headline": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
-      "publisher": "24/7 Wall St.",
-      "published_at": "Nov 11, 2:02 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html",
-      "items": [
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 11, 2:02 PM",
-          "published_timestamp": 1794423777,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials Stocks Climb 5.72% a Day Before Fourth-Quarter Results",
-          "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 1:39 PM",
-          "published_timestamp": 1794422391,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stocks-climb-5-183951114.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials fiscal Q4 2026 earnings preview: what to watch for in the print",
-          "publisher": "Investing.com",
-          "published_at": "Nov 11, 1:07 PM",
-          "published_timestamp": 1794420479,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-fiscal-q4-2026-180759731.html",
-          "score": 0.0
-        },
-        {
-          "ticker": "AMAT",
-          "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: \u201cDouble Our Output\u201d",
+          "ticker": "AMD",
+          "title": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
           "publisher": "TIKR",
-          "published_at": "Nov 11, 8:50 AM",
-          "published_timestamp": 1794405018,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-59-even-halving-135018958.html",
-          "score": 0.0
+          "published_at": "Nov 12, 3:05 PM",
+          "published_timestamp": 1794513935,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html",
+          "score": 0.1577621670251537
         },
         {
-          "ticker": "AMAT",
-          "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
+          "ticker": "AMD",
+          "title": "Bank of America Revamps AMD Stock Price Target for 2027",
           "publisher": "GuruFocus.com",
-          "published_at": "Nov 11, 6:01 AM",
-          "published_timestamp": 1794394893,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-317-1-million-110133796.html",
-          "score": 0.0
-        }
-      ]
-    },
-    "MCD": {
-      "ticker": "MCD",
-      "score": 0.1230455677017358,
-      "label": "Positive",
-      "headline_count": 3,
-      "top_headline": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
-      "publisher": "Zacks",
-      "published_at": "Nov 11, 12:22 PM",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html",
-      "items": [
-        {
-          "ticker": "MCD",
-          "title": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
-          "publisher": "Zacks",
-          "published_at": "Nov 11, 12:22 PM",
-          "published_timestamp": 1794417720,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html",
-          "score": 0.3078619874177537
-        },
-        {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s and Uber expand delivery and loyalty tie-up",
-          "publisher": "Verdict Food Service",
-          "published_at": "Nov 11, 9:42 AM",
-          "published_timestamp": 1794408178,
-          "link": "https://finance.yahoo.com/small-business/articles/mcdonald-uber-expand-delivery-loyalty-144258578.html",
+          "published_at": "Nov 12, 2:44 PM",
+          "published_timestamp": 1794512681,
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-amd-stock-194441792.html",
           "score": 0.0
         },
         {
-          "ticker": "MCD",
-          "title": "McDonald\u2019s Is Now a Dividend King. Here\u2019s Why One Investor Calls It a Generational Compounder",
-          "publisher": "24/7 Wall St.",
-          "published_at": "Nov 11, 9:17 AM",
-          "published_timestamp": 1794406661,
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-now-dividend-king-why-141741016.html",
+          "ticker": "AMD",
+          "title": "AMD makes surprise quantum computing move with new investment",
+          "publisher": "GuruFocus.com",
+          "published_at": "Nov 12, 2:44 PM",
+          "published_timestamp": 1794512679,
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-makes-surprise-quantum-computing-194439551.html",
+          "score": 0.0
+        },
+        {
+          "ticker": "AMD",
+          "title": "LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference",
+          "publisher": "Business Wire",
+          "published_at": "Nov 12, 2:00 PM",
+          "published_timestamp": 1794510000,
+          "link": "https://finance.yahoo.com/technology/ai/articles/lmsys-org-launches-sglang-consortium-190000546.html",
+          "score": 0.13552464707668704
+        },
+        {
+          "ticker": "AMD",
+          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
+          "publisher": "Yahoo Finance",
+          "published_at": "Nov 12, 1:32 PM",
+          "published_timestamp": 1794508333,
+          "link": "https://finance.yahoo.com/markets/article/amd-broadcom-stocks-jump-as-nvidia-ceo-jensen-huang-resigns-143725561.html",
           "score": 0.0
         }
       ]
     }
   },
   "selection_scores": {
-    "NOW": {
-      "price_score": -2.055993253543006,
+    "ABNB": {
+      "price_score": 0.3200167029210216,
       "news_score": 0.0,
-      "combined_score": -2.055993253543006
+      "combined_score": 0.3200167029210216
     },
     "NFLX": {
-      "price_score": -0.5512129239962401,
+      "price_score": -1.2692775287121267,
       "news_score": 0.0,
-      "combined_score": -0.5512129239962401
+      "combined_score": -1.2692775287121267
     },
-    "GS": {
-      "price_score": 0.4938437758210579,
+    "AMZN": {
+      "price_score": 0.27325452530190497,
       "news_score": 0.0,
-      "combined_score": 0.4938437758210579
+      "combined_score": 0.27325452530190497
     },
-    "COP": {
-      "price_score": -0.22512211637413818,
-      "news_score": 0.020410763121373483,
-      "combined_score": -0.21032639113049947
-    },
-    "PG": {
-      "price_score": 0.5074041280605834,
+    "WMT": {
+      "price_score": -0.0012807327833230658,
       "news_score": 0.0,
-      "combined_score": 0.5074041280605834
+      "combined_score": -0.0012807327833230658
     },
-    "MCD": {
-      "price_score": 0.8479353160040823,
-      "news_score": 0.1230455677017358,
-      "combined_score": 0.9371308253212235
-    },
-    "CVX": {
-      "price_score": -0.5781042334912072,
+    "DIS": {
+      "price_score": 0.1539511356117907,
       "news_score": 0.0,
-      "combined_score": -0.5781042334912072
+      "combined_score": 0.1539511356117907
     },
-    "CAT": {
-      "price_score": -0.5420413629330947,
-      "news_score": 0.0,
-      "combined_score": -0.5420413629330947
-    },
-    "MS": {
-      "price_score": 0.27494110687988377,
-      "news_score": 0.0,
-      "combined_score": 0.27494110687988377
-    },
-    "NKE": {
-      "price_score": -0.19863460320555767,
-      "news_score": -0.021516164600399415,
-      "combined_score": -0.21423163198058925
-    },
-    "GOOGL": {
-      "price_score": -0.2671817856483447,
-      "news_score": 0.0,
-      "combined_score": -0.2671817856483447
-    },
-    "AMAT": {
-      "price_score": 1.1087359085516946,
-      "news_score": 0.0,
-      "combined_score": 1.1087359085516946
+    "CSCO": {
+      "price_score": -0.6235640239392997,
+      "news_score": 0.1104335169176076,
+      "combined_score": -0.5435109674080307
     },
     "ADBE": {
-      "price_score": -0.5215591244713469,
-      "news_score": 0.10229888472875125,
-      "combined_score": -0.4474028480902696
-    },
-    "F": {
-      "price_score": -0.2308180304562591,
+      "price_score": -1.0697758194661127,
       "news_score": 0.0,
-      "combined_score": -0.2308180304562591
+      "combined_score": -1.0697758194661127
     },
-    "PFE": {
-      "price_score": -0.5003065590793719,
+    "NKE": {
+      "price_score": -0.6435911729994175,
       "news_score": 0.0,
-      "combined_score": -0.5003065590793719
+      "combined_score": -0.6435911729994175
     },
-    "V": {
-      "price_score": 0.1634467639279251,
-      "news_score": 0.044667128734090816,
-      "combined_score": 0.19582588470071938
-    },
-    "GE": {
-      "price_score": 1.4500826607511776,
+    "MS": {
+      "price_score": 0.056652141853089324,
       "news_score": 0.0,
-      "combined_score": 1.4500826607511776
+      "combined_score": 0.056652141853089324
     },
-    "TXN": {
-      "price_score": 0.8245843332021622,
-      "news_score": 0.046845272217833474,
-      "combined_score": 0.8585423862439283
+    "AMD": {
+      "price_score": 2.5601734122882873,
+      "news_score": 0.053812259677610885,
+      "combined_score": 2.5991818219295477
+    },
+    "BA": {
+      "price_score": -1.0568494538230553,
+      "news_score": -0.09414057487317969,
+      "combined_score": -1.125091786156195
+    },
+    "LLY": {
+      "price_score": 0.8523796958576102,
+      "news_score": 0.07259277270903645,
+      "combined_score": 0.905002065403024
+    },
+    "CRM": {
+      "price_score": -1.523056991567007,
+      "news_score": 0.0,
+      "combined_score": -1.523056991567007
+    },
+    "AAPL": {
+      "price_score": 0.0322684344641921,
+      "news_score": 0.0,
+      "combined_score": 0.0322684344641921
+    },
+    "HD": {
+      "price_score": 0.4829540194774042,
+      "news_score": 0.0,
+      "combined_score": 0.4829540194774042
+    },
+    "AVGO": {
+      "price_score": 1.5497376248554315,
+      "news_score": 0.0,
+      "combined_score": 1.5497376248554315
+    },
+    "PG": {
+      "price_score": 0.12308087670581219,
+      "news_score": 0.0,
+      "combined_score": 0.12308087670581219
+    },
+    "JPM": {
+      "price_score": -0.2170728460462027,
+      "news_score": 0.0,
+      "combined_score": -0.2170728460462027
     }
   },
   "data_version": 5

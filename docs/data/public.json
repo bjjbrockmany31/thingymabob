@@ -1,65 +1,43 @@
 {
-  "updated_at": "2026-11-12T01:55:40.601789+00:00",
-  "status": "Market closed; cloud bot will check again on its next scheduled run.",
+  "updated_at": "2026-11-12T20:44:41.425948+00:00",
+  "status": "Daily auto-reroll complete: new fake company picks for today.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
   "goal_points": 100.0,
   "auto_reroll": true,
-  "last_reroll_market_date": "2026-11-11",
+  "last_reroll_market_date": "2026-11-12",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -7.042999,
-  "display_points": -7.042999,
-  "completed_balance": 18.497125,
-  "display_balance": 18.497125,
-  "completed_rounds": 49,
+  "banked_points": -7.177912,
+  "display_points": -7.177912,
+  "completed_balance": 18.47217,
+  "display_balance": 18.47217,
+  "completed_rounds": 50,
   "current_strategy": "breakout",
   "strategy_scores": {
     "trend": -0.16002,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.0069
+    "breakout": -0.01863
   },
   "news_learning_score": -0.05578,
   "live": {
     "points": 0.0,
     "money_change": 0.0,
-    "cash": 18.497125,
-    "market_date": "2026-11-11",
-    "quote_time": "2026-11-11T20:07:52.397099+00:00",
+    "cash": 18.47217,
+    "market_date": "2026-11-12",
+    "quote_time": "2026-11-12T20:44:41.409016+00:00",
     "holdings": [
       {
-        "ticker": "GE",
-        "weight": 0.451229,
-        "entry": 340.994,
-        "last_price": 340.994,
+        "ticker": "AMD",
+        "weight": 1.0,
+        "entry": 580.39,
+        "last_price": 580.39,
         "points": 0.0,
         "money_change": 0.0,
-        "headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9",
-        "publisher": "GuruFocus.com",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-industrial-select-sector-110410356.html"
-      },
-      {
-        "ticker": "AMAT",
-        "weight": 0.301989,
-        "entry": 396.652,
-        "last_price": 396.652,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
-        "publisher": "24/7 Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-rallies-8-ahead-190257454.html"
-      },
-      {
-        "ticker": "MCD",
-        "weight": 0.246781,
-        "entry": 277.585,
-        "last_price": 277.585,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ubers-expansion-delivery-tie-mcd-172200823.html"
+        "headline": "AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO",
+        "publisher": "TIKR",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amd-127-william-blair-just-200535132.html"
       }
     ]
   },
@@ -917,6 +895,26 @@
       "news_summaries": [
         "ABNB Neutral: Airbnb Shares Higher After Rothschild & Co Redburn Upgrade | JNJ Neutral: Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?"
       ]
+    },
+    {
+      "market_date": "2026-11-11",
+      "point_change": -0.134913,
+      "banked_points": -7.177912,
+      "cash_before": 18.497125,
+      "cash_after": 18.47217,
+      "cash_change": -0.02495500000000206,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "GE",
+        "AMAT",
+        "MCD"
+      ],
+      "news_summaries": [
+        "GE Neutral: State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 | AMAT Neutral: Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7% | MCD Positive: Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?"
+      ]
     }
   ],
   "rounds": [
@@ -1507,6 +1505,18 @@
       "companies": "ABNB, JNJ",
       "allocation": "{\"ABNB\": 0.6829357928879681, \"JNJ\": 0.3170642071120318}",
       "news_summary": "ABNB Neutral: Airbnb Shares Higher After Rothschild & Co Redburn Upgrade | JNJ Neutral: Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?"
+    },
+    {
+      "market_date": "2026-11-11",
+      "timestamp": "2026-11-12T20:44:40+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.497125",
+      "cash_after": "18.472170",
+      "point_change": "-0.134913",
+      "banked_points": "-7.177912",
+      "companies": "GE, AMAT, MCD",
+      "allocation": "{\"AMAT\": 0.30198922582977916, \"GE\": 0.45122935370158207, \"MCD\": 0.24678142046863868}",
+      "news_summary": "GE Neutral: State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 | AMAT Neutral: Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7% | MCD Positive: Is Uber's Expansion of Delivery Tie-Up With MCD a Growth Catalyst?"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
