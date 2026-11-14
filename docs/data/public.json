@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T20:26:24.163854+00:00",
-  "status": "Daily auto-reroll complete: new fake company picks for today.",
+  "updated_at": "2026-11-14T00:59:14.730129+00:00",
+  "status": "Today’s company picks are complete. The next automatic reroll is on the next trading day.",
   "error": "",
   "market_data_note": "Prices may be delayed or unavailable; updates are scheduled, not streaming.",
   "starting_cash": 20.0,
@@ -8,39 +8,20 @@
   "auto_reroll": true,
   "last_reroll_market_date": "2026-11-13",
   "reroll_policy": "Every U.S. trading day, at the first successful scheduled market-data check after 9:35 a.m. Eastern. Previous day is settled first.",
-  "banked_points": -6.331931,
-  "display_points": -6.331931,
-  "completed_balance": 18.628441,
-  "display_balance": 18.628441,
-  "completed_rounds": 51,
-  "current_strategy": "breakout",
+  "banked_points": -5.982018,
+  "display_points": -5.982018,
+  "completed_balance": 18.693624,
+  "display_balance": 18.693624,
+  "completed_rounds": 52,
+  "current_strategy": null,
   "strategy_scores": {
     "trend": -0.16002,
     "dip": -1.38672,
     "steady": -0.14517,
-    "breakout": 0.137
+    "breakout": 0.17533
   },
-  "news_learning_score": -0.04059,
-  "live": {
-    "points": 0.0,
-    "money_change": 0.0,
-    "cash": 18.628441,
-    "market_date": "2026-11-13",
-    "quote_time": "2026-11-13T20:26:24.146775+00:00",
-    "holdings": [
-      {
-        "ticker": "AVGO",
-        "weight": 1.0,
-        "entry": 345.8,
-        "last_price": 345.8,
-        "points": 0.0,
-        "money_change": 0.0,
-        "headline": "Broadcom Shares Fall After Rothschild & Co Redburn Downgrade",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-shares-fall-rothschild-co-191613565.html"
-      }
-    ]
-  },
+  "news_learning_score": -0.04111,
+  "live": null,
   "daily": [
     {
       "market_date": "2026-08-05",
@@ -933,6 +914,24 @@
       "news_summaries": [
         "AMD Neutral: AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO"
       ]
+    },
+    {
+      "market_date": "2026-11-13",
+      "point_change": 0.349913,
+      "banked_points": -5.982018,
+      "cash_before": 18.628441,
+      "cash_after": 18.693624,
+      "cash_change": 0.0651830000000011,
+      "rounds": 1,
+      "strategies": [
+        "breakout"
+      ],
+      "companies": [
+        "AVGO"
+      ],
+      "news_summaries": [
+        "AVGO Negative: Broadcom Shares Fall After Rothschild & Co Redburn Downgrade"
+      ]
     }
   ],
   "rounds": [
@@ -1547,6 +1546,18 @@
       "companies": "AMD",
       "allocation": "{\"AMD\": 1.0}",
       "news_summary": "AMD Neutral: AMD Is Up 127% in a Year. William Blair Just Upgraded It as Nvidia Loses Its CEO"
+    },
+    {
+      "market_date": "2026-11-13",
+      "timestamp": "2026-11-14T00:59:14+00:00",
+      "strategy": "breakout",
+      "cash_before": "18.628441",
+      "cash_after": "18.693624",
+      "point_change": "0.349913",
+      "banked_points": "-5.982018",
+      "companies": "AVGO",
+      "allocation": "{\"AVGO\": 1.0}",
+      "news_summary": "AVGO Negative: Broadcom Shares Fall After Rothschild & Co Redburn Downgrade"
     }
   ],
   "import_note": "Imported completed desktop rounds; the September 17 open INTC holding was not carried over because its price was stale at migration."
